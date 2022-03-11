@@ -47,7 +47,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:15:24+01:00">
+  <meta property="article:published_time" content="2022-03-12T00:34:29+01:00">
 
 
 
@@ -148,12 +148,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="https://ilias.uni-marburg.de/ilias.php?ref_id=1858892&cmdClass=ilrepositorygui&cmdNode=ts&baseClass=ilrepositorygui" >ILIAS</a>
+              <a href="https://gisma-courses.github.com" >ILIAS</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="https://oer.uni-marburg.de/goto.php?target=cat_1651239&client_id=UNIMR" >OER</a>
+              <a href="https://gisma-courses.github.com" >Courses</a>
             </li>
           
             
@@ -494,7 +494,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="– Sichtweite und Sichtfeld">
     <meta itemprop="description" content="Ein bereits komplexes Beispiel zur Ableitung räumlicher Informationen ist die Sichtbarkeitsanalyse. Bei einer Sichtbarkeitsanalyse wird, ausgehend von einem digitalen Höhenmodell und einem gegebenen Punkt, berechnet, welche anderen Punkte im Gelände sichtbar sind. Das Prinzip von Sichtbarkeitsberechnungen wird zuerst im eindimensionalen Fall gezeigt und dann auf den zweidimensionalen Fall übertragen.Anwendung SichtbarkeitsanalyseSichtbarkeitsberechnungen gelangen in verschiedenen Anwendungen zum Einsatz. Ein erstes Beispiel ist die Platzierung eines Aussichtsturms. Mit einem digitalen Geländemodell können innerhalb sehr kurzer Zeit verschiedene Standorte geprüft werden. Außerdem kann die Berechnung mit verschiedenen Turmhöhen durchgeführt werden (Variation von hv). Ein weiteres Beispiel ist die Ausbreitung von elektromagnetischen Wellen (z. B. zur Planung von Mobilfunkantennen). Hier ist zu beachten, dass das Gebiet, in welchem elektromagnetische Signale empfangen werden können, nicht genau mit dem sichtbaren Gebiet übereinstimmt. Im GIS wird dies in der Regel dadurch korrigiert, dass die Höhe eines Punktes einen bestimmten Betrag unter der Sichtbarkeitslinie sein muss, damit an diesem Punkt das Signal nicht empfangen werden kann. Die Höhe dieses Betrages ist abhängig von der Wellenlänge. Ein letztes Beispiel stammt aus der Wildtierbiologie. Ein GIS kann hier eingesetzt werden, um ein optimales Gebiet zur Wiederansiedlung von Tierarten auszuwählen. Das Rocky-Mountain-Bighorn-Schaf beispielsweise hält sich (unter anderem) bevorzugt in Gebieten auf, welche nur von wenigen Orten aus gesehen werden können. Dies reduziert die Wahrscheinlichkeit, von einem Raubtier entdeckt zu werden.Sichtbarkeitsanalyse VektordatenmodellIm eindimensionalen Fall eines Profils wird zur Ermittlung der Sichtbarkeit eines Zielpunkts berechnet, ob ein Punkt zwischen dem Standort V und dem Zielpunkt P höher liegt als die Verbindungslinie (d. h. die Sichtlinie; engl. line of sight = LOS). Ist dies der Fall, so ist die Sichtlinie LOS blockiert und somit der Zielpunkt nicht sichtbar, andernfalls ist der Zielpunkt sichtbar. Am einfachsten programmiert man einen solchen Test, indem man prüft, ob die Neigung der Linie zwischen dem Standpunkt V und dem überprüften Zielpunkt P auf dem Profil grösser oder kleiner als diejenige der Linie zum letzt-gespeicherten Horizontpunkt Ihor ist. Oder anders gesprochen, ob der Vertikalwinkel γi zum aktuell überprüften Punkt größer (= sichtbar) oder kleiner (= unsichtbar) ist als der Vertikalwinkel γhor des letzten Horizonts.                    Zweidimensionaler Längsschnitt Sichtbarkeitsanalyse        In einem linear interpolierten dreiecksbasierten Geländemodell müssen zuerst die Höhen der Verbindungslinien-Schnittpunkte (von Standort und Zielpunkt) und der Dreiecksvermaschung berechnet werden, wie dies die nächste Abbildung zeigt.                    Dreiecksvermaschung  Sichtbarkeitsanalyse        Die Höhen an den Schnittpunkten S1 bis Sn können durch lineare Interpolation aus den Höhen der beiden Dreieckspunkte berechnet werden, die die betreffende Dreieckskante beschließen. Als Resultat ergibt sich ein Profil wie im eindimensionalen Fall (siehe Abbildung unten). Auf diesem Profil kann nun derselbe Algorithmus für die LOS-Ermittlung wie oben angewendet werden.                    Längsschnitt   Sichtbarkeitsanalyse Sichtbarkeitsanalyse Extraktion der Dreicksvermaschungsanalyse        Rasterbasierte SichtbarkeitsanalyseErmittlung der Profile zwischen Standpunkt V und Zielpunkt P in einem rasterbasierten Geländemodell (Raster) ist ein Sonderfall des dreickvermaschten Ansatzes: Hier kann, analog die Verbindungslinie der durch das Raster gebildeten Quadrate (anstelle der Dreiecke) geschnitten und ein Profil erstellt werden (Abbildung a). Da die Berechnung der Schnittpunkte je nach Rasterauflösung sehr rechenintensiv sein kann, gibt es Näherungsalgorithmen, um ein Profil zu berechnen. In der untenstehenden Abbildung werden zwei davon gezeigt: In Abbildung b) wird entlang der Sichtbarkeitslinie die Höhe in regelmäßigen Abständen abgefragt und gespeichert. Da jede Rasterzelle genau eine Höhe hat, muss somit nur berechnet werden, in welcher Rasterzelle der betreffende Zwischenpunkt liegt. In der Lösung von Abbildung c) wird der Sichtstrahl zuerst gerastert und dann die Höhe der so entstandenen Rasterzellen mit denjenigen des Geländemodells verglichen.                    Längsschnitt   Sichtbarkeitsanalyse Sichtbarkeitsanalyse Rastermodell        ">
-    <meta itemprop="datePublished" content="2022-03-12T00:15:24+01:00">
+    <meta itemprop="datePublished" content="2022-03-12T00:34:29+01:00">
     
 
     <div class="page__inner-wrap">
@@ -607,7 +607,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:15:24+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:34:29+01:00">March 12, 2022</time></p>
         
       </footer>
 

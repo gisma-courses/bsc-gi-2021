@@ -5,9 +5,9 @@ main:
   - title: "FAQ"
     url: /unit00/unit00-04_faq.html
   - title: "ILIAS"
-    url: https://ilias.uni-marburg.de/ilias.php?ref_id=1858892&cmdClass=ilrepositorygui&cmdNode=ts&baseClass=ilrepositorygui
-  - title: "OER"
-    url: https://oer.uni-marburg.de/goto.php?target=cat_1651239&client_id=UNIMR
+    url: https://gisma-courses.github.com
+  - title: "Courses"
+    url: https://gisma-courses.github.com
   - title: "Seitenübersicht"
     url: /sitemap.html
   - title: "Downloads"
@@ -21,5 +21,5 @@ docs:
         url: /units.html
       - title: "ILIAS"
         url: https://ilias.uni-marburg.de/ilias.php?ref_id=1858892&cmdClass=ilrepositorygui&cmdNode=ts&baseClass=ilrepositorygui
-      - title: "OER"
+      - title: "Courses"
         url: https://oer.uni-marburg.de/goto.php?target=cat_1651239&client_id=UNIMR
