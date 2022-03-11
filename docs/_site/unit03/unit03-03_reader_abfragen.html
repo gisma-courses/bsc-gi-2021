@@ -20,25 +20,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GISMA course resources">
 <meta property="og:title" content="Geometrische Abfragen">
-<meta property="og:url" content="http://localhost:4000/bsc-qgis-2021/unit03/unit03-03_reader_abfragen.html">
+<meta property="og:url" content="http://localhost:4000/bsc-gi-2021/unit03/unit03-03_reader_abfragen.html">
 
 
   <meta property="og:description" content="Geometrische Abfragen messen die Fläche oder den Umfang eines Objektes bzw. die Distanz oder Richtung =zwischen zwei Objekten. Bei der Erörterung geometrischer Abfragen müssen die Raster- und Vektordatenmodelle aufgrund ihres völlig unterschiedlichen Raumkonzepts getrennt betrachtet werden. Im Sinne einer Relation ist die Geometrie eine weitere Eigenschaft eines Geoobjektes.  Die wichtigsten geometrischen Abfragen (Messfunktionen) sind in der Folge beschrieben:  Euklidische Distanz im Vektormodell  Für Vektordaten wird die Distanz zwischen zwei Objekten einfach nach dem Theorem von Pythagoras berechnet und entspricht dem kürzesten Abstand.                              Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel eines Vektordatenmodells (GITTA 2005)               Euklidische Distanz Rastermodell  Im Rastermodell können drei verschiedene Ansätze zur Messung von Distanzen zwischen Punkten angewandt werden.                             Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel des Rasterdatenmodells. Oberste Reihe: Euklidische Distanz von den Rasterzellrändern, Mittlere Reihe Manhattan Distanz entlang der Zellkanten, Untere Reihe Konzentrische Nachbarschaftsdistanz (GITTA 2005)               Ausdehnung Vektormodell                              Abbildung 03-11: Abgeleitete Distanzmaße eines Polygon im Vektormodell (GITTA 2005)               Rastermodell                              Abbildung 03-12: Abgeleitete Distanzmaße eines Polygon im Rastermodell (GITTA 2005)               Distanzzonen: Distanzpuffer und Distanztransformation  Neben der Ermittlung von (kürzesten) Distanzen zwischen Objekten ist eine weitere wichtige Anwendung in einem GIS das Ermitteln von Distanzzonen. Mit dieser Funktion wird jeder Raumstelle ein Distanzwert zum entsprechend nächsten Bezugsobjekt zugewiesen. Die Bildung von Distanzzonen ist für Vektor- und Rastermodell in der Lösung sowie in der Verwendung deutlich verschieden.  Vektormodell  Vektormodelle werden meist zur Modellierung von randscharfen Phänomenen verwendet. Distanzzonen im Vektormodell ergeben wiederum klare, randscharfe Polygone. Es wird deshalb der Begriff Distanzpuffer (engl. buffer) anstelle des allgemeineren Begriffs Distanzzone verwendet. Die Berechnung eines solchen Distanzpuffers ergibt als Resultat immer eine Fläche (d. h. ein Polygon), egal ob von Punkten, Linien oder Flächen ausgegangen wird. Gesucht ist die Umrißlinie (Grenzlinie) dieser resultierenden Fläche, die in einem definierten Abstand das Ausgangsobjekt umrandet (vgl. untenstehende Animation). Der Berechnung von Distanzpuffern liegt eine euklidische Metrik zugrunde. Weitergehende Möglichkeiten, wie sie im Rastermodell einfach realisiert werden können, sind nur aufwendig erreichbar. So können ineinander geschachtelte Distanzzonen (z. B. 0–500 m, 501–1000 m, 1001–2000 m) nur durch wiederholte Berechnung und anschliessendes Verschneiden der Puffer als Polygone (engl. polygon overlay) realisiert werden. Die Möglichkeiten der Pufferbildung im Vektormodell sind beschränkter als beim Rastermodell. Dennoch gibt es einige Möglichkeiten, Distanzpuffer zu variieren (Animation unten):     Die Form eines Puffers kann variiert werden. So kann z. B. das Ende von Puffern um Linien entweder flach oder rund sein.   Pufferdistanzen können abhängig von einem Attributwert der Ausgangsobjekte berechnet werden. Beispielsweise bestimmt die Sendeleistung von Mobilfunkantennen ihre Reichweite.   Puffer können auch nur einseitig gebildet werden, z. B. Bauverbotszone um einen See.   Rastermodell  Die Bildung von Distanzzonen im Rastermodell weist jeder einzelnen Rasterzelle einen Distanzwert entsprechend ihrer Distanz zur nächstgelegenen „Quellenzelle“ zu. Dadurch ergibt sich ein quasi-kontinuierliches Resultat. Da der Raum also entsprechend der Distanz zu bestimmten Objekten transformiert wird, kann im Rastermodell von einer Distanztransformation gesprochen werden: Im Rastermodell kann für die Distanztransformation eine geeignete Metrik gewählt werden: euklidische Metrik, Manhattan-Metrik oder eine Metrik, die zusätzlich zur Manhattan-Metrik (4er-Nachbarschaft der Rasterzellen) auch die diagonalen Nachbarn (8er-Nachbarschaft) einbezieht. Zusätzlich können auch Wegkosten oder Wegzeiten als Kostenoberflächen berücksichtigt werden. Kostenoberflächen enthalten Informationen über den pro Zelle variierenden Aufwand, der geleistet werden muss, um eine Distanz zurückzulegen. Eine quasi-kontinuierliche Raster-Distanztransformation kann man elegant durch eine einfache Einordnung in klassierte Distanzzonen umformen (z. B. Distanzzonen bis 250m, bis 500m usw.). Die Genauigkeit des Resultats richtet sich allerdings direkt nach der Auflösung (Maschenweite) des Rasters.                         Vektormodell       Rastermodell                 Bezeichnung       Distanzpuffer       Distanztransformation                 Metrik       euklidische Metrik liegt der Berechnung zugrunde       verschiedene Metriken sind möglich                 Modellierung       randscharfe und klar definierbare Phänomene       Phänomene, die eher kontinuierlich über den Raum variieren                 Distanzzonen       Verschneidung der Distanzpuffer mit polygon overlay. Zusätzliche Variationen: Einseitige Puffer / Gewichtete Puffer(abhängig vom Attributwert des Ausgangsobjekts) / Form (flache/runde Enden) bei Linien       Klassierung der Distanztransformation (reclassify)                 variable Kosten       unmöglich       Einbezug von Kostenoberfläche als Aufwand der Distanzüberwindung möglich                 Genauigkeit       abhängig von der Datengenauigkeit und Rechenpräzision       von der Auflösung des Rasters abhängig.           Erstellen eines Distanzpuffers im Vektormodell  Distanzpuffer um Punkte sind Kreisflächen. Die Punkte in der folgenden Abbildung repräsentieren Standorte von Mobilfunkantennen mit unterschiedlicher Sendeleistung. Dabei ist die äusserste Linie die maximale Reichweite bei gegebener Sendeleistung. Die Distanzpuffer sind hier mit Attributwerten der Ausgangsobjekte gewichtet. Auf der Karte wird ersichtlich, welche Teile der Siedlungsfläche mit einem Empfang abgedeckt sind und welche nicht.                              Abbildung 03-13: Distanzpuffer um Antennenstandorte auf der Grundlage von Attributdaten (GITTA 2005)               Das nächste Beispiel beschäftigt sich mit Distanzpuffern entlang von Linien. Die Linien sind in diesem Fall Strassen unterschiedlicher Kategorien. Durch die Einteilung der Strassen ist die Höchstgeschwindigkeit bekannt: Autobahnen 120 km/h und Hauptstrassen 80 km/h. Über ein Immissions-/Emissionsmodell für Strassenlärm (vgl. Lärmorama wurden die Distanzpuffer für einen Grenzwert von 70 dB abhängig von der erlaubten Höchstgeschwindigkeit berechnet. In das Modell fließen hauptsächlich drei Parameter ein: durchschnittliche Geschwindigkeit, durchschnittliche Anzahl Fahrzeuge pro Stunde und der Lastwagenanteil. Hindernisse usw. wurden keine berücksichtigt. Es wird davon ausgegangen, dass der Schall sich ungehindert im Raum ausbreiten kann. Die so entstandenen Flächen decken ein Gebiet von 85,1 dB an der Verkehrsachse und bis 70 dB an der Umrisslinie des Distanzpuffers (beziehungsweise von 82,9 dB bis 70 dB) ab. Dies bedeutet, dass Pufferfläche bezüglich der Beschallung (Immissionswert) nicht homogen ist. Häufig interessiert die Grenzlinie bzw. ein Grenzwert, der mit der Umrisslinie der Pufferfläche markiert ist. Interessant ist diese Fläche aber, wenn z. B. herausgefunden werden möchte, wie groß die Fläche (bzw. Anzahl Einwohner) des Siedlungsgebiets ist, die einem Lärm von 85,1 dB bis 70 dB ausgesetzt ist. Möchte man eine Abstufung bzw. Verschachtelung der Immissionswerte darstellen, müssen mehrere Distanzpuffer mit den jeweiligen Immissionswerten berechnet werden.                              Abbildung 03-14: Distanzpuffer der Lärmausbreitung entlang einer Autobahn (GITTA 2005)               Das letzte Beispiel zeigt einseitige Distanzpuffer, die aufgrund eines Gesetzes festlegt wurden, das bestimmt, welche Abstände um ein Naturschutzgebiet für extensive Landwirtschaft (schonender Umgang mit der Natur) und einem allgemeinem Bauverbot gelten.                              Abbildung 03-15: Einseitiger Distanzpuffer um eine Naturschutzfläche (GITTA 2005)               ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L02.png">
+  <meta property="og:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L02.png">
 
 
 
   <meta name="twitter:site" content="@creuden">
   <meta name="twitter:title" content="Geometrische Abfragen">
   <meta name="twitter:description" content="Geometrische Abfragen messen die Fläche oder den Umfang eines Objektes bzw. die Distanz oder Richtung =zwischen zwei Objekten. Bei der Erörterung geometrischer Abfragen müssen die Raster- und Vektordatenmodelle aufgrund ihres völlig unterschiedlichen Raumkonzepts getrennt betrachtet werden. Im Sinne einer Relation ist die Geometrie eine weitere Eigenschaft eines Geoobjektes.  Die wichtigsten geometrischen Abfragen (Messfunktionen) sind in der Folge beschrieben:  Euklidische Distanz im Vektormodell  Für Vektordaten wird die Distanz zwischen zwei Objekten einfach nach dem Theorem von Pythagoras berechnet und entspricht dem kürzesten Abstand.                              Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel eines Vektordatenmodells (GITTA 2005)               Euklidische Distanz Rastermodell  Im Rastermodell können drei verschiedene Ansätze zur Messung von Distanzen zwischen Punkten angewandt werden.                             Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel des Rasterdatenmodells. Oberste Reihe: Euklidische Distanz von den Rasterzellrändern, Mittlere Reihe Manhattan Distanz entlang der Zellkanten, Untere Reihe Konzentrische Nachbarschaftsdistanz (GITTA 2005)               Ausdehnung Vektormodell                              Abbildung 03-11: Abgeleitete Distanzmaße eines Polygon im Vektormodell (GITTA 2005)               Rastermodell                              Abbildung 03-12: Abgeleitete Distanzmaße eines Polygon im Rastermodell (GITTA 2005)               Distanzzonen: Distanzpuffer und Distanztransformation  Neben der Ermittlung von (kürzesten) Distanzen zwischen Objekten ist eine weitere wichtige Anwendung in einem GIS das Ermitteln von Distanzzonen. Mit dieser Funktion wird jeder Raumstelle ein Distanzwert zum entsprechend nächsten Bezugsobjekt zugewiesen. Die Bildung von Distanzzonen ist für Vektor- und Rastermodell in der Lösung sowie in der Verwendung deutlich verschieden.  Vektormodell  Vektormodelle werden meist zur Modellierung von randscharfen Phänomenen verwendet. Distanzzonen im Vektormodell ergeben wiederum klare, randscharfe Polygone. Es wird deshalb der Begriff Distanzpuffer (engl. buffer) anstelle des allgemeineren Begriffs Distanzzone verwendet. Die Berechnung eines solchen Distanzpuffers ergibt als Resultat immer eine Fläche (d. h. ein Polygon), egal ob von Punkten, Linien oder Flächen ausgegangen wird. Gesucht ist die Umrißlinie (Grenzlinie) dieser resultierenden Fläche, die in einem definierten Abstand das Ausgangsobjekt umrandet (vgl. untenstehende Animation). Der Berechnung von Distanzpuffern liegt eine euklidische Metrik zugrunde. Weitergehende Möglichkeiten, wie sie im Rastermodell einfach realisiert werden können, sind nur aufwendig erreichbar. So können ineinander geschachtelte Distanzzonen (z. B. 0–500 m, 501–1000 m, 1001–2000 m) nur durch wiederholte Berechnung und anschliessendes Verschneiden der Puffer als Polygone (engl. polygon overlay) realisiert werden. Die Möglichkeiten der Pufferbildung im Vektormodell sind beschränkter als beim Rastermodell. Dennoch gibt es einige Möglichkeiten, Distanzpuffer zu variieren (Animation unten):     Die Form eines Puffers kann variiert werden. So kann z. B. das Ende von Puffern um Linien entweder flach oder rund sein.   Pufferdistanzen können abhängig von einem Attributwert der Ausgangsobjekte berechnet werden. Beispielsweise bestimmt die Sendeleistung von Mobilfunkantennen ihre Reichweite.   Puffer können auch nur einseitig gebildet werden, z. B. Bauverbotszone um einen See.   Rastermodell  Die Bildung von Distanzzonen im Rastermodell weist jeder einzelnen Rasterzelle einen Distanzwert entsprechend ihrer Distanz zur nächstgelegenen „Quellenzelle“ zu. Dadurch ergibt sich ein quasi-kontinuierliches Resultat. Da der Raum also entsprechend der Distanz zu bestimmten Objekten transformiert wird, kann im Rastermodell von einer Distanztransformation gesprochen werden: Im Rastermodell kann für die Distanztransformation eine geeignete Metrik gewählt werden: euklidische Metrik, Manhattan-Metrik oder eine Metrik, die zusätzlich zur Manhattan-Metrik (4er-Nachbarschaft der Rasterzellen) auch die diagonalen Nachbarn (8er-Nachbarschaft) einbezieht. Zusätzlich können auch Wegkosten oder Wegzeiten als Kostenoberflächen berücksichtigt werden. Kostenoberflächen enthalten Informationen über den pro Zelle variierenden Aufwand, der geleistet werden muss, um eine Distanz zurückzulegen. Eine quasi-kontinuierliche Raster-Distanztransformation kann man elegant durch eine einfache Einordnung in klassierte Distanzzonen umformen (z. B. Distanzzonen bis 250m, bis 500m usw.). Die Genauigkeit des Resultats richtet sich allerdings direkt nach der Auflösung (Maschenweite) des Rasters.                         Vektormodell       Rastermodell                 Bezeichnung       Distanzpuffer       Distanztransformation                 Metrik       euklidische Metrik liegt der Berechnung zugrunde       verschiedene Metriken sind möglich                 Modellierung       randscharfe und klar definierbare Phänomene       Phänomene, die eher kontinuierlich über den Raum variieren                 Distanzzonen       Verschneidung der Distanzpuffer mit polygon overlay. Zusätzliche Variationen: Einseitige Puffer / Gewichtete Puffer(abhängig vom Attributwert des Ausgangsobjekts) / Form (flache/runde Enden) bei Linien       Klassierung der Distanztransformation (reclassify)                 variable Kosten       unmöglich       Einbezug von Kostenoberfläche als Aufwand der Distanzüberwindung möglich                 Genauigkeit       abhängig von der Datengenauigkeit und Rechenpräzision       von der Auflösung des Rasters abhängig.           Erstellen eines Distanzpuffers im Vektormodell  Distanzpuffer um Punkte sind Kreisflächen. Die Punkte in der folgenden Abbildung repräsentieren Standorte von Mobilfunkantennen mit unterschiedlicher Sendeleistung. Dabei ist die äusserste Linie die maximale Reichweite bei gegebener Sendeleistung. Die Distanzpuffer sind hier mit Attributwerten der Ausgangsobjekte gewichtet. Auf der Karte wird ersichtlich, welche Teile der Siedlungsfläche mit einem Empfang abgedeckt sind und welche nicht.                              Abbildung 03-13: Distanzpuffer um Antennenstandorte auf der Grundlage von Attributdaten (GITTA 2005)               Das nächste Beispiel beschäftigt sich mit Distanzpuffern entlang von Linien. Die Linien sind in diesem Fall Strassen unterschiedlicher Kategorien. Durch die Einteilung der Strassen ist die Höchstgeschwindigkeit bekannt: Autobahnen 120 km/h und Hauptstrassen 80 km/h. Über ein Immissions-/Emissionsmodell für Strassenlärm (vgl. Lärmorama wurden die Distanzpuffer für einen Grenzwert von 70 dB abhängig von der erlaubten Höchstgeschwindigkeit berechnet. In das Modell fließen hauptsächlich drei Parameter ein: durchschnittliche Geschwindigkeit, durchschnittliche Anzahl Fahrzeuge pro Stunde und der Lastwagenanteil. Hindernisse usw. wurden keine berücksichtigt. Es wird davon ausgegangen, dass der Schall sich ungehindert im Raum ausbreiten kann. Die so entstandenen Flächen decken ein Gebiet von 85,1 dB an der Verkehrsachse und bis 70 dB an der Umrisslinie des Distanzpuffers (beziehungsweise von 82,9 dB bis 70 dB) ab. Dies bedeutet, dass Pufferfläche bezüglich der Beschallung (Immissionswert) nicht homogen ist. Häufig interessiert die Grenzlinie bzw. ein Grenzwert, der mit der Umrisslinie der Pufferfläche markiert ist. Interessant ist diese Fläche aber, wenn z. B. herausgefunden werden möchte, wie groß die Fläche (bzw. Anzahl Einwohner) des Siedlungsgebiets ist, die einem Lärm von 85,1 dB bis 70 dB ausgesetzt ist. Möchte man eine Abstufung bzw. Verschachtelung der Immissionswerte darstellen, müssen mehrere Distanzpuffer mit den jeweiligen Immissionswerten berechnet werden.                              Abbildung 03-14: Distanzpuffer der Lärmausbreitung entlang einer Autobahn (GITTA 2005)               Das letzte Beispiel zeigt einseitige Distanzpuffer, die aufgrund eines Gesetzes festlegt wurden, das bestimmt, welche Abstände um ein Naturschutzgebiet für extensive Landwirtschaft (schonender Umgang mit der Natur) und einem allgemeinem Bauverbot gelten.                              Abbildung 03-15: Einseitiger Distanzpuffer um eine Naturschutzfläche (GITTA 2005)               ">
-  <meta name="twitter:url" content="http://localhost:4000/bsc-qgis-2021/unit03/unit03-03_reader_abfragen.html">
+  <meta name="twitter:url" content="http://localhost:4000/bsc-gi-2021/unit03/unit03-03_reader_abfragen.html">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L02.png">
+    <meta name="twitter:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L02.png">
   
 
   
@@ -47,14 +47,14 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:14:21+01:00">
+  <meta property="article:published_time" content="2022-03-12T00:15:24+01:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/bsc-qgis-2021/unit03/unit03-03_reader_abfragen.html">
+<link rel="canonical" href="http://localhost:4000/bsc-gi-2021/unit03/unit03-03_reader_abfragen.html">
 
 
 
@@ -65,7 +65,7 @@
     
       "@type": "Person",
       "name": "GISMA course resources",
-      "url": "http://localhost:4000/bsc-qgis-2021/"
+      "url": "http://localhost:4000/bsc-gi-2021/"
     
   }
 </script>
@@ -78,7 +78,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/bsc-qgis-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
+<link href="/bsc-gi-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/bsc-qgis-2021/assets/css/main.css">
+<link rel="stylesheet" href="/bsc-gi-2021/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -133,17 +133,17 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-    	<a class="site-title" href="http://localhost:4000/bsc-qgis-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-qgis-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
+    	<a class="site-title" href="http://localhost:4000/bsc-gi-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-gi-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
         <ul class="visible-links">
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//units.html" >Kurseinheiten</a>
+              <a href="http://localhost:4000/bsc-gi-2021//units.html" >Kurseinheiten</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//unit00/unit00-04_faq.html" >FAQ</a>
+              <a href="http://localhost:4000/bsc-gi-2021//unit00/unit00-04_faq.html" >FAQ</a>
             </li>
           
             
@@ -158,12 +158,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//sitemap.html" >Seitenübersicht</a>
+              <a href="http://localhost:4000/bsc-gi-2021//sitemap.html" >Seitenübersicht</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//downloads.html" >Downloads</a>
+              <a href="http://localhost:4000/bsc-gi-2021//downloads.html" >Downloads</a>
             </li>
           
         </ul>
@@ -193,7 +193,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/bsc-qgis-2021/assets/images/splash_L02.png" alt="Post Boxes in the Marburg Area" class="page__hero-image">
+    <img src="/bsc-gi-2021/assets/images/splash_L02.png" alt="Post Boxes in the Marburg Area" class="page__hero-image">
   
   
     <span class="page__hero-caption">Post Boxes in the Marburg Area. CC0 AG UI
@@ -236,7 +236,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit00/unit00-01_learning.html" class="">Formales</a>
+		     <a href="/bsc-gi-2021//unit00/unit00-01_learning.html" class="">Formales</a>
 		  </span>
           <ul>
             
@@ -258,38 +258,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		     <a href="/bsc-gi-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
 		  </span>
           <ul>
             
@@ -320,53 +289,9 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		     <a href="/bsc-gi-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
 		  </span>
           <ul>
-            
-              
-			  
-			    <li><a href="/bsc-qgis-2021//unit03/unit03-01_reader_abfragen.html" class="">Fragen & Antworten</a></li>
-			  
-            
-              
-			  
-			    <li><a href="/bsc-qgis-2021//unit03/unit03-02_reader_abfragen.html" class="">Thematische Abfragen</a></li>
-			  
-            
-              
-			  
-			    <li><a href="/bsc-qgis-2021//unit03/unit03-03_reader_abfragen.html" class="active">Geometrische Abfragen</a></li>
-			  
-            
-              
-			  
-			    <li><a href="/bsc-qgis-2021//unit03/unit03-04_reader_abfragen.html" class="">Topologische Abfragen</a></li>
-			  
-            
-              
-			  
-			    <li><a href="/bsc-qgis-2021//unit03/unit03-09_reader_abfragen.html" class="">Quellenverzeichnis</a></li>
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
             
               
 			  
@@ -395,7 +320,82 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
+		     <a href="/bsc-gi-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		  </span>
+          <ul>
+            
+              
+			  
+			    <li><a href="/bsc-gi-2021//unit03/unit03-01_reader_abfragen.html" class="">Fragen & Antworten</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/bsc-gi-2021//unit03/unit03-02_reader_abfragen.html" class="">Thematische Abfragen</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/bsc-gi-2021//unit03/unit03-03_reader_abfragen.html" class="active">Geometrische Abfragen</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/bsc-gi-2021//unit03/unit03-04_reader_abfragen.html" class="">Topologische Abfragen</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/bsc-gi-2021//unit03/unit03-09_reader_abfragen.html" class="">Quellenverzeichnis</a></li>
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
 		  </span>
           <ul>
             
@@ -420,7 +420,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
+		     <a href="/bsc-gi-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
 		  </span>
           <ul>
             
@@ -436,7 +436,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		     <a href="/bsc-gi-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
 		  </span>
           <ul>
             
@@ -452,7 +452,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
+		     <a href="/bsc-gi-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
 		  </span>
           <ul>
             
@@ -488,7 +488,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Geometrische Abfragen">
     <meta itemprop="description" content="Geometrische Abfragen messen die Fläche oder den Umfang eines Objektes bzw. die Distanz oder Richtung =zwischen zwei Objekten. Bei der Erörterung geometrischer Abfragen müssen die Raster- und Vektordatenmodelle aufgrund ihres völlig unterschiedlichen Raumkonzepts getrennt betrachtet werden. Im Sinne einer Relation ist die Geometrie eine weitere Eigenschaft eines Geoobjektes.Die wichtigsten geometrischen Abfragen (Messfunktionen) sind in der Folge beschrieben:Euklidische Distanz im VektormodellFür Vektordaten wird die Distanz zwischen zwei Objekten einfach nach dem Theorem von Pythagoras berechnet und entspricht dem kürzesten Abstand.                    Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel eines Vektordatenmodells (GITTA 2005)        Euklidische Distanz RastermodellIm Rastermodell können drei verschiedene Ansätze zur Messung von Distanzen zwischen Punkten angewandt werden.                    Abbildung 03-10: Euklidische Distanz zwischen den Punkten A und B am Beispiel des Rasterdatenmodells. Oberste Reihe: Euklidische Distanz von den Rasterzellrändern, Mittlere Reihe Manhattan Distanz entlang der Zellkanten, Untere Reihe Konzentrische Nachbarschaftsdistanz (GITTA 2005)        Ausdehnung Vektormodell                    Abbildung 03-11: Abgeleitete Distanzmaße eines Polygon im Vektormodell (GITTA 2005)        Rastermodell                    Abbildung 03-12: Abgeleitete Distanzmaße eines Polygon im Rastermodell (GITTA 2005)        Distanzzonen: Distanzpuffer und DistanztransformationNeben der Ermittlung von (kürzesten) Distanzen zwischen Objekten ist eine weitere wichtige Anwendung in einem GIS das Ermitteln von Distanzzonen. Mit dieser Funktion wird jeder Raumstelle ein Distanzwert zum entsprechend nächsten Bezugsobjekt zugewiesen. Die Bildung von Distanzzonen ist für Vektor- und Rastermodell in der Lösung sowie in der Verwendung deutlich verschieden.VektormodellVektormodelle werden meist zur Modellierung von randscharfen Phänomenen verwendet. Distanzzonen im Vektormodell ergeben wiederum klare, randscharfe Polygone. Es wird deshalb der Begriff Distanzpuffer (engl. buffer) anstelle des allgemeineren Begriffs Distanzzone verwendet. Die Berechnung eines solchen Distanzpuffers ergibt als Resultat immer eine Fläche (d. h. ein Polygon), egal ob von Punkten, Linien oder Flächen ausgegangen wird. Gesucht ist die Umrißlinie (Grenzlinie) dieser resultierenden Fläche, die in einem definierten Abstand das Ausgangsobjekt umrandet (vgl. untenstehende Animation). Der Berechnung von Distanzpuffern liegt eine euklidische Metrik zugrunde. Weitergehende Möglichkeiten, wie sie im Rastermodell einfach realisiert werden können, sind nur aufwendig erreichbar. So können ineinander geschachtelte Distanzzonen (z. B. 0–500 m, 501–1000 m, 1001–2000 m) nur durch wiederholte Berechnung und anschliessendes Verschneiden der Puffer als Polygone (engl. polygon overlay) realisiert werden. Die Möglichkeiten der Pufferbildung im Vektormodell sind beschränkter als beim Rastermodell. Dennoch gibt es einige Möglichkeiten, Distanzpuffer zu variieren (Animation unten):  Die Form eines Puffers kann variiert werden. So kann z. B. das Ende von Puffern um Linien entweder flach oder rund sein.  Pufferdistanzen können abhängig von einem Attributwert der Ausgangsobjekte berechnet werden. Beispielsweise bestimmt die Sendeleistung von Mobilfunkantennen ihre Reichweite.  Puffer können auch nur einseitig gebildet werden, z. B. Bauverbotszone um einen See.RastermodellDie Bildung von Distanzzonen im Rastermodell weist jeder einzelnen Rasterzelle einen Distanzwert entsprechend ihrer Distanz zur nächstgelegenen „Quellenzelle“ zu. Dadurch ergibt sich ein quasi-kontinuierliches Resultat. Da der Raum also entsprechend der Distanz zu bestimmten Objekten transformiert wird, kann im Rastermodell von einer Distanztransformation gesprochen werden: Im Rastermodell kann für die Distanztransformation eine geeignete Metrik gewählt werden: euklidische Metrik, Manhattan-Metrik oder eine Metrik, die zusätzlich zur Manhattan-Metrik (4er-Nachbarschaft der Rasterzellen) auch die diagonalen Nachbarn (8er-Nachbarschaft) einbezieht. Zusätzlich können auch Wegkosten oder Wegzeiten als Kostenoberflächen berücksichtigt werden. Kostenoberflächen enthalten Informationen über den pro Zelle variierenden Aufwand, der geleistet werden muss, um eine Distanz zurückzulegen. Eine quasi-kontinuierliche Raster-Distanztransformation kann man elegant durch eine einfache Einordnung in klassierte Distanzzonen umformen (z. B. Distanzzonen bis 250m, bis 500m usw.). Die Genauigkeit des Resultats richtet sich allerdings direkt nach der Auflösung (Maschenweite) des Rasters.                   Vektormodell      Rastermodell              Bezeichnung      Distanzpuffer      Distanztransformation              Metrik      euklidische Metrik liegt der Berechnung zugrunde      verschiedene Metriken sind möglich              Modellierung      randscharfe und klar definierbare Phänomene      Phänomene, die eher kontinuierlich über den Raum variieren              Distanzzonen      Verschneidung der Distanzpuffer mit polygon overlay. Zusätzliche Variationen: Einseitige Puffer / Gewichtete Puffer(abhängig vom Attributwert des Ausgangsobjekts) / Form (flache/runde Enden) bei Linien      Klassierung der Distanztransformation (reclassify)              variable Kosten      unmöglich      Einbezug von Kostenoberfläche als Aufwand der Distanzüberwindung möglich              Genauigkeit      abhängig von der Datengenauigkeit und Rechenpräzision      von der Auflösung des Rasters abhängig.      Erstellen eines Distanzpuffers im VektormodellDistanzpuffer um Punkte sind Kreisflächen. Die Punkte in der folgenden Abbildung repräsentieren Standorte von Mobilfunkantennen mit unterschiedlicher Sendeleistung. Dabei ist die äusserste Linie die maximale Reichweite bei gegebener Sendeleistung. Die Distanzpuffer sind hier mit Attributwerten der Ausgangsobjekte gewichtet. Auf der Karte wird ersichtlich, welche Teile der Siedlungsfläche mit einem Empfang abgedeckt sind und welche nicht.                    Abbildung 03-13: Distanzpuffer um Antennenstandorte auf der Grundlage von Attributdaten (GITTA 2005)        Das nächste Beispiel beschäftigt sich mit Distanzpuffern entlang von Linien. Die Linien sind in diesem Fall Strassen unterschiedlicher Kategorien. Durch die Einteilung der Strassen ist die Höchstgeschwindigkeit bekannt: Autobahnen 120 km/h und Hauptstrassen 80 km/h. Über ein Immissions-/Emissionsmodell für Strassenlärm (vgl. Lärmorama wurden die Distanzpuffer für einen Grenzwert von 70 dB abhängig von der erlaubten Höchstgeschwindigkeit berechnet. In das Modell fließen hauptsächlich drei Parameter ein: durchschnittliche Geschwindigkeit, durchschnittliche Anzahl Fahrzeuge pro Stunde und der Lastwagenanteil. Hindernisse usw. wurden keine berücksichtigt. Es wird davon ausgegangen, dass der Schall sich ungehindert im Raum ausbreiten kann. Die so entstandenen Flächen decken ein Gebiet von 85,1 dB an der Verkehrsachse und bis 70 dB an der Umrisslinie des Distanzpuffers (beziehungsweise von 82,9 dB bis 70 dB) ab. Dies bedeutet, dass Pufferfläche bezüglich der Beschallung (Immissionswert) nicht homogen ist. Häufig interessiert die Grenzlinie bzw. ein Grenzwert, der mit der Umrisslinie der Pufferfläche markiert ist. Interessant ist diese Fläche aber, wenn z. B. herausgefunden werden möchte, wie groß die Fläche (bzw. Anzahl Einwohner) des Siedlungsgebiets ist, die einem Lärm von 85,1 dB bis 70 dB ausgesetzt ist. Möchte man eine Abstufung bzw. Verschachtelung der Immissionswerte darstellen, müssen mehrere Distanzpuffer mit den jeweiligen Immissionswerten berechnet werden.                    Abbildung 03-14: Distanzpuffer der Lärmausbreitung entlang einer Autobahn (GITTA 2005)        Das letzte Beispiel zeigt einseitige Distanzpuffer, die aufgrund eines Gesetzes festlegt wurden, das bestimmt, welche Abstände um ein Naturschutzgebiet für extensive Landwirtschaft (schonender Umgang mit der Natur) und einem allgemeinem Bauverbot gelten.                    Abbildung 03-15: Einseitiger Distanzpuffer um eine Naturschutzfläche (GITTA 2005)        ">
-    <meta itemprop="datePublished" content="2022-03-12T00:14:21+01:00">
+    <meta itemprop="datePublished" content="2022-03-12T00:15:24+01:00">
     
 
     <div class="page__inner-wrap">
@@ -529,7 +529,7 @@
 <figure class="">
 
   
-    <img src="http://localhost:4000/bsc-qgis-2021/assets/images/unit03/euklid_dist_1.png" alt="Distanz zwischen den Punkten A und B" />
+    <img src="http://localhost:4000/bsc-gi-2021/assets/images/unit03/euklid_dist_1.png" alt="Distanz zwischen den Punkten A und B" />
   
 
   
@@ -547,7 +547,7 @@
 <figure class="">
 
   
-    <img src="http://localhost:4000/bsc-qgis-2021/assets/images/unit03/euklid_dist_2.png" alt="Distanz zwischen den Punkten A und B" />
+    <img src="http://localhost:4000/bsc-gi-2021/assets/images/unit03/euklid_dist_2.png" alt="Distanz zwischen den Punkten A und B" />
   
 
   
@@ -564,7 +564,7 @@
 <figure class="">
 
   
-    <img src="http://localhost:4000/bsc-qgis-2021/assets/images/unit03/euklid_dist_3.png" alt="Abgeleitete Distanzmaße eines Polygon im Vektormodell" />
+    <img src="http://localhost:4000/bsc-gi-2021/assets/images/unit03/euklid_dist_3.png" alt="Abgeleitete Distanzmaße eines Polygon im Vektormodell" />
   
 
   
@@ -581,7 +581,7 @@
 <figure class="">
 
   
-    <img src="http://localhost:4000/bsc-qgis-2021/assets/images/unit03/euklid_dist_4.png" alt="Abgeleitete Distanzmaße eines Polygon im Rastermodell" />
+    <img src="http://localhost:4000/bsc-gi-2021/assets/images/unit03/euklid_dist_4.png" alt="Abgeleitete Distanzmaße eines Polygon im Rastermodell" />
   
 
   
@@ -714,7 +714,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:14:21+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:15:24+01:00">March 12, 2022</time></p>
         
       </footer>
 
@@ -723,11 +723,11 @@
       
   <nav class="pagination">
     
-      <a href="/bsc-qgis-2021/unit03/unit03-02_reader_abfragen.html" class="pagination--pager" title="Thematische Abfragen
+      <a href="/bsc-gi-2021/unit03/unit03-02_reader_abfragen.html" class="pagination--pager" title="Thematische Abfragen
 ">Previous</a>
     
     
-      <a href="/bsc-qgis-2021/unit03/unit03-04_reader_abfragen.html" class="pagination--pager" title="Topologische Abfragen
+      <a href="/bsc-gi-2021/unit03/unit03-04_reader_abfragen.html" class="pagination--pager" title="Topologische Abfragen
 ">Next</a>
     
   </nav>
@@ -762,7 +762,7 @@
     
     
     
-    <li><a href="http://localhost:4000/bsc-qgis-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="http://localhost:4000/bsc-gi-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -775,7 +775,7 @@
     </div>
 
     
-  <script src="/bsc-qgis-2021/assets/js/main.min.js"></script>
+  <script src="/bsc-gi-2021/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 

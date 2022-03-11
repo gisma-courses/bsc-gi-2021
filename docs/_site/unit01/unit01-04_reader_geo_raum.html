@@ -20,25 +20,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GISMA course resources">
 <meta property="og:title" content="Geographische Daten">
-<meta property="og:url" content="http://localhost:4000/bsc-qgis-2021/unit01/unit01-04_reader_geo_raum.html">
+<meta property="og:url" content="http://localhost:4000/bsc-gi-2021/unit01/unit01-04_reader_geo_raum.html">
 
 
   <meta property="og:description" content="Trotz der bisherigen Erläuterungen ist die Beantwortung der Frage „Was sind geographische Daten bzw. Geodaten?“ nicht richtig greifbar. Bislang erscheint die Abstraktion willkürlich und nicht nachvollziehbar zu sein.  Geodaten oder geographische Daten (singl. Datum) liefern räumlich fixierte, maschinenlesbare Konstrukte aus Zeichen, Bildern oder Funktionen die mit entsprechenden Interpretationsregeln zu Informationen werden. Da Daten Interpretationsvorschriften benötigen, um zu Informationen zu werden, müssen wir dieses Wissen nur noch mit dem Ziel, eine geographische Repräsentation der Welt durchzuführen, verbinden.  Was sind geographische Daten? Die zentrale Fragestellung lautet: Was ist spezifisch geographisch und wie können wir diese geographische Ableitungen der Wirklichkeit durchführen? Ein typisches Beispiel für Geodaten ist in folgender Aussage kodiert:  Die Temperatur am Havanna Airport betrug am Donnerstag, den 17.09.2009 um 08:00 lokaler Zeit 23.0°C. Die Koordinaten lauten: 22° 59′ 21″ N, 82° 24′ 33″ W, 64 m ü. MSL.  Analysieren wir diese Aussage so finden wir alle wesentlichen Elemente der geographischen Repräsentation eines Echtweltobjekts. Die Aussage verbindet Raum (Koordinaten und Höhe) mit Zeit (Datum/Zeitangabe) und der Eigenschaft bzw. dem Attribut der Lufttemperatur. Zusätzlich sind dem derart festgelegten Ort weitere Eigenschaften zugeordnet: Havanna und Airport. Aus dieser Aussage kann schließlich folgendes geographisches Datum gebildet werden:  22° 59′ 21″ N; 82° 24′ 33″ W; 64 m ü. MSL; 8.00 Uhr LT; Havanna Airport; 23.0 °C  Geographische Daten verbinden somit räumlich eindeutig verortete Objekte mit mindestens einer Merkmalsausprägung. Diese „Daten-Primitive“ können natürlich beliebig komplex werden und darüber hinaus direkt oder auch indirekt zueinander in Beziehung gesetzt bzw. voneinander abgeleitet werden. Auch scheinbar nicht geographische Aussagen wie:  „Der K2 hat den schwersten Normalweg eines 8000er Gipfels“  können in ein geographisches Datum überführt werden. Hierzu sind weitere Kenntnisse bzw. Dekodierungsvorschriften notwendig. So muss man wissen dass K2 der international bekanntere Namen des Lambha Pahar, des zweithöchsten Berges der Erde ist. Weiterhin muss bekannt sein, welche geographischen Koordinaten seinen Gipfel repräsentieren und dass „Normalweg“ im Alpinistenjargon der „am häufigsten begangene und in der Regel einfachste Aufstieg“ bedeutet. Aus dieser Interpretation wird somit das geographische Datum:  ** 35° 53′ 0″ N; 76° 31′ 0″ O; Lambha Pahar; K2; &gt;8000 m ü. MSL; schwerster Normalweg 8000+**  Die Merkmale von Raumobjekten Schon anhand dieser beiden Beispiele wird deutlich, dass die Attribute von Raumobjekten nahezu beliebige Ausprägungen aufweisen können. Manche dieser Ausprägungen können physikalischer Natur sein oder beschreiben soziologische Aspekte, verweisen auf Eigentumsrechte, sind fortlaufende Nummern etc.. Sie können Orte identifizieren (z.B. Adressen) oder Räume (z.b. manche Postleitzahlen). Sie können Maßzahlen sein (z.B. Einwohner/Fläche) oder kategoriale Ausprägungen haben (beliebte Kneipe, unbeliebte Kneipe). Da es in den Wissenschaften üblich ist mit Werten, Attributen und ihren Ausprägungen zu arbeiten, sind diese auch im Bereich Geographischer Informationssysteme bekannt. Die Skalenniveaus sind bereits aus der Statistik bekannt und werden Nominal-, Ordinal- und Kardinalskala genannt. Sind Merkmalsausprägungen zeitabhängig werden sie als zyklisch bezeichnet.  So einfach Geodaten erzeugt werden können, begegnen wir einer bekannten Problematik. Es ist zwar eindrucksvoll die Temperatur am Flughafen von Havanna um 8.00 Uhr lokaler Zeit am 17.09.2009 als Repräsentation des Wetters verfügbar zu haben. Doch wie gut beschreibt diese Repräsentation des Wetters den Durchzug eines Hurrikans um 8.15 Uhr des gleichen Tages?  Das Problem der Abstraktion Die Welt ist prinzipiell beliebig komplex. Unsere Computer hingegen sind in ihren Möglichkeiten Merkmalsausprägungen zu verarbeiten und abzuspeichern extrem endlich!  Die Möglichkeiten unseres Gehirns liegen irgendwo dazwischen. Als Folge kann, aufgrund mentaler und technischer Beschränktheit, nur eine außerordentlich limitierte Anzahl von Merkmalsausprägungen in die Repräsentation von Echtwelt eingehen. Es besteht folglich die Notwendigkeit zur zielgerichteten Vereinfachung der Echtwelt. Um während der Entwicklung geographischer Repräsentationen einen objektivierbaren Rahmen für diese Vereinfachungen zu haben, werden diese immer skalenorientiert auf der  Raum- und Zeitskala durchgeführt.  Aufgrund der Vielzahl von Möglichkeiten zur Reduktionen in der Erdbeschreibung gibt es für diesen Prozess innerhalb der GI eine unüberschaubare Vielzahl von Konzepten und Vorgehensweisen. Die Frage einer sinnhaften, gültigen und zweckdienlichen Vereinfachung von Repräsentationen von Echtwelt wird uns ständig beschäftigen.  Daten sind abstrahierte Wirklichkeit Geodaten sind Merkmalsausprägungen, die hinsichtlich eines spezifischen Zwecks,  Geoobjekten (diskrete Gegenstände oder kontinuierliche Raumeigenschaften) zielführend charakterisieren. Geoobjekte sind immer Repräsentationen real existierender Objekte, die durch eine Position im Raum direkt (z.B. durch Koordinaten = Geometrie) oder indirekt (z.B. durch Beziehungen = Topologie) referenzierbar (=verortet) sind. Sie sind immer formale Kodierungen der Eigenschaften und der zugehörigen Interpretation (=Informationen) dieser echten Objekte (vgl. Abb. 01-08).    ``   Abbildung 01-08: Schematische Strukturierung eines Geoobjekts in räumliche, dynamische und inhaltliche Aspekte (GIS.MA 2009)  Denken Sie mit… Versuchen Sie diese sehr abstrakte Sichtweise auf räumliche Daten und Informationen im GIS-Alltag wiederzufinden. Besuchen Sie die  folgenden Webseiten.  Hier die Links:     Öffentliche WCs in Australien   Aktuelle Pegel Lahn   Bad Arolsen   Cineplex   Reflektieren Sie anhand der nachfolgenden Leitfragen:     Welche Merkmale/Merkmalsausprägungen werden genannt (evtl. auch welche werden nicht genannt)?   Ist die Abstraktion für den von Ihnen vermuteten Zweck (Zielsetzung) sinnvoll?   Ist der geographische Aspekt für Sie ersichtlich?   Gibt es formale/inhaltliche Unterschiede in der geographischen Repräsentation der Bad Arolsener Lufthygiene-Messstation und des Marburger Cineplex?   ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L01_1.png">
+  <meta property="og:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L01_1.png">
 
 
 
   <meta name="twitter:site" content="@creuden">
   <meta name="twitter:title" content="Geographische Daten">
   <meta name="twitter:description" content="Trotz der bisherigen Erläuterungen ist die Beantwortung der Frage „Was sind geographische Daten bzw. Geodaten?“ nicht richtig greifbar. Bislang erscheint die Abstraktion willkürlich und nicht nachvollziehbar zu sein.  Geodaten oder geographische Daten (singl. Datum) liefern räumlich fixierte, maschinenlesbare Konstrukte aus Zeichen, Bildern oder Funktionen die mit entsprechenden Interpretationsregeln zu Informationen werden. Da Daten Interpretationsvorschriften benötigen, um zu Informationen zu werden, müssen wir dieses Wissen nur noch mit dem Ziel, eine geographische Repräsentation der Welt durchzuführen, verbinden.  Was sind geographische Daten? Die zentrale Fragestellung lautet: Was ist spezifisch geographisch und wie können wir diese geographische Ableitungen der Wirklichkeit durchführen? Ein typisches Beispiel für Geodaten ist in folgender Aussage kodiert:  Die Temperatur am Havanna Airport betrug am Donnerstag, den 17.09.2009 um 08:00 lokaler Zeit 23.0°C. Die Koordinaten lauten: 22° 59′ 21″ N, 82° 24′ 33″ W, 64 m ü. MSL.  Analysieren wir diese Aussage so finden wir alle wesentlichen Elemente der geographischen Repräsentation eines Echtweltobjekts. Die Aussage verbindet Raum (Koordinaten und Höhe) mit Zeit (Datum/Zeitangabe) und der Eigenschaft bzw. dem Attribut der Lufttemperatur. Zusätzlich sind dem derart festgelegten Ort weitere Eigenschaften zugeordnet: Havanna und Airport. Aus dieser Aussage kann schließlich folgendes geographisches Datum gebildet werden:  22° 59′ 21″ N; 82° 24′ 33″ W; 64 m ü. MSL; 8.00 Uhr LT; Havanna Airport; 23.0 °C  Geographische Daten verbinden somit räumlich eindeutig verortete Objekte mit mindestens einer Merkmalsausprägung. Diese „Daten-Primitive“ können natürlich beliebig komplex werden und darüber hinaus direkt oder auch indirekt zueinander in Beziehung gesetzt bzw. voneinander abgeleitet werden. Auch scheinbar nicht geographische Aussagen wie:  „Der K2 hat den schwersten Normalweg eines 8000er Gipfels“  können in ein geographisches Datum überführt werden. Hierzu sind weitere Kenntnisse bzw. Dekodierungsvorschriften notwendig. So muss man wissen dass K2 der international bekanntere Namen des Lambha Pahar, des zweithöchsten Berges der Erde ist. Weiterhin muss bekannt sein, welche geographischen Koordinaten seinen Gipfel repräsentieren und dass „Normalweg“ im Alpinistenjargon der „am häufigsten begangene und in der Regel einfachste Aufstieg“ bedeutet. Aus dieser Interpretation wird somit das geographische Datum:  ** 35° 53′ 0″ N; 76° 31′ 0″ O; Lambha Pahar; K2; &gt;8000 m ü. MSL; schwerster Normalweg 8000+**  Die Merkmale von Raumobjekten Schon anhand dieser beiden Beispiele wird deutlich, dass die Attribute von Raumobjekten nahezu beliebige Ausprägungen aufweisen können. Manche dieser Ausprägungen können physikalischer Natur sein oder beschreiben soziologische Aspekte, verweisen auf Eigentumsrechte, sind fortlaufende Nummern etc.. Sie können Orte identifizieren (z.B. Adressen) oder Räume (z.b. manche Postleitzahlen). Sie können Maßzahlen sein (z.B. Einwohner/Fläche) oder kategoriale Ausprägungen haben (beliebte Kneipe, unbeliebte Kneipe). Da es in den Wissenschaften üblich ist mit Werten, Attributen und ihren Ausprägungen zu arbeiten, sind diese auch im Bereich Geographischer Informationssysteme bekannt. Die Skalenniveaus sind bereits aus der Statistik bekannt und werden Nominal-, Ordinal- und Kardinalskala genannt. Sind Merkmalsausprägungen zeitabhängig werden sie als zyklisch bezeichnet.  So einfach Geodaten erzeugt werden können, begegnen wir einer bekannten Problematik. Es ist zwar eindrucksvoll die Temperatur am Flughafen von Havanna um 8.00 Uhr lokaler Zeit am 17.09.2009 als Repräsentation des Wetters verfügbar zu haben. Doch wie gut beschreibt diese Repräsentation des Wetters den Durchzug eines Hurrikans um 8.15 Uhr des gleichen Tages?  Das Problem der Abstraktion Die Welt ist prinzipiell beliebig komplex. Unsere Computer hingegen sind in ihren Möglichkeiten Merkmalsausprägungen zu verarbeiten und abzuspeichern extrem endlich!  Die Möglichkeiten unseres Gehirns liegen irgendwo dazwischen. Als Folge kann, aufgrund mentaler und technischer Beschränktheit, nur eine außerordentlich limitierte Anzahl von Merkmalsausprägungen in die Repräsentation von Echtwelt eingehen. Es besteht folglich die Notwendigkeit zur zielgerichteten Vereinfachung der Echtwelt. Um während der Entwicklung geographischer Repräsentationen einen objektivierbaren Rahmen für diese Vereinfachungen zu haben, werden diese immer skalenorientiert auf der  Raum- und Zeitskala durchgeführt.  Aufgrund der Vielzahl von Möglichkeiten zur Reduktionen in der Erdbeschreibung gibt es für diesen Prozess innerhalb der GI eine unüberschaubare Vielzahl von Konzepten und Vorgehensweisen. Die Frage einer sinnhaften, gültigen und zweckdienlichen Vereinfachung von Repräsentationen von Echtwelt wird uns ständig beschäftigen.  Daten sind abstrahierte Wirklichkeit Geodaten sind Merkmalsausprägungen, die hinsichtlich eines spezifischen Zwecks,  Geoobjekten (diskrete Gegenstände oder kontinuierliche Raumeigenschaften) zielführend charakterisieren. Geoobjekte sind immer Repräsentationen real existierender Objekte, die durch eine Position im Raum direkt (z.B. durch Koordinaten = Geometrie) oder indirekt (z.B. durch Beziehungen = Topologie) referenzierbar (=verortet) sind. Sie sind immer formale Kodierungen der Eigenschaften und der zugehörigen Interpretation (=Informationen) dieser echten Objekte (vgl. Abb. 01-08).    ``   Abbildung 01-08: Schematische Strukturierung eines Geoobjekts in räumliche, dynamische und inhaltliche Aspekte (GIS.MA 2009)  Denken Sie mit… Versuchen Sie diese sehr abstrakte Sichtweise auf räumliche Daten und Informationen im GIS-Alltag wiederzufinden. Besuchen Sie die  folgenden Webseiten.  Hier die Links:     Öffentliche WCs in Australien   Aktuelle Pegel Lahn   Bad Arolsen   Cineplex   Reflektieren Sie anhand der nachfolgenden Leitfragen:     Welche Merkmale/Merkmalsausprägungen werden genannt (evtl. auch welche werden nicht genannt)?   Ist die Abstraktion für den von Ihnen vermuteten Zweck (Zielsetzung) sinnvoll?   Ist der geographische Aspekt für Sie ersichtlich?   Gibt es formale/inhaltliche Unterschiede in der geographischen Repräsentation der Bad Arolsener Lufthygiene-Messstation und des Marburger Cineplex?   ">
-  <meta name="twitter:url" content="http://localhost:4000/bsc-qgis-2021/unit01/unit01-04_reader_geo_raum.html">
+  <meta name="twitter:url" content="http://localhost:4000/bsc-gi-2021/unit01/unit01-04_reader_geo_raum.html">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L01_1.png">
+    <meta name="twitter:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L01_1.png">
   
 
   
@@ -47,14 +47,14 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:14:21+01:00">
+  <meta property="article:published_time" content="2022-03-12T00:15:24+01:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/bsc-qgis-2021/unit01/unit01-04_reader_geo_raum.html">
+<link rel="canonical" href="http://localhost:4000/bsc-gi-2021/unit01/unit01-04_reader_geo_raum.html">
 
 
 
@@ -65,7 +65,7 @@
     
       "@type": "Person",
       "name": "GISMA course resources",
-      "url": "http://localhost:4000/bsc-qgis-2021/"
+      "url": "http://localhost:4000/bsc-gi-2021/"
     
   }
 </script>
@@ -78,7 +78,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/bsc-qgis-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
+<link href="/bsc-gi-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/bsc-qgis-2021/assets/css/main.css">
+<link rel="stylesheet" href="/bsc-gi-2021/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -133,17 +133,17 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-    	<a class="site-title" href="http://localhost:4000/bsc-qgis-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-qgis-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
+    	<a class="site-title" href="http://localhost:4000/bsc-gi-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-gi-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
         <ul class="visible-links">
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//units.html" >Kurseinheiten</a>
+              <a href="http://localhost:4000/bsc-gi-2021//units.html" >Kurseinheiten</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//unit00/unit00-04_faq.html" >FAQ</a>
+              <a href="http://localhost:4000/bsc-gi-2021//unit00/unit00-04_faq.html" >FAQ</a>
             </li>
           
             
@@ -158,12 +158,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//sitemap.html" >Seitenübersicht</a>
+              <a href="http://localhost:4000/bsc-gi-2021//sitemap.html" >Seitenübersicht</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//downloads.html" >Downloads</a>
+              <a href="http://localhost:4000/bsc-gi-2021//downloads.html" >Downloads</a>
             </li>
           
         </ul>
@@ -193,7 +193,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/bsc-qgis-2021/assets/images/splash_L01_1.png" alt="MineSeeker World" class="page__hero-image">
+    <img src="/bsc-gi-2021/assets/images/splash_L01_1.png" alt="MineSeeker World" class="page__hero-image">
   
   
     <span class="page__hero-caption">What is reality? CC0 AG UI
@@ -236,7 +236,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit00/unit00-01_learning.html" class="">Formales</a>
+		     <a href="/bsc-gi-2021//unit00/unit00-01_learning.html" class="">Formales</a>
 		  </span>
           <ul>
             
@@ -258,38 +258,38 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
+		     <a href="/bsc-gi-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
 		  </span>
           <ul>
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-01_reader_geo_raum.html" class="">Raum braucht einen Geltungsbereich</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-01_reader_geo_raum.html" class="">Raum braucht einen Geltungsbereich</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-02_reader_geo_raum.html" class="">Geographie - räumliche Interpretation der Welt</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-02_reader_geo_raum.html" class="">Geographie - räumliche Interpretation der Welt</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-03_reader_geo_raum.html" class="">Objekte im Raum</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-03_reader_geo_raum.html" class="">Objekte im Raum</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-04_reader_geo_raum.html" class="active">Geographische Daten</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-04_reader_geo_raum.html" class="active">Geographische Daten</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-06_reader_geo_raum.html" class="">Zusammenfassung – Geographischer Raum</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-06_reader_geo_raum.html" class="">Zusammenfassung – Geographischer Raum</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit01/unit01-99_reader_geo_raum.html" class="">Referenzen</a></li>
+			    <li><a href="/bsc-gi-2021//unit01/unit01-99_reader_geo_raum.html" class="">Referenzen</a></li>
 			  
             
           </ul>
@@ -301,74 +301,9 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		     <a href="/bsc-gi-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
 		  </span>
           <ul>
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
             
               
 			  
@@ -397,7 +332,72 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
+		     <a href="/bsc-gi-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
 		  </span>
           <ul>
             
@@ -422,7 +422,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
+		     <a href="/bsc-gi-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
 		  </span>
           <ul>
             
@@ -438,7 +438,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		     <a href="/bsc-gi-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
 		  </span>
           <ul>
             
@@ -454,7 +454,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
+		     <a href="/bsc-gi-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
 		  </span>
           <ul>
             
@@ -490,7 +490,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Geographische Daten">
     <meta itemprop="description" content="Trotz der bisherigen Erläuterungen ist die Beantwortung der Frage „Was sind geographische Daten bzw. Geodaten?“ nicht richtig greifbar. Bislang erscheint die Abstraktion willkürlich und nicht nachvollziehbar zu sein.Geodaten oder geographische Daten (singl. Datum) liefern räumlich fixierte, maschinenlesbare Konstrukte aus Zeichen, Bildern oder Funktionen die mit entsprechenden Interpretationsregeln zu Informationen werden. Da Daten Interpretationsvorschriften benötigen, um zu Informationen zu werden, müssen wir dieses Wissen nur noch mit dem Ziel, eine geographische Repräsentation der Welt durchzuführen, verbinden.Was sind geographische Daten?Die zentrale Fragestellung lautet: Was ist spezifisch geographisch und wie können wir diese geographische Ableitungen der Wirklichkeit durchführen? Ein typisches Beispiel für Geodaten ist in folgender Aussage kodiert:Die Temperatur am Havanna Airport betrug am Donnerstag, den 17.09.2009 um 08:00 lokaler Zeit 23.0°C. Die Koordinaten lauten: 22° 59′ 21″ N, 82° 24′ 33″ W, 64 m ü. MSL.Analysieren wir diese Aussage so finden wir alle wesentlichen Elemente der geographischen Repräsentation eines Echtweltobjekts. Die Aussage verbindet Raum (Koordinaten und Höhe) mit Zeit (Datum/Zeitangabe) und der Eigenschaft bzw. dem Attribut der Lufttemperatur. Zusätzlich sind dem derart festgelegten Ort weitere Eigenschaften zugeordnet: Havanna und Airport. Aus dieser Aussage kann schließlich folgendes geographisches Datum gebildet werden:22° 59′ 21″ N; 82° 24′ 33″ W; 64 m ü. MSL; 8.00 Uhr LT; Havanna Airport; 23.0 °CGeographische Daten verbinden somit räumlich eindeutig verortete Objekte mit mindestens einer Merkmalsausprägung. Diese „Daten-Primitive“ können natürlich beliebig komplex werden und darüber hinaus direkt oder auch indirekt zueinander in Beziehung gesetzt bzw. voneinander abgeleitet werden. Auch scheinbar nicht geographische Aussagen wie:„Der K2 hat den schwersten Normalweg eines 8000er Gipfels“können in ein geographisches Datum überführt werden. Hierzu sind weitere Kenntnisse bzw. Dekodierungsvorschriften notwendig. So muss man wissen dass K2 der international bekanntere Namen des Lambha Pahar, des zweithöchsten Berges der Erde ist. Weiterhin muss bekannt sein, welche geographischen Koordinaten seinen Gipfel repräsentieren und dass „Normalweg“ im Alpinistenjargon der „am häufigsten begangene und in der Regel einfachste Aufstieg“ bedeutet. Aus dieser Interpretation wird somit das geographische Datum:** 35° 53′ 0″ N; 76° 31′ 0″ O; Lambha Pahar; K2; &gt;8000 m ü. MSL; schwerster Normalweg 8000+**Die Merkmale von RaumobjektenSchon anhand dieser beiden Beispiele wird deutlich, dass die Attribute von Raumobjekten nahezu beliebige Ausprägungen aufweisen können. Manche dieser Ausprägungen können physikalischer Natur sein oder beschreiben soziologische Aspekte, verweisen auf Eigentumsrechte, sind fortlaufende Nummern etc.. Sie können Orte identifizieren (z.B. Adressen) oder Räume (z.b. manche Postleitzahlen). Sie können Maßzahlen sein (z.B. Einwohner/Fläche) oder kategoriale Ausprägungen haben (beliebte Kneipe, unbeliebte Kneipe). Da es in den Wissenschaften üblich ist mit Werten, Attributen und ihren Ausprägungen zu arbeiten, sind diese auch im Bereich Geographischer Informationssysteme bekannt. Die Skalenniveaus sind bereits aus der Statistik bekannt und werden Nominal-, Ordinal- und Kardinalskala genannt. Sind Merkmalsausprägungen zeitabhängig werden sie als zyklisch bezeichnet.So einfach Geodaten erzeugt werden können, begegnen wir einer bekannten Problematik. Es ist zwar eindrucksvoll die Temperatur am Flughafen von Havanna um 8.00 Uhr lokaler Zeit am 17.09.2009 als Repräsentation des Wetters verfügbar zu haben. Doch wie gut beschreibt diese Repräsentation des Wetters den Durchzug eines Hurrikans um 8.15 Uhr des gleichen Tages?Das Problem der AbstraktionDie Welt ist prinzipiell beliebig komplex. Unsere Computer hingegen sind in ihren Möglichkeiten Merkmalsausprägungen zu verarbeiten und abzuspeichern extrem endlich!  Die Möglichkeiten unseres Gehirns liegen irgendwo dazwischen. Als Folge kann, aufgrund mentaler und technischer Beschränktheit, nur eine außerordentlich limitierte Anzahl von Merkmalsausprägungen in die Repräsentation von Echtwelt eingehen. Es besteht folglich die Notwendigkeit zur zielgerichteten Vereinfachung der Echtwelt. Um während der Entwicklung geographischer Repräsentationen einen objektivierbaren Rahmen für diese Vereinfachungen zu haben, werden diese immer skalenorientiert auf der  Raum- und Zeitskala durchgeführt.Aufgrund der Vielzahl von Möglichkeiten zur Reduktionen in der Erdbeschreibung gibt es für diesen Prozess innerhalb der GI eine unüberschaubare Vielzahl von Konzepten und Vorgehensweisen. Die Frage einer sinnhaften, gültigen und zweckdienlichen Vereinfachung von Repräsentationen von Echtwelt wird uns ständig beschäftigen.Daten sind abstrahierte WirklichkeitGeodaten sind Merkmalsausprägungen, die hinsichtlich eines spezifischen Zwecks,  Geoobjekten (diskrete Gegenstände oder kontinuierliche Raumeigenschaften) zielführend charakterisieren. Geoobjekte sind immer Repräsentationen real existierender Objekte, die durch eine Position im Raum direkt (z.B. durch Koordinaten = Geometrie) oder indirekt (z.B. durch Beziehungen = Topologie) referenzierbar (=verortet) sind. Sie sind immer formale Kodierungen der Eigenschaften und der zugehörigen Interpretation (=Informationen) dieser echten Objekte (vgl. Abb. 01-08). ``Abbildung 01-08: Schematische Strukturierung eines Geoobjekts in räumliche, dynamische und inhaltliche Aspekte (GIS.MA 2009)Denken Sie mit…Versuchen Sie diese sehr abstrakte Sichtweise auf räumliche Daten und Informationen im GIS-Alltag wiederzufinden. Besuchen Sie die  folgenden Webseiten.Hier die Links:  Öffentliche WCs in Australien  Aktuelle Pegel Lahn  Bad Arolsen  CineplexReflektieren Sie anhand der nachfolgenden Leitfragen:  Welche Merkmale/Merkmalsausprägungen werden genannt (evtl. auch welche werden nicht genannt)?  Ist die Abstraktion für den von Ihnen vermuteten Zweck (Zielsetzung) sinnvoll?  Ist der geographische Aspekt für Sie ersichtlich?  Gibt es formale/inhaltliche Unterschiede in der geographischen Repräsentation der Bad Arolsener Lufthygiene-Messstation und des Marburger Cineplex?">
-    <meta itemprop="datePublished" content="2022-03-12T00:14:21+01:00">
+    <meta itemprop="datePublished" content="2022-03-12T00:15:24+01:00">
     
 
     <div class="page__inner-wrap">
@@ -589,7 +589,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:14:21+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:15:24+01:00">March 12, 2022</time></p>
         
       </footer>
 
@@ -598,11 +598,11 @@
       
   <nav class="pagination">
     
-      <a href="/bsc-qgis-2021/unit01/unit01-03_reader_geo_raum.html" class="pagination--pager" title="Objekte im Raum
+      <a href="/bsc-gi-2021/unit01/unit01-03_reader_geo_raum.html" class="pagination--pager" title="Objekte im Raum
 ">Previous</a>
     
     
-      <a href="/bsc-qgis-2021/unit01/unit01-06_reader_geo_raum.html" class="pagination--pager" title="Zusammenfassung – Geographischer Raum
+      <a href="/bsc-gi-2021/unit01/unit01-06_reader_geo_raum.html" class="pagination--pager" title="Zusammenfassung – Geographischer Raum
 ">Next</a>
     
   </nav>
@@ -637,7 +637,7 @@
     
     
     
-    <li><a href="http://localhost:4000/bsc-qgis-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="http://localhost:4000/bsc-gi-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -650,7 +650,7 @@
     </div>
 
     
-  <script src="/bsc-qgis-2021/assets/js/main.min.js"></script>
+  <script src="/bsc-gi-2021/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 

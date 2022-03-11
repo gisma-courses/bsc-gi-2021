@@ -20,25 +20,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GISMA course resources">
 <meta property="og:title" content="– Funktionale Ableitungen">
-<meta property="og:url" content="http://localhost:4000/bsc-qgis-2021/unit04/unit04-05_reader_rasteranalyse.html">
+<meta property="og:url" content="http://localhost:4000/bsc-gi-2021/unit04/unit04-05_reader_rasteranalyse.html">
 
 
   <meta property="og:description" content="Das Phänomen Gelände spielt in vielen räumlichen Vorstellungen eine zentrale Rolle. Diese reicht von der kognitiven Wahrnehmung z.B. der Frage Was ist ein Wanderweg? (vgl. Abbildung) bis zur zuvor skizzierten formalen, quantitativen Ableitung von Eigenschaften. In einem GIS werden die Informationen über die Form einer Geländeoberfläche in der Regel aus Höheninformationen abgeleitet. Diese Höheninformation wird in einem digitalen Geländemodell (DGM) gespeichert. Digitale Geländemodelle bestehen zunächst nur aus einer spezifischen Höheninformation für einen definierten Raumausschnitt (Rasterzelle, Punkt, Polygon). Auf der Basis dieser Primärinformation werden zahlreiche zusätzliche Informationen abgeleitet. Nachfolgend sollen am Beispiel der Hangneigung, Exposition und Kurvatur skizziert werden, wie die Ableitungen mit Hilfe von Funktionen berechnet werden. Entscheidend ist weniger die verwendete Mathematik als vielmehr die resultierenden Informationen, die für die unterschiedlichsten Fragestellungen verfügbar ist.                              Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)               Hangneigung  Auf einer (Gelände-)Oberfläche ist die Neigung (oder auch: Hangneigung) an einem Punkt gegeben durch die Tangentialebene. Das steilste Gefälle auf dieser Tangentialebene bezeichnet man als Neigung (engl. slope). Die Neigung lässt sich aus den Ableitungen der Oberfläche in der Richtung der x-Koordinate und derjenigen in Richtung der y-Koordinate berechnen.  Um die Neigung aus einem Höhenmodell zu berechnen, braucht man daher eine Methode, mit der man Ableitungen aus den Höhenwerten schätzen kann. Die gängigste Art, dies für ein gitterbasiertes Geländemodell zu tun, ist unter dem Namen „finite Differenzen“ bekannt (Horn 1981).  Um das Prinzip der finiten Differenzen zu erläutern, sei zuerst auf den eindimensionalen Fall eines Profils (statt einer Oberfläche) zurückgegriffen. Die folgende Abbildung zeigt, wie durch Bildung des Quotienten der Differenzen der Höhe (dz) und in der Ebene (dx) zuerst die erste Ableitung (Slope), und davon ausgehend die zweite Ableitung (Curvature) geschätzt werden kann. Die gewählte Schrittweite in x-Richtung ist in diesem Fall gleich 4. Das heißt, es wird die finite Differenz bezgl. der beiden zweiten Nachbarn nach links bzw. nach rechts vom zentralen Punkt aus gebildet. Diesem zentralen Punkt wird sodann der Wert der Ableitung zugewiesen. In der Abbildung sind der Zentralpunkt sowie dz und dx entsprechend rot markiert.                        Für den zweidimensionalen Fall einer Oberfläche gibt (Horn 1981) die Formeln zur Schätzung der Neigung mittels finiten Differenzen:                                                 mit                                                 Die Nummerierung der Punkte in der 3-3-Nachbarschaft um den Zentralpunkt (z5) zur Bildung der Differenzen ist aus der nachstehenden Abbildung ersichtlich. In den Formeln der finiten Differenzen oben fällt auf, dass die Differenzen, die durch den Zentralpunkt führen, doppelt gewichtet sind.                                                 Exposition  Unter Exposition (engl. aspect) versteht man die Richtung (im Uhrzeigersinn von Norden = Azimut) des steilsten Gefälles der Tangentialebene oder einfacher die Ausrichtung des Hanges zur Himmelsrichtung. Wiederum benötigt man die Ableitungen in x- und y-Richtung zur Berechnung, wie sie für die Berechnung der Hangneigung schon gebildet wurden (Horn 1981):                                                 mit                                                 Zusätzlich muss man für die Berechnung unterscheiden, ob die Werte dieser Ableitungen negativ, null oder positiv sind.  Krümmung  Die Kurvatur (engl. curvature) oder Krümmung  ist die zweite Ableitung einer Oberfläche an einem bestimmten Punkt in eine bestimmte Richtung. Bei digitalen Geländemodellen sind insbesondere die Profilkurvatur (Kurvatur in Richtung des steilsten Gefälles) und die Plankurvatur (Kurvatur in Richtung der Höhenlinie) von besonderem Interesse. Die Kurvaturwerte sind bei Konvexität (erhabene Formen) negativ und positiv bei Konkavität (Hohlformen).                        ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L03.png">
+  <meta property="og:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L03.png">
 
 
 
   <meta name="twitter:site" content="@creuden">
   <meta name="twitter:title" content="– Funktionale Ableitungen">
   <meta name="twitter:description" content="Das Phänomen Gelände spielt in vielen räumlichen Vorstellungen eine zentrale Rolle. Diese reicht von der kognitiven Wahrnehmung z.B. der Frage Was ist ein Wanderweg? (vgl. Abbildung) bis zur zuvor skizzierten formalen, quantitativen Ableitung von Eigenschaften. In einem GIS werden die Informationen über die Form einer Geländeoberfläche in der Regel aus Höheninformationen abgeleitet. Diese Höheninformation wird in einem digitalen Geländemodell (DGM) gespeichert. Digitale Geländemodelle bestehen zunächst nur aus einer spezifischen Höheninformation für einen definierten Raumausschnitt (Rasterzelle, Punkt, Polygon). Auf der Basis dieser Primärinformation werden zahlreiche zusätzliche Informationen abgeleitet. Nachfolgend sollen am Beispiel der Hangneigung, Exposition und Kurvatur skizziert werden, wie die Ableitungen mit Hilfe von Funktionen berechnet werden. Entscheidend ist weniger die verwendete Mathematik als vielmehr die resultierenden Informationen, die für die unterschiedlichsten Fragestellungen verfügbar ist.                              Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)               Hangneigung  Auf einer (Gelände-)Oberfläche ist die Neigung (oder auch: Hangneigung) an einem Punkt gegeben durch die Tangentialebene. Das steilste Gefälle auf dieser Tangentialebene bezeichnet man als Neigung (engl. slope). Die Neigung lässt sich aus den Ableitungen der Oberfläche in der Richtung der x-Koordinate und derjenigen in Richtung der y-Koordinate berechnen.  Um die Neigung aus einem Höhenmodell zu berechnen, braucht man daher eine Methode, mit der man Ableitungen aus den Höhenwerten schätzen kann. Die gängigste Art, dies für ein gitterbasiertes Geländemodell zu tun, ist unter dem Namen „finite Differenzen“ bekannt (Horn 1981).  Um das Prinzip der finiten Differenzen zu erläutern, sei zuerst auf den eindimensionalen Fall eines Profils (statt einer Oberfläche) zurückgegriffen. Die folgende Abbildung zeigt, wie durch Bildung des Quotienten der Differenzen der Höhe (dz) und in der Ebene (dx) zuerst die erste Ableitung (Slope), und davon ausgehend die zweite Ableitung (Curvature) geschätzt werden kann. Die gewählte Schrittweite in x-Richtung ist in diesem Fall gleich 4. Das heißt, es wird die finite Differenz bezgl. der beiden zweiten Nachbarn nach links bzw. nach rechts vom zentralen Punkt aus gebildet. Diesem zentralen Punkt wird sodann der Wert der Ableitung zugewiesen. In der Abbildung sind der Zentralpunkt sowie dz und dx entsprechend rot markiert.                        Für den zweidimensionalen Fall einer Oberfläche gibt (Horn 1981) die Formeln zur Schätzung der Neigung mittels finiten Differenzen:                                                 mit                                                 Die Nummerierung der Punkte in der 3-3-Nachbarschaft um den Zentralpunkt (z5) zur Bildung der Differenzen ist aus der nachstehenden Abbildung ersichtlich. In den Formeln der finiten Differenzen oben fällt auf, dass die Differenzen, die durch den Zentralpunkt führen, doppelt gewichtet sind.                                                 Exposition  Unter Exposition (engl. aspect) versteht man die Richtung (im Uhrzeigersinn von Norden = Azimut) des steilsten Gefälles der Tangentialebene oder einfacher die Ausrichtung des Hanges zur Himmelsrichtung. Wiederum benötigt man die Ableitungen in x- und y-Richtung zur Berechnung, wie sie für die Berechnung der Hangneigung schon gebildet wurden (Horn 1981):                                                 mit                                                 Zusätzlich muss man für die Berechnung unterscheiden, ob die Werte dieser Ableitungen negativ, null oder positiv sind.  Krümmung  Die Kurvatur (engl. curvature) oder Krümmung  ist die zweite Ableitung einer Oberfläche an einem bestimmten Punkt in eine bestimmte Richtung. Bei digitalen Geländemodellen sind insbesondere die Profilkurvatur (Kurvatur in Richtung des steilsten Gefälles) und die Plankurvatur (Kurvatur in Richtung der Höhenlinie) von besonderem Interesse. Die Kurvaturwerte sind bei Konvexität (erhabene Formen) negativ und positiv bei Konkavität (Hohlformen).                        ">
-  <meta name="twitter:url" content="http://localhost:4000/bsc-qgis-2021/unit04/unit04-05_reader_rasteranalyse.html">
+  <meta name="twitter:url" content="http://localhost:4000/bsc-gi-2021/unit04/unit04-05_reader_rasteranalyse.html">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L03.png">
+    <meta name="twitter:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L03.png">
   
 
   
@@ -47,14 +47,14 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:14:21+01:00">
+  <meta property="article:published_time" content="2022-03-12T00:15:24+01:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/bsc-qgis-2021/unit04/unit04-05_reader_rasteranalyse.html">
+<link rel="canonical" href="http://localhost:4000/bsc-gi-2021/unit04/unit04-05_reader_rasteranalyse.html">
 
 
 
@@ -65,7 +65,7 @@
     
       "@type": "Person",
       "name": "GISMA course resources",
-      "url": "http://localhost:4000/bsc-qgis-2021/"
+      "url": "http://localhost:4000/bsc-gi-2021/"
     
   }
 </script>
@@ -78,7 +78,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/bsc-qgis-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
+<link href="/bsc-gi-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/bsc-qgis-2021/assets/css/main.css">
+<link rel="stylesheet" href="/bsc-gi-2021/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -133,17 +133,17 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-    	<a class="site-title" href="http://localhost:4000/bsc-qgis-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-qgis-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
+    	<a class="site-title" href="http://localhost:4000/bsc-gi-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-gi-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
         <ul class="visible-links">
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//units.html" >Kurseinheiten</a>
+              <a href="http://localhost:4000/bsc-gi-2021//units.html" >Kurseinheiten</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//unit00/unit00-04_faq.html" >FAQ</a>
+              <a href="http://localhost:4000/bsc-gi-2021//unit00/unit00-04_faq.html" >FAQ</a>
             </li>
           
             
@@ -158,12 +158,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//sitemap.html" >Seitenübersicht</a>
+              <a href="http://localhost:4000/bsc-gi-2021//sitemap.html" >Seitenübersicht</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//downloads.html" >Downloads</a>
+              <a href="http://localhost:4000/bsc-gi-2021//downloads.html" >Downloads</a>
             </li>
           
         </ul>
@@ -193,7 +193,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/bsc-qgis-2021/assets/images/splash_L03.png" alt="SRTM ElevationModel Data Marburg" class="page__hero-image">
+    <img src="/bsc-gi-2021/assets/images/splash_L03.png" alt="SRTM ElevationModel Data Marburg" class="page__hero-image">
   
   
     <span class="page__hero-caption">SRTM Elevation Model Data Marburg. CC0 AG UI
@@ -236,7 +236,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit00/unit00-01_learning.html" class="">Formales</a>
+		     <a href="/bsc-gi-2021//unit00/unit00-01_learning.html" class="">Formales</a>
 		  </span>
           <ul>
             
@@ -258,38 +258,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		     <a href="/bsc-gi-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
 		  </span>
           <ul>
             
@@ -320,7 +289,38 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		     <a href="/bsc-gi-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
 		  </span>
           <ul>
             
@@ -348,48 +348,48 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
+		     <a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
 		  </span>
           <ul>
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Rasterbasierte räumliche Analysemethoden</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Rasterbasierte räumliche Analysemethoden</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-02_reader_rasteranalyse.html" class="">Geometrische Analysen - Thiessen Polygone</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-02_reader_rasteranalyse.html" class="">Geometrische Analysen - Thiessen Polygone</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-03_reader_rasteranalyse.html" class="">Informationsloser Raum  – Distanz-basierte Interpolation</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-03_reader_rasteranalyse.html" class="">Informationsloser Raum  – Distanz-basierte Interpolation</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-04_reader_rasteranalyse.html" class="">Digitale Geländemodelle  – Von der Höhe zur komplexen Information</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-04_reader_rasteranalyse.html" class="">Digitale Geländemodelle  – Von der Höhe zur komplexen Information</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-05_reader_rasteranalyse.html" class="active">– Funktionale Ableitungen</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-05_reader_rasteranalyse.html" class="active">– Funktionale Ableitungen</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-06_reader_rasteranalyse.html" class="">– Sichtweite und Sichtfeld</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-06_reader_rasteranalyse.html" class="">– Sichtweite und Sichtfeld</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-07_reader_rasteranalyse.html" class="">– Prozessorientierte Ableitung von Informationen</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-07_reader_rasteranalyse.html" class="">– Prozessorientierte Ableitung von Informationen</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-08_reader_rasteranalyse.html" class="">Quellenverzeichnis</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-08_reader_rasteranalyse.html" class="">Quellenverzeichnis</a></li>
 			  
             
           </ul>
@@ -401,7 +401,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
+		     <a href="/bsc-gi-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
 		  </span>
           <ul>
             
@@ -413,22 +413,6 @@
             
               
 			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
-		  </span>
-          <ul>
             
               
 			  
@@ -442,7 +426,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		     <a href="/bsc-gi-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
 		  </span>
           <ul>
             
@@ -458,7 +442,23 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
+		     <a href="/bsc-gi-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
 		  </span>
           <ul>
             
@@ -494,7 +494,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="– Funktionale Ableitungen">
     <meta itemprop="description" content="Das Phänomen Gelände spielt in vielen räumlichen Vorstellungen eine zentrale Rolle. Diese reicht von der kognitiven Wahrnehmung z.B. der Frage Was ist ein Wanderweg? (vgl. Abbildung) bis zur zuvor skizzierten formalen, quantitativen Ableitung von Eigenschaften.In einem GIS werden die Informationen über die Form einer Geländeoberfläche in der Regel aus Höheninformationen abgeleitet. Diese Höheninformation wird in einem digitalen Geländemodell (DGM) gespeichert. Digitale Geländemodelle bestehen zunächst nur aus einer spezifischen Höheninformation für einen definierten Raumausschnitt (Rasterzelle, Punkt, Polygon). Auf der Basis dieser Primärinformation werden zahlreiche zusätzliche Informationen abgeleitet. Nachfolgend sollen am Beispiel der Hangneigung, Exposition und Kurvatur skizziert werden, wie die Ableitungen mit Hilfe von Funktionen berechnet werden. Entscheidend ist weniger die verwendete Mathematik als vielmehr die resultierenden Informationen, die für die unterschiedlichsten Fragestellungen verfügbar ist.                    Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)        HangneigungAuf einer (Gelände-)Oberfläche ist die Neigung (oder auch: Hangneigung) an einem Punkt gegeben durch die Tangentialebene. Das steilste Gefälle auf dieser Tangentialebene bezeichnet man als Neigung (engl. slope). Die Neigung lässt sich aus den Ableitungen der Oberfläche in der Richtung der x-Koordinate und derjenigen in Richtung der y-Koordinate berechnen.Um die Neigung aus einem Höhenmodell zu berechnen, braucht man daher eine Methode, mit der man Ableitungen aus den Höhenwerten schätzen kann. Die gängigste Art, dies für ein gitterbasiertes Geländemodell zu tun, ist unter dem Namen „finite Differenzen“ bekannt (Horn 1981).Um das Prinzip der finiten Differenzen zu erläutern, sei zuerst auf den eindimensionalen Fall eines Profils (statt einer Oberfläche) zurückgegriffen. Die folgende Abbildung zeigt, wie durch Bildung des Quotienten der Differenzen der Höhe (dz) und in der Ebene (dx) zuerst die erste Ableitung (Slope), und davon ausgehend die zweite Ableitung (Curvature) geschätzt werden kann. Die gewählte Schrittweite in x-Richtung ist in diesem Fall gleich 4. Das heißt, es wird die finite Differenz bezgl. der beiden zweiten Nachbarn nach links bzw. nach rechts vom zentralen Punkt aus gebildet. Diesem zentralen Punkt wird sodann der Wert der Ableitung zugewiesen. In der Abbildung sind der Zentralpunkt sowie dz und dx entsprechend rot markiert.            Für den zweidimensionalen Fall einer Oberfläche gibt (Horn 1981) die Formeln zur Schätzung der Neigung mittels finiten Differenzen:                                    mit                                    Die Nummerierung der Punkte in der 3-3-Nachbarschaft um den Zentralpunkt (z5) zur Bildung der Differenzen ist aus der nachstehenden Abbildung ersichtlich. In den Formeln der finiten Differenzen oben fällt auf, dass die Differenzen, die durch den Zentralpunkt führen, doppelt gewichtet sind.                                    ExpositionUnter Exposition (engl. aspect) versteht man die Richtung (im Uhrzeigersinn von Norden = Azimut) des steilsten Gefälles der Tangentialebene oder einfacher die Ausrichtung des Hanges zur Himmelsrichtung. Wiederum benötigt man die Ableitungen in x- und y-Richtung zur Berechnung, wie sie für die Berechnung der Hangneigung schon gebildet wurden (Horn 1981):                                    mit                                    Zusätzlich muss man für die Berechnung unterscheiden, ob die Werte dieser Ableitungen negativ, null oder positiv sind.KrümmungDie Kurvatur (engl. curvature) oder Krümmung  ist die zweite Ableitung einer Oberfläche an einem bestimmten Punkt in eine bestimmte Richtung.Bei digitalen Geländemodellen sind insbesondere die Profilkurvatur (Kurvatur in Richtung des steilsten Gefälles) und die Plankurvatur (Kurvatur in Richtung der Höhenlinie) von besonderem Interesse. Die Kurvaturwerte sind bei Konvexität (erhabene Formen) negativ und positiv bei Konkavität (Hohlformen).            ">
-    <meta itemprop="datePublished" content="2022-03-12T00:14:21+01:00">
+    <meta itemprop="datePublished" content="2022-03-12T00:15:24+01:00">
     
 
     <div class="page__inner-wrap">
@@ -650,7 +650,7 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:14:21+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:15:24+01:00">March 12, 2022</time></p>
         
       </footer>
 
@@ -659,11 +659,11 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
       
   <nav class="pagination">
     
-      <a href="/bsc-qgis-2021/unit04/unit04-04_reader_rasteranalyse.html" class="pagination--pager" title="Digitale Geländemodelle  – Von der Höhe zur komplexen Information
+      <a href="/bsc-gi-2021/unit04/unit04-04_reader_rasteranalyse.html" class="pagination--pager" title="Digitale Geländemodelle  – Von der Höhe zur komplexen Information
 ">Previous</a>
     
     
-      <a href="/bsc-qgis-2021/unit04/unit04-06_reader_rasteranalyse.html" class="pagination--pager" title="– Sichtweite und Sichtfeld
+      <a href="/bsc-gi-2021/unit04/unit04-06_reader_rasteranalyse.html" class="pagination--pager" title="– Sichtweite und Sichtfeld
 ">Next</a>
     
   </nav>
@@ -698,7 +698,7 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
     
     
     
-    <li><a href="http://localhost:4000/bsc-qgis-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="http://localhost:4000/bsc-gi-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -711,7 +711,7 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
     </div>
 
     
-  <script src="/bsc-qgis-2021/assets/js/main.min.js"></script>
+  <script src="/bsc-gi-2021/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 

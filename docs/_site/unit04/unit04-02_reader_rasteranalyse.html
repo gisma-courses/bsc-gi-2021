@@ -20,25 +20,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GISMA course resources">
 <meta property="og:title" content="Geometrische Analysen - Thiessen Polygone">
-<meta property="og:url" content="http://localhost:4000/bsc-qgis-2021/unit04/unit04-02_reader_rasteranalyse.html">
+<meta property="og:url" content="http://localhost:4000/bsc-gi-2021/unit04/unit04-02_reader_rasteranalyse.html">
 
 
   <meta property="og:description" content="Zum Einstieg in die Thematik der Raumanalyse haben wir die Integration des einfachsten Raumkonzepts, der Voronoi Polygonisierung gestellt. Sie steht beispielhaft für das Erzeugen von geometrisch begründeten raumkontinuierlichen Interpolationskonzepten. Diese Betrachtung wird um einige komplexere Interpolationsverfahren erweitert.  Distanzbeziehungen: Voronoi Polygone als Ableitung von Entfernung und Nachbarschaft  Wir erweitern nun unser Wissen über die Analyse von Distanzen zwischen räumlichen Objekten. Es ist häufig sinnvoll, in einer ersten Analyse ohne räumlich einschränkende Bedingungen zu arbeiten, z.B. dann wenn diese Informationen fehlen. Die Bezeichnung „Nähe“ (Proximität) verweist auf eine gewisse Ungenauigkeit. Als qualitative Begriffe können hierfür verwendet werden: „nah“, „weit“ oder „in der Nachbarschaft von“. Für GI-Systeme müssen diese Begriffe objektiviert und operationalisiert werden. Diesem Maß muss folglich ein Distanzkonzept zugrunde gelegt werden z. B. die euklidische Distanz oder Wegzeiten. In einem zweiten interpretativen Schritt muss anschließend entschieden werden, welche Einheiten diese Art der Nähe definieren. Es gibt im Sinne der Zielsetzung einer Fragestellung nur geeignete und weniger geeignete Maße, nicht aber richtige oder falsche. Daher ist es von zentraler Bedeutung, dass man für die untersuchten Objekte eine sinnvolle Nachbarschaftsbeziehung definiert.  In Analysen der Nähe oder Nachbarschaft geht es häufig um Einflussgebiete oder Einzugsgebiete also um räumliche Wirkungs- oder Prozessmuster. Sie kennen bereits solche Fragen andere sind jedioch neu oder komplexer:     Welche oder wie viele Diskotheken liegen im Umkreis von 300m um einen bestimmten Standort (Outdoorcamp)?   Wie viele Täler können von einem Aussichtspunkt eingesehen werden?   Liegt ein bestimmter Standort in der Lärmzone eines Fun-Parks?   In der Folge werden einige Methoden zur Berechnung von Distanzen zwischen Raumobjekten etwas ausführlicher als bisher erörtert. Wegen der unterschiedlichen Art der Diskretisierung des Raums muss -wie bereits gewohnt- zwischen Vektor- und Rastermodell unterschieden werden.  Voronoi-Polygone  Thiessen- oder auch Voronoi-Polygone sind eine elementare Methode, um Nähe (Proximität) bzw. Nachbarschaften  geometrisch zu bestimmen. Thiessen-Polygone (vgl. Abbildung unten rechts) können verwendet werden, wenn Regionen gesucht sind, die am nächsten zu einem Punkt aus einer Menge von unregelmäßig verteilten Punkten liegen. Ein Thiessen-Polygon definiert im zweidimensionalen Fall eine Fläche um einen Punkt, in der jede Raumstelle näher an diesem Punkt liegt als an irgendeinem anderen Punkt. Solche Konstrukte können auch in höheren Dimensionen gebildet werden, wobei dann Thiessen- oder Voronoi-Polyeder entstehen.                                                                                         (links) Unregelmäíg verteilte Punkte im Raum (z.B. Parkbänke) , (rechts) korrespondierende ThiessenPolygone zu den punkten links (GITTA 2005)       Man kann Voronoi-Diagramme auch um eindimensionale Objekte (Linien) bilden, was dann zu komplexeren Formen führt (siehe unten stehende Abbildung). In dieser Unit beschränken wir uns jedoch auf den einfachsten und am häufigsten verwendeten Fall von Thiessen-Polygonen für Punkte. Eine weiterführende Diskussion bietet (Boots 1999).  Thiessen-Polygone  Da Thiessen-Polygone einem in der Natur (z. B. Pflanzenzellen) und in den Raumwissenschaften häufig beobachteten Organisationsprinzip (z.B. Zentrale Orte nach Christaller) entsprechen, sind die Anwendungsmöglichkeiten mannigfaltig. Zum Beispiel können Thiessen-Polygone in erster Näherung verwendet werden, um aus unregelmäßig und isoliert erhobenen Bodenproben Bodenkarten zu erstellen. Dabei muß die Annahme getroffen werden, dass nichts weiter über den Raum zwischen den beprobten Orten bekannt ist und die Grenzlinie zwischen zwei Stichproben mit unterschiedlichem Bodentyp willkürlich auf halben Weg zwischen ihnen liegt (sieh z.B. Jones 1997, S. 48). Die Thiessen-Polygone können auch verwendet werden, um Einzugsgebiete von Geschäften oder Dienstleistungseinrichtungen abzugrenzen, wenn keine weiteren Informationen über raumwirksame Strukturen zur Verfügung stehen.  Exkurs_ Wie werden Thiessen-Polygone im Vektormodell konstruiert? Da Thiessen-Polygone jeweils alle Raumstellen enthalten, die näher beim dazugehörigen Zentrum liegen als bei irgendeinem anderen Zentrum, bildet jede Kante eines Thiessen-Polygons jeweils die Isolinie der Entfenungen zu allen benachbarten Zentren. Weil dem so ist, können die Kanten von Thiessen-Polygonen als Mittelsenkrechte auf die Verbindungslinie d zwischen jeweils zwei Zentren gebildet werden. Mittelsenkrechte konstruiert man durch Schneiden zweier Kreise mit Radius d um die betroffenen Paare von Zentren, wie dies die Abbildung unten zeigt. Die Schnittpunkte der verschiedenen Mittelsenkrechten bilden die Eckpunkte eines Thiessen-Polygons.                              Konstruktion von Thiessen-Polygonen (Anonym)               Thiessen-Polygonen im Raster                 Die Ermittlung von Thiessen-Polygonen im Raster ist übrigens auch möglich. Im Raster kann zwar nicht mehr von Polygonen gesprochen werden, doch ist die Berechnung von Proximitätszonen sehr einfach zu bewerkstelligen. Von einer Anzahl von Punkten aus, gegeben als einzelne Zellen in einem Raster, kann ganz einfach eine Distanztransformation berechnet werden. Die Berechnung im Raster hat den Vorteil, dass auch sehr einfach nicht euklidische Metriken, Gewichtungsfaktoren usw. eingeführt werden                                       Thiessen-Polygone in einem Raster mit kleiner Auflösung (GITTA 2005)               Denken Sie mit…  Konstruieren Sie auf der folgenden Grafik aus den gegebenen Punkten auf einem Papier (ausdrucken) die dazugehörenden Thiessen-Polygone. Was für eine Metrik ist der Konstruktion unterlegt?                              Thiessen-Polygone Übung (GITTA 2005)               ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L03.png">
+  <meta property="og:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L03.png">
 
 
 
   <meta name="twitter:site" content="@creuden">
   <meta name="twitter:title" content="Geometrische Analysen - Thiessen Polygone">
   <meta name="twitter:description" content="Zum Einstieg in die Thematik der Raumanalyse haben wir die Integration des einfachsten Raumkonzepts, der Voronoi Polygonisierung gestellt. Sie steht beispielhaft für das Erzeugen von geometrisch begründeten raumkontinuierlichen Interpolationskonzepten. Diese Betrachtung wird um einige komplexere Interpolationsverfahren erweitert.  Distanzbeziehungen: Voronoi Polygone als Ableitung von Entfernung und Nachbarschaft  Wir erweitern nun unser Wissen über die Analyse von Distanzen zwischen räumlichen Objekten. Es ist häufig sinnvoll, in einer ersten Analyse ohne räumlich einschränkende Bedingungen zu arbeiten, z.B. dann wenn diese Informationen fehlen. Die Bezeichnung „Nähe“ (Proximität) verweist auf eine gewisse Ungenauigkeit. Als qualitative Begriffe können hierfür verwendet werden: „nah“, „weit“ oder „in der Nachbarschaft von“. Für GI-Systeme müssen diese Begriffe objektiviert und operationalisiert werden. Diesem Maß muss folglich ein Distanzkonzept zugrunde gelegt werden z. B. die euklidische Distanz oder Wegzeiten. In einem zweiten interpretativen Schritt muss anschließend entschieden werden, welche Einheiten diese Art der Nähe definieren. Es gibt im Sinne der Zielsetzung einer Fragestellung nur geeignete und weniger geeignete Maße, nicht aber richtige oder falsche. Daher ist es von zentraler Bedeutung, dass man für die untersuchten Objekte eine sinnvolle Nachbarschaftsbeziehung definiert.  In Analysen der Nähe oder Nachbarschaft geht es häufig um Einflussgebiete oder Einzugsgebiete also um räumliche Wirkungs- oder Prozessmuster. Sie kennen bereits solche Fragen andere sind jedioch neu oder komplexer:     Welche oder wie viele Diskotheken liegen im Umkreis von 300m um einen bestimmten Standort (Outdoorcamp)?   Wie viele Täler können von einem Aussichtspunkt eingesehen werden?   Liegt ein bestimmter Standort in der Lärmzone eines Fun-Parks?   In der Folge werden einige Methoden zur Berechnung von Distanzen zwischen Raumobjekten etwas ausführlicher als bisher erörtert. Wegen der unterschiedlichen Art der Diskretisierung des Raums muss -wie bereits gewohnt- zwischen Vektor- und Rastermodell unterschieden werden.  Voronoi-Polygone  Thiessen- oder auch Voronoi-Polygone sind eine elementare Methode, um Nähe (Proximität) bzw. Nachbarschaften  geometrisch zu bestimmen. Thiessen-Polygone (vgl. Abbildung unten rechts) können verwendet werden, wenn Regionen gesucht sind, die am nächsten zu einem Punkt aus einer Menge von unregelmäßig verteilten Punkten liegen. Ein Thiessen-Polygon definiert im zweidimensionalen Fall eine Fläche um einen Punkt, in der jede Raumstelle näher an diesem Punkt liegt als an irgendeinem anderen Punkt. Solche Konstrukte können auch in höheren Dimensionen gebildet werden, wobei dann Thiessen- oder Voronoi-Polyeder entstehen.                                                                                         (links) Unregelmäíg verteilte Punkte im Raum (z.B. Parkbänke) , (rechts) korrespondierende ThiessenPolygone zu den punkten links (GITTA 2005)       Man kann Voronoi-Diagramme auch um eindimensionale Objekte (Linien) bilden, was dann zu komplexeren Formen führt (siehe unten stehende Abbildung). In dieser Unit beschränken wir uns jedoch auf den einfachsten und am häufigsten verwendeten Fall von Thiessen-Polygonen für Punkte. Eine weiterführende Diskussion bietet (Boots 1999).  Thiessen-Polygone  Da Thiessen-Polygone einem in der Natur (z. B. Pflanzenzellen) und in den Raumwissenschaften häufig beobachteten Organisationsprinzip (z.B. Zentrale Orte nach Christaller) entsprechen, sind die Anwendungsmöglichkeiten mannigfaltig. Zum Beispiel können Thiessen-Polygone in erster Näherung verwendet werden, um aus unregelmäßig und isoliert erhobenen Bodenproben Bodenkarten zu erstellen. Dabei muß die Annahme getroffen werden, dass nichts weiter über den Raum zwischen den beprobten Orten bekannt ist und die Grenzlinie zwischen zwei Stichproben mit unterschiedlichem Bodentyp willkürlich auf halben Weg zwischen ihnen liegt (sieh z.B. Jones 1997, S. 48). Die Thiessen-Polygone können auch verwendet werden, um Einzugsgebiete von Geschäften oder Dienstleistungseinrichtungen abzugrenzen, wenn keine weiteren Informationen über raumwirksame Strukturen zur Verfügung stehen.  Exkurs_ Wie werden Thiessen-Polygone im Vektormodell konstruiert? Da Thiessen-Polygone jeweils alle Raumstellen enthalten, die näher beim dazugehörigen Zentrum liegen als bei irgendeinem anderen Zentrum, bildet jede Kante eines Thiessen-Polygons jeweils die Isolinie der Entfenungen zu allen benachbarten Zentren. Weil dem so ist, können die Kanten von Thiessen-Polygonen als Mittelsenkrechte auf die Verbindungslinie d zwischen jeweils zwei Zentren gebildet werden. Mittelsenkrechte konstruiert man durch Schneiden zweier Kreise mit Radius d um die betroffenen Paare von Zentren, wie dies die Abbildung unten zeigt. Die Schnittpunkte der verschiedenen Mittelsenkrechten bilden die Eckpunkte eines Thiessen-Polygons.                              Konstruktion von Thiessen-Polygonen (Anonym)               Thiessen-Polygonen im Raster                 Die Ermittlung von Thiessen-Polygonen im Raster ist übrigens auch möglich. Im Raster kann zwar nicht mehr von Polygonen gesprochen werden, doch ist die Berechnung von Proximitätszonen sehr einfach zu bewerkstelligen. Von einer Anzahl von Punkten aus, gegeben als einzelne Zellen in einem Raster, kann ganz einfach eine Distanztransformation berechnet werden. Die Berechnung im Raster hat den Vorteil, dass auch sehr einfach nicht euklidische Metriken, Gewichtungsfaktoren usw. eingeführt werden                                       Thiessen-Polygone in einem Raster mit kleiner Auflösung (GITTA 2005)               Denken Sie mit…  Konstruieren Sie auf der folgenden Grafik aus den gegebenen Punkten auf einem Papier (ausdrucken) die dazugehörenden Thiessen-Polygone. Was für eine Metrik ist der Konstruktion unterlegt?                              Thiessen-Polygone Übung (GITTA 2005)               ">
-  <meta name="twitter:url" content="http://localhost:4000/bsc-qgis-2021/unit04/unit04-02_reader_rasteranalyse.html">
+  <meta name="twitter:url" content="http://localhost:4000/bsc-gi-2021/unit04/unit04-02_reader_rasteranalyse.html">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://localhost:4000/bsc-qgis-2021/assets/images/splash_L03.png">
+    <meta name="twitter:image" content="http://localhost:4000/bsc-gi-2021/assets/images/splash_L03.png">
   
 
   
@@ -47,14 +47,14 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:14:21+01:00">
+  <meta property="article:published_time" content="2022-03-12T00:15:24+01:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/bsc-qgis-2021/unit04/unit04-02_reader_rasteranalyse.html">
+<link rel="canonical" href="http://localhost:4000/bsc-gi-2021/unit04/unit04-02_reader_rasteranalyse.html">
 
 
 
@@ -65,7 +65,7 @@
     
       "@type": "Person",
       "name": "GISMA course resources",
-      "url": "http://localhost:4000/bsc-qgis-2021/"
+      "url": "http://localhost:4000/bsc-gi-2021/"
     
   }
 </script>
@@ -78,7 +78,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/bsc-qgis-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
+<link href="/bsc-gi-2021/feed.xml" type="application/atom+xml" rel="alternate" title="GISMA course resources Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/bsc-qgis-2021/assets/css/main.css">
+<link rel="stylesheet" href="/bsc-gi-2021/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -133,17 +133,17 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-    	<a class="site-title" href="http://localhost:4000/bsc-qgis-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-qgis-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
+    	<a class="site-title" href="http://localhost:4000/bsc-gi-2021/" style="padding:0px"><img src="http://localhost:4000/bsc-gi-2021/assets/images/logo_umr.png" style="padding-right:15px">GISMA course resources</a>
         <ul class="visible-links">
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//units.html" >Kurseinheiten</a>
+              <a href="http://localhost:4000/bsc-gi-2021//units.html" >Kurseinheiten</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//unit00/unit00-04_faq.html" >FAQ</a>
+              <a href="http://localhost:4000/bsc-gi-2021//unit00/unit00-04_faq.html" >FAQ</a>
             </li>
           
             
@@ -158,12 +158,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//sitemap.html" >Seitenübersicht</a>
+              <a href="http://localhost:4000/bsc-gi-2021//sitemap.html" >Seitenübersicht</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-qgis-2021//downloads.html" >Downloads</a>
+              <a href="http://localhost:4000/bsc-gi-2021//downloads.html" >Downloads</a>
             </li>
           
         </ul>
@@ -193,7 +193,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/bsc-qgis-2021/assets/images/splash_L03.png" alt="SRTM ElevationModel Data Marburg" class="page__hero-image">
+    <img src="/bsc-gi-2021/assets/images/splash_L03.png" alt="SRTM ElevationModel Data Marburg" class="page__hero-image">
   
   
     <span class="page__hero-caption">SRTM Elevation Model Data Marburg. CC0 AG UI
@@ -236,7 +236,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit00/unit00-01_learning.html" class="">Formales</a>
+		     <a href="/bsc-gi-2021//unit00/unit00-01_learning.html" class="">Formales</a>
 		  </span>
           <ul>
             
@@ -258,38 +258,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
-		  </span>
-          <ul>
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		     <a href="/bsc-gi-2021//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
 		  </span>
           <ul>
             
@@ -320,7 +289,38 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		     <a href="/bsc-gi-2021//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
 		  </span>
           <ul>
             
@@ -348,48 +348,48 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
+		     <a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
 		  </span>
           <ul>
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Rasterbasierte räumliche Analysemethoden</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-01_reader_rasteranalyse.html" class="">Rasterbasierte räumliche Analysemethoden</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-02_reader_rasteranalyse.html" class="active">Geometrische Analysen - Thiessen Polygone</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-02_reader_rasteranalyse.html" class="active">Geometrische Analysen - Thiessen Polygone</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-03_reader_rasteranalyse.html" class="">Informationsloser Raum  – Distanz-basierte Interpolation</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-03_reader_rasteranalyse.html" class="">Informationsloser Raum  – Distanz-basierte Interpolation</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-04_reader_rasteranalyse.html" class="">Digitale Geländemodelle  – Von der Höhe zur komplexen Information</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-04_reader_rasteranalyse.html" class="">Digitale Geländemodelle  – Von der Höhe zur komplexen Information</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-05_reader_rasteranalyse.html" class="">– Funktionale Ableitungen</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-05_reader_rasteranalyse.html" class="">– Funktionale Ableitungen</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-06_reader_rasteranalyse.html" class="">– Sichtweite und Sichtfeld</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-06_reader_rasteranalyse.html" class="">– Sichtweite und Sichtfeld</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-07_reader_rasteranalyse.html" class="">– Prozessorientierte Ableitung von Informationen</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-07_reader_rasteranalyse.html" class="">– Prozessorientierte Ableitung von Informationen</a></li>
 			  
             
               
 			  
-			    <li><a href="/bsc-qgis-2021//unit04/unit04-08_reader_rasteranalyse.html" class="">Quellenverzeichnis</a></li>
+			    <li><a href="/bsc-gi-2021//unit04/unit04-08_reader_rasteranalyse.html" class="">Quellenverzeichnis</a></li>
 			  
             
           </ul>
@@ -401,7 +401,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
+		     <a href="/bsc-gi-2021//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
 		  </span>
           <ul>
             
@@ -413,22 +413,6 @@
             
               
 			  
-            
-              
-			  
-            
-          </ul>
-        </li>
-	  
-    
-      
-      
-        
-        <li>
-          <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
-		  </span>
-          <ul>
             
               
 			  
@@ -442,7 +426,7 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		     <a href="/bsc-gi-2021//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
 		  </span>
           <ul>
             
@@ -458,7 +442,23 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-qgis-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
+		     <a href="/bsc-gi-2021//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/bsc-gi-2021//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
 		  </span>
           <ul>
             
@@ -494,7 +494,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Geometrische Analysen - Thiessen Polygone">
     <meta itemprop="description" content="Zum Einstieg in die Thematik der Raumanalyse haben wir die Integration des einfachsten Raumkonzepts, der Voronoi Polygonisierung gestellt. Sie steht beispielhaft für das Erzeugen von geometrisch begründeten raumkontinuierlichen Interpolationskonzepten. Diese Betrachtung wird um einige komplexere Interpolationsverfahren erweitert.Distanzbeziehungen: Voronoi Polygone als Ableitung von Entfernung und NachbarschaftWir erweitern nun unser Wissen über die Analyse von Distanzen zwischen räumlichen Objekten. Es ist häufig sinnvoll, in einer ersten Analyse ohne räumlich einschränkende Bedingungen zu arbeiten, z.B. dann wenn diese Informationen fehlen. Die Bezeichnung „Nähe“ (Proximität) verweist auf eine gewisse Ungenauigkeit. Als qualitative Begriffe können hierfür verwendet werden: „nah“, „weit“ oder „in der Nachbarschaft von“. Für GI-Systeme müssen diese Begriffe objektiviert und operationalisiert werden. Diesem Maß muss folglich ein Distanzkonzept zugrunde gelegt werden z. B. die euklidische Distanz oder Wegzeiten. In einem zweiten interpretativen Schritt muss anschließend entschieden werden, welche Einheiten diese Art der Nähe definieren. Es gibt im Sinne der Zielsetzung einer Fragestellung nur geeignete und weniger geeignete Maße, nicht aber richtige oder falsche. Daher ist es von zentraler Bedeutung, dass man für die untersuchten Objekte eine sinnvolle Nachbarschaftsbeziehung definiert.In Analysen der Nähe oder Nachbarschaft geht es häufig um Einflussgebiete oder Einzugsgebiete also um räumliche Wirkungs- oder Prozessmuster. Sie kennen bereits solche Fragen andere sind jedioch neu oder komplexer:  Welche oder wie viele Diskotheken liegen im Umkreis von 300m um einen bestimmten Standort (Outdoorcamp)?  Wie viele Täler können von einem Aussichtspunkt eingesehen werden?  Liegt ein bestimmter Standort in der Lärmzone eines Fun-Parks?In der Folge werden einige Methoden zur Berechnung von Distanzen zwischen Raumobjekten etwas ausführlicher als bisher erörtert. Wegen der unterschiedlichen Art der Diskretisierung des Raums muss -wie bereits gewohnt- zwischen Vektor- und Rastermodell unterschieden werden.Voronoi-PolygoneThiessen- oder auch Voronoi-Polygone sind eine elementare Methode, um Nähe (Proximität) bzw. Nachbarschaften  geometrisch zu bestimmen. Thiessen-Polygone (vgl. Abbildung unten rechts) können verwendet werden, wenn Regionen gesucht sind, die am nächsten zu einem Punkt aus einer Menge von unregelmäßig verteilten Punkten liegen. Ein Thiessen-Polygon definiert im zweidimensionalen Fall eine Fläche um einen Punkt, in der jede Raumstelle näher an diesem Punkt liegt als an irgendeinem anderen Punkt. Solche Konstrukte können auch in höheren Dimensionen gebildet werden, wobei dann Thiessen- oder Voronoi-Polyeder entstehen.                                                                        (links) Unregelmäíg verteilte Punkte im Raum (z.B. Parkbänke) , (rechts) korrespondierende ThiessenPolygone zu den punkten links (GITTA 2005)  Man kann Voronoi-Diagramme auch um eindimensionale Objekte (Linien) bilden, was dann zu komplexeren Formen führt (siehe unten stehende Abbildung). In dieser Unit beschränken wir uns jedoch auf den einfachsten und am häufigsten verwendeten Fall von Thiessen-Polygonen für Punkte. Eine weiterführende Diskussion bietet (Boots 1999).Thiessen-PolygoneDa Thiessen-Polygone einem in der Natur (z. B. Pflanzenzellen) und in den Raumwissenschaften häufig beobachteten Organisationsprinzip (z.B. Zentrale Orte nach Christaller) entsprechen, sind die Anwendungsmöglichkeiten mannigfaltig. Zum Beispiel können Thiessen-Polygone in erster Näherung verwendet werden, um aus unregelmäßig und isoliert erhobenen Bodenproben Bodenkarten zu erstellen. Dabei muß die Annahme getroffen werden, dass nichts weiter über den Raum zwischen den beprobten Orten bekannt ist und die Grenzlinie zwischen zwei Stichproben mit unterschiedlichem Bodentyp willkürlich auf halben Weg zwischen ihnen liegt (sieh z.B. Jones 1997, S. 48). Die Thiessen-Polygone können auch verwendet werden, um Einzugsgebiete von Geschäften oder Dienstleistungseinrichtungen abzugrenzen, wenn keine weiteren Informationen über raumwirksame Strukturen zur Verfügung stehen.Exkurs_ Wie werden Thiessen-Polygone im Vektormodell konstruiert?Da Thiessen-Polygone jeweils alle Raumstellen enthalten, die näher beim dazugehörigen Zentrum liegen als bei irgendeinem anderen Zentrum, bildet jede Kante eines Thiessen-Polygons jeweils die Isolinie der Entfenungen zu allen benachbarten Zentren. Weil dem so ist, können die Kanten von Thiessen-Polygonen als Mittelsenkrechte auf die Verbindungslinie d zwischen jeweils zwei Zentren gebildet werden. Mittelsenkrechte konstruiert man durch Schneiden zweier Kreise mit Radius d um die betroffenen Paare von Zentren, wie dies die Abbildung unten zeigt. Die Schnittpunkte der verschiedenen Mittelsenkrechten bilden die Eckpunkte eines Thiessen-Polygons.                    Konstruktion von Thiessen-Polygonen (Anonym)        Thiessen-Polygonen im Raster            Die Ermittlung von Thiessen-Polygonen im Raster ist übrigens auch möglich. Im Raster kann zwar nicht mehr von Polygonen gesprochen werden, doch ist die Berechnung von Proximitätszonen sehr einfach zu bewerkstelligen. Von einer Anzahl von Punkten aus, gegeben als einzelne Zellen in einem Raster, kann ganz einfach eine Distanztransformation berechnet werden. Die Berechnung im Raster hat den Vorteil, dass auch sehr einfach nicht euklidische Metriken, Gewichtungsfaktoren usw. eingeführt werden                          Thiessen-Polygone in einem Raster mit kleiner Auflösung (GITTA 2005)        Denken Sie mit…Konstruieren Sie auf der folgenden Grafik aus den gegebenen Punkten auf einem Papier (ausdrucken) die dazugehörenden Thiessen-Polygone. Was für eine Metrik ist der Konstruktion unterlegt?                    Thiessen-Polygone Übung (GITTA 2005)        ">
-    <meta itemprop="datePublished" content="2022-03-12T00:14:21+01:00">
+    <meta itemprop="datePublished" content="2022-03-12T00:15:24+01:00">
     
 
     <div class="page__inner-wrap">
@@ -645,7 +645,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:14:21+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:15:24+01:00">March 12, 2022</time></p>
         
       </footer>
 
@@ -654,11 +654,11 @@
       
   <nav class="pagination">
     
-      <a href="/bsc-qgis-2021/unit04/unit04-01_reader_rasteranalyse.html" class="pagination--pager" title="Rasterbasierte räumliche Analysemethoden
+      <a href="/bsc-gi-2021/unit04/unit04-01_reader_rasteranalyse.html" class="pagination--pager" title="Rasterbasierte räumliche Analysemethoden
 ">Previous</a>
     
     
-      <a href="/bsc-qgis-2021/unit04/unit04-03_reader_rasteranalyse.html" class="pagination--pager" title="Informationsloser Raum  – Distanz-basierte Interpolation
+      <a href="/bsc-gi-2021/unit04/unit04-03_reader_rasteranalyse.html" class="pagination--pager" title="Informationsloser Raum  – Distanz-basierte Interpolation
 ">Next</a>
     
   </nav>
@@ -693,7 +693,7 @@
     
     
     
-    <li><a href="http://localhost:4000/bsc-qgis-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="http://localhost:4000/bsc-gi-2021/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -706,7 +706,7 @@
     </div>
 
     
-  <script src="/bsc-qgis-2021/assets/js/main.min.js"></script>
+  <script src="/bsc-gi-2021/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
