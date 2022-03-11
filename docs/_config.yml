@@ -23,12 +23,12 @@
 
 
 # Serve on GitHub
-url: https://geomoer.github.io/
-baseurl: "/moer-bsc-geoinformatics-one/"
+url: https://gisma-courses.github.io/
+baseurl: "/bsc-gi-2021/"
 
 ##### Title ###################################################################
-title: Lab of Environmental Informatics
-name: &name "Lab of Environmental Informatics" # &name is a YAML anchor which can be *referenced later
+title: GISMA course resources
+name: &name "GISMA course resources" # &name is a YAML anchor which can be *referenced later
 email: reudenbach@geo.uni-marburg.de
 description: >- # this means to ignore newlines until next item
   course course-materials geography remote-sensing marburg-open-educational-resource 
@@ -50,10 +50,9 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "https://www.flickr.com/environmentalinformatics-marburg/"
   facebook         : "https://www.facebook.com/GeographieMarburg/"
   foursquare       :
-  github           : "GeoMOER"
+  github           : "gisma-courses"
   gitlab           :
   google_plus      :
   keybase          :
@@ -79,7 +78,7 @@ excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: "GeoMOER/moer-jekyll-theme"
+remote_theme: "https://github.com/gisma-courses/moer-jekyll-theme"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 auto_ids: true
 

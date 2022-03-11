@@ -27,10 +27,10 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Luftbild](https://raw.githubusercontent.com/GeoMOER/moer-bsc-geoinfo-basic/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
-  * [Wald Flächen](https://raw.githubusercontent.com/GeoMOER/moer-bsc-geoinfo-basic/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
-  * [Straßen](https://raw.githubusercontent.com/GeoMOER/moer-bsc-geoinfo-basic/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
-  * [Räumliche Objekte](https://raw.githubusercontent.com/GeoMOER/moer-bsc-geoinfo-basic/master/docs/assets/data/mr_objects.xls) Excel Tabelle.
+  * [Luftbild](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
+  * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
+  * [Straßen](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
+  * [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls) Excel Tabelle.
 
 ### Software
   * [QGIS Installation](https://www.qgis.org/de/site/forusers/alldownloads.html). **Windows Nutzer** Installieren QGIS mit Hilfe des [osgeo4W](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) Installers. **Linux** Nutzer folgen den Anweisungen der [QGIS Installationsseite](https://www.qgis.org/de/site/forusers/alldownloads.html#linux). Weitere Informationen zur finden Sie unter  [hier](https://r-spatial.github.io/link2GI/articles/link2GI6.html).
@@ -55,7 +55,7 @@ Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im G
   * Informieren Sie sich auch bei diesem Datensatz über die Eigenschaften. (Projektion, Datenmodell, Werte-Spektrum)
   * Schneiden Sie den Datensatz `gis_osm_pois_free_1` auf die Ausdehnung des Luftbildes `marburg_RE.tif` zu 
   * Exportieren Sie diese Punktdaten im *geopackage* Datenformat unter dem Namen `mr_points`
-  * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/GeoMOER/moer-bsc-geoinfo-basic/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
+  * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
   * Erstellen Sie auf Grundlage des Luftbildes `marburg_RE.tif`:
       * Drei beliebige Flächen (Polygone), 
       * drei beliebige Straßen (Linienzüge) 
