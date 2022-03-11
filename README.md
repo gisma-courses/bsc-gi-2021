@@ -1,1 +1,1 @@
-# moer-bsc-geoinformatics-one
+# bsc-qgis-2021
