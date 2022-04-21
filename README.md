@@ -1,3 +1,7 @@
+![Course Header](https://gisma-courses.github.io/bsc-gi-2021/assets/images/splash-geoinformatik.jpg "Image source: C.Reudenbach")
+
+
+
 This course is brought to you from the working group on Geoinformatics Science of the [Department of Geography](https://www.uni-marburg.de/fb19).
 
 
