@@ -3,7 +3,7 @@ main:
   - title: "Kurseinheiten"
     url: /units.html
   - title: "FAQ"
-    url: /unit00/unit00-04_faq.html
+    url: /faq.html
   - title: "ILIAS"
     url: https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR
   - title: "Courses"
