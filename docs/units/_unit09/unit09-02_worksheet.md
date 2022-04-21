@@ -71,9 +71,9 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|Aufgabe 02-01 | 0.25  | 0.05  | 
+|Aufgabe 02-01 | 0.25  | 0.1  | 
 |Aufgabe 02-02 | 0.75  | 0.15  | 
-|Aufgabe 02    | 1.0  | 0.2  | 
+|**Aufgabe 02**|**1.0**| **0.25**  | 
 
 
 ## Hilfestellungen 

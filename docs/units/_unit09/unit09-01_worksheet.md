@@ -92,9 +92,9 @@ Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coord
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|Aufgabe 01-01 | 0.5  | 0.1  | 
-|Aufgabe 01-02 | 0.5  | 0.1  | 
-|Aufgabe 01    | 1.0  | 0.2  | 
+|Aufgabe 01-01 | 0.5  | 0.05  | 
+|Aufgabe 01-02 | 0.5  | 0.05  | 
+|**Aufgabe 01**    | **1.0**  | **0.1**  | 
 
 
 ## Hilfestellungen

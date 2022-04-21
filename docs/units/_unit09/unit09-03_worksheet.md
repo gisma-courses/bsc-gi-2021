@@ -37,6 +37,8 @@ Nach dieser Übung können Sie:
   * [SRTM Geländemodell CGIAR](https://srtm.csi.cgiar.org/srtmdata/)
   * [Marburg Stadtgebiet]({{ site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg))
 
+## Aufgaben Lerneinheit 3
+
 ## Aufgabe 03-01
 
 
@@ -53,7 +55,14 @@ Werte.
 * Zeigen sie die Werte in einer Tabelle und  erläutern Sie das Resultat in einem Satz. 
 {: .notice--success}
 
-## Hilfestellung 
+### Gewichtung der Aufgaben in Lerneinheit 3
+
+| Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
+|:-------------|:----------------------:|:-----------------:|
+|**Aufgabe 03-01** | **1.0**  | **0.25** | 
+
+
+## Hilfestellungen 
 
 Alle notwendigen Informationen zu den SRTM Daten finden Sie auf der [CGIAR FAQ Seite](https://srtm.csi.cgiar.org/faq/).
 

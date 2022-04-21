@@ -33,24 +33,26 @@ Nach dieser Übung können Sie:
   *  durch Verrechnen geeigneter Datenebenen eine Eignungsanalyse durchführen
   *  eine Kostenanalyse planen und durchführen
 
-
-## Aufgabe 04-01
-
 ## Benötigte Materialien
 
 * Geländemodell des Marburg Open Forest (MOF) in 1 Meter Auflösung
 * Corine Landnutzung Daten für den MOF
 
 Die Daten finden Sie im  Zip-Archiv  [Daten-Aufgabe-L04]({{ site.baseurl }}/assets/data/Daten-Aufgabe-L04.zip)
+* Open Street Map (OSM) Wegedaten für den  MOF
+* Geländemodell des Marburg Open Forest (MOF) in 1 Meter Auflösung
+* Corine Landnutzung Daten für den MOF
+*  Koordinaten (ETRS89, UTM32 EPSG:25832) Position *Parkplatz*  (478188,5632178), Position Grillhütte (476170,5631657)
 
-### Aufgabe
+## Aufgaben Lerneinheit 4
+
+### Aufgabe 04-01
+
 Sie sollen eine Entscheidungsfindung auf der Grundlage mehrerer Kriterien durchführen. Konkret sollen Sie die Eignung des Uniwalds als Wildkatzenhabitat untersuchen. Hierfür sollen folgende Aussagen gelten:
-
 * Wildkatzen bevorzugen Waldgebiete
 * Wildkatzen bevorzugen mittelsteile und steile Hanglagen
 * Waldgebiete werden gegenüber Hangebieten bevorzugt
-
-### Vorgehensweise Aufgabe 04-01
+{: .notice--success}
 *  Laden Sie die Daten herunter (prüfen Sie diese in gewohnter Weise)
 *  Berechnen Sie die Hangneigung 
 *  Extrahieren Sie die aus den [Corine Landnutzungsdaten](https://land.copernicus.eu/pan-european/corine-land-cover/clc2018?tab=mapview) alle Waldflächen so daß Sie ein Raster mit den Werten 1 für *Waldflächen* und 0 für *Keine Waldflächen* erhalten. (Sie finden bereits zugeschnittene Corine-Daten im heruntergeladenen Archiv unter dem Dateinamen `clc2018_1m_MOF_25832.tif`). Tip dieser Vorgang wird auch Reklassizierung von Daten genannt. 
@@ -60,36 +62,17 @@ Sie sollen eine Entscheidungsfindung auf der Grundlage mehrerer Kriterien durchf
 * Erläutern Sie die Ergebnisse  in max. 2 Sätzen.
 {: .notice--success}
 
-### Hilfestellung 
-
-*  Sie können für die rasterbasierte Umrechnung (Klassifikation/Reklassifikation) der Werte  als generelles Werkzeug den *Raster-Rechner*  oder auch spezielle Werkzeuge wie z.B. das Plugin `WMCA Weighted Multicriteria Analysis` (WMCA) nutzen. Dieses Plugin wird nach der Installation unter dem Haupt-Menü `Raster` angezeigt (Sie müssen evtl. *"Auch experimentelle Erweiterungen anzeigen"* unter den Einstellungen aktivieren).
-* Weitere und deutlich tiefergehende Hilfe für den gesamten Arbeitsablauf finden Sie QGIS-spezifisch unter [Multi Criteria Overlay Analysis (QGIS3)](https://www.qgistutorials.com/en/docs/3/multi_criteria_overlay.html). 
-
-Da es sich bei dieser Vorgehensweise um ein häufig angewandtes Raster-GIS-Konzept handelt, werden Sie unter allen GI Softwarepaketen ähnliche Werkzeuge finden. So ist auch etwas das  [MCE Tutorial für SAGA GIS](https://svwh.dl.sourceforge.net/project/saga-gis/SAGA%20-%20Documentation/Tutorials/Multi_Criteria_Evaluation_Tutorial/MultiTutorial2.pdf) ein hilfreiche Ressource um den Vorgang zu verstehen.
-
 
 ## Aufgabe 04-02
 
-## Benötigte Materialien
-
-* Open Street Map (OSM) Wegedaten für den  MOF
-* Geländemodell des Marburg Open Forest (MOF) in 1 Meter Auflösung
-* Corine Landnutzung Daten für den MOF
-*  Koordinaten (ETRS89, UTM32 EPSG:25832) Position *Parkplatz*  (478188,5632178), Position Grillhütte (476170,5631657)
-
-Die Daten finden Sie im  Zip-Archiv  [Daten-Aufgabe-L04]({{ site.baseurl }}/assets/data/Daten-Aufgabe-L04.zip)
-
-### Aufgabe
-Sie sollen einen Cross-Crountry Fitness-Trail durch den Uniwald (Marburg Open Forest, MOF) bei Caldern planen. Der Trail beginnt am Parkplatz in der Nähe des Kreisverkehrs am südöstlichen Rand und endet am Grillplatz am nordwestlichen Ende. 
+Sie sollen einen Cross-Crountry Fitness-Trail durch den Uniwald (Marburg Open Forest, MOF) bei Caldern planen. Der Trail beginnt am Parkplatz in der Nähe des Kreisverkehrs am südöstlichen Rand und endet am Grillplatz am nordwestlichen Ende. Machen Sie sich zunächst mit dem Konzept der Kostenanalyse vertraut (siehe Hilfestellungen und Reader)
 
 Die Vorgaben zur Streckenplanung sind: 
 * die Strecke soll bevorzugt durch Wald führen
 * die Strecke soll möglichst weit von Wegen entfernt sein
 * die Strecke soll maximale Steigungen bevorzugen 
+{: .notice--success}
 
-### Vorgehensweise
-
-Machen Sie sich zunächst mit dem Konzept der Kostenanalyse vertraut (siehe Hilfestellungen und Reader)
 
 *  Download und Überprüfung der zur Verfügung gestellten Daten
 *  Berechnen Sie die Hangneigung 
@@ -99,9 +82,28 @@ Machen Sie sich zunächst mit dem Konzept der Kostenanalyse vertraut (siehe Hilf
 * Normalisieren (Skalieren) Sie die Rasterwerte
 * Verrechnen Sie die einzelnen Raster zu einem Gesamtkostenraster. Überlegen Sie sich dabei ob allen drei Kriterien gleichgewichtet eingehen sollen, oder ob Sie z.B. der Hangneigung eine höhere Bedeutung zuweisen wollen (z.B. wegen höherem Trainingseffekt).
 * Berechnen Sie auf dieser Grundlage den im Sinne der Vorgaben attraktivsten (=*"kostengünstigsten"*) Weg zwischen dem Start und Zielpunkt.
-
 Beschreiben Sie das Ergebnis, fügen Sie aussagekräftige Grafik(en) ein und begründen Sie stichpunktartig die einzelnen Arbeitsschritte.
 {: .notice--success}
+
+### Gewichtung der Aufgaben in Lerneinheit 4
+
+| Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
+|:-------------|:----------------------:|:-----------------:|
+|Aufgabe 04-01 | 0.4  | 0.16  | 
+|Aufgabe 04-01 | 0.6  | 0.24  | 
+|**Aufgabe 04** | **1.0**  | **0.4**  | 
+
+## Hilfestellungen 
+
+### Hilfestellung Aufgabe 04-01
+
+*  Sie können für die rasterbasierte Umrechnung (Klassifikation/Reklassifikation) der Werte  als generelles Werkzeug den *Raster-Rechner*  oder auch spezielle Werkzeuge wie z.B. das Plugin `WMCA Weighted Multicriteria Analysis` (WMCA) nutzen. Dieses Plugin wird nach der Installation unter dem Haupt-Menü `Raster` angezeigt (Sie müssen evtl. *"Auch experimentelle Erweiterungen anzeigen"* unter den Einstellungen aktivieren).
+* Weitere und deutlich tiefergehende Hilfe für den gesamten Arbeitsablauf finden Sie QGIS-spezifisch unter [Multi Criteria Overlay Analysis (QGIS3)](https://www.qgistutorials.com/en/docs/3/multi_criteria_overlay.html). 
+
+Da es sich bei dieser Vorgehensweise um ein häufig angewandtes Raster-GIS-Konzept handelt, werden Sie unter allen GI Softwarepaketen ähnliche Werkzeuge finden. So ist auch etwas das  [MCE Tutorial für SAGA GIS](https://svwh.dl.sourceforge.net/project/saga-gis/SAGA%20-%20Documentation/Tutorials/Multi_Criteria_Evaluation_Tutorial/MultiTutorial2.pdf) ein hilfreiche Ressource um den Vorgang zu verstehen.
+
+
+
 
 ### Hilfestellung Aufgabe 04-02
 
