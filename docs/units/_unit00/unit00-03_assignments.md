@@ -39,10 +39,33 @@ Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische St
 
 ## Abgaben
 
-Um eine Bewertung zu erhalten, müssen die Studien- bzw. Projektarbeiten auf der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden. 
+Um eine Bewertung zu erhalten, müssen die Studien- bzw. Projektarbeiten auf der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden.
+
+Bitte entnehmen sie der nachfolgenden Tabelle die verbindlichen Kurs und Abgabezeiten:
+
+| Sitzung | Datum | Thema | Inhalt |
+|:-------:|:--------:|:---------|:---------|
+| 1 | 21.04.  | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
+| 2 | 28.04.  | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
+| | <span  algin = "center" style="color:red"> **04.05.**</span> |  **Abgabe Übung 1**  |
+| 3 | 05.05.  | Wrap Up | Einstieg Fragen & Antworten|
+| 4 | 12.05.  | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
+| | <span  algin = "center" style="color:red"> **18.05.** </span> | **Abgabe Übung 2**  |
+| 5 | 19.05.  | Wrap Up | Einstieg Analysen|
+| 6 | 02.06.  | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
+| | <span  algin = "center" style="color:red"> **08.06.**</span>  | **Abgabe Übung 3**  |
+| 7 | 09.06.  | Wrap Up | Einstieg Kosten und Kriterien|
+| 8 | 23.06.  | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
+| |<span  algin = "center" style="color:red"> **29.06.** </span> | **Abgabe Übung 4**  |
+| 9 | 30.06.  | Wrap Up | Einstieg Projektarbeit|
+| 10 |07.07.| Projektarbeit Sprechstunde |   |
+| 12 |14.07.| Wrap up Kurs |   |
+| |<span style="color:red">**14.07** </span> |   **Abgabe Prüfungsleistung Projektarbeit**   |
+
+<span style="color:red">**Die Abgabezeit für alle Abgaben ist bis 22.00 Uhr des jeweligen Datums.** </span>
 
 Die Prüfungsleistung ist individuell zu erbringen.
-{: .notice--info}
+{: .notice--danger}
 
 
 ### <a name="formale-anforderungen"></a>Formale Anforderungen

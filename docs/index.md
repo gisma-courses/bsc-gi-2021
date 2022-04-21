@@ -46,38 +46,27 @@ Am Ende dieses Teilmoduls können Sie:
 ## Kursmerkmale
 Der Online-Kurs ist grundsätzlich als Begleitmaterial für Präsenzveranstaltung gedacht, eignet sich in aber auch zum Selbststudium.
 
-
-## Studien- und Prüfungsleistung
-
-Für den Erwerb von 3 Leistungspunkten (LP) sind die vier Übungsaufgaben vollständig (Studienleistung) zu bearbeiten und insgesamt (Ausgleich über die Aufgaben ist möglich) mit ausreichend zu bestehen. Für den Erwerb von 6 LP ist neben der vollständigen Bearbeitung der Übungsaufgaben (Studienleistung) die Bearbeitung eines individuellen Projekts (Prüfungsleistung) notwendig. Der resultierende Projektbericht von maximal 6 Seiten ist die Grundlage der Bewertung.  Die Prüfungsleistung ist individuell zu erbringen.
-
 Die Präsenzzeit dient der Vermittlung neuer Konzepte und der exemplarischen Beantwortung der Fragen, die zu dem Vorlesungsinput den Readern und  den gestellten Übungsaufgaben im Forum gestellt wurden. Sollte die Präsenzveranstaltung technisch nicht stattfinden können wird ein Screencast mit der Beantwortung der Fragen und neuem Input online gestellt
 
 
 
-## Kurszeiten und Inhalte
+## Ablauf und Kursinhalte
 
-| Sitzung | Datum | Thema | Inhalt |
+| Sitzung | |  | Inhalt |
 |:-------:|:--------:|:---------|:---------|
-| 1 | 21.04.  | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2 | 28.04.  | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
-| | <span  algin = "center" style="color:red"> **04.05.**</span> |  **Abgabe Übung 1**  |
-| 3 | 05.05.  | Wrap Up | Einstieg Fragen & Antworten|
-| 4 | 12.05.  | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
-| | <span  algin = "center" style="color:red"> **18.05.** </span> | **Abgabe Übung 2**  |
-| 5 | 19.05.  | Wrap Up | Einstieg Analysen|
-| 6 | 02.06.  | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
-| | <span  algin = "center" style="color:red"> **08.06.**</span>  | **Abgabe Übung 3**  |
-| 7 | 09.06.  | Wrap Up | Einstieg Kosten und Kriterien|
-| 8 | 23.06.  | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
-| |<span  algin = "center" style="color:red"> **29.06.** </span> | **Abgabe Übung 4**  |
-| 9 | 30.06.  | Wrap Up | Einstieg Projektarbeit|
-| 10 |07.07.| Projektarbeit Sprechstunde |   |
-| 12 |14.07.| Wrap up Kurs |   |
-| |<span style="color:red">**14.07** </span> |   **Abgabe Prüfungsleistung Projektarbeit**   |
+| 1 |   | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
+| 2 |   | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
+| 3 |   | Ergebnissicherung | Einstieg Fragen & Antworten|
+| 4 |   | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
+| 5 |   | Ergebnissicherung  | Einstieg Analysen|
+| 6 |   | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
+| 7 |   | Ergebnissicherung | Einstieg Kosten und Kriterien|
+| 8 |   | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
+| 9 |   | Ergebnissicherung | Einstieg Projektarbeit|
+| 10 |   | Projektarbeit Sprechstunde |   |
+| 12 |   | Wrap up Kurs |   |
 
-<span style="color:red">**Die Abgabezeit für alle Abgaben ist bis 22.00 Uhr des jeweligen Datums.** </span>
-{: .notice--danger}
+
 ## Exemplarischer Kurs-Stundenplan
 
 Der Kurs ist  auf 2 x 3 Leistungspunkte (LP) (Übungsaufgaben 3 LP, Projektarbeit 3 LP) angelegt, die jeweils einzeln und unabhägig bearbeitet werden können. Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 90 Stunden. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen beispielhaft eine, nach unserer Vorstellung sinnvolle, **mögliche** Aufteilung dieser verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium.
