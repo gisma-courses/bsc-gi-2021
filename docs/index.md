@@ -1,5 +1,5 @@
 ---
-title: Geoinformatik für Bachelor Basiskurs
+title: Geoinformatik Basiskurs (QGIS)
 layout: splash
 date: '2020-06-04 13:00:00 +0100'
 header:
@@ -44,57 +44,65 @@ Am Ende dieses Teilmoduls können Sie:
 
 
 ## Kursmerkmale
-Der Online-Kurs ist grundsätzlich als Begleitmaterial für (Online-)Präsenzveranstaltung gedacht, eignet sich in aber auch zum Selbststudium.
-
-Information aufgrund der **Coronavirus-Pandemie**: Aus Gründen des Infektionsschutzes sind Präsenzveranstaltung derzeit nicht möglich. Der Kurs findet deshalb digital statt. 
-
+Der Online-Kurs ist grundsätzlich als Begleitmaterial für Präsenzveranstaltung gedacht, eignet sich in aber auch zum Selbststudium.
 
 
 ## Studien- und Prüfungsleistung
 
-Es ist ein individuelles Projekt durchzuführen und ein entsprechender Projektbericht zu verfassen. Der Umfang des Berichtes soll je 3-5 Seiten betragen. Weitere Informationen zu den Projekten werden im Kursverlauf mitgeteilt. Die Prüfungsleistung ist individuell zu erbringen.
-
-
-
-## Ablauf
-
-Am 05.11.2020 findet die Online-Auftaktveranstaltung in Big Blue Button (BBB) statt. Den Link finden Sie im [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/ilias.php?ref_id=1899952&cmd=frameset&cmdClass=ilrepositorygui&cmdNode=ts&baseClass=ilrepositorygui). Die Online-Materialien sind die Grundlage für den Kurs Geoinformatik. 
-
-Der Link wird je nach technischer Möglichkeit über Ilias bekanntgegeben. Zur Vorbereitung  der Präsenzzeiten wird in Ilias ein Forum eingerichtet in dem die Fragen, die Berücksichtigung finden sollen, bis jeweils Montag Abend 18:00 Uhr eingestellt werden sollten. 
+Für den Erwerb von 3 Leistungspunkten (LP) sind die vier Übungsaufgaben vollständig (Studienleistung) zu bearbeiten und insgesamt (Ausgleich über die Aufgaben ist möglich) mit ausreichend zu bestehen. Für den Erwerb von 6 LP ist neben der vollständigen Bearbeitung der Übungsaufgaben (Studienleistung) die Bearbeitung eines individuellen Projekts (Prüfungsleistung) notwendig. Der resultierende Projektbericht von maximal 6 Seiten ist die Grundlage der Bewertung.  Die Prüfungsleistung ist individuell zu erbringen.
 
 Die Präsenzzeit dient der Vermittlung neuer Konzepte und der exemplarischen Beantwortung der Fragen, die zu dem Vorlesungsinput den Readern und  den gestellten Übungsaufgaben im Forum gestellt wurden. Sollte die Präsenzveranstaltung technisch nicht stattfinden können wird ein Screencast mit der Beantwortung der Fragen und neuem Input online gestellt
 
 
-* Abgabe der Aufgaben:  15.01.2021 (8.00 Uhr)
-* Abgabe des Projektes: 15.03.2021 (8.00 Uhr)
-{: .notice--danger}
 
 ## Kurszeiten und Inhalte
 
 | Sitzung | Datum | Thema | Inhalt |
 |:-------:|:--------:|:---------|:---------|
-| 1 | 12.11.  | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2 | 19.11.  | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
-| 3 | 26.11.  | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
-| 4 | 03.12.  | Wrap Up | Projektionen, Fragen und Antworten  |
-| 5 | 10.12.  | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
-| 6 | 17.12.  | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
-| 7 | 14.01.  | Einführung Projektarbeit |   |
-| 8 | 21.01.  | Projektarbeit-Online-Tutorium |  |
-| 9 | 28.01.  | Projektarbeit-Online-Tutorium |  |
-| 10 | 04.02. | Projektarbeit-Online-Tutorium |  |
-| 11 | 11.02. | Projektarbeit-Online-Tutorium |  |
-| 12 | 18.02. | Projektarbeit-Online-Tutorium |  |
-| 13 | 25.02. | Projektarbeit-Online-Tutorium |  |
+| 1 | 21.04.  | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
+| 2 | 28.04.  | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
+| | <span  algin = "center" style="color:red"> **04.05.**</span> |  **Abgabe Übung 1**  |
+| 3 | 05.05.  | Wrap Up | Einstieg Fragen & Antworten|
+| 4 | 12.05.  | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
+| | <span  algin = "center" style="color:red"> **18.05.** </span> | **Abgabe Übung 2**  |
+| 5 | 19.05.  | Wrap Up | Einstieg Analysen|
+| 6 | 02.06.  | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
+| | <span  algin = "center" style="color:red"> **08.06.**</span>  | **Abgabe Übung 3**  |
+| 7 | 09.06.  | Wrap Up | Einstieg Kosten und Kriterien|
+| 8 | 23.06.  | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
+| |<span  algin = "center" style="color:red"> **29.06.** </span> | **Abgabe Übung 4**  |
+| 9 | 30.06.  | Wrap Up | Einstieg Projektarbeit|
+| 10 |07.07.| Projektarbeit Sprechstunde |   |
+| 12 |14.07.| Wrap up Kurs |   |
+| |<span style="color:red">**14.07** </span> |   **Abgabe Prüfungsleistung Projektarbeit**   |
 
-
+<span style="color:red">**Die Abgabezeit für alle Abgaben ist bis 22.00 Uhr des jeweligen Datums.** </span>
+{: .notice--danger}
 ## Exemplarischer Kurs-Stundenplan
 
-Der Kurs ist im Wintersemester auf 2 x 3 Leistungspunkte (LP) (Übungsaufgaben 3 LP, Projektarbeit 3 LP) angelegt, die jeweils einzeln und unabhägig bearbeitet werden können. Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 90 Stunden. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet (bereits abzüglich einer Woche Weihnachtsferien), so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen eine beipielhafte Aufteilung dieser Zeit, die nach unserer Vorstellung sinnvoll über die Woche verteilt sein sollte und Lerngruppen sowie Eigenstudium beinhaltet.
+Der Kurs ist  auf 2 x 3 Leistungspunkte (LP) (Übungsaufgaben 3 LP, Projektarbeit 3 LP) angelegt, die jeweils einzeln und unabhägig bearbeitet werden können. Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 90 Stunden. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen beispielhaft eine, nach unserer Vorstellung sinnvolle, **mögliche** Aufteilung dieser verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium.
 
 
 {% include gallery id="panel1"   layout = "half"      caption="Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Anzahl der Termine, ihre Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert, muss aber den eigenen Bedürfnissen entsprechend angepasst werden. Bild: CC0 AG-UI" 
 %}
+
+## Übersicht über Kommunikationsformen
+
+Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
+
+### Diese Webseite
+Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
+
+### Kursbereich in Ilias
+Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate und der Abgabe von Aufgaben.
+
+### Foren in Ilias
+Foren nutzten wir zur Vorbereitung der Veranstaltung. Wenn Sie eine Frage an uns richten möchten, nutzen Sie bitte das primär das Forum im Kursbereich. Überprüfen Sie zuerst, ob Ihre Frage bereits gestellt wurde und wenn nicht, an welcher Stelle im Forum sie sich am besten einordnet. Wir werden auf ihre Fragen primär in Screencasts und FAQ-Seiten bzw. im Folgekurs eingehen. 
+
+Es liegt an Ihnen von diesem Angebot Gebrauch zu machen. Wir können nur auf ihre Fragen und artikulierte Wünsche reagieren.
+
+### Direkter Kontakt
+Sie erreichen mich unter der E-Mail *reudenbach@uni-marburg.de* bitte nutzen sie den Betreff *[GIBASIC]*. Umgekehrt erwarte ich, dass Sie über Ihre offizielle Students-E-Mail erreichbar sind und dass Sie diese regelmäßig bevorzugt täglich abfragen.
 
 
 
