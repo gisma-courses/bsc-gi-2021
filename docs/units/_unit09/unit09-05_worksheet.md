@@ -13,9 +13,6 @@ In dieser Aufgabe sollen Sie eine abschliessende Projektarbeit ihrer Wahl bearbe
 <!--more-->
 
 
-  
-
-
 ## Was wir in dieser Einheit vor haben
 
 Im Rahmen Projektarbeit werden Sie eine typische kleine Studie mit Hilfe von GIS durchführen und die Ergebnisse ihrer Studie adäquat darstellen. 
@@ -30,7 +27,7 @@ Nach dieser Übung können Sie:
   *  Die Analyse in einem wissenschaftlichen aufgebauten Bericht kommunizieren
 
 
-## Aufgabe 06-1 
+## Aufgabe 05-1 
 
 ## Benötigte Materialien
 
@@ -51,7 +48,7 @@ Der Marburger Uniwald – Lebensraum für die Wildkatze?
 {: .notice--success}
 
 
-## Aufgabe 06-2 Alternative zu Aufgabe 06-1
+## Aufgabe 05-2 Alternative zu Aufgabe 05-1
 Alternativ können Sie eigenständig ein selbstgewähltes Projekt bearbeiten.
 
 ## Benötigte Materialien
