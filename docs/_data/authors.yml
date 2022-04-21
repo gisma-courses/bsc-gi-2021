@@ -6,8 +6,8 @@
   avatar           : "/assets/images/reudenbach.jpg"
   email            : "reudenbach@uni-marburg.de"
   home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dr-christoph-reudenbauch"
-- göttlicher:
-  name             : "Dietrich Göttlicher"
-  avatar           : "/assets/images/goettlicher.jpg"
-  email            : "ui-lehre@geo.uni-marburg.de"
-  home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dr-dietrich-goettlicher"
+# - göttlicher:
+#   name             : "Dietrich Göttlicher"
+#   avatar           : "/assets/images/goettlicher.jpg"
+#   email            : "ui-lehre@geo.uni-marburg.de"
+#   home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dr-dietrich-goettlicher"
