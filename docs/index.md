@@ -91,7 +91,9 @@ Foren nutzten wir zur Vorbereitung der Veranstaltung. Wenn Sie eine Frage an uns
 Es liegt an Ihnen von diesem Angebot Gebrauch zu machen. Wir können nur auf ihre Fragen und artikulierte Wünsche reagieren.
 
 ### Direkter Kontakt
-Sie erreichen mich unter der E-Mail *reudenbach@uni-marburg.de* bitte nutzen sie den Betreff *[GIBASIC]*. Umgekehrt erwarte ich, dass Sie über Ihre offizielle Students-E-Mail erreichbar sind und dass Sie diese regelmäßig bevorzugt täglich abfragen.
+Sie erreichen mich unter untenstehender E-Mail. Bitte nutzen Sie den Betreff *[GIBASIC]* (alternativ die Ilias Kursnummer bzw Marvin Kennung). 
+
+Umgekehrt erwarte ich, dass Sie über Ihre offizielle Students-E-Mail erreichbar sind und dass Sie diese regelmäßig -bevorzugt täglich- abfragen.
 
 
 
