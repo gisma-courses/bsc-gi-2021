@@ -2,7 +2,7 @@
 title: Lerneinheit 1 - Warm Up QGIS
 toc: true
 header:
-  image: /assets/images/splash_L01.png
+  image: /assets/images/splash_u9-1.png
   image_description: "The QGIS Evolution"
   caption: "The QGIS Evolution CC0 AG UI"
   
