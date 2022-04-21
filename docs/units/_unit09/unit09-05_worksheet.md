@@ -27,7 +27,7 @@ Nach dieser Übung können Sie:
   *  Die Analyse in einem wissenschaftlichen aufgebauten Bericht kommunizieren
 
 
-## Aufgabe 05-1 
+## Prüfungsaufgabe 05
 
 ## Benötigte Materialien
 
@@ -48,8 +48,8 @@ Der Marburger Uniwald – Lebensraum für die Wildkatze?
 {: .notice--success}
 
 
-## Aufgabe 05-2 Alternative zu Aufgabe 05-1
-Alternativ können Sie eigenständig ein selbstgewähltes Projekt bearbeiten.
+## Alternative Aufgabe 05
+Alternativ zur Aufgabe 05 können Sie eigenständig ein selbstgewähltes Projekt bearbeiten.
 
 ## Benötigte Materialien
 
@@ -62,7 +62,7 @@ Alternativ können Sie eigenständig ein selbstgewähltes Projekt bearbeiten.
 
 Die Ausarbeitung soll alles inklusive **2500 Worte** nicht überschreiten. Sie ist mit den für wichtig erachteten Abbildungen als PDF-Datei ab. Benennen Sie die PDF-Datei wie folgt:
 
-```Aufgabe_X_<Nachname>_<Vorname>.pdf``` (z.B. Aufgabe_1\_Reudenbach\_Chris.pdf_). 
+```P05_<Nachname>_<Vorname>.pdf``` (z.B. P05\_Reudenbach\_Chris.pdf_). 
 
 Fügen Sie in die Datei an geeigneter Stelle nach folgendem Schema Ihren Namen und Matrikelnummer ein:
 
