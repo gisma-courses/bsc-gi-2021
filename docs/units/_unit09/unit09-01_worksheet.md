@@ -8,10 +8,11 @@ header:
   
 
 ---
-Der Einstieg in eine komplexe Software ist mühsam und verlangt einiges an Frusttoleranz. Durch Ähnlichkeit dere Werkzeuge und Konzepte bei ständiger Entwicklung ist es sinnvoll *Analog-Wissen* aufzubauen und sich den Zugang zu den Arbeitsabläufen *logisch-strukturiert* und **nicht** durch *auswendig lernen* der einzelnen Arbeitsschritte zu erarbeiten. Das ist nicht geschenkt zumal GIS Softwarepakete wie ArcGIS oder QGIS zu den eher komplexen Softwarearchitekturen gehören.
+Der Einstieg in eine komplexe Software ist mühsam und verlangt einiges an Frusttoleranz. Durch die Ähnlichkeit der Software-Werkzeuge und -Konzepte ist es sinnvoll *Analog-Wissen* aufzubauen und sich den Zugang zu den Arbeitsabläufen *logisch-strukturiert* und **nicht** durch *auswendig lernen* der einzelnen Arbeitsschritte zu erarbeiten. Das ist nicht geschenkt zumal GIS Softwarepakete wie ArcGIS oder QGIS zu den wohl komplexesten Softwarearchitekturen gehören.
 <!--more-->
+
 ## Was wir in dieser Einheit vor haben
-Zur Mühsal des Erlernes sowohl neuer konzeptueller als auch Informationstechnik bezogener Problemfelder kommt auch noch die Auseinandersetzung mit einer neuen Software, die mit einer ungewohnten Graphical-User-Interface (GUI) aufwartet, hinzu. Um die Herausforderungen etwas zu verteilen fangen Sie Schritt für Schritt an und beginnen in dieser ersten Einheit mit einigen grundlegenden und typischen Aufgaben.  
+Zur Mühsal des Erlernes, sowohl neuer konzeptueller als auch technischer Problemfelder, kommt auch noch die Auseinandersetzung mit einer Softwarearchitektur mit einem ungewohnten Graphical-User-Interface (GUI) hinzu. Um diese Einstiegshürde etwas zu abzupuffern fangen Sie Schritt für Schritt an und beginnen in dieser ersten Einheit mit einigen grundlegenden und typischen Aufgaben, die im Wesentlichen dazu dienen sich an die neue Software und Datenformate zu gewöhnen.  
 
 ## Lernziele 
 
@@ -33,26 +34,30 @@ Nach dieser Übung können Sie:
   * [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls) Excel Tabelle.
 
 ### Software
-  * [QGIS Installation](https://www.qgis.org/de/site/forusers/alldownloads.html). **Windows Nutzer** Installieren QGIS mit Hilfe des [osgeo4W](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) Installers. **Linux** Nutzer folgen den Anweisungen der [QGIS Installationsseite](https://www.qgis.org/de/site/forusers/alldownloads.html#linux). Weitere Informationen zur finden Sie unter  [hier](https://r-spatial.github.io/link2GI/articles/link2GI6.html).
-
-### Einführende Materialien
-  * [Eine sanfte Einführung in GIS](https://docs.qgis.org/3.10/de/docs/gentle_gis_introduction/index.html)
-  * [QGIS Benutzerhandbuch 3.10 DE](https://docs.qgis.org/3.10/de/docs/user_manual/index.html) Die erste zentrale Referenz für Nutzer. Hier die aktuelle deutschsprachige Version. 
-  * [QGIS Benutzerhandbuch 3.16 EN](https://docs.qgis.org/3.16/en/docs/user_manual/index.html) Die erste zentrale Referenz für Nutzer. Hier die aktuelle englischsprachige Version. 
+  * [QGIS](https://www.qgis.org/de/site/index.html). Die aktuelle Langzeit Release ist Versin 3.22. Es emfiehlt sich sehr bei der Installation dieser Release die folgenden Installationshinweise zu berücksichtigen:
   
+* **Windows** [osgeo4W Installers](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) . 
+* **macOS** [Mac Installationsseite](https://www.qgis.org/de/site/forusers/download.html#mac)
+* **Linux** [Linux Installationsseite](https://www.qgis.org/de/site/forusers/download.html#linux). 
+
+
+q### Einführende Materialien
+  * [Eine leichte Einführung in GIS](https://docs.qgis.org/3.22/de/docs/gentle_gis_introduction/index.html): bietet einen gelungenen QGIS zentrierten Überblick der GI-Konzepte. Sehr zu empfehlende Zusatz-Lehrmaterialien  
+  * [QGIS Benutzerhandbuch 3.22 DE](https://docs.qgis.org/3.22/de/docs/user_manual/index.html): Die aktuelle deutschsprachige Version. Es ist **die** grundlegende Referenz für Nutzer. 
+
 
 
 ## Aufgabe 01-01
 
-Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im GIS. Zudem lernen Sie, wie Sie eigene Raumdaten ins GIS importieren oder auch selbst im GIS erstellen können.
+Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im GIS. Zudem lernen Sie, wie Sie eigene Raumdaten ins GIS importieren oder auch selbst im GIS z.B. durch digitalisieren erstellen können.
 
   * Erstellen Sie bitte ein Verzeichnis das **ohne** Sonderzeichen und Leerzeichen (im gesamten Pfad/Verzeichnisbaum) benannt ist
   * Legen Sie ein QGIS-Projekt an
   * Laden Sie die Datei `marburg_RE.tif` 
   * Informieren Sie sich über die Eigenschaften des Datensatzes. (Projektion, Datenmodell, Werte-Spektrum)
-  * Laden Sie von der [geofabrik](http://download.geofabrik.de/) den Datensatz von Hessen herunter und entpacken das Archiv in einen Unterordner Ihres Projektverzeichnis das Sie `Daten` nennen.
-  * Öffnen Sie nach dem Entpacken des Archivs die Datei `gis_osm_pois_free_1.shp` in Ihrem QGIS Projekt
-  * Informieren Sie sich auch bei diesem Datensatz über die Eigenschaften. (Projektion, Datenmodell, Werte-Spektrum)
+  * Erzeugen Sie ein Unterverzeichnis namens  `Daten` als Unterordner Ihres Projektverzeichnis. Laden Sie von der Downloadseite der [geofabrik](http://download.geofabrik.de/) den Datensatz der Hessen enthält herunter. Entpacken Sie dieses Archiv in den Unterordner `Daten`. 
+  * Laden Sie nach dem Entpacken des Archivs die Datei `gis_osm_pois_free_1.shp` in Ihr QGIS Projekt.
+  * Informieren Sie sich auch bei diesem Datensatz über die Eigenschaften. (Projektion, Datenmodell, Werte-Spektrum).
   * Schneiden Sie den Datensatz `gis_osm_pois_free_1` auf die Ausdehnung des Luftbildes `marburg_RE.tif` zu 
   * Exportieren Sie diese Punktdaten im *geopackage* Datenformat unter dem Namen `mr_points`
   * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
@@ -87,16 +92,23 @@ Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coord
 
 Als konkreten Einstieg für die Bearbeitung von Aufgabe 1 möchten wir Ihnen noch einige Einstiegshilfen für QGIS anbieten. QGIS ist ein komplexes Softwareprodukt, das nicht nur in  unterschiedlichen Versionen auf allen gängigen OS-Plattformen verfügbar ist, sondern zusätzlich vollständig individuell anpassbar ist. Daher kursieren im Netz aus den vergangenen 15 Jahren eine Vielzahl von Hilfen, Handbüchern und Tutorials - nicht jeder Treffer ist geeignet und erst recht nicht jedes Tutorial passt auf Ihre Version.
 
-Einen ersten Anlaufpunkt für konkrete Informationen stellt die integrierte Hilfe des Softwarepakets dar. Darüber hinaus ist eine umfangreiche Dokumentation verfügbar. Die jeweils aktuelle [QGIS Landing Page](https://www.qgis.org/de/site/forusers/index.html) ist der zentrale Zugang zu allen offiziell vom Projekt verfügbar gemachten Dokumentationen. Bei allen Seiten gilt achten Sie darauf die Hilfe zu Ihrer passenden QGIS Version anzuschauen. Falls diese (noch) nicht verfügbar ist versuchenen Sie es mit der jeweils nächsten Vorgängerversion. **Achtung** der Übergang von QGIS2.x auf QGIS3.x markiert erhebliche Veränderungen. In der Regel sind Anleitungen für QGIS  2.x unbrauchbar. 
+Einen ersten Anlaufpunkt für konkrete Informationen stellt die integrierte Hilfe des Softwarepakets dar. Darüber hinaus ist eine umfangreiche Dokumentation verfügbar. Die jeweils aktuelle [QGIS Landing Page](https://www.qgis.org/de/site/forusers/index.html) ist der zentrale Zugang zu allen offiziell vom Projekt verfügbar gemachten Dokumentationen. 
 
+Für alle Hilfeseiten gilt: achten Sie **unbedingt** darauf die Hilfe zu Ihrer passenden QGIS Version anzuschauen. Falls diese (noch) nicht verfügbar ist versuchen Sie es mit der jeweils nächsten Vorgängerversion oder besser mit der immer englischsprachig verfügbaren Variante. 
+
+**Achtung** der Übergang von QGIS2.x auf QGIS3.x hat grundlegende Veränderungen mit sich gebracht. Als konkrete Anleitung sind in der Regel QGIS  2.x Tutorials und Hilfen **unbrauchbar**. 
+{: .notice--danger}
 
 ### Einrichtung eines QGIS-Projekts 
 
-Wir raten Ihnen **dringend** bei Rechnern mit einem Heimatverzeichnis in der Cloud/im Netz (z.B. in der Uni-Pools) die Daten auf einer lokalen Festplatte abzuspeichern.  Hierfür müssen Sie zunächst eine Ordnerstruktur für Ihr Projekt anlegen. Bitte achten Sie darauf **keine** Sonderzeichen, Umlaute oder Leerzeichen zu verwenden. Hilfe zur Projektdatei finden Sie unter [Arbeiten mit Projektdateien](https://docs.qgis.org/3.10/de/docs/user_manual/introduction/project_files.html).
+Wir raten Ihnen **dringend** bei Rechnern mit einem Heimatverzeichnis in der Cloud/im Netz (z.B. in der Uni-Pools) die Daten auf einer **lokalen Festplatte** abzuspeichern.  Hierfür müssen Sie zunächst eine Ordnerstruktur für Ihr Projekt anlegen. Hilfe zur Projektdatei finden Sie unter [Arbeiten mit Projektdateien](https://docs.qgis.org/3.10/de/docs/user_manual/introduction/project_files.html). 
+
+Bitte achten Sie darauf **keine** Sonderzeichen, Umlaute oder Leerzeichen zu verwenden. 
+{: .notice--danger}
 
 ### Digitalisieren von Geometriedaten
 
-Die manuelle Erzeugung von Vektordaten wird allgemein als *digitalisieren* bezeichnet. Dabei erzeugen Sie auf z.B. Grundlage von Rasterbilddateien wie Satellitenbildszenen, Luftbildern, thematischen und topographischen Karten, einfachen Screenshots oder anderen Vorlagen Ihre eigenen vektorbasierten Datensätze. Schauen Sie sich dazu die QGIS Hilfe zur  [Digitalisierung](https://docs.qgis.org/3.10/de/docs/user_manual/working_with_vector/editing_geometry_attributes.html) an. Ein ausführliches Anwendungsbeispiel finden Sie unter [Digitizing Forest Stands](https://docs.qgis.org/3.10/en/docs/training_manual/forestry/stands_digitazing.html)
+Die manuelle Erzeugung von Vektordaten wird allgemein als *digitalisieren* bezeichnet. Dabei erzeugen Sie auf z.B. Grundlage von Rasterbilddateien wie Satellitenbildszenen, Luftbildern, thematischen und topographischen Karten, einfachen Screenshots oder anderen Vorlagen Ihre eigenen vektorbasierten Datensätze. Schauen Sie sich dazu die QGIS Hilfe zur  [Digitalisierung](https://docs.qgis.org/3.22/de/docs/user_manual/working_with_vector/editing_geometry_attributes.html) an. Ein ausführliches Anwendungsbeispiel finden Sie unter [Digitizing Forest Stands](https://docs.qgis.org/3.22/en/docs/training_manual/forestry/stands_digitazing.html)
 
 ### Zuschneiden von Vektordaten 
 Diese Aufgabe ist ein gutes Beispiel wie knifflig die Suche nach Hilfe sein kann. Natürlich gilt immer dass Sie das Internet durchsuchen können. Versuchen Sie es zum Beispiel mit "*zuschneiden von vektordaten qgis*". Sie haben viele Treffer aber bei genauer Betrachtung finden Sie nichts über das Zuschneiden von Vektordaten mit Hilfe einer Raster-Datei. Was geschieht beim Zuschneiden? Sie müssen offensichtlich einem Werkzeug mitteilen was die gewünschte Ausdehnung ist. Fangen Sie mit diesem Wissen nochmal an. Nur diesmal nutzen Sie die Werkzeug-Leiste und tippen dort "*zuschneiden*" bzw. "*clip*" ein. Es werden einige Treffer angezeigt. Unter anderem auch *Vektor auf Ausdehnung zuschneiden*. Wenn Sie diesen auswählen können Sie bei der *Ausdehnung* drei Optionen wählen...
@@ -107,4 +119,4 @@ Der Import von Tabellen beinhaltet eine Vielzahl von Fallstricken. Ganz generell
 
 ### Arbeiten mit Projektionen
 Das Kapitel 
-[Arbeiten mit Projektionen](https://docs.qgis.org/3.10/de/docs/user_manual/working_with_projections/working_with_projections.html) ist für Anfängerinnen schwer verständlich. Wichtig ist hier vor allem das korrekte Zuweisen von Projektionen. Für das Umprojizieren von Vektordaten lohnt sich ein Blick in [Reprojecting and Transforming Data](https://docs.qgis.org/3.10/de/docs/training_manual/vector_analysis/reproject_transform.html).
+[Arbeiten mit Projektionen](https://docs.qgis.org/3.22/de/docs/user_manual/working_with_projections/working_with_projections.html) ist für Anfänger*innen schwer verständlich. Wichtig ist hier vor allem das korrekte Zuweisen von Projektionen. Für das Umprojizieren von Vektordaten lohnt sich ein Blick in [Reprojecting and Transforming Data](https://docs.qgis.org/3.22/de/docs/training_manual/vector_analysis/reproject_transform.html).

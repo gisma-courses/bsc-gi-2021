@@ -47,7 +47,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-03-12T00:34:29+01:00">
+  <meta property="article:published_time" content="2022-04-21T18:12:40+02:00">
 
 
 
@@ -64,7 +64,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "GISMA course resources",
+      "name": " course resourcesGISMA",
       "url": "http://localhost:4000/bsc-gi-2021/"
     
   }
@@ -143,17 +143,17 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/bsc-gi-2021//unit00/unit00-04_faq.html" >FAQ</a>
+              <a href="http://localhost:4000/bsc-gi-2021//faq.html" >FAQ</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="https://gisma-courses.github.com" >ILIAS</a>
+              <a href="https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR" >ILIAS</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="https://gisma-courses.github.com" >Courses</a>
+              <a href="https://github.com/gisma-courses" >Courses</a>
             </li>
           
             
@@ -236,12 +236,9 @@
         
         <li>
           <span class="nav__sub-title">
-		     <a href="/bsc-gi-2021//unit00/unit00-01_learning.html" class="">Formales</a>
+		     <a href="/bsc-gi-2021//unit00/unit00-03_assignments.html" class="">Formales</a>
 		  </span>
           <ul>
-            
-              
-			  
             
               
 			  
@@ -494,7 +491,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="– Funktionale Ableitungen">
     <meta itemprop="description" content="Das Phänomen Gelände spielt in vielen räumlichen Vorstellungen eine zentrale Rolle. Diese reicht von der kognitiven Wahrnehmung z.B. der Frage Was ist ein Wanderweg? (vgl. Abbildung) bis zur zuvor skizzierten formalen, quantitativen Ableitung von Eigenschaften.In einem GIS werden die Informationen über die Form einer Geländeoberfläche in der Regel aus Höheninformationen abgeleitet. Diese Höheninformation wird in einem digitalen Geländemodell (DGM) gespeichert. Digitale Geländemodelle bestehen zunächst nur aus einer spezifischen Höheninformation für einen definierten Raumausschnitt (Rasterzelle, Punkt, Polygon). Auf der Basis dieser Primärinformation werden zahlreiche zusätzliche Informationen abgeleitet. Nachfolgend sollen am Beispiel der Hangneigung, Exposition und Kurvatur skizziert werden, wie die Ableitungen mit Hilfe von Funktionen berechnet werden. Entscheidend ist weniger die verwendete Mathematik als vielmehr die resultierenden Informationen, die für die unterschiedlichsten Fragestellungen verfügbar ist.                    Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)        HangneigungAuf einer (Gelände-)Oberfläche ist die Neigung (oder auch: Hangneigung) an einem Punkt gegeben durch die Tangentialebene. Das steilste Gefälle auf dieser Tangentialebene bezeichnet man als Neigung (engl. slope). Die Neigung lässt sich aus den Ableitungen der Oberfläche in der Richtung der x-Koordinate und derjenigen in Richtung der y-Koordinate berechnen.Um die Neigung aus einem Höhenmodell zu berechnen, braucht man daher eine Methode, mit der man Ableitungen aus den Höhenwerten schätzen kann. Die gängigste Art, dies für ein gitterbasiertes Geländemodell zu tun, ist unter dem Namen „finite Differenzen“ bekannt (Horn 1981).Um das Prinzip der finiten Differenzen zu erläutern, sei zuerst auf den eindimensionalen Fall eines Profils (statt einer Oberfläche) zurückgegriffen. Die folgende Abbildung zeigt, wie durch Bildung des Quotienten der Differenzen der Höhe (dz) und in der Ebene (dx) zuerst die erste Ableitung (Slope), und davon ausgehend die zweite Ableitung (Curvature) geschätzt werden kann. Die gewählte Schrittweite in x-Richtung ist in diesem Fall gleich 4. Das heißt, es wird die finite Differenz bezgl. der beiden zweiten Nachbarn nach links bzw. nach rechts vom zentralen Punkt aus gebildet. Diesem zentralen Punkt wird sodann der Wert der Ableitung zugewiesen. In der Abbildung sind der Zentralpunkt sowie dz und dx entsprechend rot markiert.            Für den zweidimensionalen Fall einer Oberfläche gibt (Horn 1981) die Formeln zur Schätzung der Neigung mittels finiten Differenzen:                                    mit                                    Die Nummerierung der Punkte in der 3-3-Nachbarschaft um den Zentralpunkt (z5) zur Bildung der Differenzen ist aus der nachstehenden Abbildung ersichtlich. In den Formeln der finiten Differenzen oben fällt auf, dass die Differenzen, die durch den Zentralpunkt führen, doppelt gewichtet sind.                                    ExpositionUnter Exposition (engl. aspect) versteht man die Richtung (im Uhrzeigersinn von Norden = Azimut) des steilsten Gefälles der Tangentialebene oder einfacher die Ausrichtung des Hanges zur Himmelsrichtung. Wiederum benötigt man die Ableitungen in x- und y-Richtung zur Berechnung, wie sie für die Berechnung der Hangneigung schon gebildet wurden (Horn 1981):                                    mit                                    Zusätzlich muss man für die Berechnung unterscheiden, ob die Werte dieser Ableitungen negativ, null oder positiv sind.KrümmungDie Kurvatur (engl. curvature) oder Krümmung  ist die zweite Ableitung einer Oberfläche an einem bestimmten Punkt in eine bestimmte Richtung.Bei digitalen Geländemodellen sind insbesondere die Profilkurvatur (Kurvatur in Richtung des steilsten Gefälles) und die Plankurvatur (Kurvatur in Richtung der Höhenlinie) von besonderem Interesse. Die Kurvaturwerte sind bei Konvexität (erhabene Formen) negativ und positiv bei Konkavität (Hohlformen).            ">
-    <meta itemprop="datePublished" content="2022-03-12T00:34:29+01:00">
+    <meta itemprop="datePublished" content="2022-04-21T18:12:40+02:00">
     
 
     <div class="page__inner-wrap">
@@ -650,7 +647,7 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-03-12T00:34:29+01:00">March 12, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-04-21T18:12:40+02:00">April 21, 2022</time></p>
         
       </footer>
 
@@ -702,7 +699,7 @@ Bei digitalen Geländemodellen sind insbesondere die <em>Profilkurvatur</em> (Ku
   </ul>
 </div>
 
-<div class="page__footer-copyright"> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> &copy; 2022 GISMA course resources
+<div class="page__footer-copyright"> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> &copy; 2022  course resourcesGISMA
 . Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> &amp; <a href="https://www.uni-marburg.de/fb19" rel="nofollow">Geography@Marburg University</a>.</div>
 
 
