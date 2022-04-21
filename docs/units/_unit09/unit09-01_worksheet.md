@@ -88,7 +88,7 @@ Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coord
    * Warum konnten Sie dem Layer `mr_nat` die Projektion *ETRS89 UTM 32* nicht direkt zuweisen
 {: .notice--success}
 
-### Gewichtung der Aufgabe in Lerneinheit 1
+### Gewichtung der Aufgaben in Lerneinheit 1
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|

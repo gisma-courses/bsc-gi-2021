@@ -34,8 +34,9 @@ Nach dieser Übung können Sie:
   * [Straßen](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
 
 
+## Aufgaben Lerneinheit 1
 
-## Aufgabe 02-01
+### Aufgabe 02-01
 
 
 In der Aufgabe 02-01 werden Attributwerte abgefragt.
@@ -49,12 +50,8 @@ In der Aufgabe 02-01 werden Attributwerte abgefragt.
 * Suchen Sie alle Objekte die den exakten Namen "REWE" haben **oder** vom Typ "supermarket" sind.
 {: .notice--success}
 
-## Hilfestellung 
 
-Bitte beachten Sie in jedem Fall, dass die Suchbegriffe sowohl groß als auch klein, mit oder ohne Leerzeichen, nur Teilweise oder einmal mit und einmal ohne Umlaut eingetragen worden sind. Diese unterschiedlichen Eintragungen ein und derselben Kategorie sollten aber soweit als möglich bei den thematischen Abfragen berücksichtigt werden. 
-
-
-## Aufgabe 02-02
+### Aufgabe 02-02
 
 
 In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen Abfragen.
@@ -70,8 +67,23 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
   - Wie viele Punkte der Kategorie Gastronomie liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 1 Kilometer vom nächsten Briefkasten entfernt?
 {: .notice--success}
 
+### Gewichtung der Aufgaben in Lerneinheit 2
 
-#### Hinweise
+| Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
+|:-------------|:----------------------:|:-----------------:|
+|Aufgabe 02-01 | 0.25  | 0.05  | 
+|Aufgabe 02-02 | 0.75  | 0.15  | 
+|Aufgabe 02    | 1.0  | 0.2  | 
+
+
+## Hilfestellungen 
+
+### Aufgabe 02-01
+
+Bitte beachten Sie in jedem Fall, dass die Suchbegriffe sowohl groß als auch klein, mit oder ohne Leerzeichen, nur Teilweise oder einmal mit und einmal ohne Umlaut eingetragen worden sind. Diese unterschiedlichen Eintragungen ein und derselben Kategorie sollten aber soweit als möglich bei den thematischen Abfragen berücksichtigt werden. 
+
+
+### Aufgabe 02-02
 
  Sie können mehrere Abfragen hintereinander durchführen. Hierzu müssen Sie das Abfrageergebnis ggf. als neuen Layer speichern (Rechtsklick auf das selektierte Layer, dann Auswahl, dann Layer aus selektierten Features erstellen). Bitte beachten Sie, dass die so erstellten Layer nur virtuell sind. Sie können Sie aber natürlich als Geopackage-Datensatz exportieren.
 
