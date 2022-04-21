@@ -28,7 +28,7 @@ baseurl: "/bsc-gi-2021/"
 
 ##### Title ###################################################################
 title: GISMA course resources
-name: &name "GISMA course resources" # &name is a YAML anchor which can be *referenced later
+name: &name " course resourcesGISMA" # &name is a YAML anchor which can be *referenced later
 email: reudenbach@geo.uni-marburg.de
 description: >- # this means to ignore newlines until next item
   course course-materials geography remote-sensing marburg-open-educational-resource 

@@ -7,7 +7,7 @@ main:
   - title: "ILIAS"
     url: https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR
   - title: "Courses"
-    url: https://gisma-courses.github.io
+    url: https://github.com/gisma-courses
   - title: "Seitenübersicht"
     url: /sitemap.html
   - title: "Downloads"
@@ -22,4 +22,4 @@ docs:
       - title: "ILIAS"
         url: https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR
       - title: "Courses"
-        url: https://gisma-courses.github.io
+        url: https://github.com/gisma-courses
