@@ -7,11 +7,12 @@ outpath = paste0(getwd(),"/docs/assets/pdf/")
 url = paste0("https://gisma-courses.github.io/",repo,"/")
 localURL = paste0("http://127.0.0.1:4000/",repo,"/")
 pan_arguments=' -f markdown-raw_tex -V colorlinks -V urlcolor=NavyBlue -V toccolor=Reds -f html-native_divs '
+
 wkhtml_arguments=" --page-size A4 --footer-left [webpage]  --footer-font-size 8 --footer-line --header-left [title] --header-line --margin-top 30 --margin-left 25 --margin-right 25 --margin-bottom 15 "
 # res= lapply(md_files, function(x){
 #   system(paste0("pandoc ",localURL,strsplit(strsplit(strsplit(x = x,split = "_")[[1]][1],"/")[[1]][1],"-")[[1]][1],"/",xfun::sans_ext(basename(x)),".html ",pan_arguments, "-o ",outpath, xfun::sans_ext(basename(x)),".pdf ","--pdf-engine=pdflatex"),wait = TRUE)
 #   })
-# system(paste0("pandoc ",url,"index.html ",pan_arguments, "-o ",outpath, "index.pdf ","--pdf-engine=pdflatex"),wait = TRUE)
+# system(paste0("pandoc ",localURL,"index.html ",pan_arguments, "-o ",outpath, "index.pdf ","--pdf-engine=pdflatex"),wait = TRUE)
 
 res= lapply(md_files, function(x){
   cmd=paste0(wkhtml_arguments, " ",localURL,strsplit(strsplit(strsplit(x = x,split = "_")[[1]][1],"/")[[1]][1],"-")[[1]][1],"/",xfun::sans_ext(basename(x)),".html ",outpath, xfun::sans_ext(basename(x)),".pdf")
