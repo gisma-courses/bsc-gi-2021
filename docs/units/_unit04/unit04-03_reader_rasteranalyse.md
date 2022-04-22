@@ -23,7 +23,7 @@ panel1:
 	 
 
 
-Betrachten Sie als Einstieg die folgende Abbildung die Ihnen eine Niederschlagsoberfläche der Schweiz zeigt: Die blauen Punkte sind die Positionen von Messstationen, ihre Größe entspricht der Niederschlagsmenge. Die unterschiedlichen Höhen der Oberfläche sowie ihre Farbgebung stehen ebenfalls in Zusammenhang mit der Niederschlagsmenge.
+Betrachten Sie als Einstieg eine andere Darstellung der Ihnen bereits bekannten Abbildung der Niederschlagsmesstationen din der Schweiz. Der obere Teil zeigt Ihnen eine eine *3D Niederschlagsoberfläche*. Die blauen Punkte sind erneut die Positionen der Messstationen, ihre Größe entspricht der Niederschlagsmenge. Die unterschiedlichen Höhen der Oberfläche sowie ihre Farbgebung stehen ebenfalls in Zusammenhang mit der Niederschlagsmenge. Im unteren teil sehen sie die 2D Verortung der Messtationen innerhalb der Schweiz.
 
 {% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/CH_Precip_Example_for_Intro.jpg" alt="Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)" caption="*Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)*" %}
 
@@ -75,12 +75,17 @@ Exakte Interpolation heißt: die geschätzte Oberfläche passiert die bekannten 
 
 
 
-### Räumliche Anwendung in Form von Höhendaten 
+### Räumliche Anwendung  
+Nutzen Sie die interaktiven Möglichkeiten und vergleichen Sie die je nach Verfahren unterschiedlichen räumliche Ausprägungen der flächenhaften Niederschlagsverteilung aus Punktmesswerten. Vergleichen Sie insbesondere die  Voronoi-Polygone mit den zum Teil erheblich komplexeren Interpolationsergebnissen. Schalten Sie die Hintergrundkarte z.B. auf *Esri.World.Topo.Map* und vergleichen Niederschlag und Relief.
+
+{% include media2 url="assets/images/unit04/suisse4.html" %}
+[Full-screen Version der Karte]({{ site.baseurl }}/assets/images/unit04/suisse4.html){:target="_blank"} 
+<figure>
+  <figcaption>Die blauen Kreisflächen sind ein lehrbuchhaftes Beispiel für unregelmäßig verteilte Meßpunkte im Raum - in diesem Fall offizielle Regenmessstationen in der Schweiz. Die unterschiedlichen Kreisflächen visualisieren die mittlere langjährige Niederschlagsmenge an der Messstation (nicht in der Legende abgebildet). Die überlagerten und entsprechend der Niederschlagmenge der enthaltenen Messtation eingefärbten Polygone sind die Voronoi- oder Voronoi-Polygone genannten Flächen **nächster Distanz** zu den Punkten. Die jeweiligen Flächeneinfärbungen des Interpolation_Rain Layers kommen durch die unterschiedlichen räumlichen Interpolationsverfahren zustande.  (gisma 2021)" </figcaption>
+</figure>
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/interpolation_examples.gif" alt="Vergleich unterschiedlicher Interpolationsmethoden am Beipiel eines DGM (Mitas et al.1999)" caption="*Vergleich unterschiedlicher Interpolationsmethoden am Beipiel eines DGM (Mitas et al.1999)*" %}
-
-Die dargestellten Beispiele visualisieren die Ergebnisse unterschiedlicher, etablierter Interpolationsverfahren. Aus diesen soll stellvertretend neben der bereits bekannten Voronoi-Tessellation die Inverse Distanz-Gewichtung Interpolation aufgrund ihrer Einfachheit und häufigen Anwendung gesondert betrachtet werden. Bei der Inversen Distanz-Gewichtung (Inverse Distance Weighting, IDW), wird das Gewicht jedes bekannten Punktes invers proportional zu seiner Entfernung zum nächsten Punkt gesetzt.
+Die dargestellten Beispiele visualisieren die Ergebnisse unterschiedlicher, etablierter Interpolationsverfahren. Aus diesen soll stellvertretend neben der bereits bekannten Voronoi-Tessellation die Inverse Distance-Weighted Interpolation aufgrund ihrer Einfachheit und häufigen Anwendung gesondert betrachtet werden. Bei der Inversen Distanz-Gewichtung (Inverse Distance Weighting, IDW), wird das Gewicht jedes bekannten Punktes invers proportional zu seiner Entfernung zum nächsten Punkt gesetzt und somit hat die Entfernung zum beinflussenden Meßpunkt einen erheblichen Einfluss auf den zwischen Diesen Punkten zu bestimmenden Wert.
 
 Je niedriger der Exponent gesetzt wird, desto gleichförmiger gehen alle Nachbarn (ungeachtet ihrer Distanz) in die Berechnung ein, und desto „glatter“ wird die Schätzoberfläche. Je höher der Exponent wird, desto akzentuierter und „unruhiger“ wird die Oberfläche, da nur mehr das Gewicht der nächstgelegenen Nachbarn in die Interpolation einfließt. Die Methode ist dieam häufigsten verwendete räumliche Interpolationsmethode mit folgenden Stärken:
 
@@ -92,13 +97,4 @@ und Schwächen:
 
 *  Es ist keine richtungsabhängige Gewichtung möglich, d. h. räumlich gerichtete Zusammenhänge werden ignoriert (z.B. Höhenpunkte entlang eines Bergrückens).
 *  Neigung zu Artefaktebildung -die sogenannten *Bull-Eyes* – dies sind kreisförmige Bereiche gleicher Werte um die bekannten Datenpunkte. 
-
-Zur Vollständigkeit: 
-
-Eine von (Shepard 1968) entwickelte Variante der IDW-Interpolation reduziert diese Bull-Eyes jedoch erheblich (siehe folgende Abbildungen):
-
-
-{% include gallery id="panel1"  caption= "(links) IDW „Bull Eyes“-Effekt: Um die bekannten Punkte sind konzentrische Bereiche gleicher Werte zu erkennen – ein unerwünschtes Artefakt der IDW-Interpolation (GITTA 2005), (rechts) IDW modifiziert nach Shepard: die Bull-Eyes sind deutlich reduziert" layout = "half"  %}
-
-
 
