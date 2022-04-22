@@ -11,7 +11,7 @@ sidebar:
 
 Unter nachfolgdem Link finden Sie alle Inhalte des Kurses als einzelne PDF Dateien in einenm Zip-Archiv. Dieses Archiv ist in erster Linie als Serviceleistung für Sie gedacht. 
 
-Snapshot 22.04.2022 00.10 Uhr
+Snapshot 22.04.2022 14.10 Uhr
 {: .notice--danger}
 
 Bitte regelmäßig auf Updates checken. Bitte beachten Sie: Die Webseite gilt als Refrenz für die Inhalte, die auf dieser Grundlage erzeugten PDF Dateien können geringfügige technische und inhaltliche Abweichungen zu den Seiten aufweisen. Bitte beachten Sie das einige der Medien aus urheberrechtlichen oder technischen Gründen nicht eingebunden werden können. 
