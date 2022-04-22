@@ -53,7 +53,7 @@ Man kann Voronoi-Diagramme auch um eindimensionale Objekte (Linien) bilden, was 
 
 Die Ermittlung von Voronoi-Polygonen ist auch auf Rasterdaten möglich. Im Raster wird dann nicht mehr von Polygonen gesprochen sondern von *Proximitätszonen*. Von einer Anzahl von Punkten aus, gegeben als einzelne Zellen in einem Raster, kann ganz mit Hilfe einer Distanztransformation die Zugehörigkeit der Zelle zur Mittelpunktszelle bestimmt werden. Die Berechnung im Raster hat den enormen Vorteil, dass zusätzlich zur  euklidischen Distanzmetrike weitere Faktoren wie z.B. Oberflächenreibung oder Kosten als Gewichtungsfaktoren usw. berücksichtigt werden können.
 
-{% include media1 url="assets/images/unit04/Voronoi.html" %}
+{% include media3 url="assets/images/unit04/Voronoi.html" %}
 [Full-screen Version der Modells]({{ site.baseurl }}/assets/images/unit04/Voronoi.html){:target="_blank"} 
 <figure>
   <figcaption>Experimentieren Sie. Mit dem Slider können Sie die Anzahl der Punkte bestimmen und mit Setup die Zellenbasierte Berechnung der Proximitätszonen starten. Wenn Sie den Go Button aktivieren, können sie interaktiv die Punkte verschieben und die Neuberechnung verfolgen.</figcaption>

@@ -1,5 +1,5 @@
 ---
-title: – Funktionale Ableitungen 
+title: Funktionale Ableitungen 
 toc: true
 toc_label: Inhalt
 

@@ -1,5 +1,5 @@
 ---
-title: – Prozessorientierte Ableitung von Informationen 
+title: Prozessorientierte Ableitung von Informationen 
 toc: true
 toc_label: Inhalt
 header:

@@ -1,5 +1,5 @@
 ---
-title: – Sichtweite und Sichtfeld
+title: Sichtweite und Sichtfeld
 toc: true
 toc_label: Inhalt
 header:
