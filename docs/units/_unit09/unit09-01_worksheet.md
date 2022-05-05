@@ -28,10 +28,10 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Luftbild](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
-  * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
-  * [Straßen](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
-  * [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls) Excel Tabelle.
+  * [Luftbild](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
+  * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
+  * [Straßen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
+  * [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_objects.xls) Excel Tabelle.
 
 ### Software
   * [QGIS](https://www.qgis.org/de/site/index.html). Die aktuelle Langzeit Release ist Versin 3.22. Es emfiehlt sich sehr bei der Installation dieser Release die folgenden Installationshinweise zu berücksichtigen:
@@ -61,7 +61,7 @@ Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im G
   * Informieren Sie sich auch bei diesem Datensatz über die Eigenschaften. (Projektion, Datenmodell, Werte-Spektrum).
   * Schneiden Sie den Datensatz `gis_osm_pois_free_1` auf die Ausdehnung des Luftbildes `marburg_RE.tif` zu 
   * Exportieren Sie diese Punktdaten im *geopackage* Datenformat unter dem Namen `mr_points`
-  * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/bsc-gi-2021/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
+  * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
   * Erstellen Sie auf Grundlage des Luftbildes `marburg_RE.tif`:
       * Drei beliebige Flächen (Polygone), 
       * drei beliebige Straßen (Linienzüge) 

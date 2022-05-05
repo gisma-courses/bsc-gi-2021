@@ -1,4 +1,4 @@
-![Course Header](https://gisma-courses.github.io/bsc-gi-2021/assets/images/splash-geoinformatik.jpg "Image source: C.Reudenbach")
+![Course Header](https://gisma-courses.github.io/geoinfo-basis-qgis/assets/images/splash-geoinformatik.jpg "Image source: C.Reudenbach")
 
 
 
