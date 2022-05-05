@@ -29,7 +29,7 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Points of Interest (POI) Marburg](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_points.zip). Sie können diese Datei verwenden oder die von Ihnen in Aufgabe 1 erzeugte Datei benutzen. 
+  * Points of Interest Marburg: Es handelt sich um die von Ihnen in Aufgabe 1 erzeugte Datei. 
   * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen Open Streetmap (OSM) Datensatz
   * [Straßen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen  Open Streetmap (OSM) Datensatz
 
