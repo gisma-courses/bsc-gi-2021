@@ -83,9 +83,9 @@ Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coord
    * In welcher Projektion werden die Daten angezeigt? 
    * Wo können Sie die Projektion definieren, die zur Darstellung der Daten verwendet werden soll?
    * Was versteht man unter einer *on the fly* bzw. *Echtzeit* Projizierung?
-* Weisen Sie dem Layer `mr_nat` das geographische Referenzsystem `WGS 84` zu. 
-* Projizieren Sie anschließend alle Datensätze in *ETRS89 UTM 32* 
-   * Warum konnten Sie dem Layer `mr_nat` die Projektion *ETRS89 UTM 32* nicht direkt zuweisen
+ 
+* Projizieren Sie alle Datensätze in *ETRS89 UTM 32* 
+   
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 1
