@@ -78,9 +78,18 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
 
 ## Hilfestellungen 
 
+### Der Abgdrageeditor  - QGIS Dokumentation
+Für die generelle Abfrage auf relational sturukturierten Datensätzen (Attributtabellen, Datenbanken) ist der [QGIS Ausdruckseditor](https://docs.qgis.org/3.22/de/docs/user_manual/expressions/expression.html) das Werkzeug der Wahl. 
+
+### Arbeiten mit Attributen
+Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch in wie vielfältiger Weise er in QGIS zum Einsatz kommen kann.
+
+{% include video id="eFoBztZSIaM" provider="youtube" %}
+
+
 ### Aufgabe 02-01
 
-Bitte beachten Sie in jedem Fall, dass die Suchbegriffe sowohl groß als auch klein, mit oder ohne Leerzeichen, nur Teilweise oder einmal mit und einmal ohne Umlaut eingetragen worden sind. Diese unterschiedlichen Eintragungen ein und derselben Kategorie sollten aber soweit als möglich bei den thematischen Abfragen berücksichtigt werden. 
+Bitte beachten Sie in jedem Fall, dass Ihre Suchbegriffe von den Datenerfasser:innen sowohl groß als auch klein, mit oder ohne Leerzeichen, nur teilweise oder auch mit oder ohne Umlaut erfasst worden sind. Auch typische Schreibfehler sind möglich.  Diese unterschiedlichen Eintragungen ein und derselben Kategorie sollten soweit es sinnvoll erscheint und möglich ist, bei den thematischen Abfragen berücksichtigt werden. 
 
 
 ### Aufgabe 02-02
