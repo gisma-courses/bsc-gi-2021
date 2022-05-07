@@ -82,14 +82,21 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
 Für die generelle Abfrage auf relational strukturierte Datensätze (Attributtabellen, Datenbanken) ist der [QGIS Ausdruckseditor](https://docs.qgis.org/3.22/de/docs/user_manual/expressions/expression.html) das Werkzeug der Wahl. Unter dem Link finden Sie einen Einstieg in die QGIS Dokumentation. Der Ausdruckseditor ist ein Werkzeug das in vielfältiger Weise zum Einsatz kommt und daher aus unterschiedlichen Menu-Kontexten aufgerufen werden kann.
 
 ### Arbeiten mit Attributen
+
 Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch die unterschiedlichen Verwendungszwecke die im Video thematisiert werden.
 
 {% include video id="eFoBztZSIaM" provider="youtube" %}
 
+Im nachfolgenden YouTube Video werden Sie auf 90 Minuten umfassend über die praktische Anwendungsmöglichkeiten der Arbeit mit Attributen unterrichtet.
+
+{% include video id="https://youtu.be/" provider="youtube" %}
 
 ### Vertiefende Erläuterungen
 
 Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](https://minibsc.gis-ma.org/GISBScL2/de/html/index.html) finden sie eine vertiefende Lerneinheit. Die Lernbeispiele sind jedoch für ArcGis ausgeführt.  
+
+
+
 
 ### Aufgabe 02-01
 
