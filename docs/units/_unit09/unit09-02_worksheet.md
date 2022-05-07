@@ -78,11 +78,11 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
 
 ## Hilfestellungen 
 
-### Der Abgdrageeditor  - QGIS Dokumentation
-Für die generelle Abfrage auf relational sturukturierten Datensätzen (Attributtabellen, Datenbanken) ist der [QGIS Ausdruckseditor](https://docs.qgis.org/3.22/de/docs/user_manual/expressions/expression.html) das Werkzeug der Wahl. 
+### Der Ausdruckseditor
+Für die generelle Abfrage auf relational strukturierte Datensätze (Attributtabellen, Datenbanken) ist der [QGIS Ausdruckseditor](https://docs.qgis.org/3.22/de/docs/user_manual/expressions/expression.html) das Werkzeug der Wahl. Unter dem Link finden Sie einen Einstieg in die QGIS Dokumentation. Der Ausdruckseditor ist ein Werkzeug das in vielfältiger Weise zum Einsatz kommt und daher aus unterschiedlichen Menu-Kontexten aufgerufen werden kann.
 
 ### Arbeiten mit Attributen
-Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch in wie vielfältiger Weise er in QGIS zum Einsatz kommen kann.
+Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch die unterschiedlichen Verwendungszwecke die im Video thematisiert werden.
 
 {% include video id="eFoBztZSIaM" provider="youtube" %}
 
