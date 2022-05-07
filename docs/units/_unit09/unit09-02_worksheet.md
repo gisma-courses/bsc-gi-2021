@@ -87,7 +87,7 @@ Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Ab
 
 {% include video id="eFoBztZSIaM" provider="youtube" %}
 
-Im nachfolgenden YouTube Video werden Sie auf 90 Minuten umfassend über die praktische Anwendungsmöglichkeiten der Arbeit mit Attributen unterrichtet.
+Im nachfolgenden YouTube Video werden Sie auf 90 Minuten umfassend über die praktischen Anwendungsmöglichkeiten der Arbeit mit Attributen unterrichtet.
 
 {% include video id="h-mpUkwDdOQ" provider="youtube" %}
 
