@@ -15,7 +15,7 @@ Das systematische Abfragen von Datenbankinhalten sind Sie aus dem Alltag gewöhn
 Auch die Integration räumlicher Attribute in Abfragen ist Alltag für Sie. Falls sie zb. die *Location based Services* in Google aktiviert haben werden Sie regelmäßig mit lokalisierter Werbung oder Abstimmungsanfragen bedacht. Doch wie können sie solche Abfragen selber gestalten und was ist die grundsätzliche Wirkungsweise?
 
 ## Was wir in dieser Einheit vor haben
-In dieser Lerneinheit werden grundlegende Konzepte von Datenbankabfragen erlernt. Weniger formal werden Sie sich um die Extraktion von Daten aus Datentabellen kümmern. Abfragen in GI Systemen können sind ein wesentliches Standbein der meisten Analysen. 
+In dieser Lerneinheit werden grundlegende Konzepte von Datenbankabfragen erlernt. Weniger formal werden Sie sich um die Extraktion von Daten aus Datentabellen kümmern. Die Verknüpfung von thematischen und räumlichen Abfragen auf Vektordaten sind eine zentrale Analysemethode in den Raumwissenschaften und auch im Alltagsleben sehr verbreitet. 
 
 ## Lernziele 
 
@@ -86,6 +86,10 @@ Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Ab
 
 {% include video id="eFoBztZSIaM" provider="youtube" %}
 
+
+### Vertiefende Erläuterungen
+
+Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](https://minibsc.gis-ma.org/GISBScL2/de/html/index.html) finden sie eine vertiefende Lerneinheit. Die Lernbeispiele sind jedoch für ArcGis ausgeführt.  
 
 ### Aufgabe 02-01
 
