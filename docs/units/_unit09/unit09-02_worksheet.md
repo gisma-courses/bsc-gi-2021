@@ -29,7 +29,9 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Traffic related Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_traffic_1.gpkg).
+  * [Vehrkehr Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_traffic_1.gpkg).
+  * [ÖPNV  Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_transport_free_1.gpkg).
+  
   * [Other Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_pois_free_1.gpkg)
   * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen Open Streetmap (OSM) Datensatz
   * [Straßen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen  Open Streetmap (OSM) Datensatz
