@@ -36,6 +36,7 @@ Nach dieser Übung können Sie:
   * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen Open Streetmap (OSM) Datensatz
   * [Straßen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen  Open Streetmap (OSM) Datensatz
 
+Bitte schneiden Sie alle Datensätze - falls nicht schon geschehen - auf die Ausdehnung des Marburger Luftbildes aus Aufgabe 1 zu.
 
 ## Aufgaben Lerneinheit 1
 
