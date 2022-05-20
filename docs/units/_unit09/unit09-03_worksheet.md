@@ -34,8 +34,7 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [SRTM Geländemodell CGIAR](https://srtm.csi.cgiar.org/srtmdata/) oder
-  * [Copernicus EU-DEM v1.1](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1/view)
+  * [Copernicus EU-DEM v1.1](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1/view) Das EU DEM ist das beste frei erhältiche DEM für Gesamt Europa. Allerdings ist es ein Multisource Modell und daher deutlcih abweichend vom SRTM Modell. 
   * [SRTM Geländemodell opentopography](https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1) oder
   * [SRTM Geländemodell TileDownloader](https://dwtkns.com/srtm30m/) (Benötigt eine Registrierung bei [NASA Earthdata](https://urs.earthdata.nasa.gov/users/new)) oder
   * [SRTM OpenDEM](https://opendem.info/)
