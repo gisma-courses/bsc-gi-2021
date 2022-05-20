@@ -36,7 +36,7 @@ Nach dieser Übung können Sie:
 ### Daten
   * [SRTM Geländemodell CGIAR](https://srtm.csi.cgiar.org/srtmdata/) oder
   * [SRTM Geländemodell opentopography](https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1) oder
-  * [SRTM Geländemodell TileDownloader Derek Watkins](https://dwtkns.com/srtm30m/) Benötigt eine Registrierung bei [NASA Earthdata](https://urs.earthdata.nasa.gov/users/new) oder
+  * [SRTM Geländemodell TileDownloader Derek Watkins](https://dwtkns.com/srtm30m/) (Benötigt eine Registrierung bei [NASA Earthdata](https://urs.earthdata.nasa.gov/users/new)) oder
   * [SRTM OpenDEM](https://opendem.info/)
   * [Polygon Marburg Stadtgebiet]({{site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)
 
