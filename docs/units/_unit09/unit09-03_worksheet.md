@@ -46,10 +46,10 @@ Nach dieser Übung können Sie:
 
 
 * Laden Sie sich die Datenkachel für das SRTM Geländemodell von Marburg herunter.
-*   Was repräsentiert der Datensatz?
+*   Was repräsentiert der Datensatz? Schauen Sie sich die MEtadaten an. Verschaffen Sie sicheinen Überblick über die Version und Fehlerwerte.
 *   Projizieren Sie das Geländemodell in ETRS89 UTM32 und schneiden es auf den Ausschnitt des Marburger Luftbildes zu.
-*   Berechnen Sie die Hangneigung, Exposition/Aspect. 
-*   Extrahieren Sie für den Marktplatz (Position Brunnen) obige Werte.
+*   Berechnen Sie die Hangneigung, Exposition/Aspect und Topographischen Index (TPI). 
+*   Extrahieren Sie für den Marktplatz (Position Brunnen) die Werte aus den berechneten Datensätzen.
 *   Wenden Sie einen 5*5 Mittelwertsfilter auf die Geländehöhe an.
 *   Extrahieren Sie erneut für den Marktplatz (Position Brunnen) obige
 Werte.
