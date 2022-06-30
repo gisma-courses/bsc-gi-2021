@@ -33,7 +33,7 @@ Die meisten bei einer Bearbeitung von Projektarbeiten zur Anwendung kommenden Me
 {% include video id="11_REzHgVwtvZMoYER2Qks75PXfRr06sIWYEz3xu1KRc" provider="google-drive" %}
 
 
-## Zielsetzung – oder was will ich warum machen?
+## Die Geschichte des fehlenden Fragezeichens oder wie entwickle ich ein Projekt?
 
 Zu Beginn eines Projekts steht immer die Entwicklung einer Fragestellung und zu Beginn dieses Prozesses muss eine Frage oder eine Problemstellung stehen. Um zu einer Fragestellung oder einem Projektarbeitsthema zu gelangen, bestehen  neben grundständiger Neugierde natürlich viele Möglichkeiten. Die vielleicht wichtigsten sind:
 
@@ -60,7 +60,7 @@ Bedenken Sie, die Entwicklung einer belastbaren Fragestellung gehört zu den **a
 **Ohne eine klare Fragestellung und Zielsetzung kann keine gültige Antwort und kein belastbares Ergebnis erreicht werden**
 {: .notice--success}
 
-Es gibt auch weniger wissenschaftsfokussierte Inhalte, die bei der Entwicklung einer Fragestellung zu berücksichtigen sind. Nicht nur der Zweck und die Zielsetzung sondern auch die Adressaten sind von erheblicher Bedeutung für die Entwicklung Ihrer Thematik. Es muss schon in der Fragestellung differenziert werden ob sie ein “Produkt” für z.B. Ausbildung, Information, Edutainment, Erkenntnisgewinn oder Verkauf auf einem existierenden Markt entwickeln wollen.
+Es gibt auch weniger wissenschaftsfokussierte Inhalte, die bei der Entwicklung einer Fragestellung zu berücksichtigen sind. Nicht nur der Zweck und die Zielsetzung sondern auch die Adressaten können von erheblicher Bedeutung für die Entwicklung Ihrer Thematik. Es muss bereits in der Fragestellung differenziert werden ob sie ein “Produkt” für z.B. Ausbildung, Information, Edutainment, Erkenntnisgewinn oder Verkauf auf einem existierenden oder zu sensibilisierenden Markt entwickeln wollen.
 
 ## Das Exposé als Mittel zur Entwicklung einer Projektarbeit
 
