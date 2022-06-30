@@ -57,7 +57,7 @@ Bedenken Sie, die Entwicklung einer belastbaren Fragestellung gehört zu den **a
 * Entwicklung der leitenden Fragestellung bzw. des konzeptionellen Gerüstes – Was soll die Studie untersuchen? Diese zielführende Fragestellung muss in der Regel in Unterfragen oder Thesen differenziert werden. Sie sollte strukturiert und nicht zu breit oder allgemein gewählt werden
 * Ausarbeitung und Formulierung des Ziels der Arbeit bzw. der Arbeitshypothesen: Die Zielsetzung der Arbeit lässt sich nach der Aufarbeitung des Kenntnisstandes präziser eingrenzen. Die Formulierung von Arbeitshypothesen (was kann erwartet werden, was ist nachzuweisen?) ist ein essentielles Resultat dieses Prozesses.
 
-**Ohne eine klare Fragestellung und Zielsetzung kann keine klare Antwort und kein Ziel erreicht werden**
+**Ohne eine klare Fragestellung und Zielsetzung kann keine gültige Antwort und kein belastbares Ergebnis erreicht werden**
 {: .notice--success}
 
 Es gibt auch weniger wissenschaftsfokussierte Inhalte, die bei der Entwicklung einer Fragestellung zu berücksichtigen sind. Nicht nur der Zweck und die Zielsetzung sondern auch die Adressaten sind von erheblicher Bedeutung für die Entwicklung Ihrer Thematik. Es muss schon in der Fragestellung differenziert werden ob sie ein “Produkt” für z.B. Ausbildung, Information, Edutainment, Erkenntnisgewinn oder Verkauf auf einem existierenden Markt entwickeln wollen.
