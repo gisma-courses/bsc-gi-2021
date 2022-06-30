@@ -17,9 +17,9 @@ Projekte weisen spezifische Kriterien auf:
 *     begrenzter Ressourcen (personell, sachlich, fachlich)
 *     Teamarbeit
 
-Projekte werden also aufgrund definierter Zielsetzungen realisiert, indem  die aus den Zielen abgeleiteten Problemstellungen im Team bewältigt werden. Die Durchführung erfordert nicht genau vorher bestimmbare Tätigkeiten und Problemlösungen.
+Projekte werden in der Regel realisiert, indem  die aus den Zielen abgeleiteten Problemstellungen im Team bewältigt werden. Die Durchführung erfordert eine definierter Zielsetzung _**ohne**_  zuvor exakt bestimmte Tätigkeiten und Problemlösungen zu kennen oder zu beherrschen.
 
-Die meisten der zur Anwendung kommenden Methoden stellen akademische und berufliche Kernkompetenzen dar: Wie beispielsweise Konzeption und Realisation von wissenschaftlichen Fragestellungen, anwendungsorientierte Fragestellungen entwickeln oder eigenständige kreative und strukturierte Tätigkeiten im Team durchführen und organisieren. Darüberhinaus verlangen Projektarbeiten die Anwendung und Optimierung übergeordnete Kompetenzen im kommunikativen und sozialen Bereich.
+Die meisten bei einer Bearbeitung von Projektarbeiten zur Anwendung kommenden Methoden stellen akademische und berufliche **Kernkompetenzen** dar: Wie beispielsweise Konzeption und Realisation von wissenschaftlichen Fragestellungen, Entwicklung anwendungsorientierter Fragestellungen oder die eigenständige kreative und strukturierte Tätigkeiten innerhalb eines Teams durchzuführen und zu organisieren. Darüberhinaus verlangen Projektarbeiten die Anwendung und Optimierung übergeordneter Kompetenzen im kommunikativen und sozialen Bereich.
 
 ## Lernziele
 
@@ -57,7 +57,8 @@ Bedenken Sie, die Entwicklung einer belastbaren Fragestellung gehört zu den **a
 * Entwicklung der leitenden Fragestellung bzw. des konzeptionellen Gerüstes – Was soll die Studie untersuchen? Diese zielführende Fragestellung muss in der Regel in Unterfragen oder Thesen differenziert werden. Sie sollte strukturiert und nicht zu breit oder allgemein gewählt werden
 * Ausarbeitung und Formulierung des Ziels der Arbeit bzw. der Arbeitshypothesen: Die Zielsetzung der Arbeit lässt sich nach der Aufarbeitung des Kenntnisstandes präziser eingrenzen. Die Formulierung von Arbeitshypothesen (was kann erwartet werden, was ist nachzuweisen?) ist ein essentielles Resultat dieses Prozesses.
 
-**Ohne eine klare Fragestellung und Zielsetzung kann keine klare Antwort und kein Ziel erreicht werden*</note>**
+**Ohne eine klare Fragestellung und Zielsetzung kann keine klare Antwort und kein Ziel erreicht werden**
+{: .notice--success}
 
 Es gibt auch weniger wissenschaftsfokussierte Inhalte, die bei der Entwicklung einer Fragestellung zu berücksichtigen sind. Nicht nur der Zweck und die Zielsetzung sondern auch die Adressaten sind von erheblicher Bedeutung für die Entwicklung Ihrer Thematik. Es muss schon in der Fragestellung differenziert werden ob sie ein “Produkt” für z.B. Ausbildung, Information, Edutainment, Erkenntnisgewinn oder Verkauf auf einem existierenden Markt entwickeln wollen.
 
