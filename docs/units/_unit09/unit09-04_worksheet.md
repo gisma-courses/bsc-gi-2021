@@ -99,6 +99,7 @@ Beschreiben Sie das Ergebnis, fügen Sie aussagekräftige Grafik(en) ein und beg
 
 *  Sie können für die rasterbasierte Umrechnung (Klassifikation/Reklassifikation) der Werte  als generelles Werkzeug den *Raster-Rechner*  oder auch spezielle Werkzeuge wie z.B. das Plugin `WMCA Weighted Multicriteria Analysis` (WMCA) nutzen. Dieses Plugin wird nach der Installation unter dem Haupt-Menü `Raster` angezeigt (Sie müssen evtl. *"Auch experimentelle Erweiterungen anzeigen"* unter den Einstellungen aktivieren).
 * Weitere und deutlich tiefergehende Hilfe für den gesamten Arbeitsablauf finden Sie QGIS-spezifisch unter [Multi Criteria Overlay Analysis (QGIS3)](https://www.qgistutorials.com/en/docs/3/multi_criteria_overlay.html). 
+* Aktuell (seit 2020) gibt es eine Python Fehlermeldung nach der Installation des Plugins. Bitte nutzen Sie das [Kurs-WMCA-Repository](https://github.com/gisma/Weighted-Multi-Criteria-Analysis---WMCA) und folgen zur Installation den Anleitungen in der Readme Datei. 
 
 Da es sich bei dieser Vorgehensweise um ein häufig angewandtes Raster-GIS-Konzept handelt, werden Sie unter allen GI Softwarepaketen ähnliche Werkzeuge finden. So ist auch etwas das  [MCE Tutorial für SAGA GIS](https://svwh.dl.sourceforge.net/project/saga-gis/SAGA%20-%20Documentation/Tutorials/Multi_Criteria_Evaluation_Tutorial/MultiTutorial2.pdf) ein hilfreiche Ressource um den Vorgang zu verstehen.
 
