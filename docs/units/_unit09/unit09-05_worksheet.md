@@ -72,4 +72,4 @@ Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische St
 
 ## Bewertungskriterien
 
-{% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
+<iframe src="https://drive.google.com/file/d/1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh/preview" width="800" height="1024" allow="autoplay"></iframe>
