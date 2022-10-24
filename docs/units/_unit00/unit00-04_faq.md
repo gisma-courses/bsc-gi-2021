@@ -8,6 +8,4 @@ header:
 ---
 
 **Wann findet der Kurs statt?**
-  * Basis-Einheit Donnerstag, 12.00-14.00 Uhr
-
-
+  * Basis-Einheit Dienstag 10:00-12:00 Uhr

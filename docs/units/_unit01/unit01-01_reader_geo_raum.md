@@ -7,7 +7,7 @@ header:
   image: /assets/images/splash_L01_1.png
   image_description: "MineSeeker World "
   caption: "What is reality? CC0 AG UI"
-  
+
 
 ---
 
@@ -25,7 +25,7 @@ Fragestellungen, die räumliche Aspekte beinhalten, werden oft *geographisch* at
 * In der Analyse oder Vorhersage von ökonomischen oder oder soziodemographischen Zusammenhängen werden geographische Fragen bearbeitet. *Welche sozioökonomischen Parameter sind räumlich geclustered? Gibt es einen räumlichen oder zeitlichen Zusammenhang zwischen Strukturschwäche und ungünstiger ökonomischer Entwicklung?*
 
 
-*  In der Organisation und Planung von Logistik geht es um geographische Problemlösungen.*Auf welchem Weg erreiche ich als Auslieferungsfahrer am effizientesten meine Kunden?*
+*  In der Organisation und Planung von Logistik geht es um geographische Problemlösungen. *Auf welchem Weg erreiche ich als Auslieferungsfahrer am effizientesten meine Kunden?*
 
 
 *  Das Management von Liegenschaften in der Verwaltung (Kataster), in der Landwirtschaft (precision farming) und in der Forstwirtschaft ist eng verknüpft mit vielfältigen geographischen Fragestellungen.
@@ -33,7 +33,7 @@ Fragestellungen, die räumliche Aspekte beinhalten, werden oft *geographisch* at
 *  Konventionelle und moderne Informationssysteme bieten Lösungen für typische geographische Fragestellungen. *Wie komme ich als Tourist zu meinem Hotel, zum Strand oder zum Kletterfels?*
 
 ## Geographische Kompetenzen
-Bereits viele unserer alltäglichen Handlungen sind offenkundig von Problemlösungsstrategien abhängig, die geographische Kompetenzen erfordern. Natürlich sind nicht alle Problemstellungen so anwendungsorientiert, wie die Beispiele vermuten lassen, aber eine Unterscheidung in Grundlagenforschung und angewandte Forschung ist im Hinblick auf die Technologie der Geographischen Informationssysteme in der Regel unbedeutend, da beiden die gleichen informationstechnischen Konzepte zugrunde liegen und lediglich unterschiedlich Ziele angestrebt werden.
+Bereits viele unserer alltäglichen Handlungen sind offenkundig von Problemlösungsstrategien abhängig, die geographische Kompetenzen erfordern. Natürlich sind nicht alle Problemstellungen so anwendungsorientiert, wie die Beispiele vermuten lassen, aber eine Unterscheidung in Grundlagenforschung und angewandte Forschung ist im Hinblick auf die Technologie der Geographischen Informationssysteme in der Regel unbedeutend, da beiden die gleichen informationstechnischen Konzepte zugrunde liegen und lediglich unterschiedliche Ziele angestrebt werden.
 
 ## Lernziele
 
@@ -42,6 +42,5 @@ Die Lernziele des ersten Readers sind:
   * Reflexion der alltäglichen Verwendung von Geographischen Informationssystemen (GIS)
   * Einführung in Begrifflichkeiten und Definitionen
   * Einführung in die Kommunikationskonzepte von GI in der Geographie
- 
----
 
+---

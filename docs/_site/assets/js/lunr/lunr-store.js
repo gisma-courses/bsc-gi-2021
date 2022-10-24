@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "FAQ",
-        "excerpt":"Wann findet der Kurs statt?     Basis-Einheit Donnerstag, 12.00-14.00 Uhr   ","categories": ["Formales"],
+        "excerpt":"Wann findet der Kurs statt?     Basis-Einheit Dienstag 10:00-12:00 Uhr  ","categories": ["Formales"],
         "tags": ["Unit|00"],
         "url": "http://localhost:4000/geoinfo-basis-qgis/faq.html",
         "teaser": null
