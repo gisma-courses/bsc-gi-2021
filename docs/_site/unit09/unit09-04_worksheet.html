@@ -1,0 +1,736 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Lerneinheit 4 - Kosten und Kriterien | gisma spatial science ressources</title>
+<meta name="description" content="In dieser Aufgabe sollen Sie unterschiedliche Analysen auf der Grundlage vorgegebener Kriterien oder Merkmalsausprägungen durchführen. Das heißt Sie sollen die  Eignung von Rasterzellen (Raumeinheiten) für eine bestimmte Nutzung bewerten. Sie können Werte so evaluierter Rasterzellen auch nutzen um die Überwindung  räumlicher  Widerstände oder auch  Kosten zu akkumulieren, um für einen spezifischen Zweck geeignete Strecken oder Korridore auszuweisen.  ">
+
+
+  <meta name="author" content="Christoph Reudenbach">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="gisma spatial science ressources">
+<meta property="og:title" content="Lerneinheit 4 - Kosten und Kriterien">
+<meta property="og:url" content="http://localhost:4000/geoinfo-basis-qgis/unit09/unit09-04_worksheet.html">
+
+
+  <meta property="og:description" content="In dieser Aufgabe sollen Sie unterschiedliche Analysen auf der Grundlage vorgegebener Kriterien oder Merkmalsausprägungen durchführen. Das heißt Sie sollen die  Eignung von Rasterzellen (Raumeinheiten) für eine bestimmte Nutzung bewerten. Sie können Werte so evaluierter Rasterzellen auch nutzen um die Überwindung  räumlicher  Widerstände oder auch  Kosten zu akkumulieren, um für einen spezifischen Zweck geeignete Strecken oder Korridore auszuweisen.  ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/geoinfo-basis-qgis/assets/images/splash_L04.png">
+
+
+
+  <meta name="twitter:site" content="@creuden">
+  <meta name="twitter:title" content="Lerneinheit 4 - Kosten und Kriterien">
+  <meta name="twitter:description" content="In dieser Aufgabe sollen Sie unterschiedliche Analysen auf der Grundlage vorgegebener Kriterien oder Merkmalsausprägungen durchführen. Das heißt Sie sollen die  Eignung von Rasterzellen (Raumeinheiten) für eine bestimmte Nutzung bewerten. Sie können Werte so evaluierter Rasterzellen auch nutzen um die Überwindung  räumlicher  Widerstände oder auch  Kosten zu akkumulieren, um für einen spezifischen Zweck geeignete Strecken oder Korridore auszuweisen.  ">
+  <meta name="twitter:url" content="http://localhost:4000/geoinfo-basis-qgis/unit09/unit09-04_worksheet.html">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/geoinfo-basis-qgis/assets/images/splash_L04.png">
+  
+
+  
+    <meta name="twitter:creator" content="@https://twitter.com/creuden">
+  
+
+
+
+  <meta property="article:published_time" content="2022-10-24T16:03:39+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/geoinfo-basis-qgis/unit09/unit09-04_worksheet.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "gisma spatial science ressources",
+      "url": "http://localhost:4000/geoinfo-basis-qgis/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/geoinfo-basis-qgis/feed.xml" type="application/atom+xml" rel="alternate" title="gisma spatial science ressources Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/geoinfo-basis-qgis/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+    	<a class="site-title" href="http://localhost:4000/geoinfo-basis-qgis/" style="padding:0px"><img src="http://localhost:4000/geoinfo-basis-qgis/assets/images/logo_umr.png" style="padding-right:15px">gisma spatial science ressources</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/geoinfo-basis-qgis//units.html" >Kurseinheiten</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/geoinfo-basis-qgis//faq.html" >FAQ</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR" >ILIAS</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://github.com/gisma-courses" >Courses</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/geoinfo-basis-qgis//sitemap.html" >Seitenübersicht</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/geoinfo-basis-qgis//downloads.html" >Downloads</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/geoinfo-basis-qgis/assets/images/splash_L04.png" alt="Least Cost Path Analysis" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">Least Cost path Analysis on a MCE cost raster at the MOF. CC0 AG UI
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+
+  
+    
+      
+      
+      
+    
+    
+	      
+            <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit00/unit00-03_assignments.html" class="">Formales</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit01/unit01-01_reader_geo_raum.html" class="">Reader Geographische Raumkonzepte</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit02/unit02-01_reader_gi_raum.html" class="">Reader GI Raumkonzepte</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit03/unit03-01_reader_abfragen.html" class="">Reader Fragen & Antworten</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit04/unit04-01_reader_rasteranalyse.html" class="">Reader Räumliche Analysen</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit05/unit05-01_reader_mce.html" class="">Reader Entscheidungsfindung</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit06/unit06-01_reader_PA.html" class="">Reader Projektarbeit</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit08/unit08-01_reader_QGIS_01.html" class="">QGIS Materialien</a>
+		  </span>
+          <ul>
+            
+              
+			  
+            
+          </ul>
+        </li>
+	  
+    
+      
+      
+        
+        <li>
+          <span class="nav__sub-title">
+		     <a href="/geoinfo-basis-qgis//unit09/unit09-01_worksheet.html" class="">Arbeitsblätter</a>
+		  </span>
+          <ul>
+            
+              
+			  
+			    <li><a href="/geoinfo-basis-qgis//unit09/unit09-01_worksheet.html" class="">Lerneinheit 1 - Warm Up QGIS</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/geoinfo-basis-qgis//unit09/unit09-02_worksheet.html" class="">Lerneinheit 2 - Fragen & Antworten</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/geoinfo-basis-qgis//unit09/unit09-03_worksheet.html" class="">Lerneinheit 3 - Analysen</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/geoinfo-basis-qgis//unit09/unit09-04_worksheet.html" class="active">Lerneinheit 4 - Kosten und Kriterien</a></li>
+			  
+            
+              
+			  
+			    <li><a href="/geoinfo-basis-qgis//unit09/unit09-05_worksheet.html" class="">Lerneinheit 5 -Projektarbeit</a></li>
+			  
+            
+          </ul>
+        </li>
+	  
+    
+  </ul>
+</nav>
+	      
+    
+  
+  </div>
+
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Lerneinheit 4 - Kosten und Kriterien">
+    <meta itemprop="description" content="In dieser Aufgabe sollen Sie unterschiedliche Analysen auf der Grundlage vorgegebener Kriterien oder Merkmalsausprägungen durchführen. Das heißt Sie sollen die  Eignung von Rasterzellen (Raumeinheiten) für eine bestimmte Nutzung bewerten. Sie können Werte so evaluierter Rasterzellen auch nutzen um die Überwindung  räumlicher  Widerstände oder auch  Kosten zu akkumulieren, um für einen spezifischen Zweck geeignete Strecken oder Korridore auszuweisen.">
+    <meta itemprop="datePublished" content="2022-10-24T16:03:39+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Lerneinheit 4 - Kosten und Kriterien
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#was-wir-in-dieser-einheit-vor-haben">Was wir in dieser Einheit vor haben</a></li>
+  <li><a href="#lernziele">Lernziele</a></li>
+  <li><a href="#benötigte-materialien">Benötigte Materialien</a></li>
+  <li><a href="#aufgaben-lerneinheit-4">Aufgaben Lerneinheit 4</a>
+    <ul>
+      <li><a href="#aufgabe-04-01">Aufgabe 04-01</a></li>
+    </ul>
+  </li>
+  <li><a href="#aufgabe-04-02">Aufgabe 04-02</a>
+    <ul>
+      <li><a href="#gewichtung-der-aufgaben-in-lerneinheit-4">Gewichtung der Aufgaben in Lerneinheit 4</a></li>
+    </ul>
+  </li>
+  <li><a href="#hilfestellungen">Hilfestellungen</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>In dieser Aufgabe sollen Sie unterschiedliche Analysen auf der Grundlage vorgegebener Kriterien oder Merkmalsausprägungen durchführen. Das heißt Sie sollen die  <em>Eignung</em> von Rasterzellen (Raumeinheiten) für eine bestimmte Nutzung bewerten. Sie können Werte so evaluierter Rasterzellen auch nutzen um die <em>Überwindung</em>  räumlicher  <em>Widerstände</em> oder auch  <em>Kosten</em> zu akkumulieren, um für einen spezifischen Zweck geeignete Strecken oder Korridore auszuweisen.</p>
+
+<!--more-->
+
+<p>Nimmt man eine Position  A und eine Position B auf einem solchen Raster als Start und Ziel, kann die kostengünstigste Strecke als Bewegung durch einen Raum mit unterschiedlicher <em>Reibung</em> interpretiert werden, d.h. Sie können die Werte eines Pixels als Kosten für das Betreten/Nutzen/Überwinden dieses Pixels interpretieren. Diese Kosten können durchaus mit den kategorialen Merkmalsausprägungen wie z.B. <em>leicht</em> oder <em>beschwerlich</em>, <em>billig</em> oder <em>teuer</em>, <em>attraktiv</em> oder <em>unattraktiv</em> usw. beschrieben werden. Vor diesem Hintergrund müssen die genutzten Kriterien für die Planung einer z.B. “<em>kostengünstigen Strecke</em>” immer in Bezug auf die Fragestellung bzw. Zielsetzung bewertet werden.</p>
+
+<h2 id="was-wir-in-dieser-einheit-vor-haben">Was wir in dieser Einheit vor haben</h2>
+
+<p>Im Rahmen der Übung werden Sie eine einfache Eignungsanalyse und eine Kostenpfadanalyse durchführen. Dazu gehört die vollständige Datenvorbereitung und die Interpretation der genutzen Kriterien sowie der Resultate.</p>
+
+<h2 id="lernziele">Lernziele</h2>
+
+<p>Nach dieser Übung können Sie:</p>
+
+<ul>
+  <li>unterschiedlichste Datenebenen zielorientiert bearbeiten und kombinieren</li>
+  <li>die Bedeutung verschiedener Kriterien identfizieren und einschätzen</li>
+  <li>durch Verrechnen geeigneter Datenebenen eine Eignungsanalyse durchführen</li>
+  <li>eine Kostenanalyse planen und durchführen</li>
+</ul>
+
+<h2 id="benötigte-materialien">Benötigte Materialien</h2>
+
+<ul>
+  <li>Geländemodell des Marburg Open Forest (MOF) in 1 Meter Auflösung</li>
+  <li>Corine Landnutzung Daten für den MOF</li>
+</ul>
+
+<p>Die Daten finden Sie im  Zip-Archiv  <a href="/geoinfo-basis-qgis//assets/data/Daten-Aufgabe-L04.zip">Daten-Aufgabe-L04</a></p>
+<ul>
+  <li>Open Street Map (OSM) Wegedaten für den  MOF</li>
+  <li>Geländemodell des Marburg Open Forest (MOF) in 1 Meter Auflösung</li>
+  <li>Corine Landnutzung Daten für den MOF</li>
+  <li>Koordinaten (ETRS89, UTM32 EPSG:25832) Position <em>Parkplatz</em>  (478188,5632178), Position Grillhütte (476170,5631657)</li>
+</ul>
+
+<h2 id="aufgaben-lerneinheit-4">Aufgaben Lerneinheit 4</h2>
+
+<h3 id="aufgabe-04-01">Aufgabe 04-01</h3>
+
+<p>Sie sollen eine Entscheidungsfindung auf der Grundlage mehrerer Kriterien durchführen. Konkret sollen Sie die Eignung des Uniwalds als Wildkatzenhabitat untersuchen. Hierfür sollen folgende Aussagen gelten:</p>
+<ul class="notice--success">
+  <li>Wildkatzen bevorzugen Waldgebiete</li>
+  <li>Wildkatzen bevorzugen mittelsteile und steile Hanglagen</li>
+  <li>Waldgebiete werden gegenüber Hangebieten bevorzugt</li>
+</ul>
+<ul class="notice--success">
+  <li>Laden Sie die Daten herunter (prüfen Sie diese in gewohnter Weise)</li>
+  <li>Berechnen Sie die Hangneigung</li>
+  <li>Extrahieren Sie die aus den <a href="https://land.copernicus.eu/pan-european/corine-land-cover/clc2018?tab=mapview">Corine Landnutzungsdaten</a> alle Waldflächen so daß Sie ein Raster mit den Werten 1 für <em>Waldflächen</em> und 0 für <em>Keine Waldflächen</em> erhalten. (Sie finden bereits zugeschnittene Corine-Daten im heruntergeladenen Archiv unter dem Dateinamen <code class="language-plaintext highlighter-rouge">clc2018_1m_MOF_25832.tif</code>). Tip dieser Vorgang wird auch Reklassizierung von Daten genannt.</li>
+  <li>Zur Vorbereitung der Multikriterien-Evaluation sollen die kontinuierlichen Hangneigungswerte in <em>ganzzahlige</em> kategoriale Klassen überführt (reklassifiziert) werden. D.h. bei der Reklassifizierung der Hangneigung in drei Klassen 0-15 Grad = Klasse mit dem Wert 1, 15-30 Grad = Klasse mit Wert 2 und  &gt; 30 Grad = Klasse mit Wert 3 (1=flach, 2=mittlere Neigung und 3=steile) werden kategoriale Zielvariablen erzeugt.</li>
+  <li>Legen Sie für <strong>jede Datenebene</strong> eine Gewichtung gemäß der von Ihnen festgelegten Bedeutung in Relation zu ihrer Eignung fest (z.B. Wald/Nichtwald = Faktor 0.5, Hangneigung = Faktor 0.3). Beachten Sie bitte dass Werkzeuge wie das <code class="language-plaintext highlighter-rouge">WMCA Weighted Multicriteria Analysis</code> eine Gewichtungssumme von genau 1.0 erwarten. Daher müssen die Gewichte entsprechend verteilt werden.</li>
+  <li>Legen Sie für <strong>jede Klasse</strong> in diesem Layer eine Bewertung von 0-10 fest (z.B. Wald = 10, Nichtwald = 1, Hangneigung Klasse 1 = 5 etc.) Bedenken Sie bitte dass die Festlegung der Bewertung die Bedeutung der Kriterien für die Fragestellung berücksichtigen muss.</li>
+  <li>Erläutern Sie die Ergebnisse  in max. 2 Sätzen.</li>
+</ul>
+
+<h2 id="aufgabe-04-02">Aufgabe 04-02</h2>
+
+<p>Sie sollen einen Cross-Crountry Fitness-Trail durch den Uniwald (Marburg Open Forest, MOF) bei Caldern planen. Der Trail beginnt am Parkplatz in der Nähe des Kreisverkehrs am südöstlichen Rand und endet am Grillplatz am nordwestlichen Ende. Machen Sie sich zunächst mit dem Konzept der Kostenanalyse vertraut (siehe Hilfestellungen und Reader)</p>
+
+<p>Die Vorgaben zur Streckenplanung sind:</p>
+<ul class="notice--success">
+  <li>die Strecke soll bevorzugt durch Wald führen</li>
+  <li>die Strecke soll möglichst weit von Wegen entfernt sein</li>
+  <li>die Strecke soll maximale Steigungen bevorzugen</li>
+</ul>
+
+<ul class="notice--success">
+  <li>Download und Überprüfung der zur Verfügung gestellten Daten</li>
+  <li>Berechnen Sie die Hangneigung</li>
+  <li>Nutzen Sie reklassifizierten Corine Daten aus Aufgabe 04-01 (<em>Wald</em>, <em>Kein Wald</em>).</li>
+  <li>Berechnen Sie ein Entfernungsraster das den Abstand zu den Wegen (<code class="language-plaintext highlighter-rouge">OSM_roads_MOF_25832.gpkg</code>) beinhaltet (räumliche Auflösung wie das Hangneigungsraster).</li>
+  <li>Legen Sie für jede Rasterklasse (z.B. Wald Nicht-Wald) Werte fest, die die <em>Kosten</em> bzw den <em>Reibungswert</em> zur Überwindung/Nutzung der Zelle abbildet. Sinnvoll ist es also (im Sinne der obigen Vorgaben) unattraktive Zellen mit hohen Werten und attraktive Zellen mit niedrigen Werten zu reklassifizieren.</li>
+  <li>Verrechnen Sie die einzelnen Raster zu einem Gesamtkostenraster. Überlegen Sie sich dabei ob allen drei Kriterien gleichgewichtet eingehen sollen, oder ob Sie z.B. der Hangneigung eine höhere Bedeutung zuweisen wollen (z.B. wegen höherem Trainingseffekt).</li>
+  <li>Berechnen Sie auf dieser Grundlage den im Sinne der Vorgaben attraktivsten (=<em>“kostengünstigsten”</em>) Weg zwischen dem Start und Zielpunkt.
+Beschreiben Sie das Ergebnis, fügen Sie aussagekräftige Grafik(en) ein und begründen Sie stichpunktartig die einzelnen Arbeitsschritte.</li>
+</ul>
+
+<h3 id="gewichtung-der-aufgaben-in-lerneinheit-4">Gewichtung der Aufgaben in Lerneinheit 4</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Aufgabenteil</th>
+      <th style="text-align: center">Gewichtung Teilaufgabe</th>
+      <th style="text-align: center">Gewichtung  Gesamt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Aufgabe 04-01</td>
+      <td style="text-align: center">0.4</td>
+      <td style="text-align: center">0.16</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Aufgabe 04-01</td>
+      <td style="text-align: center">0.6</td>
+      <td style="text-align: center">0.24</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Aufgabe 04</strong></td>
+      <td style="text-align: center"><strong>1.0</strong></td>
+      <td style="text-align: center"><strong>0.4</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="hilfestellungen">Hilfestellungen</h2>
+
+<ul class="notice--info">
+  <li>Falls Sie das Plugin <code class="language-plaintext highlighter-rouge">WMCA Weighted Multicriteria Analysis</code> (WMCA) nutzen, müssen die kontinuierlichen Werte für die Hangneigung und für die Entfernung von der Straße in diskrete Klassen umgewandelt werden. Das WMCA Werkzeug kann jedoch maximal 100 Klassen verarbeiten, daher müssen bei Verwendung dieses Werkzeugs die kontinuierlichen Werte reklassifiziert werden (z.B jeweils 25 Meter Entfernungsklassen und alles &gt; 200 Meter Entfernung in ene Klasse, bzw. je 5 Grad Neigung von 0 Grad bis 30 Grad  je eine Klasse und &gt; 30 Grad eine Klasse). Weiterhin entfallen seperate Normalisierung und Gewichtung.</li>
+  <li>Falls Sie den <code class="language-plaintext highlighter-rouge">Raster-Rechner</code> verwenden ist diese Reklassifikation nicht notwendig jedoch müssen Sie dann Gewichtung und Normalisierung in die Berechnung integrieren.</li>
+</ul>
+
+<ul>
+  <li>Das Plugin <code class="language-plaintext highlighter-rouge">WMCA Weighted Multicriteria Analysis</code> (WMCA) ist sehr komfortabel für die gewichtete Multikriterien Analyse. Es wird nach der Installation unter dem Haupt-Menü <code class="language-plaintext highlighter-rouge">Raster</code> bzw. in der <code class="language-plaintext highlighter-rouge">Erweiterungswerkzeugleiste</code> angezeigt (für die reguläre Installation müssen Sie <em>“Auch experimentelle Erweiterungen anzeigen”</em> unter den Einstellungen aktivieren). <strong>Achtung:</strong> Aktuell (seit 2021) gibt es je nach QGIS Version eine Python Fehlermeldung nach der Installation des Plugins. Bitte nutzen Sie dann den alternativen <a href="https://github.com/gisma/Weighted-Multi-Criteria-Analysis---WMCA/archive/refs/heads/master.zip">Kurs-Repo-Download</a> des Plugins. Weitere Infos finden Sie unter <a href="https://github.com/gisma/Weighted-Multi-Criteria-Analysis---WMCA">WMCA-Kurs-Repository</a>. Installieren Sie das gezippte Plugin über das QGIS-Menü <code class="language-plaintext highlighter-rouge">Erweiterungen -&gt; Erweiterungen verwalten und installieren -&gt; Aus Zip installieren</code>.</li>
+  <li>Deutlich tiefergehende Hilfe für den gesamten Arbeitsablauf finden Sie QGIS-spezifisch unter <a href="https://www.qgistutorials.com/en/docs/3/multi_criteria_overlay.html">Multi Criteria Overlay Analysis (QGIS3)</a>.</li>
+  <li>Da es sich bei dieser Vorgehensweise um ein häufig angewandtes Raster-GIS-Konzept handelt, werden Sie unter allen GI Softwarepaketen ähnliche Werkzeuge finden. So ist auch etwas das  <a href="https://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/Tutorials/Multi_Criteria_Evaluation_Tutorial/MultiTutorial2.pdf/download">MCE Tutorial für SAGA GIS</a> ein hilfreiche Ressource um den Vorgang zu verstehen.</li>
+  <li>Typische Rechenoperationen auf Raster Daten u.a. auch das Reklassifizieren von Daten können mit dem <a href="https://docs.qgis.org/3.22/en/docs/">Raster-Rechner</a> durchgeführt werden. Der <code class="language-plaintext highlighter-rouge">Raster-Rechner</code> ist als Raster Taschenrechner für zahlreiche Operationen ein extrem wichtiges und mächtiges Werkzeug. Alternativ und für eine einfache Reklassifikation einfacher ist das QGIS- Werkzeug <code class="language-plaintext highlighter-rouge">Nach Tabelle neuklassifizieren</code>. Für einen Überblick der verfügbaren Werkzeuge der Daten-(Re)klassifikation geben Sie <code class="language-plaintext highlighter-rouge">klassifizieren</code> oder <code class="language-plaintext highlighter-rouge">reclass</code> in der Werkzeugleiste ein. Weiterhin finden Sie im Netz zahlreiche Anleitungen zum Thema Reklassifizieren z.B. im Blogbeitrag <a href="https://fivequestionz.home.blog/2020/02/08/how-to-reclassify-a-raster-layer-in-qgis/">How to reclassify a raster layer in QGIS</a> oder auf auch auf YouTube <a href="https://www.youtube.com/watch?v=7eIFvZ4fU6k">Slope Analysis/Reclassify from a DEM in QGIS 3</a>. Sie finden zusätzlich auf den Hilfeseiten von <a href="https://grass.osgeo.org/grass76/manuals/r.reclass.html">GRASS GIS</a> und <a href="http://www.saga-gis.org/saga_tool_doc/2.2.5/grid_tools_15.html">SAGA GIS</a> den technischen Vorgang ausführlich beschrieben.</li>
+  <li>Die Normalisierung von Raster Datenwerten kann sehr einfach mit dem SAGA Modul <code class="language-plaintext highlighter-rouge">Grid Normalisation</code> durchgeführt werden. Alternativ können Sie diese auch mit dem <a href="https://docs.qgis.org/3.22/de/docs/user_manual/working_with_raster/raster_analysis.html#raster-calculator">Raster-Rechner</a> nach der Formel <code class="language-plaintext highlighter-rouge">xnorm = (x-min(x))/(max(x)-min(x))</code> berechnen (wobei x das Raster, min(x) und max(x) jeweils das Minimum bzw. Maximum aller Werte des jeweiligen Rasters sind).</li>
+  <li>Die Gewichtung kann dann durch eine einfache Multiplikation (<code class="language-plaintext highlighter-rouge">Raster-Rechner</code>) des jeweiligen Raster mit dem Gewichtungswert erreicht werden. Z.B. Gleichgewichtung <code class="language-plaintext highlighter-rouge">Raster1*Raster2*Raster3/3</code> Gewichtung Raster1 Faktor 0.5 Raster2 und Raster3 Faktor 0.25 <code class="language-plaintext highlighter-rouge">0.5*Raster1 + 0.3* Raster2 + 0.2*Raster3</code>. Falls Sie mit anteiligen Werten von 1 gewichten (Prozent), achten Sie darauf dass die Summe aller Gewichtungsfaktoren 1 ergibt.
+Zur exakten Digitalisierung von Punkten ist die Extension <code class="language-plaintext highlighter-rouge">Numerical Digitize</code> sehr hilfreich. Sie wird nach der Installation in die Digitalisierungs-Leiste eingehangen.</li>
+  <li>Zur Kostenanalyse können sie das Plugin <code class="language-plaintext highlighter-rouge">Least Cost Path</code> installieren. Es wird unter den Verarbeitungswerkzeugen als eigener Menüeintrag <code class="language-plaintext highlighter-rouge">Cost Distance Analysis</code> angezeigt. Auch hierfür gibt es sowohl für QGIS als auch für die verwandten GRASS- und SAGA-Werkzeuge zahlreiche Videos und Tutorials (z.B. <a href="https://www.youtube.com/watch?v=6dodHcHm7ws">Least Cost Path</a>). Beachten Sie bei der Google-Suche, dass Sie nur aktuelle und für Ihre QGIS-Hauptversion gültige Anleitungen -also für QGIS 3.x- nutzen. Sollten Sie Interesse an den Konzepten und hinsischlich des Anwendungsbezugs (insbesondere für die Fragestellung auf der Landschaftsskala) haben, lohnt ein Blick in   <a href="https://link.springer.com/article/10.1007/s40823-016-0006-9">Least-Cost Modelling and Landscape Ecology: Concepts, Applications, and Opportunities</a>.</li>
+  <li>Für die Berechnungen von Entfernungen eignet sich das <code class="language-plaintext highlighter-rouge">Nähe/Proximity Werkzeug</code>. Bitte beachten Sie, dass sie Vektordaten zuerst in Raster Daten umwandeln müssen (<code class="language-plaintext highlighter-rouge">Raster-&gt;Conversion-&gt;Rastern</code>).</li>
+  <li>Weitere Unterstützung finden Sie unter <a href="https://gisma-courses.github.io/geoinfo-basis-qgis//unit08/unit08-01_reader_QGIS_01.html">QGIS Materialien</a></li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-10-24T16:03:39+02:00">October 24, 2022</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/geoinfo-basis-qgis/unit09/unit09-03_worksheet.html" class="pagination--pager" title="Lerneinheit 3 - Analysen
+">Previous</a>
+    
+    
+      <a href="/geoinfo-basis-qgis/unit09/unit09-05_worksheet.html" class="pagination--pager" title="Lerneinheit 5 -Projektarbeit
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+      <li><a href="https://twitter.com/creuden"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/gisma-courses"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/geoinfo-basis-qgis/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright"> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> &copy; 2022 gisma spatial science ressources
+. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> &amp; <a href="https://www.uni-marburg.de/fb19" rel="nofollow">Geography@Marburg University</a>.</div>
+
+
+
+      </footer>
+    </div>
+
+    
+  <script src="/geoinfo-basis-qgis/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

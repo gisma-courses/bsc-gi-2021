@@ -8,26 +8,26 @@ header:
   caption: "Geoinformatik. CC0 AG UI"
 ---
 
-Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. 
+Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. <!--more-->
 
 ## Aufteilung der Leistungspunkte
 
 ### Drei Leistungspunkte
 
-Falls für diesen Kurs nur 3 Leistungspunkte (LP) nachgefragt werden (z.B. Lehramtstudierende)  wird von Ihnen erwartet dass sie **alle** gestellten Aufgaben (aktuell 4 Themenblöcke) bearbeiten und einreichen. Die vollständige Einreichung aller Aufgaben von denen mindestens drei Aufgaben mit einer als ausreichend bewerteten Leistung vorliegen wird als erbrachte Studienleistung gewertet. Die Prüfungsleistung wird als Noten-Mittelwert aus allen vier  Abgaben gebildet. 
+Falls für diesen Kurs nur 3 Leistungspunkte (LP) nachgefragt werden (z.B. Lehramtstudierende)  wird von Ihnen erwartet dass sie **alle** gestellten Aufgaben (aktuell 4 Themenblöcke) bearbeiten und einreichen. Die vollständige Einreichung aller Aufgaben von denen mindestens drei Aufgaben mit einer als ausreichend bewerteten Leistung vorliegen wird als erbrachte Studienleistung gewertet. Die Prüfungsleistung wird als Noten-Mittelwert aus allen vier  Abgaben gebildet.
 
 Die etwaige Prüfungswiederholung erfolgt durch Erbringen der fünften Prüfungsaufgabe (Projekt, siehe nachfolgenden Absatz).
 
 ### Sechs Leistungspunkte
 
-Analog zur Erbringung der drei Leistungspunkte gilt auch für das Erreichen von sechs Leistungspunkten Einreichung aller vier und die die ausreichend bewertete Bearbeitung von mindestens drei der vier Aufgaben als Studienleistung. Die Teilnote wird als Noten-Mittelwert aus allen vier  Abgaben gebildet (3 LP). 
+Analog zur Erbringung der drei Leistungspunkte gilt auch für das Erreichen von sechs Leistungspunkten Einreichung aller vier und die die ausreichend bewertete Bearbeitung von mindestens drei der vier Aufgaben als Studienleistung. Die Teilnote wird als Noten-Mittelwert aus allen vier  Abgaben gebildet (3 LP).
 
-Für die weiteren drei LP wird zusätzlich eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Diese Projektabgabe 4-6 Seiten stellt die Grundlage der zu bewertenden Leistung dar. 
+Für die weiteren drei LP wird zusätzlich eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Diese Projektabgabe 4-6 Seiten stellt die Grundlage der zu bewertenden Leistung dar.
 
 Die Gesamtnote ergibt sich aus einer Mittelung der beiden Teilnoten.
 
 ### Gewichtung Übungsaufgaben
-Die Gewichtung der Übungsaufgaben entnehmen Sie bitte den Aufgabenseiten. 
+Die Gewichtung der Übungsaufgaben entnehmen Sie bitte den Aufgabenseiten.
 
 ### Bewertungskriterien Projektarbeit
 
@@ -80,5 +80,4 @@ Fügen Sie als Kopfzeile nach folgendem Schema Ihren Namen und Matrikelnummer ei
 
 ```Nachname, Vorname, Matrikelnummer``` (z.B. Reudenbach, Chris,  1234567).
 
-Reichen Sie bitte nur die überprüfte finale Version in den jeweiligen [ILIAS Abgabeordner](https://ilias.uni-marburg.de/ilias.php?baseClass=ilExerciseHandlerGUI&ref_id=2826822&cmd=showOverview) ein. 
-
+Reichen Sie bitte nur die überprüfte finale Version in den jeweiligen [ILIAS Abgabeordner](https://ilias.uni-marburg.de/ilias.php?baseClass=ilExerciseHandlerGUI&ref_id=2826822&cmd=showOverview) ein.
