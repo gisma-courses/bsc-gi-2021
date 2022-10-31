@@ -33,11 +33,12 @@ feature_row_ilos:
 Raum-zeitliche Daten und ihre Manipulation, Analyse und Darstellung sind wissenschaftliche Grundelemente der Geographie. Die Analysen bilden die Grundlage für den Erkenntnisgewinn in der Forschung und die resultierenden Medien sind die zentralen  Kommunikationsmittel. Daten und Datenanalyse sowie die Modellierung dieser Daten sind daher  fester Bestandteil des fachlichen Verstehens. Der basale Umgang mit Daten, Vorbereitung, visuelle Exploration, Analyse und Präsentation stellt eine wichtige Kernkompetenz für das Berufsbild einer Geographin dar.
 
 ## Lernziele
-Am Ende dieses Teilmoduls können Sie:
+Am Ende dieses Moduls können Sie:
 * grundlegende räumliche Datentypen einordnen und kategorisieren sowie angemessen visualisieren,
 * ausgewählte Faktoren, Funktionen und Prozesse in realen Räumen auf Basis von Geodaten darstellen, beschreiben und erklären,
 * Geodaten für die Lösung spezifischer Probleme auswählen und einsetzen,
-* ausgewählte Faktoren, Funktionen und Prozesse in realen Räumen modellieren und reflektieren.
+* grundlegende räumliche Analysen auf Raster und Vektordaten durchführen
+* eine eigenständige Analyse entwentferwen und als Studie wissenschaftlich kommunizieren 
 
 
 ## Kursmerkmale
