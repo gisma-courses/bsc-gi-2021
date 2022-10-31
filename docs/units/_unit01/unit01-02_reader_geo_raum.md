@@ -8,7 +8,7 @@ header:
   image: /assets/images/splash_L01_1.png
   image_description: "MineSeeker World "
   caption: "What is reality? CC0 AG UI"
-  
+
 ---
 
 Die Annäherung an die Thematik der Geographischen Informationssysteme (GIS) wirkt für Einsteiger im Kontext der vielfältigen Verwendung des Begriffs und vor allem vor dem Hintergrund der vielfältigen und unterschiedlich komplexen Anwendungen unklar. Dies beginnt bereits mit den Begriffen “Geographie” und “geographisch”, die mit der Wahrnehmung der Erde bzw. Erdoberfläche und ihrem Verständnis und ihrer Beschreibung verbunden sind. Dies rückt die professionelle Beschreibung der Erde, also eine abstrahierte kognitive Welterfahrung, in den Fokus einer ersten Beschäftigung mit GIS. Für den Einsatz von Informationssystemen in der Geographie sollten Sie zunächst einige Grundkonzepte zur Wahrnehmung und Abstraktion sowie zur Kommunikation geographischer Welterfahrung kennen und verstanden haben, wozu wir auf die Ihnen bereits aus früheren Semester bekannten Konzepte der Kartographie zurückgreifen.
@@ -33,7 +33,7 @@ Um diesen Zusammenhang an einem Beispiel zu verdeutlichen, betrachten Sie bitte 
 
 *Abbildung 01-01: Weltkarte des Ptolemäus. Die hier gezeigte Weltkarte ist mit den zwölf Winden illustriert und eine der 32 Karten aus der „Cosmographia“ die von Lienhart Holle aus Ulm am 6. Juli 1482 herausgegeben wurde. Dies war die erste gedruckte Kartenausgabe nördlich der Alpen (Lienhart 1482)*
 
-Diese kann als frühes, idealtypisches Beispiel für die zuvor definierten Eigenschaften einer Karte betrachtet werden. Dargestellt ist die zu diesem Zeitpunkt gültige europäische Wahrnehmung der Welt. Wenige Jahre später wurde mit Kolumbus und seinen Entdeckungsfahrten diese Weltsicht revolutioniert und umfassend korrigiert. 
+Diese kann als frühes, idealtypisches Beispiel für die zuvor definierten Eigenschaften einer Karte betrachtet werden. Dargestellt ist die zu diesem Zeitpunkt gültige europäische Wahrnehmung der Welt. Wenige Jahre später wurde mit Kolumbus und seinen Entdeckungsfahrten diese Weltsicht revolutioniert und umfassend korrigiert.
 
 Monmonier sagt in diesem Kontext: "*that maps, like speeches and paintings, are authored collections of information and also subject to distortions arising from ignorance, greed, ideological blindness, or malice* [...]" (Monmonier 1991). Hier wird deutlich, wie sehr die Abstraktion von (räumlicher) Wirklichkeit von der Intention des Senders und der verwendeten Kodierung bzw. Rekodierung durch den Empfänger abhängig ist.
 
@@ -41,7 +41,7 @@ Monmonier sagt in diesem Kontext: "*that maps, like speeches and paintings, are 
 
 Wenn wir uns in unserer Alltagswelt umschauen, stellen wir fest, dass – gleich welcher Medienkanal verwendet wird – ein zunehmender Teil unserer Informationen, unserer Kommunikation und unseres Wissens auf digitalen, medial aufbereiteten Daten basiert. Die allgegenwärtigen Schlagworte der Informationsgesellschaft und des Informationszeitalters paraphrasieren diese Wahrnehmung eindrücklich.
 
-Trotz einer durchaus kontroversen und Uneinheitlichen Diskussion dieser Begriffe darf angenommen werden, dass der Umgang mit globalen Daten-, Informations- und Wissensnetzen gerade für eine Disziplin wie die der Geographie von elementarer Bedeutung ist. Die ständige Zunahme neuer Sensoren in Raum und Zeit, die hoch aufgelöste und weltweit verfügbare Daten liefern, erzwingt den organisierten und strukturierten Umgang mit selbigen. Gleichzeitig ist durch die Existenz der Daten die Notwendigkeit gegeben diese möglichst zeitnah zu filtern, zu analysieren und zu interpretieren, diese also in Informationen zu wandeln.
+Trotz einer durchaus kontroversen und uneinheitlichen Diskussion dieser Begriffe darf angenommen werden, dass der Umgang mit globalen Daten-, Informations- und Wissensnetzen gerade für eine Disziplin wie die der Geographie von elementarer Bedeutung ist. Die ständige Zunahme neuer Sensoren in Raum und Zeit, die hoch aufgelöste und weltweit verfügbare Daten liefern, erzwingt den organisierten und strukturierten Umgang mit selbigen. Gleichzeitig ist durch die Existenz der Daten die Notwendigkeit gegeben diese möglichst zeitnah zu filtern, zu analysieren und zu interpretieren, diese also in Informationen zu wandeln.
 Vor diesem Hintergrund bekommt der Begriff Information eine neue Dimension. Um zu Informationen zu gelangen, genügt es keinesfalls in Daten zu ertrinken. Wir benötigen Interpretationsvorschriften und Analysewerkzeuge um aus Daten Informationen oder Wissen zu generieren.
 
 Geographische oder räumliche Repräsentationen sind die Grundlage für eine wissenschaftliche Interpretation von raum-zeitlichen Aspekten der Echtwelt. In der Wissenschaft ist es üblich, dass hierfür als gesichert geltende Regeln (Axiome) verwendet werden. So ist vielleicht eines der bekanntesten von Waldo Tobler formuliert worden: “Everything is related to everything else, but near things are more related than distant things” (Tobler 1970). Es wird häufig als das sogenannte "erste geographische Gesetz" zitiert. Wie sehr es andere Auffassungen geben kann zeigt etwa Benno Werlen in seinem handlungszentrierten Ansatz, er führt aus, dass nicht nur reale Nachbarschaftsbeziehungen von Objekten oder Merkmalsausprägungen Raumkonstrukte ermöglichen, sondern Räume eben auch durch z.B. handelnde Menschen, die nicht notwendigerweise in räumlicher Nachbarschaft agieren, sozial konstruiert werden können (vgl. z.B. Werlen 1993).
@@ -80,4 +80,3 @@ Versuchen Sie einzuordnen welche Relevanz GI in der universitären Ausbildung un
 * Schauen Sie stichprobenartig wie Raum und Zeit in den Veröffentlichungen der Wissenschaftlerinnen (Berufsgeographinnen) aufgefasst wird. Welche GI-relevanten Inhalte können Sie identifizieren?
 * Wie ist Ihre Wahrnehmung der Integration von GI-Methodik im eigenen Fachbereich?
 * Benennen Sie einige geographische Fragen, die ohne GI-Methoden auskommen.
-
