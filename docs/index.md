@@ -50,23 +50,6 @@ Die Präsenzzeit dient der Vermittlung neuer Konzepte und der exemplarischen Bea
 
 
 
-## Ablauf und Kursinhalte
-
-| Sitzung | |  | Inhalt |
-|:-------:|:--------:|:---------|:---------|
-| 1 |   | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2 |   | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
-| 3 |   | Ergebnissicherung | Einstieg Fragen & Antworten|
-| 4 |   | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
-| 5 |   | Ergebnissicherung  | Einstieg Analysen|
-| 6 |   | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
-| 7 |   | Ergebnissicherung | Einstieg Kosten und Kriterien|
-| 8 |   | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
-| 9 |   | Ergebnissicherung | Einstieg Projektarbeit|
-| 10 |   | Projektarbeit Sprechstunde |   |
-| 12 |   | Wrap up Kurs |   |
-
-
 ## Exemplarischer Kurs-Stundenplan
 
 Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung dieser notwendigen/verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit exemplarisch über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium. Selbsverständlich können Sie sich vollständig anders organisieren. 
@@ -75,15 +58,19 @@ Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zei
 {% include gallery id="panel1"   layout = "half"      caption="Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Anzahl der Termine, ihre Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert, muss aber den eigenen Bedürfnissen entsprechend angepasst werden. Bild: CC0 AG-UI"
 %}
 
+## Anwesenheit und hybride Sitzungen
+Die **Input-Sitzungen** dieses Kurses werden als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Jedoch ist die Anmeldung für die Präsenz obligat, damit die Raumbelegung für alle transparent ist. Die Online Übertragung findet als  [Big Blue Button Sitzung](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
+
+Die Übungssitzungen finden in **Präsenz** statt und Bestandteil der Studienleistung.
+{: .notice--info}
+
+
 ## Übersicht über Kommunikationsformen
 
 Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
 
 ### Diese Webseite
 Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
-
-### Virtuelle Vorlesung auf Big Blue Button
-Der Input-Teil dieses Kurses wird als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Jedoch ist die Anmeldung für die Präsenz obligat damit die Raumbelegung für alle transparent ist. Die Online Übertragung findet als  [Big Blue Button Sitzung](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
 
 ### Kursbereich in Ilias
 Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/ilias.php?ref_id=3029199&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=z9&baseClass=ilRepositoryGUI) dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate und der Abgabe von Aufgaben.

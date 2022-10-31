@@ -54,7 +54,8 @@ Bitte entnehmen Sie der ILias Seite die Daten zur nachfolgenden Tabelle insbeson
 | 7 | | Input | Kosten und Kriterien|
 | 8a | | Übung A | Kosten und Kriterien    |
 | 8b | | Übung B | Kosten und Kriterien    |
-| 9 | | Input| Projektarbeit / Wrap up Kurs |   
+| 9 | | Input| Projektarbeit |   
+| 9 | | Fragen & Antworten| Projektarbeit / Wrap up Kurs |   
 
 
 Die Prüfungsleistung ist individuell zu erbringen.
