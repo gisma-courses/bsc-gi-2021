@@ -69,7 +69,7 @@ Die Präsenzzeit dient der Vermittlung neuer Konzepte und der exemplarischen Bea
 
 ## Exemplarischer Kurs-Stundenplan
 
-Der Kurs ist  auf 2 x 3 Leistungspunkte (LP) (Übungsaufgaben 3 LP, Projektarbeit 3 LP) angelegt, die jeweils einzeln und unabhägig bearbeitet werden können. Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 90 Stunden. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen beispielhaft eine, nach unserer Vorstellung sinnvolle, **mögliche** Aufteilung dieser verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium.
+Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 11 Stunden Zeitaufwand in der Woche um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung dieser notwendigen/verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit exemplarisch über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium. Selbsverständlich können Sie sich vollständig anders organisieren. 
 
 
 {% include gallery id="panel1"   layout = "half"      caption="Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Anzahl der Termine, ihre Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert, muss aber den eigenen Bedürfnissen entsprechend angepasst werden. Bild: CC0 AG-UI"
@@ -83,27 +83,42 @@ Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
 Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
 
 ### Virtuelle Vorlesung auf Big Blue Button
-Der Input-Teil dieses Kurses wird als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Die Online Übertragung findet in diesem [Big Blue Button Raum](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
+Der Input-Teil dieses Kurses wird als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Jedoch ist die Anmeldung für die Präsenz obligat damit die Raumbelegung für alle transparent ist. Die Online Übertragung findet als  [Big Blue Button Sitzung](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
 
 ### Kursbereich in Ilias
 Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/ilias.php?ref_id=3029199&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=z9&baseClass=ilRepositoryGUI) dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate und der Abgabe von Aufgaben.
 
-### Foren in Ilias
-Foren nutzten wir zur Vorbereitung der Veranstaltung. Wenn Sie eine Frage an uns richten möchten, nutzen Sie bitte das primär das Forum im Kursbereich. Überprüfen Sie zuerst, ob Ihre Frage bereits gestellt wurde und wenn nicht, an welcher Stelle im Forum sie sich am besten einordnet. Wir werden auf ihre Fragen primär in Screencasts und FAQ-Seiten bzw. im Folgekurs eingehen.
+### Fragen
+Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert.
 
-Es liegt an Ihnen von diesem Angebot Gebrauch zu machen. Wir können nur auf ihre Fragen und artikulierte Wünsche reagieren.
 
-### Direkter Kontakt
-Sie erreichen mich unter untenstehender E-Mail. Bitte nutzen Sie den Betreff *[GIBASIC]* (alternativ die Ilias Kursnummer bzw Marvin Kennung).
+## Zeitaufwand und Ablauf
 
-Umgekehrt erwarte ich, dass Sie über Ihre offizielle Students-E-Mail erreichbar sind und dass Sie diese regelmäßig -bevorzugt täglich- abfragen.
+Jede Kurseinheit ist auf einen Zeitraum von drei Wochen ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsphase wird durch ein von Ihnen zu gestaltende Sitzung begleitet. Die abgegebenen Aufgaben werden in der nachfolgenden Kurseinheit in kürze besprochen.
+
+Entsprechend der Berechnung von ECTS Punkten sollten Sie in einer durchschnittlichen Arbeitswoche 10-12 Stunden für den Kurs kalkulieren. Eine mögliche Strukturierung könnte wie folgt aussehen:
+
+* Präsenz: 2 Stunden jede Woche
+  * Der Kurs findet für Sie jede zweite (Gruppe A) bzw. 1. und 3. Woche (Gruppe B) als 90 minütige Sitzung statt - Anwesenheit oder Nacharbeit ist für das Verständnis erforderlich.
+* Studium außerhalb der Präsenz: 8-10 Stunden pro Woche
+  * Wöchentliche Arbeitszeiten
+  * Wöchentliche Treffen mit Kommiliton:innen
+  * Wöchentliche Bearbeitung von Aufgaben
+  * Bearbeitung eines Abschlussprojekts
+
+
+
+## Kurszeiten
+**Kurszeiten**: Dienstag, 10:15-11:45 
+
+**Sprechstunden**: Mittwoch, 10:00-11:00 
+
 
 
 
 ## Kursleitung
 
-
-{% for author in site.data.authors %}
+{% for author in site.data.authors %} 
   {% include author-profile.html %}
- <br />
+ <br /> 
 {% endfor %}
