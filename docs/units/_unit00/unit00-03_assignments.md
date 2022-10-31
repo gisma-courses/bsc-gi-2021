@@ -10,24 +10,21 @@ header:
 
 Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. <!--more-->
 
-## Aufteilung der Leistungspunkte
+## Studienleistung 
 
-### Drei Leistungspunkte
+Als Studienleistung bearbeiten sie als Gruppe (max. 5 Personen) die Aufgabenstellung einer Sitzung und gestalten die dazugehörige Übungssitzung.
+* max. 5 Minuten (max. 3 Folien)  Impulsvortrag zur Fragestellung und etwaigen Problemen zur Einleitung
+* max 70 Minuten **Übung**steil für die Seminargruppe mit Fokussierung auf die von Ihnen als wichtig erachtenen Teilaspekte der Aufgabenstellung.
+* max. 15 Minuten Abschlussfragerunde
 
-Falls für diesen Kurs nur 3 Leistungspunkte (LP) nachgefragt werden (z.B. Lehramtstudierende)  wird von Ihnen erwartet dass sie **alle** gestellten Aufgaben (aktuell 4 Themenblöcke) bearbeiten und einreichen. Die vollständige Einreichung aller Aufgaben von denen mindestens drei Aufgaben mit einer als ausreichend bewerteten Leistung vorliegen wird als erbrachte Studienleistung gewertet. Die Prüfungsleistung wird als Noten-Mittelwert aus allen vier  Abgaben gebildet.
+Die Studienleistung wird als bestanden gewertet wennjedes Gruppenmitglied einen sichtbaren Anteil an der Gestaltung der Sitzung zeigt.
 
-Die etwaige Prüfungswiederholung erfolgt durch Erbringen der fünften Prüfungsaufgabe (Projekt, siehe nachfolgenden Absatz).
+## Prüfungsleistung
+Nach den vier Übungsblöcken wird eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Diese Projektabgabe (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
 
-### Sechs Leistungspunkte
-
-Analog zur Erbringung der drei Leistungspunkte gilt auch für das Erreichen von sechs Leistungspunkten Einreichung aller vier und die die ausreichend bewertete Bearbeitung von mindestens drei der vier Aufgaben als Studienleistung. Die Teilnote wird als Noten-Mittelwert aus allen vier  Abgaben gebildet (3 LP).
-
-Für die weiteren drei LP wird zusätzlich eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Diese Projektabgabe 4-6 Seiten stellt die Grundlage der zu bewertenden Leistung dar.
-
-Die Gesamtnote ergibt sich aus einer Mittelung der beiden Teilnoten.
 
 ### Gewichtung Übungsaufgaben
-Die Gewichtung der Übungsaufgaben entnehmen Sie bitte den Aufgabenseiten.
+Die Gewichtung der Übungsaufgaben entricht den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Sie müssen > 50 % der erlernten Methoden in der Projektarbeit einbringen um ausreichend bestehen zu können. Die Gewichtung entnehmen Sie bitte den Aufgabenseiten.
 
 ### Bewertungskriterien Projektarbeit
 
@@ -41,28 +38,24 @@ Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische St
 
 Um eine Bewertung zu erhalten, müssen die Studien- bzw. Projektarbeiten auf der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden.
 
-Bitte entnehmen sie der nachfolgenden Tabelle die verbindlichen Kurs und Abgabezeiten:
+Bitte entnehmen Sie der ILias Seite die Daten zur nachfolgenden Tabelle insbesondere die verbindlichen Kurs und Abgabezeiten:
 
 | Sitzung | Datum | Thema | Inhalt |
 |:-------:|:--------:|:---------|:---------|
-| 1 | 21.04.  | Einführung | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2 | 28.04.  | QGIS Warmup |  Einführung in QGIS, Einstiegsbeispiel Datenaquise  |
-| | <span  algin = "center" style="color:red"> **04.05.**</span> |  **Abgabe Übung 1**  |
-| 3 | 05.05.  | Wrap Up | Einstieg Fragen & Antworten|
-| 4 | 12.05.  | Fragen & Antworten |  Thematische und räumliche Abfragen auf Attributtabellen |
-| | <span  algin = "center" style="color:red"> **18.05.** </span> | **Abgabe Übung 2**  |
-| 5 | 19.05.  | Wrap Up | Einstieg Analysen|
-| 6 | 02.06.  | Analysen | Rasterbasierte Analysen, DGM-Ableitungen  |
-| | <span  algin = "center" style="color:red"> **08.06.**</span>  | **Abgabe Übung 3**  |
-| 7 | 09.06.  | Wrap Up | Einstieg Kosten und Kriterien|
-| 8 | 23.06.  | Kosten und Kriterien | Multkriterien Analysen, Kostenraster  |
-| |<span  algin = "center" style="color:red"> **29.06.** </span> | **Abgabe Übung 4**  |
-| 9 | 30.06.  | Wrap Up | Einstieg Projektarbeit|
-| 10 |07.07.| Projektarbeit Sprechstunde |   |
-| 12 |14.07.| Wrap up Kurs |   |
-| |<span style="color:red">**14.07** </span> |   **Abgabe Prüfungsleistung Projektarbeit**   |
+| 1 | | Einführung/QGIS Warmup | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
+| 2a | | Übung A |  QGIS Warmup   |
+| 2b | | Übung B |  QGIS Warmup   |
+| 3 | | Input | Thematische und räumliche Abfragen auf Attributtabellen |
+| 4a | | Übung A |  Thematische und räumliche Abfragen auf Attributtabellen |
+| 4b | | Übung B |  Thematische und räumliche Abfragen auf Attributtabellen |
+| 5 | | Input | Einstieg Analysen|
+| 6a | | Übung A  | Analysen |
+| 6b | | Übung B  | Analysen |
+| 7 | | Input | Kosten und Kriterien|
+| 8a | | Übung A | Kosten und Kriterien    |
+| 8b | | Übung B | Kosten und Kriterien    |
+| 9 | | Input| Projektarbeit / Wrap up Kurs |   
 
-<span style="color:red">**Die Abgabezeit für alle Abgaben ist bis 22.00 Uhr des jeweligen Datums.** </span>
 
 Die Prüfungsleistung ist individuell zu erbringen.
 {: .notice--danger}
@@ -78,6 +71,6 @@ Tipp: Verwenden Sie zur Zusammenstellung der Abgabedatei ein Textverarbeitungspr
 
 Fügen Sie als Kopfzeile nach folgendem Schema Ihren Namen und Matrikelnummer ein:
 
-```Nachname, Vorname, Matrikelnummer``` (z.B. Reudenbach, Chris,  1234567).
+```Nachname, Vorname, Matrikelnummer``` (z.B. Reudenbach, Chris,  (1234567)).
 
-Reichen Sie bitte nur die überprüfte finale Version in den jeweiligen [ILIAS Abgabeordner](https://ilias.uni-marburg.de/ilias.php?baseClass=ilExerciseHandlerGUI&ref_id=2826822&cmd=showOverview) ein.
+Reichen Sie bitte nur die **überprüfte finale Version** in den jeweiligen ILIAS Abgabeordner ein.
