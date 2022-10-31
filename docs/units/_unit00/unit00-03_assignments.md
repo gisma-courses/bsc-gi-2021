@@ -6,9 +6,61 @@ header:
   image: "/assets/images/splash-geoinformatik.jpg"
   image_description: "Geoinformatik "
   caption: "Geoinformatik. CC0 AG UI"
+  
+panel1:  
+  - url: "/assets/images/example_kursplan_geoinformatik.png"
+    image_path: "/assets/images/example_kursplan_geoinformatik.png"
+    alt: "Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Termin, Blockung und Aufteilung in Eigenstudium und Lerngruppeist wünschenswert muss aber den eigenen Bedüfrnissen angepasst werden."   
 ---
 
 Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. <!--more-->
+
+## Anwesenheit und hybride Sitzungen
+Die **Input-Sitzungen** dieses Kurses werden als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Jedoch ist die Anmeldung für die Präsenz obligat, damit die Raumbelegung für alle transparent ist. Die Online Übertragung findet als  [Big Blue Button Sitzung](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
+Die Übungssitzungen finden in **Präsenz** statt.
+
+ Bitte beachten Sie dass die Übungssitzungen Bestandteil der Studienleistung sind.
+{: .notice--info}
+
+
+## Übersicht über Kommunikationsformen
+
+Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
+
+### Diese Webseite
+Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
+
+### Kursbereich in Ilias
+Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/ilias.php?ref_id=3029199&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=z9&baseClass=ilRepositoryGUI) dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate und der Abgabe von Aufgaben.
+
+### Fragen
+Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert.
+
+
+## Zeitaufwand und Ablauf
+
+Jede Kurseinheit ist auf einen Zeitraum von drei Wochen ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsphase wird durch ein von Ihnen zu gestaltende Sitzung begleitet. Die abgegebenen Aufgaben werden in der nachfolgenden Kurseinheit in kürze besprochen.
+
+Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 10-12 Stunden Zeitaufwand in der Woche, um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). 
+
+* Präsenz: 2 Stunden jede Woche
+  * Der Kurs findet für Sie jede zweite (Gruppe A) bzw. 1. und 3. Woche (Gruppe B) als 90 minütige Sitzung statt - Anwesenheit oder Nacharbeit ist für das Verständnis erforderlich.
+* Studium außerhalb der Präsenz: 8-10 Stunden pro Woche
+  * Wöchentliche Arbeitszeiten
+  * Wöchentliche Treffen mit Kommiliton:innen
+  * Wöchentliche Bearbeitung von Aufgaben
+  * Bearbeitung eines Abschlussprojekts
+
+### Exemplarischer Kurs-Stundenplan
+
+Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung dieser notwendigen/verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit exemplarisch über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium. Selbsverständlich können Sie sich vollständig anders organisieren. 
+
+
+{% include gallery id="panel1"   layout = "half"      caption="Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Anzahl der Termine, ihre Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert, muss aber den eigenen Bedürfnissen entsprechend angepasst werden. Bild: CC0 AG-UI"
+%}
+
+
+
 
 ## Studienleistung 
 
@@ -75,3 +127,18 @@ Fügen Sie als Kopfzeile nach folgendem Schema Ihren Namen und Matrikelnummer ei
 ```Nachname, Vorname, Matrikelnummer``` (z.B. Reudenbach, Chris,  (1234567)).
 
 Reichen Sie bitte nur die **überprüfte finale Version** in den jeweiligen ILIAS Abgabeordner ein.
+
+## Kurszeiten
+**Kurszeiten**: Dienstag, 10:15-11:45 
+
+**Sprechstunden**: Mittwoch, 10:00-11:00 
+
+
+
+
+## Kursleitung
+
+{% for author in site.data.authors %} 
+  {% include author-profile.html %}
+ <br /> 
+{% endfor %}
