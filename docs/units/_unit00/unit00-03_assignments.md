@@ -44,7 +44,7 @@ Jede Kurseinheit ist auf einen Zeitraum von drei Wochen ausgelegt und besteht au
 Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 10-12 Stunden Zeitaufwand in der Woche, um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). 
 
 * Präsenz: 2 Stunden jede Woche
-  * Der Kurs findet für Sie jede zweite (Gruppe A) bzw. 1. und 3. Woche (Gruppe B) als 90 minütige Sitzung statt - Anwesenheit oder Nacharbeit ist für das Verständnis erforderlich.
+  * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
 * Studium außerhalb der Präsenz: 8-10 Stunden pro Woche
   * Wöchentliche Arbeitszeiten
   * Wöchentliche Treffen mit Kommiliton:innen
