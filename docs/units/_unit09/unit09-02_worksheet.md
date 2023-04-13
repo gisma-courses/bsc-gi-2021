@@ -97,7 +97,7 @@ Im nachfolgenden YouTube Video werden Sie auf 90 Minuten umfassend über die pra
 
 ### Vertiefende Erläuterungen
 
-Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](https://minibsc.gis-ma.org/GISBScL2/de/html/index.html){:target="_blank"} finden sie eine vertiefende Lerneinheit. Die Lernbeispiele sind jedoch für ArcGis ausgeführt.  
+Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](http://minibsc.gis-ma.org/GISBScL2/de/html/index.html){:target="_blank"} finden sie eine vertiefende Lerneinheit. Die Lernbeispiele sind jedoch für ArcGis ausgeführt.  
 
 
 
