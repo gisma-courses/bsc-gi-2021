@@ -60,14 +60,15 @@ Eine geeignete räumliche und zeitliche Beschreibung von Geoobjekten und ihrer E
 
 
 ## Denken Sie mit...
-Besuchen Sie die folgenden Webseiten. Analysieren Sie vor dem Hintergrund Ihres neu erworbenen Wissens folgendes:
+Besuchen Sie die folgenden Webseiten.
 
-*    [Öffentliche WCs in Australien](https://toiletmap.gov.au/Plan)
-*    [Aktuelle Pegel Lahn](http://www.wetterbote.de/wetter/pegel/lahn.htm)
-*    [Bad Arolsen](http://www.hlug.de/medien/luft/recherche/recherche.php?station=1115)
-*    [Cineplex](http://www.cineplex.de/kino/home/city32/)
+*    [Öffentliche WCs in Australien](https://toiletmap.gov.au/#){:target="_blank"}
+*    [Aktuelle Pegel Lahn](http://www.wetterbote.de/wetter/pegel/lahn.htm){:target="_blank"}
+*    [Lufthygiene Bad Arolsen](https://www.hlnug.de/messwerte/datenportal/messstelle/2/1/1406/){:target="_blank"}
+*    [Copernicus EU-DEM v1.1](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1/view){:target="_blank"}
 
-
+ Analysieren Sie vor dem Hintergrund Ihres neu erworbenen Wissens folgendes:
+ 
   * Was wird repräsentiert? Geoobjekte oder Raumkontinua?
   * Welche Dimension und Geometrie liegt der Repräsentation ihrer Meinung nach zugrunde?
   * Versuchen Sie einige weitere alltägliche Beispiele für die Bedeutung von Lage und Dimensionalität zu finden.
