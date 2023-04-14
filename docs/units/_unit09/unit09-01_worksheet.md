@@ -85,7 +85,6 @@ Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coord
    * Was versteht man unter einer *on the fly* bzw. *Echtzeit* Projizierung?
  
 * Projizieren Sie alle Datensätze in *ETRS89 UTM 32* 
-   
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 1
