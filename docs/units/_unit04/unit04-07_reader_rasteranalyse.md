@@ -8,38 +8,38 @@ header:
   caption: "SRTM Elevation Model Data Marburg. CC0 AG UI"
 
 panel1:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/keyboardnumbers.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/keyboardnumbers.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/keyboardnumbers.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/keyboardnumbers.gif
     title: " Lokale Abflussrichtungen in einem Raster können mit den Ziffern einer Tastatur kodiert werden (GITTA 2005)"
     alt: "Lokale Abflussrichtungen in einem Raster können mit den Ziffern einer Tastatur kodiert werden (GITTA 2005)"
 
 panel2:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/D8Algorithm.jpg
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/D8Algorithm.jpg
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/D8Algorithm.jpg
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/D8Algorithm.jpg
     title: "D8 Formel"
     alt: "D8 Formel"
 
 panel3:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/Upstream_Formula.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/Upstream_Formula.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/Upstream_Formula.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/Upstream_Formula.gif
     title: "Oberlieger  Formel"
     alt: "Oberlieger Formel"
 
 panel4:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/Wetness_Formula.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/Wetness_Formula.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/Wetness_Formula.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/Wetness_Formula.gif
     title: "Wetness  Formel"
     alt: "Wetness Formel"
 
 panel5:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/StreamPower_Formula.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/StreamPower_Formula.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/StreamPower_Formula.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/StreamPower_Formula.gif
     title: "Stream Power Formel"
     alt: "Stream Power Formel"
 
 panel6:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/Sediment_Formula.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/Sediment_Formula.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/Sediment_Formula.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/Sediment_Formula.gif
     title: "Sediment_Formula Formel"
     alt: "Sediment_Formula Formel"
 
@@ -74,20 +74,20 @@ wobei d die Entfernung und Δz der Höhenunterschied zwischen den zwei Punkten i
 
 Nun wissen wir, wie die Abflussrichtung für einen einzelnen Punkt in der Mitte einer Nachbarschaft von neun Punkten errechnet wird. Indem dieser Ausschnitt als Fenster schrittweise über die gesamte Rastermatrix bewegt wird, können wir jedem Punkt eine lokale Abflussrichtung zuweisen und so ein LDD-Netz erstellen.
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ldd_clarify.gif" alt="LDD-Netz für ein kleines DGM (links) Lokale Abflussrichtungen sind als Pfeile gekennzeichnet, (Rechts) Lokale Abflussrichtungen nach dem Zeichenblock einer Tastatur gekennzeichnet" caption="*LDD-Netz für ein kleines DGM (links) Lokale Abflussrichtungen sind als Pfeile gekennzeichnet, (rechts) Lokale Abflussrichtungen nach dem Zeichenblock einer Tastatur gekennzeichnet*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ldd_clarify.gif" alt="LDD-Netz für ein kleines DGM (links) Lokale Abflussrichtungen sind als Pfeile gekennzeichnet, (Rechts) Lokale Abflussrichtungen nach dem Zeichenblock einer Tastatur gekennzeichnet" caption="*LDD-Netz für ein kleines DGM (links) Lokale Abflussrichtungen sind als Pfeile gekennzeichnet, (rechts) Lokale Abflussrichtungen nach dem Zeichenblock einer Tastatur gekennzeichnet*" %}
 
 
 ### Beispiel Türler See
 
 Die nachfolgende Abbildung der Abflussrichtungen zeigt ein 25m-Raster-DGM vom Türlersee-Gebiet und das davon abgeleitete LDD-Netz. Die Seefläche im Süden der Karte muss aus dem Verfahren ausgeschlossen werden, weil die Fließrichtung einer horizontalen Ebene undefiniert ist.
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/flowDirection_look.gif" alt="Abflussrichtungen, die von einem 25m-Raster-DGM mit einem D8-Algorithmus errechnet wurden. (Swisstopo 1991)" caption="*Abflussrichtungen, die von einem 25m-Raster-DGM mit einem D8-Algorithmus errechnet wurden. (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/flowDirection_look.gif" alt="Abflussrichtungen, die von einem 25m-Raster-DGM mit einem D8-Algorithmus errechnet wurden. (Swisstopo 1991)" caption="*Abflussrichtungen, die von einem 25m-Raster-DGM mit einem D8-Algorithmus errechnet wurden. (Swisstopo 1991)*" %}
 
 
 Analog dazu kann ein ldd net in einen Vektordatensatz transformiert und entsprechend visualisiert werden.
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/lddnetLook.gif" alt="Ein LDD-Netz als Vektorkarte" caption="*Ein LDD-Netz als Vektorkarte*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/lddnetLook.gif" alt="Ein LDD-Netz als Vektorkarte" caption="*Ein LDD-Netz als Vektorkarte*" %}
 
 
  
@@ -110,7 +110,7 @@ Wobei `ci` der i-te Rasterpixel mit dem Wert `S(ci)` und `SUM(cu)` die Summe all
 
 In der nächsten Abbildung sieht man oben links ein LDD-Netz. Zusätzlich wird ein Indexwert für jedes Pixel vergeben (Raster oben rechts). Auf dieser Grundlage werden die flussaufwärtsliegenden Elemente für jedes Pixel gefunden und mit der Liste der Indexwerte identifiziert (Mitte links). Falls zusätzlich eine Gewichtung verwendet wird (Mitte rechts), entsteht das Einzugsgebietraster, das für jedes Pixel die Anzahl der flussaufwärtsliegenden Elemente aufweist (unten).
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/flowaccumulation2_clarify.gif" alt="Berechnung der Anzahl von flussaufwärtsliegenden Elementen für jedes Pixel." caption="*Berechnung der Anzahl von flussaufwärtsliegenden Elementen für jedes Pixel.*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/flowaccumulation2_clarify.gif" alt="Berechnung der Anzahl von flussaufwärtsliegenden Elementen für jedes Pixel." caption="*Berechnung der Anzahl von flussaufwärtsliegenden Elementen für jedes Pixel.*" %}
 
 
 ### Kanäle und Kämme
@@ -120,7 +120,7 @@ In der nachstehenden Abbildung wurden die flussaufwärtsliegenden Elemente für 
 Die zuvor abgeleitete Rastermatrix der absoluten Wasseransammlungen kann durch Verwendung eines Schwellenwerts zu einer Rastermatrix Karte der Wasserläufe und Kämme reklassifiziert werden. Eine solche Matrix enthält nur boolesche Werte, das heißt, ein Pixel gehört entweder zu einem Fließgewässer bzw. Kamm oder weist keine Information auf. 
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/upstreamElements.gif" alt="Wasseransammlungen können anhand eines ldd nets errechnet werden. (Swisstopo 1991)" caption="*Wasseransammlungen können anhand eines ldd nets errechnet werden. (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/upstreamElements.gif" alt="Wasseransammlungen können anhand eines ldd nets errechnet werden. (Swisstopo 1991)" caption="*Wasseransammlungen können anhand eines ldd nets errechnet werden. (Swisstopo 1991)*" %}
 
 
 Die Wahl sinnvoller Schwellenwerte ist abhängig von der Qualität des DGM und der räumlichen Auflösung. Solche Analyseabfragen zur Bestimmung von Wasserläufen können in Pseudo-Abfragesprache z.B. lauten:
@@ -136,7 +136,7 @@ Die Berechnung von Kämmen in einem Raster kann als zweiseitiges Problem einer W
 
 Eine Karte der flussaufwärtsliegenden Elemente kann für weitere wichtige hydrologische Konzepte bzw. inhaltlich/thematische Fragestellungen herangezogen werden. Ein gutes Beispiel stellt der Feuchtigkeitsindex dar (siehe Beven and Kirkby zit. n. (Burrough et al. 1998).
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/wetnessIndex.gif" alt="Der aus dem ldd net abgeleitete Feuchtigkeitsindex. (Swisstopo 1991)" caption="*Der aus dem ldd net abgeleitete Feuchtigkeitsindex. (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/wetnessIndex.gif" alt="Der aus dem ldd net abgeleitete Feuchtigkeitsindex. (Swisstopo 1991)" caption="*Der aus dem ldd net abgeleitete Feuchtigkeitsindex. (Swisstopo 1991)*" %}
 
 {% include gallery id="panel4"  layout = "third"  %}
 
@@ -148,7 +148,7 @@ wobei As die flussaufwärtsliegende Fläche und ß die Neigung jedes Pixels wied
 Der Flussintensitätsindex (Burrough et al. 1998), der durch die untenstehende Gleichung berechnet wird, ist ein Maß für das Erosionspotential des Oberflächenabfluss.
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/streamPowerIndex.gif" alt="Das vom ldd net abgeleitete Flussintensitätsindex. (Swisstopo 1991)" caption="*Der vom ldd net abgeleitete Flussintensitätsindex. (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/streamPowerIndex.gif" alt="Das vom ldd net abgeleitete Flussintensitätsindex. (Swisstopo 1991)" caption="*Der vom ldd net abgeleitete Flussintensitätsindex. (Swisstopo 1991)*" %}
 
 
 {% include gallery id="panel5"  layout = "third"  %}
@@ -163,7 +163,7 @@ As stellt die flussaufwärtsliegende Fläche dar; ß steht für die Neigung jede
 Der Sedimenttransportindex beschreibt den Prozess der Erosion/Denudation und Ablagerung. Im Gegensatz zum Länge-Neigung-Faktor in der Universalbodenverlustgleichung (Universal Soil Loss Equation, USLE), kann man den Sedimenttransportindex auf dreidimensionale Flächen anwenden (Burrough et al. 1998).
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/sedimentTransportIndex.gif" alt="Der vom ldd net abgeleitet Sedimenttransportindex . (Swisstopo 1991)" caption="*Der vom ldd net abgeleitet Sedimenttransportindex . (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/sedimentTransportIndex.gif" alt="Der vom ldd net abgeleitet Sedimenttransportindex . (Swisstopo 1991)" caption="*Der vom ldd net abgeleitet Sedimenttransportindex . (Swisstopo 1991)*" %}
 
 
 {% include gallery id="panel6"  layout = "third"  %}
@@ -177,7 +177,7 @@ Der maximale Fließweg ist die Länge des längsten Fließwegs von der Grenze de
 Maximaler Fließweg in Meter zu jedem flussaufwärts vorhandenen Pixel.
 
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/maximumFlowPathLength.gif" alt="Maximaler Fließweg in Meter zu jedem flussaufwärts vorhandenen Pixel. (Swisstopo 1991)" caption="*Maximaler Fließweg in Meter zu jedem flussaufwärts vorhandenen Pixel. (Swisstopo 1991)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/maximumFlowPathLength.gif" alt="Maximaler Fließweg in Meter zu jedem flussaufwärts vorhandenen Pixel. (Swisstopo 1991)" caption="*Maximaler Fließweg in Meter zu jedem flussaufwärts vorhandenen Pixel. (Swisstopo 1991)*" %}
 
 Die obenstehende Abbildung zeigt ein Beispiel für den längsten Fließweg. Natürlich haben Hügel und Kämme niedrige Werte, wobei der Wert in einem Wasserlauf flussabwärts kontinuierlich zunimmt.
 
