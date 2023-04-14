@@ -66,8 +66,8 @@ Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im G
       * Drei beliebige Flächen (Dateiname `mr_poly`), 
       * drei beliebige Linienzüge (Dateiname `mr_line`) 
       * ergänzen Sie schließlich den Layer `mr_points` um 3 beliebige Positionen (Punkte) Ihrer Wahl
-Tipp: Sie können zur besseren Orientierung auch eine Webkarte in Ihr Projekt laden (Weitere Informationen unter Hilfestellungen.
 {: .notice--success}
+
 
 
 
