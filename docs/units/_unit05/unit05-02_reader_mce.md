@@ -11,8 +11,8 @@ header:
   
 
 panel1:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/steinschlaglegende.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/steinschlaglegende.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/steinschlaglegende.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/steinschlaglegende.gif
     title: "Steinschlaggefährungsanalyse der Gemeinde Saas Baalen (GITTA 2005)"
     alt: "Steinschlaggefährungsanalyse der Gemeinde Saas Baalen (GITTA 2005)"
 
@@ -22,7 +22,7 @@ panel1:
 
 Am leichtesten lassen sich die Anforderungen kombinierter Kriterien zur Findung räumlicher Merkmalskombinationen anhand eines Fallbeispiels erarbeiten. So häufen sich die Beispiele konnkurierender Interessensgruppen und auch gesetzlich garantierter Schutzzustände von Windkraftanalggen, Wildschweinschäden bis hin zur potenziellen  Wolf-, Luchs- oder Wildkatzenverbreitung. 
 
-Das frühe *Fallbeispiel St. Gittal*  geht dieser Art der räumlichen Analyse mit der derzeit hochaktuellen Frage *„Welche Flächen der Gemeinde von St. Gittal eignen sich für die Wiederansiedlung eines großen Raubtieres?“* (vgl. [KORA 2005](https://minibsc.gis-ma.org/GISBScL4/de/material/wolf_kora.pdf); [Baumgartner 1995](https://minibsc.gis-ma.org/GISBScL4/de/material/facts1995_wolf.pdf))nach. Es zeigt anschaulich die konkreten Anforderungen auf. Selbst in dieser einfachen Analyse wird die Komplexität von Eignungsanalysen im Kontext der Wirkungen der daraus abgeleiteten Entscheidungen bzw. Handlungsempfehlungen deutlich. 
+Das frühe *Fallbeispiel St. Gittal*  geht dieser Art der räumlichen Analyse mit der derzeit hochaktuellen Frage *„Welche Flächen der Gemeinde von St. Gittal eignen sich für die Wiederansiedlung eines großen Raubtieres?“* (vgl. [KORA 2005](https://minibsc.gis-ma.org/GISBScL4/de/material/wolf_kora.pdf); [Baumgartner 1995](http://minibsc.gis-ma.org/GISBScL4/de/material/facts1995_wolf.pdf))nach. Es zeigt anschaulich die konkreten Anforderungen auf. Selbst in dieser einfachen Analyse wird die Komplexität von Eignungsanalysen im Kontext der Wirkungen der daraus abgeleiteten Entscheidungen bzw. Handlungsempfehlungen deutlich. 
 
 Die Grundlage einer derartigen Analyse sind räumliche Suchtechniken basierend auf unterschiedlichen Kriterien. Diese setzen sich aus mehreren einfachen Suchen mit z.B. nur einem Suchkriterium *„Welche Gebiete von St. Gittal sind mit Wald bedeckt?“* ist  zusammen. Erst die Kombination mehrerer Suchkriterien führt zu Lösungsvorschlägen die dann *bewertet* werden müssen. Ein GIS ermöglicht solche Kombinationen durch die Verschneidung mehrerer Informationsebenen. Erst die Überlagerung von Informationen z.B. zum Bodentyp, der Vegetation und Topographie erlaubt es die gestellte Frage zu beantworten. Der Begriff *Eignungsanalyse* bezeichnet die Suche nach Standorten oder Räumen, die sich durch eine Kombination bestimmter Eigenschaften auszeichnen. Das Resultat einer Eignungsanalyse ist häufig eine *Eignungskarte*. Sie zeigt in Form einer thematischen Karte, welche Standorte oder Räume sich für die vorgegebene Nutzung besonders gut eignen (z.B. landwirtschaftliche Eignungskarte). Die invertierte Variante der Eignungskarte ist die Gefährdungs- oder Gefahrenkarte. Sie identifiziert Gebiete, die aufgrund gegebener Kriterien einer bestimmten Gefahr besonders ausgesetzt sind (z.B. Lawinengefährdungskarten).
 

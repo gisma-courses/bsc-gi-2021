@@ -8,12 +8,12 @@ header:
   caption: "SRTM Elevation Model Data Marburg. CC0 AG UI"
 
 panel1:  
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-punkte.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-punkte.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-punkte.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-punkte.gif
     title: " Unregelmäßig verteilte Punkte im Raum. (z.B. Parkbänke)"
     alt: "Unregelmäßig verteilte Punkte im Raum. (z.B. Parkbänke)"
-  - url: https://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-polygone2.gif
-    image_path: https://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-polygone2.gif
+  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-polygone2.gif
+    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/thiessen-polygone2.gif
     title: "Thiessen Polygone zu den Punkten im Raum."
     alt: "Thiessen Polygone zu den Punkten im Raum."    
 ---

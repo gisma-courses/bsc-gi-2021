@@ -25,25 +25,25 @@ Ein digitales Geländemodell enthält neben der reinen Höhe der Raumkoordinaten
 
 ### Primärdatensatz Höhe
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-DGM.png" alt="Digitales Geländemodell vom Gebiet Türlersee als geschummerte Höhenschichtdarstellung (Hugentobler 2000)" caption="*Digitales Geländemodell vom Gebiet Türlersee als geschummerte Höhenschichtdarstellung (Hugentobler 2000)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-DGM.png" alt="Digitales Geländemodell vom Gebiet Türlersee als geschummerte Höhenschichtdarstellung (Hugentobler 2000)" caption="*Digitales Geländemodell vom Gebiet Türlersee als geschummerte Höhenschichtdarstellung (Hugentobler 2000)*" %}
 
 
 ### Ableitung Höhenprofil
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-Profil.png" alt="Höhenprofil aus DGM  Türlersee (GITTA 2005)" caption="*Höhenprofil aus DGM  Türlersee (GITTA 2005)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-Profil.png" alt="Höhenprofil aus DGM  Türlersee (GITTA 2005)" caption="*Höhenprofil aus DGM  Türlersee (GITTA 2005)*" %}
 
 Auf Grundlage eines digitalen Geländemodells können durch Extraktion der Höhenwerte *Profile* zwischen zwei Punkten berechnet werden. Derartige Profile sind in vielen anwendungsorientierten Fragestellungen relevant, z. B. für die Planung im Straßenbau oder als Sichtlinien (Seilbahnen, Funkverbindungen). Erweitert man dieses Konzept können alle räumlich verteilten Informationen auf einer direkten also geometrisch kürzesten Verbindungen analysiert und dargestellt werden
 
 
 ### Ableitung Profilllinie als Pauschalgefälle
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-PauschalG.png" alt="Pauschalgefälle aus DGM  Türlersee (GITTA 2005)" caption="*Pauschalgefälle aus DGM  Türlersee (GITTA 2005)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-PauschalG.png" alt="Pauschalgefälle aus DGM  Türlersee (GITTA 2005)" caption="*Pauschalgefälle aus DGM  Türlersee (GITTA 2005)*" %}
 
 Das *Pauschalgefälle* ist eine weitere Ableitung aus der Profillinie. Es beschreibt die mittlere Neigung zwischen zwei Punkten im Gelände und ist folglich skalenabhängig. Ein wichtiges Anwendungsgebiet ist die einfache Abschätzung von Sturz-Prozessen (Steinschlag, Eisschlag).
 
 ### Falllinie
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-Falllinie.png" alt="Falllinie aus DGM  Türlersee (GITTA 2005)" caption="*Falllinie aus DGM  Türlersee (GITTA 2005)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-Falllinie.png" alt="Falllinie aus DGM  Türlersee (GITTA 2005)" caption="*Falllinie aus DGM  Türlersee (GITTA 2005)*" %}
 
 In einem digitalen Geländemodell kennzeichnet die *Falllinie*, ausgehend von einem beliebigen Punkt, den Pfad (=verknüpfte Einzelstrecken) entlang dessen die Schwerkraft wirkt (=Vektor Oberlieger-Unterlieger). Oder konkret ausgedrückt den Weg des fließenden Wassers oder rollenden Steins. So können u. a. zur Modellierung von Eis- und Steinschlag, aber auch für die Berechnung von Einzugsgebieten verwendet werden. Erweitert man dieses Konzept indem z.B. statt Höhenwerte in Metern Kosten in Euro als “Kostengebirge” aufgefasst werden, Können so Pfade geringster Kosten (oder Widerstands) bestimmt werden.
 
@@ -52,7 +52,7 @@ In einem digitalen Geländemodell kennzeichnet die *Falllinie*, ausgehend von ei
 
 ### Wassereinzugsgebiete
 
-{% include figure image_path="https://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-catchment.png" alt="Wassereinzugsgebiet aus DGM (GITTA 2005)" caption="*Wassereinzugsgebiet auf der Grundlage eines DGM (GITTA 2005)*" %}
+{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/ExtracTopoOb-catchment.png" alt="Wassereinzugsgebiet aus DGM (GITTA 2005)" caption="*Wassereinzugsgebiet auf der Grundlage eines DGM (GITTA 2005)*" %}
 
 Die Ableitung von *Wassereinzugsgebieten* aus digitalen Geländemodellen nutzt das Konzept der Falllinie. Vernetzt man alle Falllinien die einen gemeinsamen Unterlieger als Ausflusspunkt haben und grenzt diesen Raum ab so erzeugt man ein durch die Oberflächenmorphologie determiniertes Wassereinzugsgebiet. Solche Wassereinzugsgebiete sind eine wichtige Komponente in vielen hydrologischen, geomorphologischen und landschaftskundlichen GIS-Anwendungen.
 

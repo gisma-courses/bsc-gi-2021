@@ -19,7 +19,7 @@ header:
 *  **Boots, B.**, 1999. Spatial Tessellations.
 *  **Brändli, M.**, 1997. Modelle und Methoden für die Extraktion geomorphologischer und hydrologischer Objekte aus digitalen Geländemodellen. Unpublished . Geographisches Institut der Universität Zürich.
 *  **Burrough, P.A., McDonnell, R.A.**, 1998. Principles of Geographical Information Systems. New York: Oxford University Press.
-*  **GIS.MA** (2009). GISMA [online](https://minibsc.gis-ma.org/GISBScL3/de/html/index.html). Marburg: GISMA.
+*  **GIS.MA** (2009). GISMA [online](http://minibsc.gis-ma.org/GISBScL3/de/html/index.html). Marburg: GISMA.
 *  **GITTA** (2005). Geographic Information Technology Training Alliance [online](http://www.gitta.info/website/en/html/modules_overview.html) [Accessed 19.3.2009].
 *  **Hard, G.**, 1970. Die Landschaft der Sprache und die Landschaft der Geographen semantische und forschungslogische Studien zu einigen zentralen Denkfiguren in der deutschen geographischen Literatur.. Colloquium geographicum , 11, .
 *  **Horn, B.**, 1981. Hill shading and the reflectance map. In: Proceedings of the IEEE, vol. 69. p. 14-47.
