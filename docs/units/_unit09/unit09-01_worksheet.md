@@ -68,9 +68,6 @@ Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im G
       * ergänzen Sie schließlich den Layer `mr_points` um 3 beliebige Positionen (Punkte) Ihrer Wahl
 {: .notice--success}
 
-
-
-
 ### Aufgabe 01-02 
 
 Leider können wir Sie nicht vollständig an dem Thema der korrekten Verortung von Geodatensätzen - also der adäquaten Projektion- vorbei manövrieren. Im Rahmen der Aufgabe 01-01 haben Sie Raster- und Vektordaten in QGIS importiert sowie eigene Vektordaten erstellt. Die räumliche Information der Daten lag jeweils in geographischen Koordinaten vor. Die von Ihnen benutzte Software QGIS führt immer eine *Echtzeitprojektion* durch mit dem Ziel diese Kugelkoordinaten auf den *flachen* Monitor zu projizieren. Dies hat jedoch im eigntlichen Sinn  nichts mit einer kartographischen korrekten Projektion zu tun. Als Fausregel gilt jedoch, dass nahezu alle räumlichen Analysemethoden und geometrische Berechnungen nur auf korrekt projizierten Daten durchgeführt werden können.
@@ -125,4 +122,4 @@ Der Import von Tabellen beinhaltet eine Vielzahl von Fallstricken. Ganz generell
 
 ### Arbeiten mit Projektionen
 Das Kapitel 
-[Arbeiten mit Projektionen](https://docs.qgis.org/3.28/de/docs/user_manual/working_with_projections/working_with_projections.html){:target="_blank"} ist für Anfänger*innen schwer verständlich. Wichtig ist hier vor allem das korrekte Zuweisen von Projektionen. Für das Umprojizieren von Vektordaten lohnt sich ein Blick in [Reprojecting and Transforming Data](https://docs.qgis.org/3.28/de/docs/training_manual/vector_analysis/reproject_transform.html){:target="_blank"}.
+[Arbeiten mit Projektionen](https://docs.qgis.org/3.28/de/docs/user_manual/working_with_projections/working_with_projections.html){:target="_blank"} ist für Anfänger:innen zugegen nicht ganz leicht zu erarbeiten. Wichtig ist hier vor allem das korrekte Zuweisen von Projektionen. Für das Umprojizieren von Vektordaten lohnt sich ein Blick in [Reprojecting and Transforming Data](https://docs.qgis.org/3.28/de/docs/training_manual/vector_analysis/reproject_transform.html){:target="_blank"}.
