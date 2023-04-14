@@ -62,11 +62,11 @@ Dieses Arbeitsblatt dient der Einführung in die verschiedenen Datenmodelle im G
   * Schneiden Sie den Datensatz `gis_osm_pois_free_1` auf die Ausdehnung des Luftbildes `marburg_RE.tif` zu 
   * Exportieren Sie diese Punktdaten im *geopackage* Datenformat unter dem Namen `mr_points`
   * Importieren Sie die Tabelle `mr_objects.xls` (Datensatz [Räumliche Objekte](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_objects.xls)) als einen räumlichen Layer in ihr QGIS-Projekt
-  * Erstellen Sie auf Grundlage des Luftbildes `marburg_RE.tif`:
-      * Drei beliebige Flächen (Polygone), 
-      * drei beliebige Straßen (Linienzüge) 
+  * Erstellen Sie auf Grundlage des Luftbildes `marburg_RE.tif` mit dem Koordinatensystem **EPSG:4326 WGS84**:
+      * Drei beliebige Flächen (Dateiname `mr_poly`), 
+      * drei beliebige Linienzüge (Dateiname `mr_line`) 
       * ergänzen Sie schließlich den Layer `mr_points` um 3 beliebige Positionen (Punkte) Ihrer Wahl
-  * Geben Sie bei den neu erstellten Datensätzen als Koordinatensystem **WGS84** an. Tipp: Sie können zur besseren Orientierung auch eine Webkarte in Ihr Projekt laden (Weitere Informationen unter Hilfestellungen.
+Tipp: Sie können zur besseren Orientierung auch eine Webkarte in Ihr Projekt laden (Weitere Informationen unter Hilfestellungen.
 {: .notice--success}
 
 
@@ -78,13 +78,11 @@ Leider können wir Sie nicht vollständig an dem Thema der korrekten Verortung v
 Für den Beginn können wir Sie nur sehr nachdrücklich ermuntern das CRS (Coordinate Reference System) bzw KBS (Koordinatenbezugssystem) ihres *Projekts* und jeder Datenebene identisch zu halten. Für Deutschland ist das amtliche System [ETRS89 UTM 32 ](https://epsg.io/25832){:target="_blank"}. Durch diese Sorgfalt kann eine Fehlpositionierung und so einer der häufigsten Alltagsfehler in der GIS Welt vermieden werden.
 {: .notice--danger}
 
-* Erstellen Sie ein neues QGIS Projekt. Laden Sie als erstes die Rasterdatei `marburg_RE.tif` und dann im Anschluss die Vektordatensätze `mr_roads` und `mr_nat` ein.
+* Erstellen Sie ein neues QGIS Projekt. Laden Sie als erstes die Rasterdatei `marburg_RE.tif` und dann im Anschluss die Vektordatensätze `gis_osm_traffic_1` und `mr_nat` ein.
    * Welche Projektionen besitzen die einzelnen Datensätze?
    * In welcher Projektion werden die Daten angezeigt? 
    * Wo können Sie die Projektion definieren, die zur Darstellung der Daten verwendet werden soll?
-   * Was versteht man unter einer *on the fly* bzw. *Echtzeit* Projizierung?
- 
-* Projizieren Sie alle Datensätze in *ETRS89 UTM 32* 
+   * Worin liegen etwaige Probleme einer *on the fly* bzw. *Echtzeit* Projizierung?
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 1
