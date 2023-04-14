@@ -34,7 +34,7 @@ GIS als Verbund von Open Source-Softwarepaketen/Bibliotheken
 
 
 
-*Abbildung 01-10: GIS als exemplarischer Verbund von Open Source-Softwarepaketen/Bibliotheken Source: [Tek Kshetkri ](https://www.linkedin.com/in/iamtekson/) & [Emmanuel Jolaiya](https://linktr.ee/JolaiyaEmmanuel), [@igismap.com](https://www.igismap.com/wp-content/uploads/2015/09/webgisapplicationdevelopmentandgisservers-2.jpg)*
+*Abbildung 01-10: GIS als exemplarischer Verbund von Open Source-Softwarepaketen/Bibliotheken Source: [Tek Kshetkri ](https://www.linkedin.com/in/iamtekson/) & [Emmanuel Jolaiya](https://linktr.ee/JolaiyaEmmanuel), [@igismap.com](https://gisanalyse.de/open-source-web-gis-development-roadmap)*
 
 GIS-Software-Pakete sind Softwarewerkzeuge, die sowohl kommerziell als auch auf Open Source Basis entwickelt werden. In GIS-Software sind raumspezifische Methodiken zur Bearbeitung raumrelevanter Problem- und Fragestellungen, Wissensgenerierung oder Planung integriert, als auch Werkzeuge zur Verwaltung, Modellierung und Präsentation der Daten (vgl. Abb 01-10). In der Regel genügt nicht ein Softwareprodukt zur Bearbeitung der jeweiligen Fragestellung.
 
