@@ -268,7 +268,10 @@ Die resultierenden Qualitätsminderungen müssen gemäß der Zielsetzung und Fra
 **Die Wahl der Projektion ist abhängig von der Zielsetzung hinsichtlich der Darstellung der Daten. Werden mit den Daten räumliche Analysen durchgeführt, muss eine adäquate geodätische Projektion gewählt werden.**
 {: .notice--info}
 
-Besuchen Sie die folgende Webseite die ihnen interaktiv [Kartenprojektionen](https://map-projections.net/compare.php) visualisieren hilft und machen Sie sich interaktiv ein Bild von den Eigenschaften und Auswirkungen der unterschiedlichen Kartenprojektionen. Betrachten Sie zumindest folgende Netzentwürfe:
+
+## Denken Sie mit...
+
+Besuchen Sie die folgende Webseite die ihnen interaktiv [Kartenprojektionen](https://map-projections.net/compare.php){:target="_blank"} visualisieren hilft und machen Sie sich interaktiv ein Bild von den Eigenschaften und Auswirkungen der unterschiedlichen Kartenprojektionen. Betrachten Sie zumindest folgende Netzentwürfe:
 
   * Lambert’sche konforme Schnittkegelprojektion
   * Lambert’sche Azimutalprojektion
