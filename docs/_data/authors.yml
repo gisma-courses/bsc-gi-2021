@@ -6,12 +6,12 @@
   avatar           : "/assets/images/reudenbach_square.jpg"
   email            : "reudenbach@uni-marburg.de"
   home             : "https://www.uni-marburg.de/de/fb19/fachbereich/staff/dr-christoph-reudenbauch"
-- reudenbach:
-  name             : "Alice Ziegler"
-  avatar           : "/assets/images/ziegler_square.jpg"
-  email            : "alice.ziegler@geo.uni-marburg.de"
-  home             : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik/team/alice-ziegler"
-
+  # - ziegler:
+  # name             : "Alice Ziegler"
+  # avatar           : "/assets/images/ziegler_square.jpg"
+  # email            : "alice.ziegler@geo.uni-marburg.de"
+  # home             : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik/team/alice-ziegler"
+  # 
 
 
 # - göttlicher:
