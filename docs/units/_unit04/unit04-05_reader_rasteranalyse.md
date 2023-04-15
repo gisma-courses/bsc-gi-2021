@@ -10,14 +10,14 @@ header:
 
 
 panel0:  
-  - url: /assets/images/unit04/formula/slope.png
-    image_path: /assets/images/unit04/formula/slope.png
+  - url: /assets/images/unit04/slope.png
+    image_path: /assets/images/unit04/slope.png
     title: "Formel zur Berechnung der HAnneigung im Raster"
     alt: "Formel zur Berechnung der HAnneigung im Raster"
 
 panel1:  
-  - url: /assets/images/unit04/formula/neigung_dy.png
-    image_path: /assets/images/unit04/formula/neigung_dy.png
+  - url: /assets/images/unit04/neigung_dy.png
+    image_path: /assets/images/unit04/neigung_dy.png
     title: "dy"
     alt: "dy"
 
@@ -28,14 +28,14 @@ panel2:
     alt: "Nachbarschaft"
 
 panel3:  
-  - url: /assets/images/unit04/formula/aspect.png
-    image_path: /assets/images/unit04/formula/aspect.png
+  - url: /assets/images/unit04/aspect.png
+    image_path: /assets/images/unit04/aspect.png
     title: "Exposition"
     alt: "Exposition"
 
 panel4:  
-  - url: /assets/images/unit04/image/formula/aspect_a.png
-    image_path: /assets/images/unit04/formula/aspect_a.png
+  - url: /assets/images/unit04/image/aspect_a.png
+    image_path: /assets/images/unit04/aspect_a.png
     title: "Exposition Faktor a"
     alt: "Exposition Faktor a"
 
