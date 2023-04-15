@@ -34,10 +34,7 @@ Abbildung 03-01: Der Zeitstrahl als Repräsentation einer linearen Zeitauffassun
 Ohne eine exakte Verortung beliebiger Orte ist ein GIS weitgehend sinnlos, da wir dann nicht in der Lage sind räumlich zu messen, Eigenschaften räumlich zu vergleichen oder auch nur die Merkmale spezifischer Objekte geographisch darzustellen (Abb. 03-02). Für den sinnvollen Gebrauch von GI-Systemen ist die korrekte Verortung der Geoobjekte -oder anders ausgedrückt- die Georeferenzierung eine zentrale Technik. Es gibt eine Reihe von ähnlichen Ausdrücken für diesen Vorgang. Wir sprechen vom Georeferenzieren, Geolozieren, Verorten oder ganz modern vom Geotagging. Allen Begriffen ist gemeinsam, dass Merkmalsausprägungen an geographisch identifizierbare und kartographisch abbildbare Positionen gebunden werden.
 
 
-{% include figure image_path="/assets/images/unit02/hier.gif" alt="Wo bin ich? Hier!" caption="Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten . Photo: CC0 Astro-AG" %}
-<figure><figcaption>
-Abbildung 03-02: Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten (Astro-AG)
-</figcaption></figure>
+{% include figure image_path="/assets/images/unit02/hier.gif" alt="Wo bin ich? Hier!" caption="Abbildung 03-02: Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten (Astro-AG)" %}
 
 
 # Prinzipien der raumzeitlichen  Kodierung
@@ -113,7 +110,7 @@ Navigieren Sie nun zur [Linienkarte](http://www.autobahnatlas-online.de/A7.htm) 
 Im vorausgegangen Kapitel haben wir die eindimensionale metrische Referenzierung kennengelernt. Als zweidimensionale Erweiterung gibt es weltweit sogenannte Kataster. Es ist üblich, dass Kataster in Katasterplan und Katasterbuch unterschieden werden (Abb. 03-06). In Deutschland ist (wie in den meisten Ländern) die Führung und Pflege hoheitlich durch Vermessungsämter geregelt.
 
 <html>
-<a href="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" title="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"><img src="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" width="80%" alt="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"></a>
+<a href="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" title="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"><img src="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" width="100%" alt="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"></a>
 </html>
 <figure><figcaption>
 Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien 1906. (Quelle: przeslal Marek Silarski</a>, <a href="https://commons.wikimedia.org/wiki/File:Bukowsko_-_mapa_katastralna_%281906%29.jpg" > via WikiMedia</a>)
@@ -198,7 +195,7 @@ In den vergangenen zwei Jahrhunderten wurden sehr unterschiedliche Referenzellip
 Bei einer kleinräumigen Betrachtungsweise ist die Genauigkeit einer auf ein Referenzellipsoid bezogenen Koordinatenbestimmung völlig ausreichend. Spannend ist, dass erst mit der Entwicklung von interkontinentalen Raketen in der ersten Hälfte des 20. Jhds. eine neue Dimension der Genauigkeit für die praktische Anwendung angestrebt wurde. In der Anwendung ist nämlich eine senkrechte Projektion auf das Ellipsoid unmöglich. Die senkrechte Projektion auf das auf Meeresniveau angenäherte Ellipsoid weicht um die sogenannte Lotabweichung von der wirklichen Senkrechten, wie sie durch ein gravitatives Schnurlot dargestellt wird, ab. Bei Vermessungen, die genauer sein sollen als etwa 0,5 Meter/1000 Meter (z.B. zur Berechnung der Ballistik von Interkontinentalraketen oder der Kontinentaldrift…), muss dieser Effekt berücksichtigt werden und die Messungen korrigieren zu können (Abb. 03-10).
 
 
-<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/14004801373" title="03-10 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2919/14004801373_57decb7d14_o.png" width="529" height="278" alt="03-10"></a></html>
+<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/14004801373" title="03-10 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2919/14004801373_57decb7d14_o.png" width="800"  alt="03-10"></a></html>
 <figure><figcaption>
 Abb. 03-10: Differenz zwischen wahrer Lotrichtung und Ellipsoidnormale (=Lotabweichung) der zugehörigen Bezugskörper des Ellipsoids und Geoids (GIS.MA 2009)
 </figcaption></figure>
@@ -222,7 +219,7 @@ Für genaue Messungen oder möglichst exakte Kartenprojektionen müssen beide Be
 <html>
 <a href="http://upload.wikimedia.org/wikipedia/commons/4/41/Geoundaequrp.png" 
 title="Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dandor 2006)">
-<img src="http://upload.wikimedia.org/wikipedia/commons/4/41/Geoundaequrp.png" width="80%" 
+<img src="http://upload.wikimedia.org/wikipedia/commons/4/41/Geoundaequrp.png" width="100%" 
 alt="Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dantor 2006)"></a>
 </html>
 <figure><figcaption>
@@ -233,7 +230,7 @@ Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen
 <html>
 <a href="http://upload.wikimedia.org/wikipedia/commons/7/78/Geoundnsrp.png" 
 title="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie).">
-<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Geoundnsrp.png" width="80%" 
+<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Geoundnsrp.png" width="100%" 
 alt="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie)"></a>
 </html>
 
