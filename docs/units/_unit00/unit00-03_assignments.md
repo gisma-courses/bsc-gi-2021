@@ -10,7 +10,7 @@ header:
 panel1:  
   - url: "/assets/images/example_kursplan_geoinformatik.png"
     image_path: "/assets/images/example_kursplan_geoinformatik.png"
-    alt: "Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Termin, Blockung und Aufteilung in Eigenstudium und Lerngruppeist wünschenswert muss aber den eigenen Bedüfrnissen angepasst werden."   
+    alt: "Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Termin, Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert muss aber den eigenen Bedüfrnissen angepasst werden."   
 ---
 
 Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. <!--more-->
@@ -27,7 +27,7 @@ Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
 Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
 
 ### Kursbereich in Ilias
-Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate, den verbiondlcihen Self-Assessments und der Abgabe der Projektarbeit.
+Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate, den verbindlichen Self-Assessments und der Abgabe der Projektarbeit.
 
 ### Fragen
 Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert.
