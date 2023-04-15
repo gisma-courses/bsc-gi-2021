@@ -3,7 +3,10 @@ title: Projektarbeit
 toc: true
 toc_label: Inhalt
 
-
+header:
+  image: /assets/images/06-splash.jpg
+  image_description: "Projektarbeit"
+  caption: "Pile of Paper.   CC0 AG gisma s²r"
 ---
 
 Die Bearbeitung von komplexen Aufgaben wird sowohl auf nahezu allen Lernfeldern als auch in der beruflichen Anwendung in Projekten organisiert und durchgeführt. 
