@@ -19,9 +19,8 @@ Wie setzen wir in der Geographie am einfachsten und effizientesten die Abstrakti
 <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fr%C3%A4nkische-Schweiz-westliche-Kante-16-05-2005.jpeg/640px-Fr%C3%A4nkische-Schweiz-westliche-Kante-16-05-2005.jpeg?uselang=de" title="View from the west of the Fränkische Schweiz. In the center of the photo you can see the escarpment outlier // Walberla// "><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fr%C3%A4nkische-Schweiz-westliche-Kante-16-05-2005.jpeg/640px-Fr%C3%A4nkische-Schweiz-westliche-Kante-16-05-2005.jpeg?uselang=de" width="120%" alt="Fränkische Schweiz Westrand"></a>
 </html>
 <figure><figcaption>
-Abbildung 01-03: Blick auf die Fränkische Schweiz von Westen. In der Bildmitte ist der Zeugenberg Walberla zu sehen (Arnold 2005)
+Abbildung 01-03: Blick auf die Fränkische Schweiz von Westen. In der Bildmitte ist der Zeugenberg Walberla zu sehen (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Arnomane" > Daniel Arnold </a>, <a href="https://commons.wikimedia.org/wiki/File:Fr%C3%A4nkische-Schweiz-westliche-Kante-16-05-2005.jpeg" > via WikiMedia</a>)
 </figcaption></figure>
-
 
 
 Beginnen wir mit einem geographischen Begriff von Raum, der uns aus dem Alltagswissen vertraut ist. So kennen viele die Region der Fränkischen Schweiz. Wir assoziieren mit solchen *Raumentitäten* eine mehr oder weniger diffuse gleichwohl abgegrenzte Raumausdehnung (Region) oder die Vorstellung einer Landschaft (vgl. Abb. 01-03). Derart als Entitäten empfundenen Räumen werden häufig auch Attribute wie kulinarische, kulturelle oder freizeitorientierte Aspekte zugeordnet. So ist die Fränkische Schweiz sowohl für ihre Weine und lokalen Biere bekannt aber auch beispielsweise für ihre Osterbrunnen (vgl. Abb. 01-04) oder ihr touristisches Potenzial.
@@ -43,7 +42,7 @@ Abbildung 01-05: Digitales Geländemodell der Fränkischen Schweiz und angrenzen
  <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Fraenkische_Schweiz.png/800px-Fraenkische_Schweiz.png" title="Map of the Fränkische Schweiz ">  <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Fraenkische_Schweiz.png/800px-Fraenkische_Schweiz.png"  alt="Map of Frankonian Switzerland">  </a>
  </html> 
 <figure><figcaption>
-Abbildung 01-06: Karte der Fränkischen Schweiz (Mikmaq 2009)
+Abbildung 01-06: Karte der Fränkischen Schweiz (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Mikmaq" > Mikmaq 2009</a>, <a href="https://commons.wikimedia.org/wiki/File:Fraenkische_Schweiz.png" > via WikiMedia</a>)
 </figcaption></figure>
 
 
@@ -60,11 +59,9 @@ Betrachten Sie das unten stehende Luftbild (Abb. 01-07) und überlegen Sie, wie 
 *     Straßennetz
 *     Bebauungsfläche
 
-<html>
- <a href="http://upload.wikimedia.org/wikipedia/commons/2/2c/Sanspareil_Luftbild_West.jpg" title="Aerial photo of the rockgarden *Sanspareil* (Fränkische Schweiz) as an example of a cutout of reality that has to be represented by geoinformation means.">  <img src="http://upload.wikimedia.org/wikipedia/commons/2/2c/Sanspareil_Luftbild_West.jpg"   alt="Aerial photo of the rockgarden *Sanspareil* (Fränkische Schweiz) as an example of a cutout of reality that has to be represented by geoinformation means">  </a>
- </html> 
+![]({{ site.baseurl }}/assets/images/unit01/Sanspareil_Luftbild_West.jpg)
  <figure><figcaption>
-Abbildung 01-07: Luftbild des Felsengarten Sanspareil (Fränkische Schweiz) als Beispiel eines zu repäsentierenden Wirklichkeitsauschnitts. Es wird vernachlässigt, dass ein Luftbild selbst bereits eine Repräsentation der Wahrnehmung des Fotografen ist (Presse03 2009)
+Abbildung 01-07: Luftbild des Felsengarten Sanspareil (Fränkische Schweiz) als Beispiel eines zu repäsentierenden Wirklichkeitsauschnitts. Es wird vernachlässigt, dass ein Luftbild selbst bereits eine Repräsentation der Wahrnehmung des Fotografen ist. (Quelle: <a href="(https://commons.wikimedia.org/wiki/User:Presse03" > Presse03 2009</a>, <a href="(https://de.wikipedia.org/wiki/Datei:Sanspareil_Luftbild_West.jpg" > via WikiMedia</a>)
 </figcaption></figure>
 
 
