@@ -80,6 +80,8 @@ Die Ausarbeitung soll alles inklusive **2500 Worte** nicht überschreiten. Sie i
 
 Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische Struktur einer solchen Ausarbeitung.
 
+Darüberhinaus finden Sie im nachfolgenden Dokument die als verbindlich Grundlage zu den verwendeten Begriffen und Bewertungsansätzen. Wenden Sie sich bei Fragen und Anmerkungen an Ihre Dozent:innen
+
 {% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
 
 ## Abgaben
