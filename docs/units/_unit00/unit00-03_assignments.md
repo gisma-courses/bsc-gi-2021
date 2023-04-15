@@ -46,6 +46,28 @@ Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zei
   * Wöchentliche Treffen mit Kommiliton:innen
   * Wöchentliche Bearbeitung von Aufgaben
   * Bearbeitung eines Abschlussprojekts
+  
+Kursverlauf:
+
+| Sitzung | Datum | Thema | Inhalt |
+|:-------:|:--------:|:---------|:---------|
+|  | | | Block 1 Grundlagen |   
+| 1 | | Einführung/QGIS Warmup | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
+| 2a | | F&A | Einführung, QGIS Warmup |
+| 2b | | Input | Thematische und räumliche Abfragen auf Attributtabellen |
+| 3a | | F&A |  Thematische und räumliche Abfragen auf Attributtabellen |
+| 3b | | Input |  Einstieg Analysen |
+| 4a | | F&A | Einstieg Analysen|
+| 4b | | Input  | Vertiefte Analysen |
+| 5a | | F&A  | Vertiefte Analysen |
+| 5b | | Input | Kosten und Kriterien|
+| 6a | | F&A | Kosten und Kriterien    |
+| 6b | | Input| Projektarbeit |
+| 7 | | | Klausur |   
+|  | | | Block 2 Projektarbeit |   
+| 8-14 | | F&A | Projektarbeit |
+
+  
 
 ### Exemplarischer Kurs-Stundenplan
 
@@ -88,27 +110,7 @@ Darüberhinaus finden Sie im nachfolgenden Dokument die als verbindlich Grundlag
 
 Um eine Bewertung zu erhalten, müssen die Studien- bzw. Projektarbeiten auf der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden.
 
-Bitte entnehmen Sie der ILias Seite die Daten zur nachfolgenden Tabelle insbesondere die verbindlichen Kurs und Abgabezeiten:
-
-| Sitzung | Datum | Thema | Inhalt |
-|:-------:|:--------:|:---------|:---------|
-|  | | | Block 1 Grundlagen |   
-| 1 | | Einführung/QGIS Warmup | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2a | | F&A | Einführung, QGIS Warmup |
-| 2b | | Input | Thematische und räumliche Abfragen auf Attributtabellen |
-| 3a | | F&A |  Thematische und räumliche Abfragen auf Attributtabellen |
-| 3b | | Input |  Einstieg Analysen |
-| 4a | | F&A | Einstieg Analysen|
-| 4b | | Input  | Vertiefte Analysen |
-| 5a | | F&A  | Vertiefte Analysen |
-| 5b | | Input | Kosten und Kriterien|
-| 6a | | F&A | Kosten und Kriterien    |
-| 6b | | Input| Projektarbeit |
-| 7 | | | Klausur |   
-|  | | | Block 2 Projektarbeit |   
-| 8-14 | | F&A | Projektarbeit |
-
-
+Bitte entnehmen Sie der ILias-Seite alle terminlich verbindlcihen Daten.
 
 ### <a name="formale-anforderungen"></a>Formale Anforderungen
 Die Übungsaufgaben innerhalb einer Kurseinheit geben Sie bitte **zwingend** als PDF-Datei ab. Benennen Sie die PDF-Datei wie folgt:
