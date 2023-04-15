@@ -19,16 +19,17 @@ Der Themenkomplex der digitalen Geländemodelle inkl. deren Erstellung auf Grund
 
 ## Was wir in dieser Einheit vor haben
 
-Im Rahmen der Übung werden Sie Informationen aus digitalen Geländemodellen ableiten und sich mit räumlichen Filtermethoden näher beschäftigen.
+Im Rahmen der Übung werden Sie Informationen aus digitalen Geländemodellen ableiten und sich mit räumlichen Filtermethoden näher beschäftigen. Darüber hinaus werden beispielhaft komplexere Werkzeug wie etwa die Berechnung eines Bodenfeuchteindex oder Oberflächenabfluss geübt.
 
 
 ## Lernziele 
 
 Nach dieser Übung können Sie:
 
-  *  Neue Rasterdaten durch Anwendung typischer Werkzeuge (Algorithmen) erzeugen
+  *  Digitale Geländemodelle in irer Vielfalt und in ihrer Bedeutung einschätzen 
+  *  Abgeleitete Rasterdaten durch Anwendung typischer Werkzeuge (Algorithmen) erzeugen
   *  Diese abgeleiteten Informationen in Fragestellungen zielgerichtet einsetzen
-  *  Abfagen auf solchen Rasterdaten durchführen.
+  *  Direkte und statistisch aggregierte Informationen extrahieren
 
 
 ## Benötigte Materialien
