@@ -29,21 +29,25 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Vehrkehr Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_traffic_1.gpkg).
-  * [ÖPNV  Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_transport_free_1.gpkg).
-  
-  * [Other Points of Interest](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/gis_osm_pois_free_1.gpkg)
-  * [Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen Open Streetmap (OSM) Datensatz
-  * [Straßen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Ausschnitt aus dem aktuellen  Open Streetmap (OSM) Datensatz
+  * [Digitales Luftbild](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
+  * [Marburg POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_pois.zip)
+  * [Marburg ÖPNV  POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_transport_poi.zip)
+  * [Marburg Verkehr POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_traffic_poi.zip)
+  * [Marburg Other POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_other_poi.zip)
+  * [Marburg Wald Flächen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip)
+  * [Marburg Strassen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip)
 
-Bitte schneiden Sie alle Datensätze - falls nicht schon geschehen - auf die Ausdehnung des Marburger Luftbildes aus Aufgabe 1 zu.
+Bedenken Sie bitte, dass die Downloads als Archivdateien vorliegen die entsprechend dekomprimiert werden müssen. Falls notwendig schneiden Sie alle Datensätze auf die Ausdehnung des Marburger Luftbildes aus Aufgabe 1 zu. Alle Daten sind dem [geofabrik OSM Datenbestand](http://download.geofabrik.de/){:target="_blank"} entnommen. 
+{: .notice--info}
 
-## Aufgaben Lerneinheit 1
+## Aufgaben Lerneinheit 2
+
+Im ersten Teil der Aufgabe geht es darum aus den unterschiedlichen Datenbeständen die benannten Geoobjekte zu identifizieren und der einfachen Erfolgskontrolle wegen, zu zählen. Weder müssen alle Datensätze notwendigerweise verwendet werden (eine Vorauswahl wurde zwar getroffen aber nur um eine gewisse Übersichtlichkeit für die Übung zu erzeugen) noch sind alle Attribute zwingend in einer Attributtabelle zu finden.
 
 ### Aufgabe 02-01
 
 
-In der Aufgabe 02-01 werden Attributwerte abgefragt.
+In der Aufgabe 02-01 werden Attributwerte abgefragt. Folglich werden die Merkmale und ihre Ausprägungen öhne einen räumlichen Bezug aus den Tabellen extrahiert.
 
 * Wieviel Ampeln ("traffic_signals") gibt es in Marburg?
 * Wieviele Objekte weisen die Merkmalsausprägung "cafe" und "bar" auf.
@@ -58,16 +62,16 @@ In der Aufgabe 02-01 werden Attributwerte abgefragt.
 ### Aufgabe 02-02
 
 
-In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen Abfragen.
+In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen Abfragen. Folglich werden die Attributabfragen erweitert um ihre räumlichen Komponenten Lage und Entfernung zueinander.
 
-  - Wieviele Punkte (des POI-Datensatzes) befinden sich in Waldflächen (mr_nat)?
-  - Wieviele Punkte (des POI-Datensatzes) sind maximal 150 Meter von Waldflächen entfernt?
+  - Wieviele Marburg POI befinden sich in Waldflächen?
+  - Wieviele Marburg POI sind maximal 150 Meter von Waldflächen entfernt?
   - Wieviele "restaurants" oder "bars"" sind max 150 Meter von Waldflächen entfernt?
   - Wieviele Straßen führen durch Waldflächen?
-  - Wie viele Punkte (des POI-Datensatzes) liegen im Umkreis von 500 Metern um den Marburger Bahnhof?
+  - Wie viele Marburg POI liegen im Umkreis von 500 Metern um den Marburger Bahnhof?
   - Wie viele Bars sind maximal 500 Meter von der nächsten Bushaltestelle entfernt?
-  - Wie viele Punkte (des POI-Datensatzes) liegen im Umkreis von maximal 250 Metern um Parkplätze?
-  - Von wievielen Punkte (des POI-Datensatzes) aus kann ein Arzt/Krankenhaus in weniger als 500 Meter Entfernung gefunden werden?
+  - Wie viele Punkte Marburg POI liegen im Umkreis von maximal 250 Metern um Parkplätze?
+  - Von wievielen Punkte Marburg POI aus kann ein Arzt/Krankenhaus in weniger als 500 Meter Entfernung gefunden werden?
   - Wie viele Punkte der Kategorie Gastronomie liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 1 Kilometer vom nächsten Briefkasten entfernt?
 {: .notice--success}
 
@@ -87,17 +91,17 @@ Für die generelle Abfrage auf relational strukturierte Datensätze (Attributtab
 
 ### Arbeiten mit Attributen
 
-Das nachfolgende YouTube Video macht sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch die unterschiedlichen Verwendungszwecke die im Video thematisiert werden.
+Das nachfolgende YouTube Video macht Sie in ca. 10 Minuten mit dem Umgang des Abfrageeditors vertraut. Beachten Sie auch die unterschiedlichen Verwendungszwecke die im Video thematisiert werden.
 
 {% include video id="eFoBztZSIaM" provider="youtube" %}
 
-Im nachfolgenden YouTube Video werden Sie auf 90 Minuten umfassend über die praktischen Anwendungsmöglichkeiten der Arbeit mit Attributen unterrichtet.
+Im diesem YouTube Video werden Sie auf 90 Minuten umfassend über die praktischen Anwendungsmöglichkeiten der Arbeit mit Attributen unterrichtet. Es ist zwar lang bringt aber viele wichtige Kombinationsmöglichkeiten und Aspekte ein und erschliesst somit ungeahnte Potentiale.
 
 {% include video id="h-mpUkwDdOQ" provider="youtube" %}
 
 ### Vertiefende Erläuterungen
 
-Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](http://minibsc.gis-ma.org/GISBScL2/de/html/index.html){:target="_blank"} finden sie eine vertiefende Lerneinheit. Die Lernbeispiele sind jedoch für ArcGis ausgeführt.  
+Unter [Relationen und Datenbanken - Grundlage räumlicher Informationssysteme](http://minibsc.gis-ma.org/GISBScL2/de/html/index.html){:target="_blank"} finden sie eine vertiefende Lerneinheit. Beachte Sie bitte dass die dort aufgeführten Übungen für ArcGis konzipiert sind.  
 
 
 
@@ -109,5 +113,5 @@ Bitte beachten Sie in jedem Fall, dass Ihre Suchbegriffe von den Datenerfasser:i
 
 ### Aufgabe 02-02
 
- Sie können mehrere Abfragen hintereinander durchführen. Hierzu müssen Sie das Abfrageergebnis ggf. als neuen Layer speichern (Rechtsklick auf das selektierte Layer, dann Auswahl, dann Layer aus selektierten Features erstellen). Bitte beachten Sie, dass die so erstellten Layer nur virtuell sind. Sie können Sie aber natürlich als Geopackage-Datensatz exportieren.
+ Sie können mehrere Abfragen hintereinander durchführen. Hierzu müssen Sie das Abfrageergebnis ggf. als neuen Layer speichern (Rechtsklick auf das selektierte Layer, dann Auswahl, dann Layer aus selektierten Features erstellen). Bitte beachten Sie, dass die so erstellten Layer nur virtuell sind. Sie können Sie aber natürlich z.B. als Geopackage-Datensatz exportieren.
 
