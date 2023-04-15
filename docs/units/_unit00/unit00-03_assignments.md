@@ -71,6 +71,9 @@ Die individuell zu erbringede Studienleistung ist das erfolgreiche Absolvieren d
 ## Prüfungsleistung
 Nach den 5 Übungsblöcken wird für 3 ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
 
+Die Prüfungsleistung ist individuell zu erbringen kann aber in 2-er Gruppen erstellt werden insofern die Anteile kenntlich gemacht sind.
+{: .notice--danger}
+
 
 ### Gewichtung Übungsaufgaben
 Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Sie müssen > 50 % der erlernten Methoden in der Projektarbeit einbringen um ausreichend bestehen zu können. Die Gewichtung entnehmen Sie bitte den Aufgabenseiten.
@@ -107,8 +110,6 @@ Bitte entnehmen Sie der ILias Seite die Daten zur nachfolgenden Tabelle insbeson
 |  | | | Block 2 Projektarbeit |   
 | 8-14 | | F&A | Projektarbeit |
 
-Die Prüfungsleistung ist individuell zu erbringen.
-{: .notice--danger}
 
 
 ### <a name="formale-anforderungen"></a>Formale Anforderungen
