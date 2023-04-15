@@ -106,10 +106,10 @@ Navigieren Sie nun zur [Linienkarte](http://www.autobahnatlas-online.de/A7.htm) 
 Im vorausgegangen Kapitel haben wir die eindimensionale metrische Referenzierung kennengelernt. Als zweidimensionale Erweiterung gibt es weltweit sogenannte Kataster. Es ist üblich, dass Kataster in Katasterplan und Katasterbuch unterschieden werden (Abb. 03-06). In Deutschland ist (wie in den meisten Ländern) die Führung und Pflege hoheitlich durch Vermessungsämter geregelt.
 
 <html>
-<a href="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" title="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"><img src="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" width="100%" alt="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"></a>
+<a href="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" title="Abbildung 03-06: Historischer Katasterplan von Bukowsko (Silarski 2009)"><img src="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" width="100%" alt="Abbildung 03-06: Historischer Katasterplan von Bukowsko (Silarski 2009)"></a>
 </html>
 <figure><figcaption>
-Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien 1906. (Quelle: przeslal Marek Silarski</a>, <a href="https://commons.wikimedia.org/wiki/File:Bukowsko_-_mapa_katastralna_%281906%29.jpg" > via WikiMedia</a>)
+Abbildung 03-06: Historischer Katasterplan von Bukowsko 1906. (Quelle: przeslal Marek Silarski</a>, <a href="https://commons.wikimedia.org/wiki/File:Bukowsko_-_mapa_katastralna_%281906%29.jpg" > via WikiMedia</a>)
 </figcaption></figure>
 
 
@@ -123,8 +123,7 @@ Seit der Erfindung und Durchführung der exakten Vermessung der Welt durch Carl 
 
  
 
-
-Verdeutlichen Sie sich erneut diesen Zusammenhang, indem Sie sich das Karten- bzw. Satellitenbild des heutigen [Bukowsko in Google](https://drive.google.com/file/d/0B-Zk6jquLjKvTHRiUW1hUFhmOFk/edit?usp=sharing) mit Google Earth anschauen. Vergleichen Sie dazu den Katasterplan von 1906.
+Verdeutlichen Sie sich erneut diesen Zusammenhang, indem Sie sich das Karten- bzw. Satellitenbild des heutigen [Bukowsko in Google Maps](https://goo.gl/maps/SpPZcv9dx6PRCitD8) anschauen. Vergleichen Sie dazu den Katasterplan von 1906.
 
 
 # Geographische Koordinaten - Breiten und Längengrade
