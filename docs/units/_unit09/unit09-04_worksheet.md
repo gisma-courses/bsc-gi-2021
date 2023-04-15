@@ -91,9 +91,9 @@ Beschreiben Sie das Ergebnis, fügen Sie aussagekräftige Grafik(en) ein und beg
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|Aufgabe 04-01 | 0.4  | 0.16  | 
-|Aufgabe 04-01 | 0.6  | 0.24  | 
-|**Aufgabe 04** | **1.0**  | **0.4**  | 
+|Aufgabe 04-01 | 0.4  | 0.1  | 
+|Aufgabe 04-02 | 0.6  | 0.2  | 
+|**Aufgabe 04** | **1.0**  | **0.3**  | 
 
 ## Hilfestellungen 
 

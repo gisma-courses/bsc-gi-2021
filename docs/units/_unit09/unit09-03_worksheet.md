@@ -66,13 +66,14 @@ Die Ableitung aus und Analyse von Rasterdaten ist ein sehr weites Feld. Es umfas
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|**Aufgabe 03-01** | **1.0**  | **0.25** | 
-
+|Aufgabe 03-01 | 0.5  | 0.15  | 
+|Aufgabe 03-02 | 0.5  | 0.15  | 
+|**Aufgabe 03** | **1.0**  | **0.3**  | 
 
 ## Hilfestellungen 
 
 ### Aufgabe 03-01
-Die wichtigen Meta-Informationen zu den SRTM Daten finden Sie auf den jeweiligen Seiten der Daten-Provider (z.B. [CGIAR FAQ](https://srtm.csi.cgiar.org/faq/){:target="_blank"} oder [EU-DEM Meta](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1?tab=metadata){:target="_blank"}). Beachten Sie dass sich die Geländemodelle teilweise erheblich unterscheiden. Dies ist insbesondere wichtig für die letzte Teilaufgabe 03-01.
+Die wichtigen Meta-Informationen zu den SRTM Daten finden Sie auf den jeweiligen Seiten der Daten-Provider (z.B. [CGIAR FAQ](https://srtm.csi.cgiar.org/faq/){:target="_blank"} oder [EU-DEM Meta](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1?tab=metadata){:target="_blank"}). Beachten Sie, dass sich die Geländemodelle teilweise erheblich unterscheiden. Dies gilt nicht nur für das Copernicus Modell im Vergleich zu den SRTM Modellen sondern auch die SRTM Modelle obwohl sie alle die geliche Datengrundlage haben weichen erheblich voneinander ab. Die Beschäftigung mit den Metadaten ist insbesondere wichtig für ein erfolgreiches Bearbeiten die letzte Teilaufgabe 03-01.
 
 Verwenden Sie zum Ausschneiden des Rasters einen der Marburg-Layer aus den vorherigen Sitzungen als Vorlage.
 
