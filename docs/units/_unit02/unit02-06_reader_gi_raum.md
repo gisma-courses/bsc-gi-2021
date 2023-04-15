@@ -123,7 +123,7 @@ Seit der Erfindung und Durchführung der exakten Vermessung der Welt durch Carl 
 
  
 
-Verdeutlichen Sie sich erneut diesen Zusammenhang, indem Sie sich das Karten- bzw. Satellitenbild des heutigen [Bukowsko in Google Maps](https://goo.gl/maps/SpPZcv9dx6PRCitD8) anschauen. Vergleichen Sie dazu den Katasterplan von 1906.
+Verdeutlichen Sie sich erneut diesen Zusammenhang, indem Sie sich das Karten- bzw. Satellitenbild des heutigen [Bukowsko in Google Maps](https://goo.gl/maps/SpPZcv9dx6PRCitD8){:target="_blank"} anschauen. Vergleichen Sie dazu den Katasterplan von 1906.
 
 
 # Geographische Koordinaten - Breiten und Längengrade
