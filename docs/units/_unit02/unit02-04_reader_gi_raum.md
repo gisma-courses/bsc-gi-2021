@@ -62,7 +62,7 @@ Durch Anordnung, der sich nicht überschneidenden Zellen in Zeilen und Spalten e
 
 ## Denken Sie mit...
 
-Öffnen Sie mit Google Earth die Datei die zuvor heruntergeladene Datei [Raster oder Vektor](https://raw.githubusercontent.com/gisma-courses/r-spatial-econometry-basicsl/master/docs/assets/data/RasteroderVektormodell3D.kmz). Versuchen Sie zu identifizieren, welches Datenmodell für welche der dargestellten Information verwendet wird.
+Öffnen Sie mit Google Earth die Datei die zuvor heruntergeladene Datei [Raster oder Vektor](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/RasteroderVektormodell3D.kmz). Versuchen Sie zu identifizieren, welches Datenmodell für welche der dargestellten Information verwendet wird.
 
   * Welche(s) Datenmodell(e) nutzt ihrer Meinung nach Google Earth?
   * Lassen sich aus den am Bildschirm dargestellten Informationen nähere Eigenschaften des verwendeten Datenmodells ableiten? Wenn ja welche? Wenn nein warum nicht?

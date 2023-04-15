@@ -29,9 +29,10 @@ Um diesen Zusammenhang an einem Beispiel zu verdeutlichen, betrachten Sie bitte 
 <a href="http://upload.wikimedia.org/wikipedia/commons/b/b9/Johannes_Schnitzer_Weltkarte.jpg" title="Abbildung 01-01: Die Weltkarte des Johannes Schnitzler"><img src="http://upload.wikimedia.org/wikipedia/commons/b/b9/Johannes_Schnitzer_Weltkarte.jpg" width="100%" alt="Abbildung 01-01: Die Weltkarte des Johannes Schnitzler"></a>
 </html>
 
+<figure><figcaption>
+Abbildung 01-01: Weltkarte des Ptolemäus. Die hier gezeigte Weltkarte ist mit den zwölf Winden illustriert und eine der 32 Karten aus der „Cosmographia“ die von Lienhart Holle aus Ulm am 6. Juli 1482 herausgegeben wurde. Dies war die erste gedruckte Kartenausgabe nördlich der Alpen (Lienhart 1482). (Quelle: <a href="https://en.wikipedia.org/wiki/Nicolaus_Germanus" > Nicolaus_Germanus 2011 </a>, <a href="https://commons.wikimedia.org/wiki/File:Johannes_Schnitzer_Weltkarte.jpg" > via WikiMedia</a>)
+</figcaption></figure>
 
-
-*Abbildung 01-01: Weltkarte des Ptolemäus. Die hier gezeigte Weltkarte ist mit den zwölf Winden illustriert und eine der 32 Karten aus der „Cosmographia“ die von Lienhart Holle aus Ulm am 6. Juli 1482 herausgegeben wurde. Dies war die erste gedruckte Kartenausgabe nördlich der Alpen (Lienhart 1482)*
 
 Diese kann als frühes, idealtypisches Beispiel für die zuvor definierten Eigenschaften einer Karte betrachtet werden. Dargestellt ist die zu diesem Zeitpunkt gültige europäische Wahrnehmung der Welt. Wenige Jahre später wurde mit Kolumbus und seinen Entdeckungsfahrten diese Weltsicht revolutioniert und umfassend korrigiert.
 
@@ -46,11 +47,9 @@ Vor diesem Hintergrund bekommt der Begriff Information eine neue Dimension. Um z
 
 Geographische oder räumliche Repräsentationen sind die Grundlage für eine wissenschaftliche Interpretation von raum-zeitlichen Aspekten der Echtwelt. In der Wissenschaft ist es üblich, dass hierfür als gesichert geltende Regeln (Axiome) verwendet werden. So ist vielleicht eines der bekanntesten von Waldo Tobler formuliert worden: “Everything is related to everything else, but near things are more related than distant things” (Tobler 1970). Es wird häufig als das sogenannte "erste geographische Gesetz" zitiert. Wie sehr es andere Auffassungen geben kann zeigt etwa Benno Werlen in seinem handlungszentrierten Ansatz, er führt aus, dass nicht nur reale Nachbarschaftsbeziehungen von Objekten oder Merkmalsausprägungen Raumkonstrukte ermöglichen, sondern Räume eben auch durch z.B. handelnde Menschen, die nicht notwendigerweise in räumlicher Nachbarschaft agieren, sozial konstruiert werden können (vgl. z.B. Werlen 1993).
 
-<html>
-<a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13911225673" title="Abbildung 01-02: Die Interpretation der perzipierten „realen Welt“ sowie die Entwicklung geeigneter Strategien für den praxistauglichen Umgang (=Abstraktion) mit dieser Welt, findet mit dem Hilfsmittel der Modellbildung statt. (Reudenbach 2009) by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7425/13911225673_23cd595e1d_n.jpg" width="80%" alt="Abbildung 01-02: Die Interpretation der perzipierten „realen Welt“ sowie die Entwicklung geeigneter Strategien für den praxistauglichen Umgang (=Abstraktion) mit dieser Welt, findet mit dem Hilfsmittel der Modellbildung statt. (Reudenbach 2009)"></a>
-</html>
 
-*Abbildung 01-02: Die Interpretation der perzipierten „realen Welt“ sowie die Entwicklung geeigneter Strategien für den praxistauglichen Umgang (=Abstraktion) mit dieser Welt, findet mit dem Hilfsmittel der Modellbildung statt. (Reudenbach 2009)*
+{% include figure image_path="https://farm8.staticflickr.com/7425/13911225673_23cd595e1d_n.jpg" caption="Abbildung 01-02: Die Interpretation der perzipierten „realen Welt“ sowie die Entwicklung geeigneter Strategien für den praxistauglichen Umgang (=Abstraktion) mit dieser Welt, findet mit dem Hilfsmittel der Modellbildung statt. (gisma 2009)" %}
+
 
 
 Nicht nur in der quantitativ naturwissenschaftlich orientierten Repräsentation der Welt ist das Konzept von Nachbarschaft nach Tobler nur für manche Zusammenhänge gültig. So ist etwa die Konzentration von Stickstoff in der Atmosphäre vergleichsweise homogen und kontinuierlich (und entspricht so Tobler's Axiom), während beispielsweise geologisch kontinuierliche Einheiten an Kontinentalplatten oder Störungen von einem Meter zum nächsten die nachbarschaftlichen Zusammenhänge geradezu konterkarieren. Vergleichbares gilt auch für andere Zusammenhänge wie etwa die Verteilung der Währungen innerhalb der EU oder auch die Regelung von fiskalen Belangen die in der Regel an verwaltungsrechtliche Grenzen gekoppelt ist obwohl beiderseitig Menschen leben die Steuern zahlen.  
