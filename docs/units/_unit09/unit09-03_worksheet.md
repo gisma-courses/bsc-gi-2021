@@ -34,27 +34,30 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Copernicus EU-DEM v1.1](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1/view){:target="_blank"} Das EU DEM ist das beste frei erhältiche DEM für Gesamt Europa. Allerdings ist es ein Multisource Modell und daher deutlcih abweichend vom SRTM Modell. 
-  * [SRTM Geländemodell opentopography](https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1){:target="_blank"} oder
-  * [SRTM Geländemodell TileDownloader](https://dwtkns.com/srtm30m/){:target="_blank"} (Benötigt eine Registrierung bei [NASA Earthdata](https://urs.earthdata.nasa.gov/users/new){:target="_blank"}) oder
-  * [SRTM OpenDEM](https://opendem.info/){:target="_blank"}
+  * [Copernicus EU-DEM v1.1](https://land.copernicus.eu/imagery-in-situ/eu-dem/eu-dem-v1.1/view){:target="_blank"} Das EU DEM ist das beste frei erhältiche DEM für Gesamt Europa. Allerdings ist es ein Multisource Modell, das heisst es wird aus unterschiedlichen Datenquellen erzeugt und daher ist es räumlich besser aufgelöst und in der reräsentierten Geländehohe signifikant unterschidelich zu den SRTM basierten Höhenmodellen. 
+  * [SRTM Geländemodell OpenTopography](https://portal.opentopography.org/raster?opentopoID=OTSRTM.082015.4326.1){:target="_blank"} Shuttle Radar Topography Mission (SRTM GL1) Global 30m Version 3
+  * [SRTM Geländemodell TileDownloader](https://dwtkns.com/srtm30m/){:target="_blank"} (Benötigt eine Registrierung bei [NASA Earthdata](https://urs.earthdata.nasa.gov/users/new){:target="_blank"}) Der Infolink der Oberfläche is korrupt, daher für die notwendigen Metadaten siehe die [NASA JPL Seite](https://www2.jpl.nasa.gov/srtm/). 
+  * [OpenDEM Deutschland](https://opendem.info/downloads/srtm_germany_dtm.zip) Hierzu unbedingt die [Info Seite](https://opendem.info/srtm_processing.html){:target="_blank"} anschauen!
+  * [OpenDEM Europa](https://opendem.info/opendemeu_download_highres.html){:target="_blank"} Auch hier gilt zwingend sich die [Info Seite](https://opendem.info/opendemeu_background.html){:target="_blank"} anzuschauen.
   * [Polygon Marburg Stadtgebiet]({{site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)
 
 ## Aufgaben Lerneinheit 3
+Die Ableitung aus und Analyse von Rasterdaten ist ein sehr weites Feld. Es umfasst über die  Bildverarbeitung und Fernerkundung auch die direkte Interpretation und Analyse von etwa Geländemodelldaten die eine besonders prominente Rolle als Grundlagendaten für räumliche Anaysen der Echtwelt spielen. Aufgrund der langen Historie und Bedeutung exisiteren eine fast nicht mehr überschaubare Anazahl unterschiedlichster Geländemodell Daten. Insbesondere die bekannten SRTM Daten liegen in zahlosen Varianten vor. Darüberhinaus gibt es qualitativ bessere Daten. Die obige Datenauswahl soll Ihnen vor Augen führen wo sie überall Treffer landen könnten wenn Sie z.B. nach `SRTM DEM Germany Europe` googlen. Natürlich finden Sie zu allen Daten auch die notwendigen Informationen und können dann bewerten ob Sie diese für adäquat halten. Daher sollen Sie in den folgenden Aufgaben mindestens zwei unterschiedliche Datensätze verwenden (gerne auch alle).
 
 ## Aufgabe 03-01
-
 
 * Laden Sie sich mindestestens zwei der oben genannten Datensätze des SRTM Geländemodells von Marburg herunter. Machen Sie die Datenquellen in den nachfolgenden Analysen kenntlich.
 *   Was repräsentiert der Datensatz? Schauen Sie sich die Metadaten an. Verschaffen Sie sich einen Überblick über die Version und Fehlerwerte.
 *   Projizieren Sie beide Geländemodelldatensätze in ETRS89 UTM32 und schneiden es auf den Ausschnitt des Marburger Luftbildes zu.
-*   Berechnen Sie für beide Datensätze die Hangneigung, Exposition/Aspect und Topographischen Index (TPI). 
-*   Extrahieren Sie für beide Datensätze die berechneten Werte an der Position des Brunnens am Marburger Oberstadt-Marktplatz.
+*   Berechnen Sie für beide Datensätze die Hangneigung, Exposition/Aspect und Topographischen Index (TPI). *   Extrahieren Sie für beide Datensätze die berechneten Werte an der Position des Brunnens am Marburger Oberstadt-Marktplatz.
 *   Wenden Sie einen 5*5 Mittelwertsfilter auf die Geländehöhe an und ermitteln Sie erneut für den Marktplatz (Position Brunnen) die Werte von Hangneigung, Exposition/Aspect und Topographischen Index (TPI).
 * Berechnen Sie unter Benutzung des Datensatzes ([Marburg Stadtgebiet]({{ site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)), die minimale, maximale und mittlere Hangneigung für die ausgewiesene Fläche. 
-
 * Zeigen Sie die Werte in einer Tabelle
 * Benennen Sie die möglichen Ursachen für etwaige Unterschiede der Resultate der von Ihnen verwendeten Datensätzen (Stichpunktliste). 
+{: .notice--success}
+
+## Aufgabe 03-02
+* 
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 3

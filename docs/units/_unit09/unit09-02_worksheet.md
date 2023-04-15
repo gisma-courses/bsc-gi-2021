@@ -29,7 +29,7 @@ Nach dieser Übung können Sie:
 ## Benötigte Materialien
 
 ### Daten
-  * [Digitales Luftbild](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
+  * [Marburg digitales Luftbild](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/marburg_RE.tif)
   * [Marburg POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_pois.zip)
   * [Marburg ÖPNV  POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_transport_poi.zip)
   * [Marburg Verkehr POI](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_traffic_poi.zip)
