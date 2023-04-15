@@ -19,10 +19,6 @@ Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für 
 Die **Input-Sitzungen** dieses Kurses werden als Hybrid-Veranstaltung stattfinden. Sie können also selbst entscheiden ob Sie in Präsenz oder online teilnehmen wollen. Jedoch ist die Anmeldung für die Präsenz obligat, damit die Raumbelegung für alle transparent ist. Die Online Übertragung findet als  [Big Blue Button Sitzung](https://webconf.hrz.uni-marburg.de/b/ali-tnd-wdq-un0) statt.
 Die Übungssitzungen finden in **Präsenz** statt.
 
- Bitte beachten Sie dass die Übungssitzungen Bestandteil der Studienleistung sind.
-{: .notice--info}
-
-
 ## Übersicht über Kommunikationsformen
 
 Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
