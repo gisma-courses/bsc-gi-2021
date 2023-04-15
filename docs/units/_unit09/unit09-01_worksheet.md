@@ -4,7 +4,7 @@ toc: true
 header:
   image: /assets/images/splash_u9-1.png
   image_description: "The QGIS Evolution"
-  caption: "The QGIS Evolution CC0 AG UI"
+  caption: "The QGIS Evolution  CC0 AG gisma s²r"
   
 
 ---

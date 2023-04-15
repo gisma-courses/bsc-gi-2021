@@ -6,7 +6,7 @@ toc_label: Inhalt
 header:
   image: /assets/images/splash_L01_1.png
   image_description: "MineSeeker World "
-  caption: "What is reality? CC0 AG UI"
+  caption: "What is reality?  CC0 AG gisma s²r"
 ---
 
 Trotz der bisherigen Erläuterungen ist die Beantwortung der Frage „Was sind geographische Daten bzw. Geodaten?“ nicht richtig greifbar. Bislang erscheint die Abstraktion willkürlich und nicht nachvollziehbar zu sein.

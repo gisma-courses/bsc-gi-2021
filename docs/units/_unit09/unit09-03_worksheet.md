@@ -4,7 +4,7 @@ toc: true
 header:
   image: /assets/images/splash_L03.png
   image_description: "SRTM ElevationModel Data Marburg"
-  caption: "SRTM Elevation Model Data Marburg. CC0 AG UI"
+  caption: "SRTM Elevation Model Data Marburg. CC0 AG gisma s²r"
   
 
 ---

@@ -5,7 +5,7 @@ toc: true
 header:
   image: "/assets/images/splash-geoinformatik.jpg"
   image_description: "Geoinformatik "
-  caption: "Geoinformatik. CC0 AG UI"
+  caption: "Geoinformatik. CC0 AG gs²r"
   
 panel1:  
   - url: "/assets/images/example_kursplan_geoinformatik.png"

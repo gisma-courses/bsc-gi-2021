@@ -6,7 +6,7 @@ toc_label: Inhalt
 header:
   image: /assets/images/splash_L01_1.png
   image_description: "MineSeeker World "
-  caption: "What is reality? CC0 AG UI"
+  caption: "What is reality?  CC0 AG gisma s²r"
 ---
 
 Sie sind für die erkenntnistheoretischen und wissenschaftlichen Grundideen räumlicher Abstraktionskonzepte in der Geographie sensibilisiert worden. 
