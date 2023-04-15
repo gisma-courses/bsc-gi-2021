@@ -7,15 +7,6 @@ header:
   image_description: "SRTM ElevationModel Data Marburg"
   caption: "SRTM Elevation Model Data Marburg. CC0 AG UI"
 
-panel1:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/IDW_BullEyes.gif
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/IDW_BullEyes.gif
-    title: " IDW „Bull Eyes“-Effekt: Um die bekannten Punkte sind konzentrische Bereiche gleicher Werte zu erkennen – ein unerwünschtes Artefakt der IDW-Interpolation (GITTA 2005)"
-    alt: "IDW „Bull Eyes“-Effekt: Um die bekannten Punkte sind konzentrische Bereiche gleicher Werte zu erkennen – ein unerwünschtes Artefakt der IDW-Interpolation (GITTA 2005)"
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/IDW_Shepard.gif
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/IDW_Shepard.gif
-    title: "IDW modifiziert nach SHEPARD: die Bull-Eyes sind deutlich reduziert"
-    alt: "IDW modifiziert nach SHEPARD: die Bull-Eyes sind deutlich reduziert"    
 ---
 
 
@@ -59,19 +50,19 @@ Globale Methoden werden auf ALLE Daten im Untersuchungsgebiet angewandt, lokale 
 
 Als Beispiele sehen Sie nachfolgend eine lineare Trend-Oberfläche – sie wurde mittels Regression aus den schweizerischen Niederschlagsdaten ermittelt und zeigt einen Trend zum Anstieg der Niederschlagshöhen von SE nach NW. In der darunter befindlichen Abbildung wird auf den gleichen Daten eine lokale Interpolation mittels sogenannter Radial-Basis-Interpolation durchgeführt.
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/globale_interpolation.gif" alt="Beispiel einer globalen Interpolation – Lineare Trendoberfläche für Schweizer Niederschlagsdaten (GITTA 2005)" caption="*Beispiel einer globalen Interpolation – Lineare Trendoberfläche für Schweizer Niederschlagsdaten (GITTA 2005)*" %}
+{% include figure image_path="assets/images/unit04/globale_interpolation.gif" alt="Beispiel einer globalen Interpolation – Lineare Trendoberfläche für Schweizer Niederschlagsdaten (GITTA 2005)" caption="*Beispiel einer globalen Interpolation – Lineare Trendoberfläche für Schweizer Niederschlagsdaten (GITTA 2005)*" %}
 
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/lokale_interpolation.gif" alt="Beispiel einer lokalen Interpolation – Radial Basis Interpolation für Schweizer Niederschlagsdaten (GITTA 2005)" caption="*Beispiel einer lokalen Interpolation – Radial Basis Interpolation für Schweizer Niederschlagsdaten (GITTA 2005)*" %}
+{% include figure image_path="assets/images/unit04/lokale_interpolation.gif" alt="Beispiel einer lokalen Interpolation – Radial Basis Interpolation für Schweizer Niederschlagsdaten (GITTA 2005)" caption="*Beispiel einer lokalen Interpolation – Radial Basis Interpolation für Schweizer Niederschlagsdaten (GITTA 2005)*" %}
 
 ### Exakte vs. Nicht-exakte Interpolation
 
 Exakte Interpolation heißt: die geschätzte Oberfläche passiert die bekannten Punkte, während bei nicht-exakten Methoden die Schätzwerte für bekannte Beobachtungen von den realen Werten abweichen können. Letztere Methoden werden sinnvollerweise dann eingesetzt, wenn die bekannten Daten bereits gewisse Unschärfen aufweisen.
 
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/exakte_interpolation.jpg" alt="Exakter Interpolator: Schätzoberfläche passiert exakt die bekannten – schematisch als Säulen dargestellt – Punkte (Wyatt 2000)" caption="*Exakter Interpolator: Schätzoberfläche passiert exakt die bekannten – schematisch als Säulen dargestellt – Punkte (Wyatt 2000)*" %}
+{% include figure image_path="assets/images/unit04/exakte_interpolation.jpg" alt="Exakter Interpolator: Schätzoberfläche passiert exakt die bekannten – schematisch als Säulen dargestellt – Punkte (Wyatt 2000)" caption="*Exakter Interpolator: Schätzoberfläche passiert exakt die bekannten – schematisch als Säulen dargestellt – Punkte (Wyatt 2000)*" %}
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/nicht_exakte_interpolation.jpg" alt="Nicht-exakter Interpolator: Schätzoberfläche passiert die bekannten – schematisch als Säulen dargestellt – Punkte NICHT (Wyatt 2000)" caption="*Nicht-exakter Interpolator: Schätzoberfläche passiert die bekannten – schematisch als Säulen dargestellt – Punkte NICHT (Wyatt 2000)*" %}
+{% include figure image_path="assets/images/unit04/nicht_exakte_interpolation.jpg" alt="Nicht-exakter Interpolator: Schätzoberfläche passiert die bekannten – schematisch als Säulen dargestellt – Punkte NICHT (Wyatt 2000)" caption="*Nicht-exakter Interpolator: Schätzoberfläche passiert die bekannten – schematisch als Säulen dargestellt – Punkte NICHT (Wyatt 2000)*" %}
 
 
 
