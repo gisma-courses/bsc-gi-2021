@@ -16,7 +16,7 @@ header:
 
 Betrachten Sie als Einstieg eine andere Darstellung der Ihnen bereits bekannten Abbildung der Niederschlagsmesstationen din der Schweiz. Der obere Teil zeigt Ihnen eine eine *3D Niederschlagsoberfläche*. Die blauen Punkte sind erneut die Positionen der Messstationen, ihre Größe entspricht der Niederschlagsmenge. Die unterschiedlichen Höhen der Oberfläche sowie ihre Farbgebung stehen ebenfalls in Zusammenhang mit der Niederschlagsmenge. Im unteren teil sehen sie die 2D Verortung der Messtationen innerhalb der Schweiz.
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/CH_Precip_Example_for_Intro.jpg" alt="Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)" caption="*Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)*" %}
+{% include figure image_path="assets/images/unit04/CH_Precip_Example_for_Intro.jpg" alt="Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)" caption="*Niederschlagsoberfläche der Schweiz (oben), Karte der Messstationen (unten). (GITTA 2005)*" %}
 
 Steht man vor der Aussage aus den einzelnen Punktbeobachtungen flächenhafte Daten zu erzeugen stehen die folgenden Fragen im Vordergrund:
 
