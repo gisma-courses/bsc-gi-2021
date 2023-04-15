@@ -22,9 +22,11 @@ Die aktuelle Sitzung ist für ein schrittweises Erarbeiten dieser komplexen Mate
 
 Wir beginnen mit der Zeit. Sie stellt in weiten Teilen der Welt ein einheitlich strukturiertes Zuordnungssystem dar. Konkret heißt das: Wir haben ein System von Zeitzonen und eine  Konvention für die Datumsgrenze. Innerhalb der Zeitzonen wird die Zeit als lineares Kontinuum aufgefasst (vgl. Abb. 02-01). Selbst die Verwendung anderer Kalender, die eventuell abweichend benannt und gezählt werden, kann linear auf die uns vertrauten Weltzeitzonen umgerechnet werden. Das liegt in der physikalisch Auffassung begründet, das Zeit (mit Ausnahme archaischer oder mythischer Zeitvorstellungen) ein lineares Bezugssystem darstellt. Auf einen Zeitpunkt folgt kontinuierlich der Nächste. Wir müssen schon Einstein’s Theorien bemühen um die Linearität der Zeit zu aufzulösen. Für die mit Hilfe von GI-Systemen möglichen Betrachtungsskalen ist Die Verwendung eines linearen Zeitverständnisses unproblematisch, jedoch, anders als die Abbildung des Raums, implizit implementiert (bzw. optional). Daher werden wir uns nachfolgend um die erheblich komplexere Integration der räumlichen Konzepte bemühen.
 
-<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13985251344" title="03-1 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2903/13985251344_d8ee208f73.jpg" width="700" height="89" alt="03-1"></a></html>
+<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13985251344" title="03-1 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2903/13985251344_d8ee208f73.jpg" width="800" height="89" alt="03-1"></a></html>
+<figure><figcaption>
+Abbildung 03-01: Der Zeitstrahl als Repräsentation einer linearen Zeitauffassung hier am Beispiel der jeweiligen Schaffensperiode einiger für die Geographie wichtigen Wissenschaftler (GIS.MA 2009)
+</figcaption></figure>
 
-*Abbildung 03-01: Der Zeitstrahl als Repräsentation einer linearen Zeitauffassung hier am Beispiel der jeweiligen Schaffensperiode einiger für die Geographie wichtigen Wissenschaftler (GIS.MA 2009)*
 
 
 ## Der Ort
@@ -33,8 +35,10 @@ Ohne eine exakte Verortung beliebiger Orte ist ein GIS weitgehend sinnlos, da wi
 
 
 {% include figure image_path="/assets/images/unit02/hier.gif" alt="Wo bin ich? Hier!" caption="Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten . Photo: CC0 Astro-AG" %}
+<figure><figcaption>
+Abbildung 03-02: Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten (Astro-AG)
+</figcaption></figure>
 
-*Abbildung 03-02: Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten (Astro-AG)*
 
 # Prinzipien der raumzeitlichen  Kodierung
 
@@ -47,8 +51,10 @@ title="Abbildung 03-03: Orte haben eine absolute Lage im Raum. Die Verortung mit
 <img src="http://minibsc.gis-ma.org/GISBScL1/de/image/Segnaleladino.jpg" width="100%" 
 alt="Abbildung 03-03: Orte haben eine absolute Lage im Raum. Die Verortung mit Namen nutzt kognitive Fähigkeiten, Wissen und Interpretation der Betrachtenden. Unterschiedliche Ortsnamen zeigen die Wandelbarkeit nicht nur in geschichtlicher Hinsicht sondern auch aktuell. Dreisprachige Straßenbeschilderung im Grödnertal (Südtirol) in Ladinisch, Deutsch und Italienisch. (Behrendes 2010)"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-03: Orte haben eine absolute Lage im Raum. Die Verortung mit Namen nutzt kognitive Fähigkeiten, Wissen und Interpretation der Betrachtenden. Unterschiedliche Ortsnamen zeigen die Wandelbarkeit nicht nur in geschichtlicher Hinsicht sondern auch aktuell. Dreisprachige Straßenbeschilderung im Grödnertal (Südtirol) in Ladinisch, Deutsch und Italienisch. (Behrendes 2010)
+</figcaption></figure>
 
-*Abbildung 03-03: Orte haben eine absolute Lage im Raum. Die Verortung mit Namen nutzt kognitive Fähigkeiten, Wissen und Interpretation der Betrachtenden. Unterschiedliche Ortsnamen zeigen die Wandelbarkeit nicht nur in geschichtlicher Hinsicht sondern auch aktuell. Dreisprachige Straßenbeschilderung im Grödnertal (Südtirol) in Ladinisch, Deutsch und Italienisch. (Behrendes 2010)*
 
  Die Kombination von Namen und Ziffern, Deutschhaustrasse 10 in 35032 Marburg ist die postalische Kodierung für das Gebäude des Fachbereichs Geographie in Marburg. Auch wenn nicht alle Menschen eine auf diese Weise verschlüsselte Raumposition entschlüsseln können, gibt es ein weltweites Netz von Experten, die mit Hilfe dieser Kodierung einen Brief des Reisebüro Maluti Travel & Tours in Maseru, Lesotho zum Deutschen Haus in Marburg transportieren können. Umgekehrt gibt die Kodierung Maluti Travel & Tours, POB 14889, 0100 LNDL Building, Kingsway, Maseru Lesotho die Raumposition dieses Reisebüros an. Vielleicht kennen Sie aus Interesse oder Zufall die geographisch kodierte Position des Deutschhauses in Marburg, die Positionsangaben des LNDL Building in Maseru kennen Sie jedoch mit an Sicherheit grenzender Wahrscheinlichkeit nicht. Wiederum kennt auch der Postbote sicher nicht die geographischen Koordinaten der Empfängerorte, die er tagtäglich bedient – dennoch kommt die Post (meist) zuverlässig an ihrem Bestimmungsort an.
 
@@ -65,10 +71,12 @@ Das räumliche Referenzierungssystem hierfür funktioniert anders als über geog
 Ein System der systematischen Identifikation geographischer Orte haben wir mit den Postleitzahlen bereits kennen gelernt. Stellen wir uns nun folgenden Sachverhalt vor (Abb. 03-04):
 
 <html>
-<a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13981635311" title="03-4 by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7325/13981635311_ae1b12e0cf.jpg" width="500" height="257" alt="03-4"></a>
+<a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13981635311" title="03-4 by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7325/13981635311_ae1b12e0cf.jpg" width="800" height="257" alt="03-4"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-04: Pannenort nördlich von Holtau (GIS.MA2009)
+</figcaption></figure>
 
-*Abbildung 03-04: Pannenort nördlich von Holtau (GIS.MA2009)*
 
 Während der Zustellung des Briefes in Flensburg bleibt der Post-LKW auf der Bundesautobahn 7 liegen. Mit seinem mobilen Telefon steckt der Fahrer gerade im Funkloch und muss (natürlich nach Absicherung der Pannenstelle) zu Fuß zu einer Meldesäule. Auf seinem Weg läuft er an einem kleinen blauen Schild vorbei, auf dem 64,0 zu lesen ist. Angekommen an der Meldesäule gibt er seine Panne bekannt, gibt die Auskunft, dass sich das Pannenfahrzeug kurz hinter Kilometer 64,0 in Fahrtrichtung Nord hinter der Anschlussstelle Soltau befindet und die rechte Fahrspur blockiert. Wenig später hören Sie im Verkehrsfunk:
 
@@ -91,9 +99,11 @@ Versuchen Sie diesen Zusammenhang zu rekapitulieren und verschaffen Sie sich ein
 
 Betrachten Sie nun die nachfolgende Abbildung der Lininekarte der BAB 7. Sie zeigt exakt die gleichen Raum.
 
-<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13961701856" title="03-5 by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7106/13961701856_cdcfe3a779.jpg" width="500" height="348" alt="03-5"></a></html>
+<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13961701856" title="03-5 by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7106/13961701856_cdcfe3a779.jpg" width="800" height="348" alt="03-5"></a></html>
+<figure><figcaption>
+Abbildung 03-05: Auszug der Linienkarte der BAB 7 im Bereich der Anschlussstelle Soltau. (Quelle: <a href="http://www.autobahnatlas-online.de/A7.htm" > Scholl 2009</a>)
+</figcaption></figure>
 
-*Abbildung 03-05: Auszug der Linienkarte der BAB 7 im Bereich der Anschlussstelle Soltau. (Scholl 2009: http://www.autobahnatlas-online.de/A7.htm)*
 
 Navigieren Sie nun zur [Linienkarte](http://www.autobahnatlas-online.de/A7.htm) der BAB 7 und analysieren die Art der metrischen Verortung. Nutzen Sie die Legende, um die Fülle an räumlich verorteter Information nachzuvollziehen.
 
@@ -105,8 +115,10 @@ Im vorausgegangen Kapitel haben wir die eindimensionale metrische Referenzierung
 <html>
 <a href="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" title="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"><img src="http://upload.wikimedia.org/wikipedia/commons/8/84/Bukowsko_-_mapa_katastralna_%281906%29.jpg" width="80%" alt="Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien 1906. (Quelle: przeslal Marek Silarski</a>, <a href="https://commons.wikimedia.org/wiki/File:Bukowsko_-_mapa_katastralna_%281906%29.jpg" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abbildung 03-06: Historischer Katasterplan von Bukowsko, Galizien (Silarski 2009)*
 
 Dies liegt in der Notwendigkeit eines rechtskräftigen Nachweis von Eigentumsrechten (bekanntermaßen ein heikles Thema) begründet. Kataster bestehen seit der Antike für den persönlichen Nachweis von Steuerpflicht auf das Eignen von Liegenschaften. In den Kopfsteuerverzeichnissen wird an eine Person gebunden, die Steuerpflicht, bezogen auf Vermögen oder Liegenschaften, namentlich beschrieben.
 
@@ -135,40 +147,44 @@ Ein leistungsstarkes System zur Referenzierung von geographischen Räumen sollte
 Die Erde gleicht in erster Annäherung einer Kugel. Daher liegt es nahe, die Punkte an der Oberfläche durch Kugelkoordinaten zu bestimmen. Da die Oberfläche einer Kugel bekannt ist genügen zur Bestimmung eines Punkts die zwei Winkel für den Azimuth (geographische Länge) Lambda und den Zenit (geographische Breite ) Phi (Abb. 03-07).
 
 <html>
-<a href="http://minibsc.gis-ma.org/GISBScL1/de/image/kugelkoordinaten.png" 
-title="Abbildung 03-07: Das Konzept der Kugelkoordinaten (Honina 2004)">
-<img src="http://minibsc.gis-ma.org/GISBScL1/de/image/kugelkoordinaten.png" width="80%" 
-alt="Abbildung 03-07: Das Konzept der Kugelkoordinaten (Honina 2004)"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/768px-Kugelkoord-def.svg.png" 
+title="Abbildung 03-07: Das Konzept der Kugelkoordinaten (Ag2gaeh 2015)">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/768px-Kugelkoord-def.svg.png" width="80%" 
+alt="Abbildung 03-07: Das Konzept der Kugelkoordinaten (Ag2gaeh 2015)"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-07: Das Konzept der Kugelkoordinaten. (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Ag2gaeh" > Ag2gaeh 2015</a>, <a href="https://de.wikipedia.org/wiki/Datei:3D_coordinate_system.svg" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abbildung 03-07: Das Konzept der Kugelkoordinaten (Honina 2004)*
 
  
 Überträgt man das Konzept der Kugelkoordinaten auf die Erde, so ergeben sich eine Reihe von Problemen. Das augenscheinlichste ist die Abplattung der Erde an den Polen, die durch die Erdrotation entsteht. Für die Bestimmung des Längengrads ist die Tatsache, dass die Erde ein Rotationsellipsoid mit großen und kleinen Halbachsen ist, unerheblich. Anders sieht dies für die Bestimmung der geographische Breite aus, da sich die Halbachsen der Erde um ca. 21,4 km unterscheiden (Abb. 03-08).
 
 
 <html>
-<a href="http://upload.wikimedia.org/wikipedia/commons/archive/b/b5/20091022034620!OblateSpheroid.PNG" 
-title="Abbildung 03-08: Darstellung eines Rotationsellipsoid (AugPi 2006)">
-<img src="http://upload.wikimedia.org/wikipedia/commons/archive/b/b5/20091022034620!OblateSpheroid.PNG" width="80%" 
-alt="Abbildung 03-08: Darstellung eines Rotationsellipsoid (AugPi 2006)"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/OblateSpheroid.PNG" 
+title="Abbildung 03-08: Darstellung eines Rotationsellipsoid (AugPi 2012)">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/OblateSpheroid.PNG" width="100%" 
+alt="Abbildung 03-08: Darstellung eines Rotationsellipsoid (AugPi 2012)"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-07: Das Konzept der Kugelkoordinaten. (Quelle: <a href="https://en.wikipedia.org/wiki/User:AugPi" > AugPi 2012</a>, <a href="https://commons.wikimedia.org/wiki/File:OblateSpheroid.PNG" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abbildung 03-08: Darstellung eines Rotationsellipsoid (AugPi 2006)*
-
- 
 Die Abbildung zeigt das Rotationsellipsoid der Erde mit Kreisform der Breitenkreise (in der Äquatorebene Radius der großen Halbachse A) und der Längenkreise (kleine Halbachse an den Polen B). Das resultierende Maß für die Exzentrizität von ca. 1:298 gibt die Abplattung der Erde und damit die Streckenverschiebung bei der Bestimmung sphärischer Koordinaten an. Die zentrale Problematik der exakten Bestimmung der Erdoberfläche (im Sinne einer gleichförmigen Oberfläche zur Berechnung der sphärischen Koordinaten) liegt nun in der Entscheidung begründet, welche mathematische Repräsentation eines Ellipsoids als geeignetes Modell für das reale Rotationsellipsoid der Erde verwendet wird.
 
 Da es sich immer nur um eine Annäherung an die ideale Erdform bezogen auf eine bestimmte Erdregion handelt, ist die Eignung des gewählten Ellipsoid als Referenz (Referenzellipsoid) von außerordentlicher Bedeutung zur Berechnung der Vermessungsnetze (Koordinatensysteme) und den daraus abgeleiteten Projektionssystemen (Abb. 03-09).
 
 <html>
-<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Geographic_coordinates_sphere.svg/609px-Geographic_coordinates_sphere.svg.png" 
+<a href="https://upload.wikimedia.org/wikipedia/commons/3/36/Geographic_coordinates_sphere.png" 
 title="Abbildung 03-09: Die Bestimmung geographischer Koordinaten auf einem Rotationsellipsoid (Ttog 2006)">
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Geographic_coordinates_sphere.svg/609px-Geographic_coordinates_sphere.svg.png" width="80%" 
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Geographic_coordinates_sphere.png" width="100%" 
 alt="Abbildung 03-09: Die Bestimmung geographischer Koordinaten auf einem Rotationsellipsoid (Ttog 2006)"></a>
 </html>
+<figure><figcaption>
+Abbildung 03-09: Die Bestimmung geographischer Koordinaten auf einem Rotationsellipsoid. (Quelle: <a href="https://commons.wikimedia.org/wiki/User:E%5E(nix)" > E^(nix) 2005</a>, <a href="https://commons.wikimedia.org/wiki/File:Geographic_coordinates_sphere.png" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abbildung 03-09: Die Bestimmung geographischer Koordinaten auf einem Rotationsellipsoid (Ttog 2006)*
 
 
 # Ellipsoide und Bezugssysteme
@@ -183,19 +199,23 @@ Bei einer kleinräumigen Betrachtungsweise ist die Genauigkeit einer auf ein Ref
 
 
 <html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/14004801373" title="03-10 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2919/14004801373_57decb7d14_o.png" width="529" height="278" alt="03-10"></a></html>
+<figure><figcaption>
+Abb. 03-10: Differenz zwischen wahrer Lotrichtung und Ellipsoidnormale (=Lotabweichung) der zugehörigen Bezugskörper des Ellipsoids und Geoids (GIS.MA 2009)
+</figcaption></figure>
 
-*Abb. 03-10: Differenz zwischen wahrer Lotrichtung und Ellipsoidnormale (=Lotabweichung) der zugehörigen Bezugskörper des Ellipsoids und Geoids (GIS.MA 2009)*
 
 Das Referenzmodell für die sich räumlich (und auch zeitlich) unterschiedlich ausprägende Schwere der Erde ist ein sogenanntes Geoid. Die Abbildung zum Erdschwerefeld visualisiert stark überhöht und farblich hervorgehoben diese Schwereanomalien.
 
 <html>
 <a href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Modell.Potsdamer.Kartoffel.jpg" 
 title="Abb. 03-11: Stark überhöhte Visualisierung des Erdschwerefelds (Geoid)">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Modell.Potsdamer.Kartoffel.jpg" width="80%" 
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Modell.Potsdamer.Kartoffel.jpg" width="100%" 
 alt="Abb. 03-11: Stark überhöhte Visualisierung des Erdschwerefelds "></a>
 </html>
+<figure><figcaption>
+Abb. 03-11: Stark überhöhte Visualisierung des Erdschwerefelds (Geoid). Das "Potsdamer Kartoffel"  Schweremodell EIGEN-6C. (Quelle: <a href="https://de.wikipedia.org/wiki/Benutzer:Bautsch" > Bautsch 2017</a>, <a href="https://de.wikipedia.org/wiki/Datei:Modell.Potsdamer.Kartoffel.jpg" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abb. 03-11: Stark überhöhte Visualisierung des Erdschwerefelds (Geoid). Das "Potsdamer Kartoffel"  Schweremodell EIGEN-6C (GFZ 2011)*
 
 
 Für genaue Messungen oder möglichst exakte Kartenprojektionen müssen beide Bezugskörper, das Ellipsoid und das Geoid, berücksichtigt werden. Die Abbildung zur Schwerevariation und zu einer weiteren Alternative zeigen die konzeptuellen Probleme bei der Berücksichtigung des Geoids und des Referenzellipsoids für eine exakte Berechnung von Koordinaten. In der klassischen Vermessungstechnik wird hierzu, möglichst im Zentrum des abzubildenden Erdausschnittes, ein Referenzpunkt gesetzt (Fundamentalpunkt), der zusammen mit dem Referenzellipsoid das sogenannte geodätische Datum ergibt.
@@ -203,19 +223,24 @@ Für genaue Messungen oder möglichst exakte Kartenprojektionen müssen beide Be
 <a href="http://upload.wikimedia.org/wikipedia/commons/4/41/Geoundaequrp.png" 
 title="Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dandor 2006)">
 <img src="http://upload.wikimedia.org/wikipedia/commons/4/41/Geoundaequrp.png" width="80%" 
-alt="Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dandor 2006)"></a>
+alt="Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dantor 2006)"></a>
 </html>
+<figure><figcaption>
+Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz). (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Dantor" >Dantor 2006</a>, <a href="https://de.m.wikipedia.org/wiki/Datei:Geoundaequrp.png" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abb. 03-12: Veranschaulichung der Schwerevariation entlang des Äquators bezogen auf eine kreisförmige Referenzfläche (schwarz) (Dandor 2006)*
 
 <html>
 <a href="http://upload.wikimedia.org/wikipedia/commons/7/78/Geoundnsrp.png" 
-title="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie) (Dandor 2006)">
+title="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie).">
 <img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Geoundnsrp.png" width="80%" 
-alt="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie) (Dandor 2006)"></a>
+alt="Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie)"></a>
 </html>
 
-*Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie) (Dandor 2006)*
+<figure><figcaption>
+Abb. 03-13: Birnenform als Näherung der Erdfigur im Vergleich zum elliptischen Querschnitt (schwarze Linie). (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Dantor" >Dantor 2006</a>, <a href="https://de.m.wikipedia.org/wiki/Datei:Geoundnsrp.png" > via WikiMedia</a>)
+</figcaption></figure>
+
 
 ## Das geodätische System
 
@@ -226,10 +251,12 @@ Das World Geodetic System 1984 (WGS 84) ist derzeit das am meisten verwendete ge
 Betrachten Sie die Abbildung zu den Referenzellipsoiden. Sie zeigt schematisch (zweidimensional) die Verschiebungen von Referenzellipsoiden bezogen auf das Geoid, also die wahre Erdoberfläche. Die Sterne markieren den Mittelpunkt des jeweiligen Körpers. Versuchen Sie sich zu verdeutlichen welche Parameter notwendig sind um diese Verschiebung durchzuführen.
 
 <html>
-<a href="https://upload.wikimedia.org/wikipedia/commons/b/b2/Gloabl_and_Regional_Ellipsoids.svg" title="Wikimedia by inductiveload"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Gloabl_and_Regional_Ellipsoids.svg" width="700"  alt="03-14"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_Regional_Ellipsoids.svg/939px-Gloabl_and_Regional_Ellipsoids.svg.png" title="Wikimedia by inductiveload"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gloabl_and_Regional_Ellipsoids.svg/939px-Gloabl_and_Regional_Ellipsoids.svg.png" width="800"  alt="03-14"></a>
 </html>
+<figure><figcaption>
+Abb. 03-14: Verschiebungen von Referenzellipsoiden bezogen auf das Geoid/wahre Erdoberfläche. (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Inductiveload" >Inductiveload 2008</a>, <a href="https://de.m.wikipedia.org/wiki/Datei:939px-Gloabl_and_Regional_Ellipsoids.svg.png" > via WikiMedia</a>)
+</figcaption></figure>
 
-*Abb. 03-14: Verschiebungen von Referenzellipsoiden bezogen auf das Geoid/wahre Erdoberfläche (Wikimedia by inductiveload 2008)*
 
 
 

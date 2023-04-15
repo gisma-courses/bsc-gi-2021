@@ -12,10 +12,11 @@ In der Praxis ist es offenkundig nahezu beliebig an welches Wort der Begriff „
 Das Vierkomponentenmodell eines GIS und seine funktionalen Komponenten. Quelle: Eigene Darstellung verändert nach (Bill 2008)
 
 <html>
- <a  href="https://www.flickr.com/photos/environmentalinformatics-marburg/13898597476" title="01-09-evap by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2914/13898597476_31f7b3b514_n.jpg" width="50%"  alt="01-09-evap"></a>
+ <a  href="https://www.flickr.com/photos/environmentalinformatics-marburg/13898597476" title="01-09-evap by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2914/13898597476_31f7b3b514_n.jpg" width="100%"  alt="01-09-evap"></a>
 </html>
-
-*Abbildung 01-09: Das Vierkomponentenmodell eines GIS und seine funktionalen Komponenten. Quelle: Eigene Darstellung verändert nach (Bill 2008)*
+<figure><figcaption>
+Abbildung 02-04: Tagesliniennetzplan der Stadtwerke Marburg. Nur die wenigsten Menschen würden einen Netzfahrplan nutzen, um etwa eine Stadtbesichtigung zu Fuß zu planen, oder aber die geometrisch exakte Lage der Haltestellen zueinander zu ermitteln (Stadtwerke Marburg 2020)
+</figcaption></figure>
 
 Darüber hinaus wandelt sich das Verständnis der einzelnen Definitionen mit einer beachtlichen Geschwindigkeit. Trotz der Vielfältigkeit des Begriffes GIS hat sich die folgende strkturelle Definition durchgesetzt: “GIS ist ein rechnergestütztes Informationssystem, das aus den vier Komponenten Hardware, Software, Daten und den Anwendungen besteht [...].”  (vgl. Abb. 01-9 Bill 2008). Ebenfalls nach  (Bill 2008) folgt daraus, dass:
 
@@ -29,12 +30,15 @@ Darüber hinaus wandelt sich das Verständnis der einzelnen Definitionen mit ein
 GIS als Verbund von Open Source-Softwarepaketen/Bibliotheken
 
 <html>
- <a  href="https://www.igismap.com/wp-content/uploads/2015/09/webgisapplicationdevelopmentandgisservers-2.jpg" title="osgeosoftware stack"><img src="https://www.igismap.com/wp-content/uploads/2015/09/webgisapplicationdevelopmentandgisservers-2.jpg" width="75%"  alt="osgeo softwarestack"></a>
+ <a  href="https://www.igismap.com/wp-content/uploads/2015/09/webgisapplicationdevelopmentandgisservers-2.jpg" title="osgeosoftware stack"><img src="https://www.igismap.com/wp-content/uploads/2015/09/webgisapplicationdevelopmentandgisservers-2.jpg" width="100%"  alt="osgeo softwarestack"></a>
 </html>
 
+<figure><figcaption>
+Abbildung 01-10: GIS als exemplarischer Verbund von Open Source-Softwarepaketen/Bibliotheken (Quelle: <a href="https://www.linkedin.com/in/iamtekson/" > Tek Kshetkri</a> &, <a
+href="https://linktr.ee/JolaiyaEmmanuel" > Emmanuel Jolaiya</a>, <a
+href="https://gisanalyse.de/open-source-web-gis-development-roadmap" > via igismap.com</a>)
+</figcaption></figure>
 
-
-*Abbildung 01-10: GIS als exemplarischer Verbund von Open Source-Softwarepaketen/Bibliotheken Source: [Tek Kshetkri ](https://www.linkedin.com/in/iamtekson/) & [Emmanuel Jolaiya](https://linktr.ee/JolaiyaEmmanuel), [@igismap.com](https://gisanalyse.de/open-source-web-gis-development-roadmap)*
 
 GIS-Software-Pakete sind Softwarewerkzeuge, die sowohl kommerziell als auch auf Open Source Basis entwickelt werden. In GIS-Software sind raumspezifische Methodiken zur Bearbeitung raumrelevanter Problem- und Fragestellungen, Wissensgenerierung oder Planung integriert, als auch Werkzeuge zur Verwaltung, Modellierung und Präsentation der Daten (vgl. Abb 01-10). In der Regel genügt nicht ein Softwareprodukt zur Bearbeitung der jeweiligen Fragestellung.
 

@@ -14,14 +14,18 @@ Wir haben bislang ständig und ohne besondere Vorüberlegungen mit den Begriffen
 Der Raum in GI-Systemen wird in Anlehnung an die Mathematik und Physik als dreidimensionaler euklidischer Raum verstanden. Aus dem Mathematikunterricht kennen wir die euklidische Ebene (mit 2 Dimensionen) und den euklidischen Raum (mit 3 Dimensionen). Am einfachsten kann der euklidische Raum mit Hilfe eines kartesischen Koordinatensystems beschrieben werden, in dem die Koordinaten entlang senkrecht aufeinander stehender Achsen abgetragen sind (vgl. Abb. 02-1)
 
 <html><a
-href="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/354px-Cartesian-coordinate-system.svg.png" title="Cartesian Coordinate System"> <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/354px-Cartesian-coordinate-system.svg.png" width="50%"  alt="Cartesian Coordinate System"></a> </html>
-
-*Abbildung 02-01: Ausschnitt aus einem zweidimensionalen kartesischen Koordinatensystem mit 3 eingetragenen Punkten in Koordinatenschreibweise (Bolino 2008)*
+href="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/354px-Cartesian-coordinate-system.svg.png" title="Cartesian Coordinate System"> <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/354px-Cartesian-coordinate-system.svg.png" width="85%"  alt="Cartesian Coordinate System"></a> </html>
+<figure><figcaption>
+Abbildung 02-01: Ausschnitt aus einem zweidimensionalen kartesischen Koordinatensystem mit 3 eingetragenen Punkten in Koordinatenschreibweise (Quelle: <a href="https://commons.wikimedia.org/wiki/User:Kbolino" > Kbolino 2008</a>, <a href="https://commons.wikimedia.org/wiki/File:Cartesian-coordinate-system.svg" > via WikiMedia</a>)
+</figcaption></figure>
 
 <html><a
-href="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/3D_coordinate_system.svg/487px-3D_coordinate_system.svg.png" title="3D Cartesian Coordinate System"> <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/3D_coordinate_system.svg/487px-3D_coordinate_system.svg.png" width="50%"  alt="3D Cartesian Coordinate System"></a> </html>
+href="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/3D_coordinate_system.svg/768px-3D_coordinate_system.svg.png" title="3D Cartesian Coordinate System"> <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/3D_coordinate_system.svg/768px-3D_coordinate_system.svg.png" width="85%"  alt="3D Cartesian Coordinate System"></a> </html>
 
-*Abbildung 02-2: Allgemeine Abbildung eines dreidimensionales kartesischen Koordinatensystem mit euklidischen Ebenen durch den Ursprungspunkt (Sakurambo 2007)*
+<figure><figcaption>
+Abbildung 02-2: Allgemeine Abbildung eines dreidimensionales kartesischen Koordinatensystem mit euklidischen Ebenen durch den Ursprungspunkt (Quelle: <a href="https://commons.wikimedia.org/w/index.php?title=User:Sakurambo" > Sakurambo 2007</a>, <a href="https://de.wikipedia.org/wiki/Datei:3D_coordinate_system.svg" > via WikiMedia</a>)
+</figcaption></figure>
+
 
 ## Die Raumrichtungen 
 
@@ -36,9 +40,9 @@ Wenn ein Geoobjekt durch einen Punkt repräsentiert wird, dann ist für eine ein
 <html>
 <a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13970512442" title="Abbildung 02-03: Dimensionalitäten by Environmental Informatics Marburg, on Flickr"><img src="https://farm8.staticflickr.com/7087/13970512442_289d700fb6.jpg" width="125%" alt="Dimensionalitäten"></a>
 </html>
-
-
-*Abbildung 02-03: Dimensionalität von Geoobjekten (verändert nach Bartelme 2005)*
+<figure><figcaption>
+Abbildung 02-03: Dimensionalität von Geoobjekten (verändert nach Bartelme 2005)
+</figcaption></figure>
 
 Neben den räumlichen Merkmalen sind Geoobjekte durch weitere Eigenschaften charakterisiert (z. B. kann einem Fluss ein Name zugeordnet sein, einer Stadt die Einwohnerzahl etc.). Diese, nicht die räumliche Geometrie betreffenden Merkmale eines Geoobjektes, werden als Attribute bezeichnet und bilden die thematische Dimension. Die zeitliche Veränderung von Geoobjekten oder Systemen wird in der Regel 4. Dimension genannt.
 
@@ -47,8 +51,9 @@ Neben den räumlichen Merkmalen sind Geoobjekte durch weitere Eigenschaften char
 Für die vollständige und korrekte Repräsentation von Geoobjekten benötigen wir neben dem Ort (Geometrie) und der thematischen Dimension auch noch die relative Lage der Objekte zueinander. Die relative Lage von Geoobjekten zueinander wird als Topologie bezeichnet. Sie zu bestimmen erscheint zunächst einfach. Wir können die geometrische Situation nutzen, um Sie zu berechnen. Schwieriger ist es, wenn diese Punkte exakt die gleichen Raumkoordinaten aufweisen und sich nur in der Höhenangabe (Dimensionalität) unterscheiden, wie etwa in einem Gebäudeplan die Ausgänge eines Aufzugs oder wenn es nicht auf die exakte Lage zueinander ankommt, sondern auf Information was ist benachbart. Ein bekanntes Praxisbeispiel für eine topologische Betrachtungsweise ist ein Liniennetzplan der in Abbildung 02-4 die Buslinien und Haltestellen für Marburg dargestellt.
 
 ![Full screen version of the map]({{ site.baseurl }}/assets/images/unit02/mr_biko_net.png){:target="_blank"}
-
-*Abbildung 02-04: Tagesliniennetzplan der Stadtwerke Marburg. Nur die wenigsten Menschen würden einen Netzfahrplan nutzen, um etwa eine Stadtbesichtigung zu Fuß zu planen, oder aber die geometrisch exakte Lage der Haltestellen zueinander zu ermitteln (Stadtwerke Marburg 2020)*
+<figure><figcaption>
+Abbildung 02-04: Tagesliniennetzplan der Stadtwerke Marburg. Nur die wenigsten Menschen würden einen Netzfahrplan nutzen, um etwa eine Stadtbesichtigung zu Fuß zu planen, oder aber die geometrisch exakte Lage der Haltestellen zueinander zu ermitteln (Stadtwerke Marburg 2020)
+</figcaption></figure>
 
 
 ## Geometrie, Dimensionen und Topologie
