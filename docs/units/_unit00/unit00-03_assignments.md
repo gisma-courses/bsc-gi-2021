@@ -27,7 +27,7 @@ Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
 Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
 
 ### Kursbereich in Ilias
-Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/ilias.php?ref_id=3029199&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=z9&baseClass=ilRepositoryGUI) dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate und der Abgabe von Aufgaben.
+Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate, den verbiondlcihen Self-Assessments und der Abgabe der Projektarbeit.
 
 ### Fragen
 Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert.
