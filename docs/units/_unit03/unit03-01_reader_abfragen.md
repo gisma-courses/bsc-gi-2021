@@ -30,8 +30,9 @@ Im Rahmen der Datenanalyse sind prinzipiell drei Ansätze (vgl. Abbildung 03-01)
   * *Thematische Abfragen:* Selektiert die Objekte, deren Eigenschaften (Attribute) die gestellten Bedingungen erfüllen – z. B.: „Selektiere alle Bäume der Art Fichte.“
   * *Geometrische Abfragen:* Selektiert die Objekte, welche die gestellten räumlichen Bedingungen erfüllen z. B.: „Selektiere alle Häuser, die weniger als 250 m vom Fluss entfernt sind.“
   * *Topologische Abfragen:* Selektiert die Objekte, welche die gestellten Bedingungen bezüglich den räumlichen Beziehungen zwischen den Objekten erfüllen - z. B.: „Selektiere alle Gebäude, die vollständig in der Wohnzone II (WII) liegen.“
-  
-{% include figure image_path="http://gisbsc.gis-ma.org/GISBScL6/de/image/abfrage2.jpg" alt="Gliederung der nicht-manipulativen GI-Abfragen" caption="*Abbildung 03-01: Gliederung der nicht-manipulativen GI-Abfragen (GITTA 2005)*" %}
+
+
+{% include figure image_path="/assets/images/unit03/abfrage2.jpg"  caption="*Abbildung 03-01: Gliederung der nicht-manipulativen GI-Abfragen (GITTA 2005)*" %}
 
 
 
@@ -76,12 +77,8 @@ In vielen GIS-Programmen entsprechen die Booleschen Operatoren direkt aufrufbare
 
 Durch die Kombination von Operatoren ist es möglich mehrere Bedingungen zu verknüpfen. Allerdings sind Boolesche Operatoren **nicht** kommutativ, d. h. das Ergebnis ihrer Anwendung in komplexen Ausdrücken hängt von der definierten Reihenfolge der Teilausdrücke ab. Betrachten Sie die nachfolgenden Beispiele und versuchen Sie anhand Ihrer bisherigen Kenntnisse die Abfragen mit ihren Komponenten nachzuvollziehen.
 
-	 
-<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/14161471688" title="06-03-01 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2922/14161471688_12d9ff0432_o.png" width="983" height="500" alt="06-03-01"></a></html>
-<html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/14348127685" title="06-03-02 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2913/14348127685_0ed1e5b815_o.png" width="936" height="536" alt="06-03-02"></a></html>	 	 
-
-//Abbildung 07-03:  Kombination der Operatoren. THEM = Thematische Abfrage, GEOM = Geometrische Abfrage und TOPO = Topologische Abfrage (GITTA 2005)//
-
+{% include figure image_path="https://farm3.staticflickr.com/2922/14161471688_12d9ff0432_o.png" caption="Abbildung 07-03: Beispiele für THEM = Thematische und GEOM + THEM = kombinierte geometrische Abfragen und thematische Abfragen (GITTA 2005)"%}
+{% include figure image_path="https://farm3.staticflickr.com/2913/14348127685_0ed1e5b815_o.png"  caption="Abbildung 07-04:  Beispiele für GEOM = Geometrische und TOPO = Topologische Abfragen (GITTA 2005)" %}
 
 ## Denken Sie mit...
 
