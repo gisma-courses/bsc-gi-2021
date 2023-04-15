@@ -37,7 +37,7 @@ Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. 
 
 Jede Kurseinheit ist auf einen Zeitraum von drei Wochen ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsphase wird durch ein von Ihnen zu gestaltende Sitzung begleitet. Die abgegebenen Aufgaben werden in der nachfolgenden Kurseinheit in kürze besprochen.
 
-Der Kurs ist  auf 6 Leistungspunkte (LP) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 10-12 Stunden Zeitaufwand in der Woche, um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). 
+Der Kurs ist  auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 10-12 Stunden Zeitaufwand in der Woche, um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). 
 
 * Präsenz: 2 Stunden jede Woche
   * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
@@ -87,7 +87,7 @@ Als Studienleistung bearbeiten sie als sinnvollerweise als Gruppe die Aufgabenst
 Die individuell zu erbringede Studienleistung ist das erfolgreiche Absolvieren der Self-Assessment Einheiten in Ilias. 3 der 5 Einheiten müssen ausreichend bestanden sein. 
 
 ## Prüfungsleistung
-Nach den 5 Übungsblöcken wird für 3 ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
+Nach den 5 Übungsblöcken wird für 3 LP/ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 LP/ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
 
 Die Prüfungsleistung ist individuell zu erbringen kann aber in 2-er Gruppen erstellt werden insofern die Anteile kenntlich gemacht sind.
 {: .notice--danger}
