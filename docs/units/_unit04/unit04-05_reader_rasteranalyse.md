@@ -10,32 +10,32 @@ header:
 
 
 panel0:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/slope.png
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/slope.png
+  - url: assets/images/unit04/formula/slope.png
+    image_path: assets/images/unit04/formula/slope.png
     title: "Formel zur Berechnung der HAnneigung im Raster"
     alt: "Formel zur Berechnung der HAnneigung im Raster"
 
 panel1:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/neigung_dy.png
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/neigung_dy.png
+  - url: assets/images/unit04/formula/neigung_dy.png
+    image_path: assets/images/unit04/formula/neigung_dy.png
     title: "dy"
     alt: "dy"
 
 panel2:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/neigung_aufsicht.png
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/neigung_aufsicht.png
-    title: "NAchbarschaft"
-    alt: "NAchbarschaft"
+  - url: assets/images/unit04/neigung_aufsicht.png
+    image_path: assets/images/unit04/neigung_aufsicht.png
+    title: "Nachbarschaft"
+    alt: "Nachbarschaft"
 
 panel3:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/aspect.png
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/aspect.png
+  - url: assets/images/unit04/formula/aspect.png
+    image_path: assets/images/unit04/formula/aspect.png
     title: "Exposition"
     alt: "Exposition"
 
 panel4:  
-  - url: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/aspect_a.png
-    image_path: http://minibsc.gis-ma.org/GISBScL3/de/image/formula/aspect_a.png
+  - url: assets/images/unit04/image/formula/aspect_a.png
+    image_path: assets/images/unit04/formula/aspect_a.png
     title: "Exposition Faktor a"
     alt: "Exposition Faktor a"
 
@@ -46,7 +46,7 @@ panel4:
 Das Phänomen Gelände spielt in vielen räumlichen Vorstellungen eine zentrale Rolle. Diese reicht von der kognitiven Wahrnehmung z.B. der Frage *Was ist ein Wanderweg?* (vgl. Abbildung) bis zur zuvor skizzierten formalen, quantitativen Ableitung von Eigenschaften.
 In einem GIS werden die Informationen über die Form einer Geländeoberfläche in der Regel aus Höheninformationen abgeleitet. Diese Höheninformation wird in einem digitalen Geländemodell (DGM) gespeichert. Digitale Geländemodelle bestehen zunächst nur aus einer spezifischen Höheninformation für einen definierten Raumausschnitt (Rasterzelle, Punkt, Polygon). Auf der Basis dieser Primärinformation werden zahlreiche zusätzliche Informationen abgeleitet. Nachfolgend sollen am Beispiel der Hangneigung, Exposition und Kurvatur skizziert werden, wie die Ableitungen mit Hilfe von Funktionen berechnet werden. Entscheidend ist weniger die verwendete Mathematik als vielmehr die resultierenden Informationen, die für die unterschiedlichsten Fragestellungen verfügbar ist.
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/terrainmatters.jpg" alt="Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)" caption="*Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)*" %}
+{% include figure image_path="assets/images/unit04/terrainmatters.jpg" alt="Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)" caption="*Das Phänomen Gelände spielt häufig eine zentrale Rolle nicht nur auf Wanderwegen sondern auch in der skalenabhängigen Analyse von Oberflächenstrukturen, Standorten Versorgungsleitungen und vieles mehr (gis-ma 2009)*" %}
 
 
 ### Hangneigung
@@ -57,7 +57,7 @@ Um die Neigung aus einem Höhenmodell zu berechnen, braucht man daher eine Metho
 
 Um das Prinzip der finiten Differenzen zu erläutern, sei zuerst auf den eindimensionalen Fall eines Profils (statt einer Oberfläche) zurückgegriffen. Die folgende Abbildung zeigt, wie durch Bildung des Quotienten der Differenzen der Höhe (dz) und in der Ebene (dx) zuerst die erste Ableitung (Slope), und davon ausgehend die zweite Ableitung (Curvature) geschätzt werden kann. Die gewählte Schrittweite in x-Richtung ist in diesem Fall gleich 4. Das heißt, es wird die finite Differenz bezgl. der beiden zweiten Nachbarn nach links bzw. nach rechts vom zentralen Punkt aus gebildet. Diesem zentralen Punkt wird sodann der Wert der Ableitung zugewiesen. In der Abbildung sind der Zentralpunkt sowie dz und dx entsprechend rot markiert.
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/Geomorphomet-hsc.png" alt="finite Differenzen"  %}
+{% include figure image_path="assets/images/unit04/Geomorphomet-hsc.png" alt="finite Differenzen"  %}
 
 Für den zweidimensionalen Fall einer Oberfläche gibt (Horn 1981) die Formeln zur Schätzung der Neigung mittels finiten Differenzen:
 
@@ -94,7 +94,7 @@ Zusätzlich muss man für die Berechnung unterscheiden, ob die Werte dieser Able
 Die Kurvatur (engl. curvature) oder Krümmung  ist die zweite Ableitung einer Oberfläche an einem bestimmten Punkt in eine bestimmte Richtung.
 Bei digitalen Geländemodellen sind insbesondere die *Profilkurvatur* (Kurvatur in Richtung des steilsten Gefälles) und die *Plankurvatur* (Kurvatur in Richtung der Höhenlinie) von besonderem Interesse. Die Kurvaturwerte sind bei Konvexität (erhabene Formen) negativ und positiv bei Konkavität (Hohlformen).
 
-{% include figure image_path="http://minibsc.gis-ma.org/GISBScL3/de/image/TIN3D.png" alt="Exposition" %}
+{% include figure image_path="assets/images/unit04/TIN3D.png" alt="Exposition" %}
 
 
 
