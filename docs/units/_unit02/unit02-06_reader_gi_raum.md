@@ -88,7 +88,7 @@ Der Polizei oder dem Pannendienst genügt diese Angabe nicht. Sie hätten gerne 
 {: .notice--info}
 
 
-Versuchen Sie diesen Zusammenhang zu rekapitulieren und verschaffen Sie sich einen Überblick über die Pannensituation bzw. die Ortslage. Navigieren Sie mit Google Earth zum [Schauplatz](https://drive.google.com/file/d/0B-Zk6jquLjKvUXlOX1pMbG95Sjg/edit?usp=sharing){:target="_blank"}.
+Versuchen Sie diesen Zusammenhang zu rekapitulieren und verschaffen Sie sich einen Überblick über die Pannensituation bzw. die Ortslage. Navigieren Sie mit Google Earth zum [Schauplatz](https://goo.gl/maps/nr68hwksgp7w1yDY9){:target="_blank"}.
 
 Betrachten Sie nun die nachfolgende Abbildung der Lininekarte der BAB 7. Sie zeigt exakt die gleichen Raum.
 
@@ -98,7 +98,7 @@ Abbildung 03-05: Auszug der Linienkarte der BAB 7 im Bereich der Anschlussstelle
 </figcaption></figure>
 
 
-Navigieren Sie nun zur [Linienkarte](http://www.autobahnatlas-online.de/A7.htm) der BAB 7 und analysieren die Art der metrischen Verortung. Nutzen Sie die Legende, um die Fülle an räumlich verorteter Information nachzuvollziehen.
+Navigieren Sie nun zur [Linienkarte](http://www.autobahnatlas-online.de/A7.htm){:target="_blank"} der BAB 7 und analysieren die Art der metrischen Verortung. Nutzen Sie die Legende, um die Fülle an räumlich verorteter Information nachzuvollziehen.
 
 
 ## Katasterpläne - Geometrisch exakte maßstäbliche Raumabbildung
