@@ -64,19 +64,16 @@ Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung
 
 ## Studienleistung 
 
-Als Studienleistung bearbeiten sie als Gruppe (max. 5 Personen) die Aufgabenstellung einer Sitzung und gestalten die dazugehörige Übungssitzung.
-* max. 5 Minuten (max. 3 Folien)  Impulsvortrag zur Fragestellung und etwaigen Problemen zur Einleitung
-* max 70 Minuten **Übung**steil für die Seminargruppe mit Fokussierung auf die von Ihnen als wichtig erachtenen Teilaspekte der Aufgabenstellung.
-* max. 15 Minuten Abschlussfragerunde
+Als Studienleistung bearbeiten sie als sinnvollerweise als Gruppe die Aufgabenstellung einer Sitzung.
 
-Die Studienleistung wird als bestanden gewertet wennjedes Gruppenmitglied einen sichtbaren Anteil an der Gestaltung der Sitzung zeigt.
+Die individuell zu erbringede Studienleistung ist das erfolgreiche Absolvieren der Self-Assessment Einheiten in Ilias. 3 der 5 Einheiten müssen ausreichend bestanden sein. 
 
 ## Prüfungsleistung
-Nach den vier Übungsblöcken wird eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Diese Projektabgabe (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
+Nach den 5 Übungsblöcken wird für 3 ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
 
 
 ### Gewichtung Übungsaufgaben
-Die Gewichtung der Übungsaufgaben entricht den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Sie müssen > 50 % der erlernten Methoden in der Projektarbeit einbringen um ausreichend bestehen zu können. Die Gewichtung entnehmen Sie bitte den Aufgabenseiten.
+Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Sie müssen > 50 % der erlernten Methoden in der Projektarbeit einbringen um ausreichend bestehen zu können. Die Gewichtung entnehmen Sie bitte den Aufgabenseiten.
 
 ### Bewertungskriterien Projektarbeit
 
@@ -94,21 +91,21 @@ Bitte entnehmen Sie der ILias Seite die Daten zur nachfolgenden Tabelle insbeson
 
 | Sitzung | Datum | Thema | Inhalt |
 |:-------:|:--------:|:---------|:---------|
+|  | | | Block 1 Grundlagen |   
 | 1 | | Einführung/QGIS Warmup | Abfrage Status Quo, Orga, Einführung in geographische und GI Raumkonzepte |
-| 2a | | Übung A |  QGIS Warmup   |
-| 2b | | Übung B |  QGIS Warmup   |
-| 3 | | Input | Thematische und räumliche Abfragen auf Attributtabellen |
-| 4a | | Übung A |  Thematische und räumliche Abfragen auf Attributtabellen |
-| 4b | | Übung B |  Thematische und räumliche Abfragen auf Attributtabellen |
-| 5 | | Input | Einstieg Analysen|
-| 6a | | Übung A  | Analysen |
-| 6b | | Übung B  | Analysen |
-| 7 | | Input | Kosten und Kriterien|
-| 8a | | Übung A | Kosten und Kriterien    |
-| 8b | | Übung B | Kosten und Kriterien    |
-| 9 | | Input| Projektarbeit |   
-| 9 | | Fragen & Antworten| Projektarbeit / Wrap up Kurs |   
-
+| 2a | | F&A | Einführung, QGIS Warmup |
+| 2b | | Input | Thematische und räumliche Abfragen auf Attributtabellen |
+| 3a | | F&A |  Thematische und räumliche Abfragen auf Attributtabellen |
+| 3b | | Input |  Einstieg Analysen |
+| 4a | | F&A | Einstieg Analysen|
+| 4b | | Input  | Vertiefte Analysen |
+| 5a | | F&A  | Vertiefte Analysen |
+| 5b | | Input | Kosten und Kriterien|
+| 6a | | F&A | Kosten und Kriterien    |
+| 6b | | Input| Projektarbeit |
+| 7 | | | Klausur |   
+|  | | | Block 2 Projektarbeit |   
+| 8-14 | | F&A | Projektarbeit |
 
 Die Prüfungsleistung ist individuell zu erbringen.
 {: .notice--danger}
@@ -129,7 +126,7 @@ Fügen Sie als Kopfzeile nach folgendem Schema Ihren Namen und Matrikelnummer ei
 Reichen Sie bitte nur die **überprüfte finale Version** in den jeweiligen ILIAS Abgabeordner ein.
 
 ## Kurszeiten
-**Kurszeiten**: Dienstag, 10:15-11:45 
+**Kurszeiten**: Donnerstags, 12:15-13:45 
 
 **Sprechstunden**: Mittwoch, 10:00-11:00 
 
