@@ -13,7 +13,7 @@ panel1:
     alt: "Beispielhafter Stundenplan für die Veranstaltung Geoinformatik. Der Gesamtaufwand ist inkl. der Präsenz auf 11 Stunden in der Woche berechnet. Die Termin, Blockung und Aufteilung in Eigenstudium und Lerngruppe ist wünschenswert muss aber den eigenen Bedüfrnissen angepasst werden."   
 ---
 
-Die Aufgaben in den Kurseinheiten auf dieser Webseite bilden die Grundlage für Studienleistunge bzw. Prüfungsleistung. <!--more-->
+Die Aufgaben in den Reader und Übungsblätter auf den Kursseiten bilden die Grundlage für Studien- und Prüfungsleistung. <!--more-->
 
 ## Anwesenheit 
 Die Übungssitzungen dieses Kurses werden grundsätzlich als **Präsenz-Veranstaltung** stattfinden. Die Anwesenheit ist sehr erwünscht wird aber weil nicht verpflichtend nicht kontrolliert. Im Ausnahmefall können einzelne Sitzungen Online erfolgen.  
