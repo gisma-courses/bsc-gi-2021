@@ -81,7 +81,6 @@ Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung
 
 ## Studienleistung 
 
-Als Studienleistung bearbeiten sie als sinnvollerweise als Gruppe die Aufgabenstellung einer Sitzung.
 
 Die individuell zu erbringede Studienleistung ist das erfolgreiche Absolvieren der Self-Assessment Einheiten in Ilias. 3 der 5 Einheiten müssen ausreichend bestanden sein. 
 
