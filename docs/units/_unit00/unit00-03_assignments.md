@@ -34,13 +34,13 @@ Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. 
 
 ## Zeitaufwand und Ablauf
 
-Jede Kurseinheit ist auf einen Zeitraum von drei Wochen ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsphase wird durch ein von Ihnen zu gestaltende Sitzung begleitet. Die abgegebenen Aufgaben werden in der nachfolgenden Kurseinheit in kürze besprochen.
+Jede Kurseinheit ist auf einen Zeitraum von einer Woche ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsblätter werden bei Bedarf in der nachfolgenden Kurseinheit besprochen.
 
-Der Kurs ist  auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Werden acht Wochen für das Bearbeiten der Aufgaben gerechnet, so ergibt dies ca 10-12 Stunden Zeitaufwand in der Woche, um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen (Bologna-Kriterien). 
+Der Kurs ist  auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Laut Bologna-Kriterien die Zeit um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen. Da diese Leistung bei 5 Kursen / Semester zu ebringen müssten 60 Stunden Arbeitsaufwand in der Woche erbracht werden. Wir halten dies für weitgehend utopisch. Reduziert man diese Zeit um die Semesterferien verblieben 90 Stunden. Ein Kompromiss ist die Halbierung dieser Zeit so verblieben 135 Stunden für 6 ECTS also 9 Stunden pro Woche.   
 
 * Präsenz: 2 Stunden jede Woche
   * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
-* Studium außerhalb der Präsenz: 8-10 Stunden pro Woche
+* Studium außerhalb der Präsenz: 7 Stunden pro Woche
   * Wöchentliche Arbeitszeiten
   * Wöchentliche Treffen mit Kommiliton:innen
   * Wöchentliche Bearbeitung von Aufgaben
