@@ -81,9 +81,8 @@ Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung
 
 ## Studienleistung 
 
-Als Studienleistung bearbeiten sie als sinnvollerweise als Gruppe die Aufgabenstellung einer Sitzung.
 
-Die individuell zu erbringede Studienleistung ist das erfolgreiche Absolvieren der Self-Assessment Einheiten in Ilias. 3 der 5 Einheiten müssen ausreichend bestanden sein. 
+Die individuell zu erbringende Studienleistung wird durch das erfolgreiche Absolvieren der Self-Assessment Einheiten in Ilias erbracht. Hierzu müssen bis zum in Ilias Kurs genannten termin, 3 der 5 Einheiten mit mindestens ausreichender Punktzahl bestanden sein. 
 
 ## Prüfungsleistung
 Nach den 5 Übungsblöcken wird für 3 LP/ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 LP/ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
