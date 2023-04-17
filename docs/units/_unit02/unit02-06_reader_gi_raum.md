@@ -11,7 +11,9 @@ header:
 
 
 
-Die zentrale Aufgabe eines Koordinatensystems ist die räumlich reproduzierbare Verortung diskreter und/oder kontinuierlicher Elemente geographischer Information. Über die unmittelbaren Raumdimensionen hinausgehende Eigenschaften können den Geoobjekten als Attribute zugeordnet werden. Um die Realwelt abstrahieren zu können, muss unsere GIS-Software grundlegende Methoden zur Verfügung stellen, die das geographische Datentripel **Zeit, Ort und Attribut** konsistent nutzbar machen.
+Die zentrale Aufgabe eines Koordinatensystems in Geoinformationssystemen ist die räumlich reproduzierbare Verortung diskreter und/oder kontinuierlicher Elemente geographischer Information.
+<!--more-->
+Über die unmittelbaren Raumdimensionen hinausgehende Eigenschaften können den Geoobjekten als Attribute zugeordnet werden. Um die Realwelt abstrahieren zu können, muss unsere GIS-Software grundlegende Methoden zur Verfügung stellen, die das geographische Datentripel **Zeit, Ort und Attribut** konsistent nutzbar machen.
 
 Die aktuelle Sitzung ist für ein schrittweises Erarbeiten dieser komplexen Materie in mehrere Abschnitte gegliedert. Zunächst werden die Prinzipien der räumlichen Referenzierung (Georeferenzierung) mit Hilfe von Ortsnamen, die lineare Referenzierung und das exakte zweidimensionale Verorten in einem Katastersystem besprochen. Im Anschluss werden die wichtigsten geodätischen bzw. kartographischen Methoden der Raumzuweisung und -darstellung wiederholt und in den Kontext von GIS gestellt.
 
