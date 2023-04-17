@@ -98,6 +98,13 @@ Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einz
 
 ### Bewertungskriterien Projektarbeit
 
+Sie im nachfolgenden Dokument, die als verbindliche vorausgesetzten Formalia zur Bewertung, die Definition der verwendeten Begriffe sowie Bewertungskonzepte und Erwartungshorizont. Wenden Sie sich bei Fragen und Anmerkungen an Ihre Dozent:innen
+
+{% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
+
+
+### Abgaben
+
 Die Ausarbeitung soll grundsätzlich (alles inklusive) **2500 Worte** nicht überschreiten. Sie ist mit den für wichtig erachteten Abbildungen als PDF-Datei abzuspeichern und gemäß den [formalen Anforderungen](#formale-anforderungen) einzureichen.
 
 Ein Unter-/Überschreiten von mehr als 10 Prozent führt zu einem Abzug von jeweils 1 Notenpunkt je 10 Prozent.
@@ -105,15 +112,10 @@ Ein Unter-/Überschreiten von mehr als 10 Prozent führt zu einem Abzug von jewe
 
 Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische Struktur einer solchen Ausarbeitung.
 
-Darüberhinaus finden Sie im nachfolgenden Dokument die als verbindlich Grundlage zu den verwendeten Begriffen und Bewertungsansätzen. Wenden Sie sich bei Fragen und Anmerkungen an Ihre Dozent:innen
+Grundsätzlich müssen die Studien- bzw. Prüfungsleistungen im [Kursbereich der PUM Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden. Ausnahmen sind nur in begründeten und zuvor abgesprochenen Fällen möglich.
 
-{% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
-
-## Abgaben
-
-Um eine Bewertung zu erhalten, müssen die Studien- bzw. Projektarbeiten auf der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/goto.php?target=crs_2820095&client_id=UNIMR) innerhalb des dort angegeben Zeitraums und unter Berücksichtigung der [formalen Anforderungen](#formale-anforderungen) eingereicht werden.
-
-Bitte entnehmen Sie der ILias-Seite alle terminlich verbindlcihen Daten.
+Bitte entnehmen Sie der ILias-Seite alle terminlich verbindlichen Daten.
+{: .notice--info}
 
 ### <a name="formale-anforderungen"></a>Formale Anforderungen
 Die Übungsaufgaben innerhalb einer Kurseinheit geben Sie bitte **zwingend** als PDF-Datei ab. Benennen Sie die PDF-Datei wie folgt:
