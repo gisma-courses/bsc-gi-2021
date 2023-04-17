@@ -87,7 +87,9 @@ Die individuell zu erbringende Studienleistung wird durch das erfolgreiche Absol
 ## Prüfungsleistung
 Nach den 5 Übungsblöcken wird für 3 LP/ECTS eine Präsenzklausur mit praktischen Prüfungsanteilen bzw. für 6 LP/ECTS eine Projektarbeit angefertigt. Sie bearbeiten hierzu ein eigenständiges/vorgegebenes kleines Projekt. Die Abgabe des wissenschaftlichen Projektberichts (4-6 Seiten) stellt die Grundlage der zu bewertenden Leistung dar.
 
-Die Prüfungsleistung ist individuell zu erbringen kann aber in 2-er Gruppen erstellt werden insofern die Anteile kenntlich gemacht sind.
+Die Prüfungsleistung in Form einer Projektarbeit ist individuell zu erbringen kann aber in 2-er Gruppen erstellt werden insofern die Anteile kenntlich gemacht sind.
+{: .notice--danger}
+Die Prüfungsleistung in Form einer Klausur ist individuell zu erbringen und findet grundsätzlich in Präsenz statt.
 {: .notice--danger}
 
 
