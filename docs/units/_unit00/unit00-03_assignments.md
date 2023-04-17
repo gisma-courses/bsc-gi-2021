@@ -94,11 +94,14 @@ Die Prüfungsleistung in Form einer Klausur ist individuell zu erbringen und fin
 
 
 ### Gewichtung Übungsaufgaben
-Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Sie müssen > 50 % der erlernten Methoden in der Projektarbeit einbringen um ausreichend bestehen zu können. Die Gewichtung entnehmen Sie bitte den Aufgabenseiten.
+Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einzubringenenden methodischen Fertigkeiten. Das heisst grundsätzlich müssen Sie > 50 % der vermittelten Methoden (oder äquivalenter Methoden) in die Projektarbeit einbringen. Dies stellt sicher dass ein gewisses Anspruchsniveau erfüllt wird. Da die Projektarbeit in der Regel schrittweise entwickelt wird findet die Einschätzung eines genügenden Anspruchs in Abstimmung mit der Kursleitung statt. Die Gewichtung der eienzlenen Kenntnisse und Kompetenzen entnehmen Sie bitte den Aufgabenseiten.
 
 ### Bewertungskriterien Projektarbeit
 
-Die Ausarbeitung soll alles inklusive **2500 Worte** nicht überschreiten. Sie ist mit den für wichtig erachteten Abbildungen als PDF-Datei abzuspeichern und gemäß den [formalen Anforderungen](#formale-anforderungen) einzureichen.
+Die Ausarbeitung soll grundsätzlich (alles inklusive) **2500 Worte** nicht überschreiten. Sie ist mit den für wichtig erachteten Abbildungen als PDF-Datei abzuspeichern und gemäß den [formalen Anforderungen](#formale-anforderungen) einzureichen.
+
+Ein Unter-/Überschreiten von mehr als 10 Prozent führt zu einem Abzug von jeweils 1 Notenpunkt je 10 Prozent.
+{: .notice--danger}
 
 Als Orientierungshilfe finden Sie im Reader *Projektarbeit* die exemplarische Struktur einer solchen Ausarbeitung.
 
