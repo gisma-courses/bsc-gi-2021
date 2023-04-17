@@ -16,27 +16,25 @@ panel1:
 Die Aufgaben in den Reader und Übungsblätter auf den Kursseiten bilden die Grundlage für Studien- und Prüfungsleistung. <!--more-->
 
 ## Anwesenheit 
-Die Übungssitzungen dieses Kurses werden grundsätzlich als **Präsenz-Veranstaltung** stattfinden. Die Anwesenheit ist sehr erwünscht wird aber weil nicht verpflichtend nicht kontrolliert. Im Ausnahmefall können einzelne Sitzungen Online erfolgen.  
+Die Übungssitzungen dieses Kurses finden grundsätzlich als **Präsenz-Veranstaltung** statt. Obwohl keine Anwesenheitspflicht besteht ist Ihre Anwesenheit erwünscht und erforderlich da das Kursgeschehehn zu erheblichem Anteil von ihrem Frage- und Diskussionsinput bestimmt wird. In begründeten Ausahmefällen können einzelne Sitzungen Online erfolgen oder gestreamt werden.  
 
 ## Übersicht über Kommunikationsformen
 
-Wir nutzen in diesem Kurs folgende Kommunikationsmedien.
-
 ### Diese Webseite
-Diese Webseite dient der einseitigen Kommunikation und Bereitstellung von Materialien.
+Diese Webseite dient der einseitigen und überwiegend asynchronen Kommunikation und Bereitstellung von Lern-/Lehrmaterialien.
 
 ### Kursbereich in Ilias
-Der [Kursbereich der Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate, den verbindlichen Self-Assessments und der Abgabe der Projektarbeit.
+Der [Kursbereich der PUM Ilias-Lernplattform](https://ilias.uni-marburg.de/login.php?target=&client_id=UNIMR&auth_stat=){:target="_blank"} dient der Organisation des Kurses, der Bereitstellung urheberrechtlich geschützter Materialien, der Bereitstellung weiterer Kommunikationsformate, den verbindlichen Self-Assessments und der Abgabe der Projektarbeit.
 
 ### Fragen
-Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert.
+Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. Überprüfen Sie zuerst ob ihre Fragen als Screencasts und FAQ-Eintrag bereits existiert. Sollten darüberhinaus Fragen aufkommen riochten Sie diese bitte per Email mit dem Betreff [Geoinfo SoSe<Jahr>] bzw. [Geoinfo WiSe<Jahr>] (in den Platzhalter Jahr tragen Sie bitte das aktuelle Semesterjahr ein). 
 
 
 ## Zeitaufwand und Ablauf
 
-Jede Kurseinheit ist auf einen Zeitraum von einer Woche ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsblätter werden bei Bedarf in der nachfolgenden Kurseinheit besprochen.
+Jede Kurseinheit ist auf einen Zeitraum von einer Woche ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsblätter werden bei Bedarf bzw. Rückfragen in der nachfolgenden Kurseinheit besprochen.
 
-Der Kurs ist  auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Laut Bologna-Kriterien die Zeit um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen. Da diese Leistung bei 5 Kursen / Semester zu ebringen müssten 60 Stunden Arbeitsaufwand in der Woche erbracht werden. Wir halten dies für weitgehend utopisch. Reduziert man diese Zeit um die Semesterferien verblieben 90 Stunden. Ein Kompromiss ist die Halbierung dieser Zeit so verblieben 135 Stunden für 6 ECTS also 9 Stunden pro Woche.   
+Der Kurs ist standardmäßig (in derVariante mit Projektarbeit) auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Laut Bologna-Kriterien die Zeit um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen. Da diese Leistung bei 5 Kursen / Semester zu ebringen müssten 60 Stunden Arbeitsaufwand in der Woche erbracht werden. Wir halten dies für weitgehend utopisch. Reduziert man diese Zeit um die Semesterferien verblieben 90 Stunden. Ein Kompromiss ist die Halbierung dieser Zeit so verblieben 135 Stunden für 6 ECTS also 9 Stunden pro Woche.   
 
 * Präsenz: 2 Stunden jede Woche
   * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
@@ -46,7 +44,9 @@ Der Kurs ist  auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf de
   * Wöchentliche Bearbeitung von Aufgaben
   * Bearbeitung eines Abschlussprojekts
   
-Kursverlauf:
+Die Aufwandsrechnung gilt trotz Halbierung der Stundenleistung auch für die 3 LP/ECTS Variante, da der Kurs zur Hälfte des Semester mit einer Klausur endet. 
+
+### Typischer Kursverlauf:
 
 | Sitzung | Datum | Thema | Inhalt |
 |:-------:|:--------:|:---------|:---------|
