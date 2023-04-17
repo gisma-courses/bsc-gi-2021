@@ -34,19 +34,7 @@ Wenn Sie Fragen haben nutzen sie bitte primär die Präsenzzeiten des Seminars. 
 
 Jede Kurseinheit ist auf einen Zeitraum von einer Woche ausgelegt und besteht aus einem Lern- und einem Übungsteil. Die Übungsblätter werden bei Bedarf bzw. Rückfragen in der nachfolgenden Kurseinheit besprochen.
 
-Der Kurs ist standardmäßig (in derVariante mit Projektarbeit) auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Laut Bologna-Kriterien die Zeit um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen. Da diese Leistung bei 5 Kursen / Semester zu ebringen müssten 60 Stunden Arbeitsaufwand in der Woche erbracht werden. Wir halten dies für weitgehend utopisch. Reduziert man diese Zeit um die Semesterferien verblieben 90 Stunden. Ein Kompromiss ist die Halbierung dieser Zeit so verblieben 135 Stunden für 6 ECTS also 9 Stunden pro Woche.   
-
-* Präsenz: 2 Stunden jede Woche
-  * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
-* Studium außerhalb der Präsenz: 7 Stunden pro Woche
-  * Wöchentliche Arbeitszeiten
-  * Wöchentliche Treffen mit Kommiliton:innen
-  * Wöchentliche Bearbeitung von Aufgaben
-  * Bearbeitung eines Abschlussprojekts
-  
-Die Aufwandsrechnung gilt trotz Halbierung der Stundenleistung auch für die 3 LP/ECTS Variante, da der Kurs zur Hälfte des Semester mit einer Klausur endet. 
-
-### Typischer Kursverlauf:
+### Typischer Kursverlauf
 
 | Sitzung | Datum | Thema | Inhalt |
 |:-------:|:--------:|:---------|:---------|
@@ -66,10 +54,22 @@ Die Aufwandsrechnung gilt trotz Halbierung der Stundenleistung auch für die 3 L
 |  | | | Block 2 Projektarbeit |   
 | 8-14 | | F&A | Projektarbeit |
 
-  
+
+### Arbeitszeitkontigentierung nach Bologna
+Der Kurs ist standardmäßig (in der Variante mit Projektarbeit) auf 6 Leistungspunkte (LP/ECTS) angelegt.  Rechnet man dies auf den Zeitaufwand um so sind dies jeweils 180 Stunden/Person. Laut Bologna-Kriterien die Zeit um als durchschnittlicher Studierender zu einem befriedigenden Ergebnis zu gelangen. Da diese Leistung bei 5 Kursen / Semester zu ebringen müssten 60 Stunden Arbeitsaufwand in der Woche erbracht werden. Wir halten dieses Bologna-Standardszenario für wirklichkeitsfremd. Wird diese Zeit um die vorlesungsfreie Zeit reduziert, verblieben ca. 90 Stunden um die geforderten Kenntnisse und Kompetenzen von 180 Stunden zu erwerben - durchaus auch wirklichkeitsfremd. Ein gangbarer Kompromiss ist die Integration ca. der Hälfte der vorlesungsfreien Zeit in den Kursbetrieb so verblieben 135 Stunden für 6 ECTS also 9 Stunden pro Woche. Es ist anspruchsvoll aber realisierbar. 
+Die Aufwandsrechnung gilt trotz Halbierung der Stundenleistung auch für die 3 LP/ECTS Variante, da der Kurs zur Hälfte des Semester mit einer Klausur endet. 
+
 
 ### Exemplarischer Kurs-Stundenplan
 
+* Präsenz: 2 Stunden jede Woche
+  * Der Kurs besteht für jede Gruppe  aus einer Input-Sitzung und einem zugehörigen Seminar (Zeiten Siehe Ilias)
+* Studium außerhalb der Präsenz: 7 Stunden pro Woche
+  * Wöchentliche Arbeitszeiten
+  * Wöchentliche Treffen mit Kommiliton:innen
+  * Wöchentliche Bearbeitung von Aufgaben
+  * Bearbeitung eines Abschlussprojekts
+  
 Die nachfolgende Abbildung gibt Ihnen beispielhaft eine **mögliche** Aufteilung dieser notwendigen/verfügbaren Arbeitsstunden. Diese Zeiten sind aus didaktischer Sinnhaftigkeit exemplarisch über die Woche verteilt und beinhalten Lerngruppenzeiten sowie Eigenstudium. Selbsverständlich können Sie sich vollständig anders organisieren. 
 
 
