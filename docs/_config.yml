@@ -72,7 +72,7 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 # theme: minima
 remote_theme: "https://github.com/gisma-courses/moer-jekyll-theme"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 auto_ids: true
 
 # Default Settings

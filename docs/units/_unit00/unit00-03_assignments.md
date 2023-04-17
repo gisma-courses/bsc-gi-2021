@@ -100,7 +100,11 @@ Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einz
 
 Sie im nachfolgenden Dokument, die als verbindliche vorausgesetzten Formalia zur Bewertung, die Definition der verwendeten Begriffe sowie Bewertungskonzepte und Erwartungshorizont. Wenden Sie sich bei Fragen und Anmerkungen an Ihre Dozent:innen
 
-{% include media3 id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
+
+
+    {% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
+
+
 
 
 ### Abgaben
@@ -118,11 +122,11 @@ Bitte entnehmen Sie der ILias-Seite alle terminlich verbindlichen Daten.
 {: .notice--info}
 
 ### <a name="formale-anforderungen"></a>Formale Anforderungen
-Die Übungsaufgaben innerhalb einer Kurseinheit geben Sie bitte **zwingend** als PDF-Datei ab. Benennen Sie die PDF-Datei wie folgt:
+Die Übungsaufgaben innerhalb einer Kurseinheit geben Sie bitte **ausnahmslos** als PDF-Datei ab. Benennen Sie die PDF-Datei wie folgt:
 
 ```Aufgabe_X_<Nachname>_<Vorname>.pdf``` (z.B. Aufgabe_1\_Reudenbach\_Chris.pdf_).
 
-Tipp: Verwenden Sie zur Zusammenstellung der Abgabedatei ein Textverarbeitungsprogramm wie z.B. Microsoft Word, ONLYOFFICE oder OpenOffice und erzeugen sie mit Hilfe dieser Werkzeuge eine PDF Datei. Kontrollieren Sie unbedingt ob die erzeugt PDF Datei ihren Vorstellungen entspricht.
+Tipp: Verwenden Sie zur Zusammenstellung der Abgabedatei ein Textverarbeitungsprogramm wie z.B. Microsoft Word, ONLYOFFICE oder OpenOffice und erzeugen Sie mit Hilfe dieser Werkzeuge **eine** PDF-Datei. Kontrollieren Sie unbedingt ob die finale PDF-Datei ihren Vorstellungen entspricht.
 {: .notice--info}
 
 Fügen Sie als Kopfzeile nach folgendem Schema Ihren Namen und Matrikelnummer ein:
