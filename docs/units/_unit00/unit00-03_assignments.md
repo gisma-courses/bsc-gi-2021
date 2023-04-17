@@ -100,7 +100,7 @@ Die Gewichtung der Übungsaufgaben entspricht etwa den in die Projektarbeit einz
 
 Sie im nachfolgenden Dokument, die als verbindliche vorausgesetzten Formalia zur Bewertung, die Definition der verwendeten Begriffe sowie Bewertungskonzepte und Erwartungshorizont. Wenden Sie sich bei Fragen und Anmerkungen an Ihre Dozent:innen
 
-{% include video id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
+{% include media3 id="1OFLIm8IEBQKYhaFDggTUswrBG_N58jeh" provider="google-drive" %}
 
 
 ### Abgaben
