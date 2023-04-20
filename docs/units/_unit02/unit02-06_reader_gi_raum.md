@@ -5,7 +5,7 @@ toc_label: Inhalt
 header:
   image: /assets/images/01-splash.jpg
   image_description: "John Snows "
-  caption: "Map: [**Dr. John Snow**](https://de.wikipedia.org/wiki/John_Snow_(Mediziner)) [Wellcome Library via wikimedia](https://w.wiki/QtV)"
+  caption: "Map: [**Dr. John Snow**](https://de.wikipedia.org/wiki/John_Snow_(Mediziner)) [via wikimedia](https://w.wiki/QtV)"
 ---
 
 
@@ -22,7 +22,7 @@ Die aktuelle Sitzung ist für ein schrittweises Erarbeiten dieser komplexen Mate
 ## Die Zeit 
 
 
-Wir beginnen mit der Zeit. Sie stellt in weiten Teilen der Welt ein einheitlich strukturiertes Zuordnungssystem dar. Konkret heißt das: Wir haben ein System von Zeitzonen und eine  Konvention für die Datumsgrenze. Innerhalb der Zeitzonen wird die Zeit als lineares Kontinuum aufgefasst (vgl. Abb. 02-01). Selbst die Verwendung anderer Kalender, die eventuell abweichend benannt und gezählt werden, kann linear auf die uns vertrauten Weltzeitzonen umgerechnet werden. Das liegt in der physikalisch Auffassung begründet, das Zeit (mit Ausnahme archaischer oder mythischer Zeitvorstellungen) ein lineares Bezugssystem darstellt. Auf einen Zeitpunkt folgt kontinuierlich der Nächste. Wir müssen schon Einstein’s Theorien bemühen um die Linearität der Zeit zu aufzulösen. Für die mit Hilfe von GI-Systemen möglichen Betrachtungsskalen ist Die Verwendung eines linearen Zeitverständnisses unproblematisch, jedoch, anders als die Abbildung des Raums, implizit implementiert (bzw. optional). Daher werden wir uns nachfolgend um die erheblich komplexere Integration der räumlichen Konzepte bemühen.
+Wir beginnen mit der Zeit. Sie stellt in weiten Teilen der Welt ein einheitlich strukturiertes Zuordnungssystem dar. Konkret heißt das: Wir haben ein System von Zeitzonen und eine  Konvention für die Datumsgrenze. Innerhalb der Zeitzonen wird die Zeit als lineares Kontinuum aufgefasst (vgl. Abb. 02-01). Selbst die Verwendung anderer Kalender, die eventuell abweichend benannt und gezählt werden, kann linear auf die uns vertrauten Weltzeitzonen umgerechnet werden. Das liegt in der physikalisch Auffassung begründet, das Zeit (mit Ausnahme archaischer/mythischer Zeitvorstellungen) ein lineares Bezugssystem darstellt. Auf einen Zeitpunkt folgt kontinuierlich der Nächste. Wir müssen schon Einstein’s Theorien bemühen um die Linearität der Zeit zu aufzulösen. Für die mit Hilfe von GI-Systemen möglichen Betrachtungsskalen ist Die Verwendung eines linearen Zeitverständnisses unproblematisch, jedoch, anders als die Abbildung des Raums, üblicherweise implizit bzw. optional implementiert. 
 
 <html><a href="https://www.flickr.com/photos/environmentalinformatics-marburg/13985251344" title="03-1 by Environmental Informatics Marburg, on Flickr"><img src="https://farm3.staticflickr.com/2903/13985251344_d8ee208f73.jpg" width="800" height="89" alt="03-1"></a></html>
 <figure><figcaption>
@@ -33,7 +33,7 @@ Abbildung 03-01: Der Zeitstrahl als Repräsentation einer linearen Zeitauffassun
 
 ## Der Ort
 
-Ohne eine exakte Verortung beliebiger Orte ist ein GIS weitgehend sinnlos, da wir dann nicht in der Lage sind räumlich zu messen, Eigenschaften räumlich zu vergleichen oder auch nur die Merkmale spezifischer Objekte geographisch darzustellen (Abb. 03-02). Für den sinnvollen Gebrauch von GI-Systemen ist die korrekte Verortung der Geoobjekte -oder anders ausgedrückt- die Georeferenzierung eine zentrale Technik. Es gibt eine Reihe von ähnlichen Ausdrücken für diesen Vorgang. Wir sprechen vom Georeferenzieren, Geolozieren, Verorten oder ganz modern vom Geotagging. Allen Begriffen ist gemeinsam, dass Merkmalsausprägungen an geographisch identifizierbare und kartographisch abbildbare Positionen gebunden werden.
+Ohne eine exakte Verortung beliebiger Orte ist ein GIS ziemlich überflüssig, da wir dann nicht in der Lage sind räumlich zu messen, Eigenschaften räumlich zu vergleichen oder auch nur die Merkmale spezifischer Objekte geographisch darzustellen (Abb. 03-02). Für den sinnvollen Gebrauch von GI-Systemen ist die korrekte Verortung der Geoobjekte -oder anders ausgedrückt- die Georeferenzierung eine zentrale Technik. Es gibt eine Reihe von ähnlichen Ausdrücken für diesen Vorgang. Wir sprechen vom Georeferenzieren, Geolozieren, Verorten oder moderner vom Geotagging. Allen Begriffen ist gemeinsam, dass Merkmalsausprägungen an geographisch identifizierbare und kartographisch abbildbare Positionen gebunden werden.
 
 
 {% include figure image_path="/assets/images/unit02/hier.gif" alt="Wo bin ich? Hier!" caption="Abbildung 03-02: Wo bin ich – genau hier. In GI-Systemen benötigen Orte im Raum, einen externen Bezug und benötigt hierzu Koordinaten (Astro-AG)" %}
@@ -60,7 +60,6 @@ Das räumliche Referenzierungssystem hierfür funktioniert anders als über geog
 {: .notice--info}
 
  
-
 ## Lineare Metrische Verortung
 
 Ein System der systematischen Identifikation geographischer Orte haben wir mit den Postleitzahlen bereits kennen gelernt. Stellen wir uns nun folgenden Sachverhalt vor (Abb. 03-04):

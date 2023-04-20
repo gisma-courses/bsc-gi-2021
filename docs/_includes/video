@@ -10,10 +10,11 @@
 {% elsif video_provider == "googleslides" %}
   <iframe src="{{ video_id }}" frameborder="0" allowfullscreen></iframe>
 {% elsif video_provider == "google-drive" %}
-  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview"  height="100%"  allowfullscreen></iframe>
 {% elsif video_provider == "camtasia_player" %}
   <iframe src="{{ include.video_path | absolute_url }}" frameborder="0" allowfullscreen></iframe>
 {% endif %}
+
 </div>
 
 

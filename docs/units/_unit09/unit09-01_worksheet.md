@@ -30,7 +30,7 @@ Nach dieser Übung können Sie:
 ### Daten
   * [Digitales Luftbild](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/marburg_RE.tif) von Marburg und Umgebung (Beispiel RGB-Bild als Rasterdatensatz)
   * [OSM Wald Objekte](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_nat.zip) Ausschnitt aus dem aktuellen (11/2020) Open Streetmap (OSM) Datensatz
-  * [OSM Strassenobjekte ](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.gpkg) Auszug aus dem aktuellen Open Streetmap (OSM) Datensatz
+  * [OSM Strassenobjekte ](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip) Auszug aus dem aktuellen Open Streetmap (OSM) Datensatz
   * [OSM POIs](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_objects.xls) OSM points of interest (POI)  als Excel Tabelle.
 
 ### Software
