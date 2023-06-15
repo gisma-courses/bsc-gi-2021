@@ -38,7 +38,7 @@ Nach dieser Übung können Sie:
   * [Marburg Strassen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip)
 
 Bedenken Sie bitte, dass die Downloads als Archivdateien vorliegen die entsprechend dekomprimiert werden müssen. Falls notwendig schneiden Sie alle Datensätze auf die Ausdehnung des Marburger Luftbildes aus Aufgabe 1 zu. Alle Daten sind dem [geofabrik OSM Datenbestand](http://download.geofabrik.de/){:target="_blank"} entnommen. 
-{: .notice--info}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
+{: .notice--info}
 
 ## Aufgaben Lerneinheit 2
 
@@ -79,8 +79,8 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|Aufgabe 02-01 | 0.25  | 0.1  | 
-|Aufgabe 02-02 | 0.75  | 0.15  | 
+|Aufgabe 02-01 | 0.25  | 0.05  | 
+|Aufgabe 02-02 | 0.75  | 0.2  | 
 |**Aufgabe 02**|**1.0**| **0.25**  | 
 
 

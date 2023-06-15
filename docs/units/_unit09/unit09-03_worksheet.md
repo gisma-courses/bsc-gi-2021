@@ -58,17 +58,15 @@ Die Ableitung aus und Analyse von Rasterdaten ist ein sehr weites Feld. Es umfas
 * Benennen und Begründen Sie die möglichen Ursachen für etwaige Unterschiede der Resultate der von Ihnen verwendeten Datensätzen. (Stichpunktliste). 
 {: .notice--success}
 
-## Aufgabe 03-02
-* 
-{: .notice--success}
+
 
 ### Gewichtung der Aufgaben in Lerneinheit 3
 
 | Aufgabenteil | Gewichtung Teilaufgabe | Gewichtung  Gesamt| 
 |:-------------|:----------------------:|:-----------------:|
-|Aufgabe 03-01 | 0.5  | 0.15  | 
-|Aufgabe 03-02 | 0.5  | 0.15  | 
-|**Aufgabe 03** | **1.0**  | **0.3**  | 
+|Aufgabe 03-01 | 0.5  | 0.11  | 
+|Aufgabe 03-02 | 0.5  | 0.11  | 
+|**Aufgabe 03** | **1.0**  | **0.2**  | 
 
 ## Hilfestellungen 
 
