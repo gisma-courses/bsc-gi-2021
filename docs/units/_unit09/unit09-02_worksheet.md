@@ -38,7 +38,7 @@ Nach dieser Übung können Sie:
   * [Marburg Strassen](https://raw.githubusercontent.com/gisma-courses/geoinfo-basis-qgis/master/docs/assets/data/mr_roads.zip)
 
 Bedenken Sie bitte, dass die Downloads als Archivdateien vorliegen die entsprechend dekomprimiert werden müssen. Falls notwendig schneiden Sie alle Datensätze auf die Ausdehnung des Marburger Luftbildes aus Aufgabe 1 zu. Alle Daten sind dem [geofabrik OSM Datenbestand](http://download.geofabrik.de/){:target="_blank"} entnommen. 
-{: .notice--info}
+{: .notice--info}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
 
 ## Aufgaben Lerneinheit 2
 
@@ -72,7 +72,7 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
   - Wie viele Bars sind maximal 500 Meter von der nächsten Bushaltestelle entfernt?
   - Wie viele Punkte Marburg POI liegen im Umkreis von maximal 250 Metern um Parkplätze?
   - Von wievielen Punkte Marburg POI aus kann ein Arzt/Krankenhaus in weniger als 500 Meter Entfernung gefunden werden?
-  - Wie viele Punkte der Kategorie Gastronomie liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 1 Kilometer vom nächsten Briefkasten entfernt?
+  - Wie viele Punkte der Kategorie Gastronomie (Essen/Trinken) liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 250 Meter vom nächsten Briefkasten entfernt?
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 2
