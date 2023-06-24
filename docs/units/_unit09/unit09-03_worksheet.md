@@ -19,7 +19,7 @@ Der Themenkomplex der digitalen Geländemodelle inkl. deren Erstellung auf Grund
 
 ## Was wir in dieser Einheit vor haben
 
-Im Rahmen der Übung werden Sie Informationen aus digitalen Geländemodellen ableiten und sich mit räumlichen Filtermethoden näher beschäftigen. Darüber hinaus werden beispielhaft komplexere Werkzeug wie etwa die Berechnung eines Bodenfeuchteindex oder Oberflächenabfluss geübt.
+Im Rahmen der Übung werden Sie Informationen aus digitalen Geländemodellen ableiten und sich unter anderem  mit räumlichen Filtermethoden beschäftigen. Darüber hinaus werden beispielhaft komplexere Werkzeug wie etwa die Berechnung eines topographischen Indexes oder Oberflächenabflusses geübt.
 
 
 ## Lernziele 
@@ -47,14 +47,17 @@ Die Ableitung aus und Analyse von Rasterdaten ist ein sehr weites Feld. Es umfas
 
 ## Aufgabe 03-01
 
-* Laden Sie sich mindestestens zwei der oben genannten Datensätze des SRTM Geländemodells von Marburg herunter. Machen Sie die Datenquellen in den nachfolgenden Analysen kenntlich. Sie müssen diese Daten evtl. projizieren und auf die Bezugsgröße des Marburg-Luftbildes zuschneiden.
+* Laden Sie sich mindestestens zwei der oben genannten Geländemodell Datensätze herunter. Sie müssen diese Daten evtl. projizieren und auf die Bezugsgröße des Marburg-Luftbildes zuschneiden.
 
-*   Was repräsentiert der Datensatz? Schauen Sie sich die Metadaten an. Verschaffen Sie sich einen Überblick über die Version und Fehlerwerte.
-*   Projizieren Sie beide Geländemodelldatensätze in ETRS89 UTM32 und schneiden es auf den Ausschnitt des Marburger Luftbildes zu.
-*   Berechnen Sie für beide Datensätze die Hangneigung, Exposition/Aspect und Topographischen Index (TPI). *   Extrahieren Sie für beide Datensätze die berechneten Werte an der Position des Brunnens am Marburger Oberstadt-Marktplatz.
-*   Wenden Sie einen 5*5 Mittelwertsfilter auf die Geländehöhe an und ermitteln Sie erneut für den Marktplatz (Position Brunnen) die Werte von Hangneigung, Exposition/Aspect und Topographischen Index (TPI).
-* Berechnen Sie unter Benutzung des Datensatzes ([Marburg Stadtgebiet]({{ site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)), die minimale, maximale und mittlere Hangneigung für die ausgewiesene Fläche. 
+*   Was repräsentiert der Datensatz? Schauen Sie sich die Metadaten an. Verschaffen Sie sich einen Überblick über die Projektion, räumliche Auflösung und Fehlerwerte.
+*   Projizieren Sie die heruntergeladenen Geländemodelldatensätze in ETRS89 UTM32 und schneiden es auf den Ausschnitt des Marburger Luftbildes zu.
+*   Berechnen Sie für die zugeschnittenen und projizierten Datensätze die Hangneigung, Exposition/Aspect (SAGA Werkzeug Slope, Aspect, Curvature) und Topographischen Index (GDAL TPI). 
+*   Extrahieren Sie die Datensätze Slope, Aspect und TPI an der Position des Brunnens am Marburger Oberstadt-Marktplatz (Nutzen Sie die Brunen-Signatur der Openstreetmap Webkarte).
+*   Wenden Sie einen 5*5 Mittelwertsfilter auf die Geländehöhe an und ermitteln Sie erneut für die Position des Makrtplatzbrunnen die Werte von Hangneigung, Aspect und TPI.
+* Berechnen Sie unter Benutzung des Datensatzes ([Marburg Stadtgebiet]({{ site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)) und unter Verwendung der auf dem ungefilterten Geländemodell erhobenen Hangneigungswerte die minimale, maximale und mittlere Hangneigung. 
+* Berechnen Sie unter Benutzung des Datensatzes ([Marburg Stadtgebiet]({{ site.baseurl}}/assets/data/marburg_stadtgebiet.gpkg)) und unter Verwendung der 5x5 gefilterten Mittwelwert-Geländemodelle erhobenen Expositionswerte die minimale, maximale und mittlere Exposition.
 * Zeigen Sie die Werte in einer Tabelle
+
 * Benennen und Begründen Sie die möglichen Ursachen für etwaige Unterschiede der Resultate der von Ihnen verwendeten Datensätzen. (Stichpunktliste). 
 {: .notice--success}
 
