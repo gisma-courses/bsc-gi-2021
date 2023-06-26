@@ -72,7 +72,7 @@ In der Aufgabe 02-02 beschäftigen wir uns mit topologischen und geometrischen A
   - Wie viele Bars sind maximal 500 Meter von der nächsten Bushaltestelle entfernt?
   - Wie viele Punkte Marburg POI liegen im Umkreis von maximal 250 Metern um Parkplätze?
   - Von wievielen Punkte Marburg POI aus kann ein Arzt/Krankenhaus in weniger als 500 Meter Entfernung gefunden werden?
-  - Wie viele Punkte der Kategorie Gastronomie (Essen/Trinken) liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 250 Meter vom nächsten Briefkasten entfernt?
+  - Wie viele Punkte der Kategorie Gastronomie (Essen/Trinken) liegen weiter als 1 Kilometer vom Bahnhof und gleichzeitig weniger als 1 Kilometer vom nächsten Briefkasten entfernt?
 {: .notice--success}
 
 ### Gewichtung der Aufgaben in Lerneinheit 2
