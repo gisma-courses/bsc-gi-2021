@@ -6,7 +6,7 @@ This course is part of [gisma spatial science ressources](https://gisma-courses.
 
 
 
-The [course content](https://gisma-courses.github.io/geoinfo-basis-qgis/)is developed and hosted on Github. 
+The [course content](https://gisma-courses.github.io/geoinfo-basis-qgis/) is developed and hosted on Github. 
 
 
 The responsibility for the content rests with the instructors. Statements, opinions and/or conclusions are the ones from the instructors and do not necessarily reflect the opinion of the representatives of Marburg University.  
